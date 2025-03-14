@@ -378,7 +378,7 @@ delivery. We focus on your satisfaction with reliable, affordable services.') @s
         <div class="container">
             <div class="tj-section-heading text-center">
                 <span class="sub-title active-shape">Our Services</span>
-                <h2 class="title">Pick Your Transport Type</h2>
+                <h4 class="title">Pick Your Transport Type</h4>
             </div>
         </div>
     </section>
@@ -513,7 +513,7 @@ delivery. We focus on your satisfaction with reliable, affordable services.') @s
                     <div class="col-lg-6 sal-animate" data-sal="slide-left" data-sal-duration="800">
                         <div class="choose-us-content-1">
                             <div class="tj-section-heading"><span class="sub-title active-shape2">Get Instant quote</span>
-                                <h2 class="title">Get an instant quote in few simple steps</h2>
+                                <h2 class="title fs-3">Get an instant quote in few simple steps</h2>
                                 <p class="desc">ShipA1 has pledged to provide all-in-one auto transport solutions to all
                                     its customers and seeks your trust in return of our services.</p>
                             </div>
