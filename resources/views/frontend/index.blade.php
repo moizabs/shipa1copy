@@ -134,7 +134,7 @@ delivery. We focus on your satisfaction with reliable, affordable services.') @s
                     <div class="swiper-slide slide-bg" style="background-image: url('{{ asset($slide['image']) }}');">
                         <div class="container">
                             <div class="slider-content p-z-idex">
-                                <h4 class="slider-title">{{ $slide['title'] }}</h4>
+                                <h1 class="slider-title">{{ $slide['title'] }}</h1>
                                 <div class="slider-desc">{{ $slide['desc'] }}</div>
                                 <div class="tj-theme-button">
                                     <a class="tj-transparent-btn ms-4 mt-4" href="{{ route('quote.form.combine') }}">
@@ -226,7 +226,7 @@ delivery. We focus on your satisfaction with reliable, affordable services.') @s
                     <div class="about-content-one">
                         <div class="tj-section-heading"><span class="sub-title active-shape">A1 Transportation
                                 Company</span>
-                            <h2 class="title">What Makes Us Dependable?</h2>
+                            <h2 class="title fs-4" >What Makes Us Dependable?</h2>
                             <p class="desc">Among all the shipping companies out there, factors that make us stand out
                                 from the rest are:</p>
                         </div>
@@ -240,7 +240,7 @@ delivery. We focus on your satisfaction with reliable, affordable services.') @s
                                         width="40" height="40">
                                 </div>
                                 <div class="ab-title">
-                                    <h6 class="title fs-5">Our Values</h6>
+                                    <h3 class="title fs-5">Our Values</h3>
                                 </div>
                             </div>                            
                             <p class="desc">We are a licensed Transportation company with high moral values and have
@@ -251,7 +251,7 @@ delivery. We focus on your satisfaction with reliable, affordable services.') @s
                                 <div class="ab-icon"><i class="fa-light fa-bell-concierge fa-2xl"
                                         style="color:#8fc445"></i></div>
                                 <div class="ab-title">
-                                    <h6 class="title fs-5">Scope of Services</h6>
+                                    <h3 class="title fs-5">Scope of Services</h3>
                                 </div>
                             </div>
                             <p class="desc">Range of vehicles, we ship, is not limited to just conventional cars and
@@ -262,7 +262,7 @@ delivery. We focus on your satisfaction with reliable, affordable services.') @s
                                 <div class="ab-icon"><i class="fa-light fa-shield-heart fa-2xl"
                                         style="color:#8fc445"></i></div>
                                 <div class="ab-title">
-                                    <h6 class="title fs-5">Safety Is Our Priority</h6>
+                                    <h3 class="title fs-5">Safety Is Our Priority</h3>
                                 </div>
                             </div>
                             <p class="desc">No matter which mode of transportation you use, ShipA1 assures its customers,
@@ -273,7 +273,7 @@ delivery. We focus on your satisfaction with reliable, affordable services.') @s
                                 <div class="ab-icon"><i class="fa-light fa-handshake fa-2xl" style="color:#8fc445"></i>
                                 </div>
                                 <div class="ab-title">
-                                    <h6 class="title fs-5">Skilful & Devoted Staff</h6>
+                                    <h3 class="title fs-5">Skilful & Devoted Staff</h3>
                                 </div>
                             </div>
                             <p class="desc">Our team is loaded with highly experienced professionals of both customer
