@@ -13,27 +13,27 @@
     color: #212529;
   }
 </style>
-<header class=tj-header-section id=header-sticky>
-    <div class=container style=border-radius:12px>
-    <div class=row>
-    <div class=col-lg-12>
+<header class="tj-header-section" id="header-sticky">
+    <div class="container" style="border-radius:12px">
+    <div class="row">
+    <div class="col-lg-12">
     <div class="bg-color d-flex flex-wrap">
-    <div class=logo-area>
-    <div class=logo-box>
-    <a href="{{ route('welcome') }}" aria-label=Home title=Home><img src="{{ asset('/frontend/images/logo/LOGO NEW-2.webp') }}" width="200" height="70" alt="Logo"></a>
+    <div class="logo-area">
+    <div class="logo-box">
+    <a href="{{ route('welcome') }}" aria-label="Home" title="Home"><img src="{{ asset('/frontend/images/logo/LOGO NEW-2.webp') }}" width="200" height="70" alt="Logo"></a>
     </div>
     </div>
-    <div class=header-content-area>
-    <div class=header-topbar>
+    <div class="header-content-area">
+    <div class="header-topbar">
     <div class="topbar-content-area d-flex flex-wrap align-items-center justify-content-start">
     <div class="header-content-right mr-4">
-    <span><i class="fa-regular fa-mobile-screen fa-bounce fa-lg" style=color:#8fc445></i>
+    <span><i class="fa-regular fa-mobile-screen fa-bounce fa-lg" style="color:#8fc445"></i>
     <a href="tel: 1 (844) 474-4721" class="text-white nav-num-hover" aria-label="Call 1 (844) 474-4721" title="Call 1 (844) 474-4721">1 (844) 474-4721</a>
     </span>
     </div>
     <div class="header-content-left me-auto">
-    <span><i class="fa-regular fa-envelope fa-bounce fa-lg" style=color:#8fc445></i>
-    <a href=mailto:shawntransport@shipa1.com class=text-white aria-label="Email shawntransport@shipa1.com" title="Email shawntransport@shipa1.com"> shawntransport@shipa1.com</a></span>
+    <span><i class="fa-regular fa-envelope fa-bounce fa-lg" style="color:#8fc445"></i>
+    <a href="mailto:shawntransport@shipa1.com" class=text-white aria-label="Email shawntransport@shipa1.com" title="Email shawntransport@shipa1.com"> shawntransport@shipa1.com</a></span>
     </div>
     <div class=header-content-right>
     <div class=header-social-icon>
@@ -56,13 +56,13 @@
     </a>
     </div>
     <div class="tj-main-menu d-lg-block d-none text-end" id=main-menu>
-    <ul class=main-menu>
+    <ul class="main-menu">
     @php $navbars = App\Models\Menu::where('status',1)->orderBy('id', 'ASC')->get(); @endphp @foreach ($navbars as $navbar) @if($navbar->id == 1)
-    <li class=ab-gap>
+    <li class="ab-gap">
     <a href="{{ route('welcome') }}" class="{{ Request::routeIs('welcome') ? ' active' : '' }}"> {{ $navbar->menu_name }}</a>
     </li>
     @endif @endforeach @foreach ($navbars as $navbar) @if($navbar->id == 2)
-    <li class=ab-gap>
+    <li class="ab-gap">
     <a href="{{ route('quote.form.combine') }}" class="{{ Request::routeIs('quote.form.combine') ? ' active' : '' }}"> {{ $navbar->menu_name }}</a>
     {{-- <ul class="list-gap sub-menu-list">
     <div class=row>

@@ -7,7 +7,7 @@
                 <div class="tj-cta-content">
                     <div class="tj-section-heading">
                         <span class="sub-title active-shape2"> Here We Are</span>
-                        <h4 class="title">Get Any Type of Quote for Your Shipping Needs</h4>
+                        <h2 class="title fs-4">Get Any Type of Quote for Your Shipping Needs</h2>
                     </div>
                     <div class="tj-theme-button">
                         <a class="tj-transparent-btn" href="{{ route('quote.form.combine') }}" >
@@ -20,7 +20,7 @@
                 <div class="tj-cta-content tj-cta-content2">
                     <div class="tj-section-heading">
                         <span class="sub-title active-shape2"> Support Center 24/7 </span>
-                        <h4 class="title">Feel Free To Contact Us For Additional Info</h4>
+                        <h2 class="title fs-4">Feel Free To Contact Us For Additional Info</h2>
                     </div>
                     <div class="tj-theme-button">
                         <a class="tj-transparent-btn" href="{{ route('contactUs') }}" >

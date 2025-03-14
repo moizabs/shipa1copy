@@ -21,15 +21,17 @@
     <link rel="shortcut icon" href="{{ asset('/frontend/images/logo/favicon.webp') }}" type=image/x-icon>
     <link rel=preload href=https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css as=style
         onload='this.onload=null,this.rel="stylesheet"'>
-    <script src=https://unpkg.com/imask async></script>
+    {{-- <script src=https://unpkg.com/imask async></script> --}}
     <link rel=preload href=https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css as=style
         onload='this.onload=null,this.rel="stylesheet"'>
     <link rel=stylesheet href=https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css>
     <link href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round&display=swap" rel=stylesheet>
     <link rel=stylesheet href=https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css
         onload='this.onload=null,this.rel="stylesheet"'>
-    <link rel=stylesheet href=https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css
-        onload='this.onload=null,this.rel="stylesheet"'>
+    {{-- <link rel=stylesheet href=https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css
+        onload='this.onload=null,this.rel="stylesheet"'> --}}
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
     <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css
         onload='this.onload=null,this.rel="stylesheet"'>
     <link rel=stylesheet href=https://unpkg.com/swiper/swiper-bundle.min.css
@@ -61,6 +63,8 @@
     <link rel=stylesheet href="{{ asset('/public/frontend/css/responsive.css') }}"
         onload='this.onload=null,this.rel="stylesheet"'> --}}
     <!-- Preload Critical CSS -->
+    <link rel="icon" href="{{ asset('frontend/images/logo/favicon.webp') }}" type="image/webp">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="preload" href="{{ asset('/frontend/css/bootstrap.min.css') }}" as="style"
         onload="this.onload=null;this.rel='stylesheet'">
     <link rel="preload" href="{{ asset('/frontend/css/style.css') }}" as="style"
@@ -111,18 +115,33 @@
     <link rel="stylesheet" href="{{ asset('/public/frontend/css/style.css') }}" media="print" onload="this.media='all'">
     <link rel="stylesheet" href="{{ asset('/public/frontend/css/responsive.css') }}" media="print" onload="this.media='all'"> --}}
     <meta name=csrf-token content="{{ csrf_token() }}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@coreui/coreui@5.0.2/dist/css/coreui.min.css">
     <link rel=preload href=https://code.jquery.com/jquery-3.6.0.min.js as=script>
     <link rel=preload href=https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css as=style>
     <link rel=preload href=https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css as=style>
-    <script src=https://code.jquery.com/jquery-3.6.0.min.js async></script>
+    <script src=https://code.jquery.com/jquery-3.6.0.min.js defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/imask/6.4.2/imask.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css>
     <link rel=stylesheet href=https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css>
+    <script src="https://cdn.jsdelivr.net/npm/@coreui/icons@2.0.1/js/coreui-icons.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            if (typeof IMask !== 'undefined') {
+                var element = document.getElementById('phone'); // Apna input ID change karein
+                var maskOptions = { mask: '+{1}(000)000-0000' };
+                var mask = IMask(element, maskOptions);
+            } else {
+                console.error("IMask library not loaded properly.");
+            }
+        });
+    </script>
     <script type=application/ld+json>
         {
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             "name": "ShipA1",
-            "image": "https://shipa1.com/frontend/images/logo/LOGO%20NEW-2.png",
+            "image": "https://shipa1.com/frontend/images/logo/LOGO%20NEW-2.webp",
             "@id": "https://www.shipa1.com",
             "url": "https://www.shipa1.com/",
             "telephone": "(844) 474-4721",
@@ -1658,7 +1677,7 @@
         </div>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" defer></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js" defer></script>
+    {{-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js" defer></script> --}}
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" defer></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js" defer></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js" defer></script>
@@ -1853,7 +1872,8 @@
     <script src=https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js></script>
     <script src=https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js></script>
     <script src=https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js></script>
-    <script src=https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js></script>
+    {{-- <script src=https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js></script> --}}
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src=https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js></script>
     <script src=https://cdn.jsdelivr.net/npm/sweetalert2@11></script>
     <script src="{{ asset('/frontend/js/modernizr-2.8.3.min.js') }}"></script>
@@ -2517,7 +2537,7 @@
                             '430', '432', '469', '512', '682', '713', '726', '737', '806', '817', '830', '832', '903',
                             '915', '936', '940', '956', '972', '979', '385', '435', '801', '802', '276', '434', '540',
                             '571', '703', '757', '804', '206', '253', '360', '425', '509', '564', '304', '681', '262',
-                            '414', '534', '608', '715', '920', '307'
+                            '414', '534', '608', '715', '920', '307', '800', '833', '844', '855', '866', '877', '888'
                         ];
 
                         if (!validPrefixes.includes(phonePrefix)) {
