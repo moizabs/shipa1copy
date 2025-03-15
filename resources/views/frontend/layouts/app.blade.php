@@ -1676,54 +1676,81 @@
             </svg>
         </div>
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" defer></script>
-    {{-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js" defer></script> --}}
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" defer></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js" defer></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js" defer></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js" defer></script>
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11" defer></script>
-    {{-- <script>
-        setTimeout(function() {
-            var Tawk_API = Tawk_API || {},
-                Tawk_LoadStart = new Date;
-            var t = document.createElement("script"),
-                e = document.getElementsByTagName("script")[0];
-            t.async = true;
-            t.src = "https://embed.tawk.to/6728df992480f5b4f5986b9c/1ibrqis6f";
-            t.charset = "UTF-8";
-            t.setAttribute("crossorigin", "*");
-            e.parentNode.insertBefore(t, e);
-        }, 5000);
-    </script>
-    <script src="{{ asset('/frontend/js/modernizr-2.8.3.min.js') }}" defer></script>
-    <script src="{{ asset('/frontend/js/bootstrap.min.js') }}" defer></script>
-    <script src="{{ asset('/frontend/js/meanmenu.js') }}" defer></script>
-    <script src="{{ asset('/frontend/js/imagesloaded.pkgd.min.js') }}" defer></script>
-    <script src="{{ asset('/frontend/js/isotope.pkgd.min.js') }}" defer></script>
-    <script src="{{ asset('/frontend/js/jquery.magnific-popup.min.js') }}" defer></script>
-    <script src="{{ asset('/frontend/js/swiper.min.js') }}" defer></script>
-    <script src="{{ asset('/frontend/js/owl.carousel.js') }}" defer></script>
-    <script src="{{ asset('/frontend/js/jquery.appear.min.js') }}" defer></script>
-    <script src="{{ asset('/frontend/js/odometer.min.js') }}" defer></script>
-    <script src="{{ asset('/frontend/js/sal.js') }}" defer></script>
-    <script src="{{ asset('/frontend/js/jquery.nice-select.min.js') }}" defer></script>
-    <script src="{{ asset('/frontend/js/main.js') }}" defer></script> --}}
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" defer></script>-->
+    <!--{{-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js" defer></script> --}}-->
+    <!--<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" defer></script>-->
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js" defer></script>-->
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js" defer></script>-->
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js" defer></script>-->
+    <!--<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11" defer></script>-->
+    <!--{{-- <script>-->
+    <!--    setTimeout(function() {-->
+    <!--        var Tawk_API = Tawk_API || {},-->
+    <!--            Tawk_LoadStart = new Date;-->
+    <!--        var t = document.createElement("script"),-->
+    <!--            e = document.getElementsByTagName("script")[0];-->
+    <!--        t.async = true;-->
+    <!--        t.src = "https://embed.tawk.to/6728df992480f5b4f5986b9c/1ibrqis6f";-->
+    <!--        t.charset = "UTF-8";-->
+    <!--        t.setAttribute("crossorigin", "*");-->
+    <!--        e.parentNode.insertBefore(t, e);-->
+    <!--    }, 5000);-->
+    <!--</script>-->
+    <!--<script src="{{ asset('/frontend/js/modernizr-2.8.3.min.js') }}" defer></script>-->
+    <!--<script src="{{ asset('/frontend/js/bootstrap.min.js') }}" defer></script>-->
+    <!--<script src="{{ asset('/frontend/js/meanmenu.js') }}" defer></script>-->
+    <!--<script src="{{ asset('/frontend/js/imagesloaded.pkgd.min.js') }}" defer></script>-->
+    <!--<script src="{{ asset('/frontend/js/isotope.pkgd.min.js') }}" defer></script>-->
+    <!--<script src="{{ asset('/frontend/js/jquery.magnific-popup.min.js') }}" defer></script>-->
+    <!--<script src="{{ asset('/frontend/js/swiper.min.js') }}" defer></script>-->
+    <!--<script src="{{ asset('/frontend/js/owl.carousel.js') }}" defer></script>-->
+    <!--<script src="{{ asset('/frontend/js/jquery.appear.min.js') }}" defer></script>-->
+    <!--<script src="{{ asset('/frontend/js/odometer.min.js') }}" defer></script>-->
+    <!--<script src="{{ asset('/frontend/js/sal.js') }}" defer></script>-->
+    <!--<script src="{{ asset('/frontend/js/jquery.nice-select.min.js') }}" defer></script>-->
+    <!--<script src="{{ asset('/frontend/js/main.js') }}" defer></script> --}}-->
 
+   
 
-{{--    remove by mohsin--}}
-{{--    <script>--}}
-{{--        var Tawk_API = Tawk_API || {},--}}
-{{--            Tawk_LoadStart = new Date;--}}
-{{--        ! function() {--}}
-{{--            var t = document.createElement("script"),--}}
-{{--                e = document.getElementsByTagName("script")[0];--}}
-{{--            t.async = !0, t.src = "https://embed.tawk.to/6728df992480f5b4f5986b9c/1ibrqis6f", t.charset = "UTF-8", t--}}
-{{--                .setAttribute("crossorigin", "*"), e.parentNode.insertBefore(t, e)--}}
-{{--        }()--}}
-{{--    </script>--}}
-
-    <script>
+    <!--Start of Tawk.to Script-->
+    // {{-- <script type="text/javascript">
+    // var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    // (function(){
+    // var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    // s1.async=true;
+    // s1.src='https://embed.tawk.to/6728df992480f5b4f5986b9c/1ibrqis6f';
+    // s1.charset='UTF-8';
+    // s1.setAttribute('crossorigin','*');
+    // s0.parentNode.insertBefore(s1,s0);
+    // })();
+    // </script> --}}
+    <!--End of Tawk.to Script-->
+    <script src="{{ asset('/frontend/js/jquery.min.js') }}"></script>
+    <script src=https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js></script>
+    <script src=https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js></script>
+    <script src=https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js></script>
+    {{-- <script src=https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js></script> --}}
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src=https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js></script>
+    <script src=https://cdn.jsdelivr.net/npm/sweetalert2@11></script>
+    <script src="{{ asset('/frontend/js/modernizr-2.8.3.min.js') }}"></script>
+    
+    <script src="{{ asset('/frontend/js/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('/frontend/js/meanmenu.js') }}"></script>
+    <script src="{{ asset('/frontend/js/imagesloaded.pkgd.min.js') }}"></script>
+    <script src="{{ asset('/frontend/js/isotope.pkgd.min.js') }}"></script>
+    <script src="{{ asset('/frontend/js/jquery.magnific-popup.min.js') }}"></script>
+    <script src="{{ asset('/frontend/js/swiper.min.js') }}"></script>
+    <script src="{{ asset('/frontend/js/owl.carousel.js') }}"></script>
+    <script src="{{ asset('/frontend/js/jquery.appear.min.js') }}"></script>
+    <script src="{{ asset('/frontend/js/odometer.min.js') }}"></script>
+    <script src="{{ asset('/frontend/js/sal.js') }}"></script>
+    <script src="{{ asset('/frontend/js/jquery.nice-select.min.js') }}"></script>
+    <script src="{{ asset('/frontend/js/main.js') }}"></script>
+    <script src=https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js></script>
+    <script src=https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js></script>
+    
+     <script>
         $(document).ready(function () {
             // List of random auction car images (replace with actual auction images)
             const carImages = [
@@ -1855,43 +1882,8 @@
 
 
     </script>
-
-    <!--Start of Tawk.to Script-->
-    {{-- <script type="text/javascript">
-    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-    (function(){
-    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-    s1.async=true;
-    s1.src='https://embed.tawk.to/6728df992480f5b4f5986b9c/1ibrqis6f';
-    s1.charset='UTF-8';
-    s1.setAttribute('crossorigin','*');
-    s0.parentNode.insertBefore(s1,s0);
-    })();
-    </script> --}}
-    <!--End of Tawk.to Script-->
-    <script src=https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js></script>
-    <script src=https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js></script>
-    <script src=https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js></script>
-    {{-- <script src=https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js></script> --}}
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    <script src=https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js></script>
-    <script src=https://cdn.jsdelivr.net/npm/sweetalert2@11></script>
-    <script src="{{ asset('/frontend/js/modernizr-2.8.3.min.js') }}"></script>
-    <script src="{{ asset('/frontend/js/jquery.min.js') }}"></script>
-    <script src="{{ asset('/frontend/js/bootstrap.min.js') }}"></script>
-    <script src="{{ asset('/frontend/js/meanmenu.js') }}"></script>
-    <script src="{{ asset('/frontend/js/imagesloaded.pkgd.min.js') }}"></script>
-    <script src="{{ asset('/frontend/js/isotope.pkgd.min.js') }}"></script>
-    <script src="{{ asset('/frontend/js/jquery.magnific-popup.min.js') }}"></script>
-    <script src="{{ asset('/frontend/js/swiper.min.js') }}"></script>
-    <script src="{{ asset('/frontend/js/owl.carousel.js') }}"></script>
-    <script src="{{ asset('/frontend/js/jquery.appear.min.js') }}"></script>
-    <script src="{{ asset('/frontend/js/odometer.min.js') }}"></script>
-    <script src="{{ asset('/frontend/js/sal.js') }}"></script>
-    <script src="{{ asset('/frontend/js/jquery.nice-select.min.js') }}"></script>
-    <script src="{{ asset('/frontend/js/main.js') }}"></script>
-    <script src=https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js></script>
-    <script src=https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js></script>
+    
+    
     <script>
         $(document).ready(function() {
             var $emailInput = $('#email_newsletter');

@@ -319,7 +319,7 @@
                             <div class="col-12 text-center text-white mb-3">
                                 <h4 class="overlay-title">Safely Transporting Your </h4>
                             </div>
-                            <div class="col-12 text-center"><a class="fs-5" href="{{ route('frontend.pages.services.construction-service') }}"><button class="tj-submit-btn fs-6"> Equipment Services<i class="fa fa-arrow-left"></i></button></a>
+                            <div class="col-12 text-center"><a class="fs-5" href="{{ route('frontend.pages.services.excavator-service') }}"><button class="tj-submit-btn fs-6"> Equipment Services<i class="fa fa-arrow-left"></i></button></a>
                             </div>
                         </div>
                     </div>
