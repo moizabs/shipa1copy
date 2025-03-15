@@ -120,7 +120,7 @@ delivery. We focus on your satisfaction with reliable, affordable services.') @s
     <section class="tj-slider-section">
         <div class="slider_shape"><img src="{{ asset('/frontend/images/banner/home-underline.webp') }}"
                 fetchpriority="high" alt="Image" width="1200" height="150" 
-                style="max-width: 100%; height: auto;"></div>
+                style="max-width: 100%; height: auto;"  loading="lazy"></div>
         <div class="swiper sc-slider-1" data-autoplay="5000">
             <div class="swiper-wrapper">
                 @php
@@ -237,7 +237,7 @@ delivery. We focus on your satisfaction with reliable, affordable services.') @s
                                         src="{{ asset('frontend/images/icon/winner.svg') }}"
                                         fetchpriority="high"
                                         alt="Icon"
-                                        width="40" height="40">
+                                        width="40" height="40"  loading="lazy">
                                 </div>
                                 <div class="ab-title">
                                     <h3 class="title fs-5">Our Values</h3>
@@ -444,7 +444,7 @@ delivery. We focus on your satisfaction with reliable, affordable services.') @s
 
                 <div class="tj-project-item">
                     <a href="{{ $serviceRoute }}" class="project-link" aria-label="Learn more about {{ $service['title'] }}" title="{{ $service['title'] }}">
-                        <img src="{{ $imgSrc }}" loading="lazy" fetchpriority="{{ $fetchPriority }}" alt="{{ $service['title'] }}" width="{{ $service['width'] }}" height="{{ $service['height'] }}">
+                        <img src="{{ $imgSrc }}" loading="lazy" fetchpriority="{{ $fetchPriority }}" alt="{{ $service['title'] }}" width="{{ $service['width'] }}" height="{{ $service['height'] }}"  loading="lazy">
                         <div class="arrow-icon">
                             <a href="{{ $serviceRoute }}" aria-label="Learn more about {{ $service['title'] }}" title="{{ $service['title'] }}">
                                 <i class="fa-light fa-arrow-right"></i>
