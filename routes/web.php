@@ -39,23 +39,23 @@ Route::get('/blog/trailers-and-trucks-used-in-transportation', [FrontendControll
 Route::get('/blog/{slug}', [FrontendController::class, 'blogDetails'])->name('blog.details');
 Route::get('/about_us', [FrontendController::class, 'aboutUs'])->name('aboutUs');
 Route::get('/contact_us', [FrontendController::class, 'contactUs'])->name('contactUs');
-Route::get('/services', [FrontendController::class, 'services'])->name('services');
-Route::prefix('services')->group(function () {
-    Route::get('/car-shipping-service', [FrontendController::class, 'carService'])->name('frontend.pages.services.car-service');
-    Route::get('/motorcycle-shipping-service', [FrontendController::class, 'bikeService'])->name('frontend.pages.services.bike-service');
-    Route::get('/atv-utv-transport', [FrontendController::class, 'atvutvService'])->name('frontend.pages.services.atv-utv-service');
-    Route::get('/golf-cart-shipping-service', [FrontendController::class, 'golfcartService'])->name('frontend.pages.services.golf-cart-service');
-    Route::get('/boat-service', [FrontendController::class, 'boatService'])->name('frontend.pages.services.boat-service');
-    Route::get('/commercial-truck-transport', [FrontendController::class, 'commercialService'])->name('frontend.pages.services.commercial-service');
-    Route::get('/construction-equipment-transport-shipping', [FrontendController::class, 'constructionService'])->name('frontend.pages.services.construction-service');
-    Route::get('/excavator-shipping-services', [FrontendController::class, 'excavatorService'])->name('frontend.pages.services.excavator-service');
-    Route::get('/farm-transport-services', [FrontendController::class, 'farmService'])->name('frontend.pages.services.farm-service');
-    Route::get('/freight-service', [FrontendController::class, 'freightService'])->name('frontend.pages.services.freight-service');
-    Route::get('/heavy-equipment-shipping-services', [FrontendController::class, 'heavyService'])->name('frontend.pages.services.heavy-service');
-    Route::get('/rv-service', [FrontendController::class, 'rvService'])->name('frontend.pages.services.rv-service');
-    Route::get('/hazmat-transport', [FrontendController::class, 'hazmatService'])->name('frontend.pages.services.hazmat-service');
-    Route::get('/reefer-trucking', [FrontendController::class, 'reeferService'])->name('frontend.pages.services.reefer-service');
-    Route::get('/dry-van-transportation', [FrontendController::class, 'dryvanService'])->name('frontend.pages.services.dryvan-service');
+Route::get('/transport-services', [FrontendController::class, 'services'])->name('services');
+Route::prefix('transport-services')->group(function () {
+    Route::get('/car', [FrontendController::class, 'carService'])->name('frontend.pages.services.car-service');
+    Route::get('/motorcycle', [FrontendController::class, 'bikeService'])->name('frontend.pages.services.bike-service');
+    Route::get('/atv-utv', [FrontendController::class, 'atvutvService'])->name('frontend.pages.services.atv-utv-service');
+    Route::get('/golf-cart', [FrontendController::class, 'golfcartService'])->name('frontend.pages.services.golf-cart-service');
+    Route::get('/boat', [FrontendController::class, 'boatService'])->name('frontend.pages.services.boat-service');
+    Route::get('/commercial-truck', [FrontendController::class, 'commercialService'])->name('frontend.pages.services.commercial-service');
+    Route::get('/construction-equipment', [FrontendController::class, 'constructionService'])->name('frontend.pages.services.construction-service');
+    Route::get('/excavator', [FrontendController::class, 'excavatorService'])->name('frontend.pages.services.excavator-service');
+    Route::get('/farm-equipment', [FrontendController::class, 'farmService'])->name('frontend.pages.services.farm-service');
+    Route::get('/freight', [FrontendController::class, 'freightService'])->name('frontend.pages.services.freight-service');
+    Route::get('/heavy-equipment', [FrontendController::class, 'heavyService'])->name('frontend.pages.services.heavy-service');
+    Route::get('/rv', [FrontendController::class, 'rvService'])->name('frontend.pages.services.rv-service');
+    Route::get('/hazmat', [FrontendController::class, 'hazmatService'])->name('frontend.pages.services.hazmat-service');
+    Route::get('/reefer', [FrontendController::class, 'reeferService'])->name('frontend.pages.services.reefer-service');
+    Route::get('/dry-van', [FrontendController::class, 'dryvanService'])->name('frontend.pages.services.dryvan-service');
     // Service detail
     Route::get('/services/{slug}', [FrontendController::class, 'serviceDetails'])->name('service.details');
 });
@@ -77,12 +77,35 @@ Route::prefix('')->group(function () {
     Route::get('/Vehicle-Transportation-In-California', [FrontendController::class, 'vehicleTransportInCalifornia'])->name('frontend.pages.marketing.vehicleTransportInCalifornia');
     Route::get('/Vehicle-Transportation-In-Arizona', [FrontendController::class, 'vehicleTransportInArizona'])->name('frontend.pages.marketing.vehicleTransportInArizona');
 });
-Route::get('/roro-shipping-international', [FrontendController::class, 'roroService'])->name('frontend.pages.services.roro-service');
+
+Route::prefix('auction-transport')->group(function () {
+    Route::get('/car', [FrontendController::class, 'autoAuction'])->name('autoAuction');
+    Route::get('/heavy-equipment', [FrontendController::class, 'heavyAuction'])->name('heavyAuction');
+    Route::get('/freight', [FrontendController::class, 'thirdPartyLogistics'])->name('thirdPartyLogistics');
+
+});
+Route::prefix('instant-quote')->group(function () {
+    Route::get('/', [FormVehicleController::class, 'quoteForm'])->name('quote.form.combine');
+    Route::get('/atv-utv', [FormVehicleController::class, 'atv_utv'])->name('form.vehicle.atv_utv');
+    Route::get('/car', [FormVehicleController::class, 'car'])->name('form.vehicle.car');
+    Route::get('/motorcycle', [FormVehicleController::class, 'motorcycle'])->name('form.vehicle.form.vehicle.car');
+    Route::get('/golf-cart', [FormVehicleController::class, 'golf_cart'])->name('form.vehicle.golf_cart');
+    Route::get('/boat', [FormVehicleController::class, 'boat'])->name('form.vehicle.boat');
+    Route::get('/heavy-equipment', [FormVehicleController::class, 'heavyEquipment'])->name('form.vehicle.heavyEquipment');
+    Route::get('/commercial-truck', [FormVehicleController::class, 'commercialTruck'])->name('commercial.truck.transport');
+    Route::get('/construction_equipment', [FormVehicleController::class, 'constructionTransport'])->name('frontend.forms.construction_transport');
+    Route::get('/excavator', [FormVehicleController::class, 'excavator'])->name('frontend.forms.excavator');
+    Route::get('/farm-equipment', [FormVehicleController::class, 'farmTransport'])->name('frontend.forms.farm_transport');
+    Route::get('/rv', [FormVehicleController::class, 'rvTransport'])->name('frontend.forms.rv_transport');
+    Route::get('/hazmat', [FrontendController::class, 'hazmatTransport'])->name('frontend.forms.hazmattransport');
+    Route::get('/dry-van', [FrontendController::class, 'dryVan'])->name('frontend.forms.dryvan');
+    Route::get('/reefer', [FrontendController::class, 'reeferTrucking'])->name('frontend.forms.reefertrucking');
+    Route::get('/roro', [FormVehicleController::class, 'roro'])->name('form.vehicle.roro');
+
+});
+
 Route::get('/nationwide-autotransport', [FrontendController::class, 'nationwideAutotransport'])->name('frontend.pages.nationwide-autotransport');
 Route::get('/nationwide-autotransport/{slug}', [FrontendController::class, 'getNationWideData'])->name('get.nation.data');
-Route::get('/auctions-car-transport', [FrontendController::class, 'autoAuction'])->name('autoAuction');
-Route::get('/heavy-auction-transport', [FrontendController::class, 'heavyAuction'])->name('heavyAuction');
-Route::get('/3pl-logistics', [FrontendController::class, 'thirdPartyLogistics'])->name('thirdPartyLogistics');
 Route::post('/subscribe', [FrontendController::class, 'subscribe'])->name('newsletter.subscribe');
 Route::post('contact_messages', [ContactMessageController::class, 'store'])->name('contact_messages.store');
 Route::get('order_tracking', [FrontendController::class, 'orderTracking'])->name('order.tracking');
@@ -90,29 +113,24 @@ Route::get('/terms_and_conditions', [FrontendController::class, 'termsAndConditi
 Route::get('/frequently-asked-questions', [FrontendController::class, 'faq'])->name('faq');
 Route::get('/privacy_policy', [FrontendController::class, 'privacyPolicy'])->name('privacyPolicy');
 Route::get('/thank-you', [FrontendController::class, 'thankYou'])->name('thankYou');
+Route::get('/freight', [FormVehicleController::class, 'freight'])->name('form.vehicle.freight');
+Route::get('/roro-shipping-international', [FrontendController::class, 'roroService'])->name('frontend.pages.services.roro-service');
+Route::get('/recreational-vehicle', [FormVehicleController::class, 'recreationalVehicle'])->name('form.recreational-vehicle');
 Route::get('/vehicle-transportation-detail', [FrontendController::class, 'vehicleTransportDetail'])->name('vehicleTransportDetail');
 Route::get('/heavy-transport-detail', [FrontendController::class, 'heavyTransportDetail'])->name('heavy-transport-detail');
 Route::get('/Freight-Transportation-Detail', [FrontendController::class, 'freightTransportDetail'])->name('freighttransport-detail');
-Route::get('/Hazmat-Transport', [FrontendController::class, 'hazmatTransport'])->name('frontend.forms.hazmattransport');
-Route::get('/Dry-Van-Transport', [FrontendController::class, 'dryVan'])->name('frontend.forms.dryvan');
-Route::get('/Reefer-Shipping-Transport', [FrontendController::class, 'reeferTrucking'])->name('frontend.forms.reefertrucking');
+
 Route::post('order/tracking', [MainController::class, 'trackOrder'])->name('track.order');
 Route::get('/get-countries', [MainController::class, 'getCountry']);
-Route::get('/car', [FormVehicleController::class, 'car'])->name('form.vehicle.car');
-Route::get('/motorcycle', [FormVehicleController::class, 'motorcycle'])->name('form.vehicle.form.vehicle.car');
-Route::get('/golf-cart', [FormVehicleController::class, 'golf_cart'])->name('form.vehicle.golf_cart');
-Route::get('/atv-utv', [FormVehicleController::class, 'atv_utv'])->name('form.vehicle.atv_utv');
-Route::get('/boat', [FormVehicleController::class, 'boat'])->name('form.vehicle.boat');
-Route::get('/heavy', [FormVehicleController::class, 'heavyEquipment'])->name('form.vehicle.heavyEquipment');
-Route::get('/freight', [FormVehicleController::class, 'freight'])->name('form.vehicle.freight');
-Route::get('/roro-shipping', [FormVehicleController::class, 'roro'])->name('form.vehicle.roro');
+// Route::get('/golf-cart', [FormVehicleController::class, 'golf_cart'])->name('form.vehicle.golf_cart');
+// Route::get('/boat', [FormVehicleController::class, 'boat'])->name('form.vehicle.boat');
+// Route::get('/heavy', [FormVehicleController::class, 'heavyEquipment'])->name('form.vehicle.heavyEquipment');
+// Route::get('/freight', [FormVehicleController::class, 'freight'])->name('form.vehicle.freight');
 Route::get('/recreational-vehicle', [FormVehicleController::class, 'recreationalVehicle'])->name('form.recreational-vehicle');
-Route::get('/quote-form', [FormVehicleController::class, 'quoteForm'])->name('quote.form.combine');
-Route::get('/commercial-truck-transport', [FormVehicleController::class, 'commercialTruck'])->name('commercial.truck.transport');
-Route::get('/construction_transport', [FormVehicleController::class, 'constructionTransport'])->name('frontend.forms.construction_transport');
-Route::get('/excavator', [FormVehicleController::class, 'excavator'])->name('frontend.forms.excavator');
-Route::get('/farm_transport', [FormVehicleController::class, 'farmTransport'])->name('frontend.forms.farm_transport');
-Route::get('/rv_transport', [FormVehicleController::class, 'rvTransport'])->name('frontend.forms.rv_transport');
+// Route::get('/commercial-truck-transport', [FormVehicleController::class, 'commercialTruck'])->name('commercial.truck.transport');
+// Route::get('/construction_transport', [FormVehicleController::class, 'constructionTransport'])->name('frontend.forms.construction_transport');
+// Route::get('/excavator', [FormVehicleController::class, 'excavator'])->name('frontend.forms.excavator');
+
 Route::post('/get-subcategories', [MainController::class, 'get_subcategories'])->name('get.subcategories');
 Route::post('/submit/quote', [QuoteController::class, 'store'])->name('submit.quote');
 Route::get('/get-models', [MainController::class, 'getmodel'])->name('get.models');
