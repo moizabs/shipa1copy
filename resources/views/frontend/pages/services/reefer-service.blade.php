@@ -1,6 +1,6 @@
 @extends('frontend.layouts.app')
-@section('title', 'Reliable Refrigerated Trucking Transport Services in USA')
-@section('meta_description', 'We provide top refrigerated trucking transport services with full safety and security, delivering to your specified location across the USA.')
+@section('title', 'Top Reefer Shipping Services in USA – Cold Chain Logistics Experts')
+@section('meta_description', 'Book best reefer shipping services in USA with Ship A1! Our cold chain logistics services ensure the safe and efficient transportation of perishable and temperature-sensitive cargo nationwide.')
 @section('content')
 <style>
     .full-width {
@@ -142,7 +142,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="breadcrumb-content">
-                    <h1 class="breadcrumb-title text-center">Reefer  Transport</h1>
+                    <h1 class="breadcrumb-title text-center">Best Reefer Shipping Solutions You Can Rely On – Cold Chain Experts in USA</h1>
                     <div class="breadcrumb-link">
                         <span>
                             <a href="{{ route('welcome') }}">

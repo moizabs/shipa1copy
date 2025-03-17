@@ -1,6 +1,6 @@
 @extends('frontend.layouts.app')
-@section('title', 'Heavy Construction Equipment Transport & Shipping in USA ')
-@section('meta_description', 'Get your heavy construction equipment transport and shipping safely across the USA. Our expert services ensure timely delivery and peace of mind for your projects.')
+@section('title', 'Get Top Construction Equipment Shipping Services in USA | Safe & Secure Transportation')
+@section('meta_description', 'Ship A1 specializes in construction equipment shipping, ensuring safe handling and fast shipping across the USA. Contact us today!')
 @section('content')
 <Style>
     .title-2 {
@@ -123,7 +123,7 @@
                 <div class="choose-us-content-1">
                     <div class="tj-section-heading">
                         <span class="sub-title active-shape2">SERVICES</span>
-                        <h2 class="title">CONSTRUCTION EQUIPMENT SERVICES</h2>
+                        <h1 class="title fs-2">Nationwide Construction Equipment Shipping – Reliable & Secure Transportation!</h1>
                         <p class="desc-2">
                             ShipA1 has pledged to provide all-in-one auto transport solutions to all its
                             customers and seeks your trust in return of our services.

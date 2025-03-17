@@ -1,6 +1,6 @@
 @extends('frontend.layouts.app')
-@section('title', 'Safe & Fast Excavator Shipping Services in USA')
-@section('meta_description', 'Get expert excavator shipping services that ensure your machinery arrives safely and on time in USA. Trust us for reliable and efficient excavator shipping.')
+@section('title', 'Get Excavator Transport Services in USA – Fast & Secure Nationwide Shipping')
+@section('meta_description', 'Looking for professional excavator transport services in the USA? We ensure secure, on-time shipping with expert handling. Contact us now!')
 @section('content')
 <Style>
     .title-2 {
@@ -123,7 +123,7 @@
                 <div class="choose-us-content-1">
                     <div class="tj-section-heading">
                         <span class="sub-title active-shape2">SERVICES</span>
-                        <h2 class="title">EXCAVATOR SHIPPING SERVICES</h2>
+                        <h1 class="title fs-2">Best Excavator Transportation Services – Safe & Cost-Effective</h1>
                         <p class="desc-2">
                             ShipA1 has pledged to provide all-in-one auto transport solutions to all its
                             customers and seeks your trust in return of our services.

@@ -1,6 +1,6 @@
 @extends('frontend.layouts.app')
-@section('title', 'Best Nationwide Heavy Equipment Shipping Services')
-@section('meta_description', 'Experience hassle free nationwide heavy equipment shipping services in USA. We specialize in safe and efficient shipping, ensuring arrival on time.')
+@section('title', 'Professional Heavy Equipment Transportation In USA – Get Free Shipping Quote!')
+@section('meta_description', 'Need a heavy equipment transporter? Ship A1 specializes in secure and professional heavy equipment shipping across the USA. Contact us now!')
 @section('content')
 <Style>
     .title-2 {
@@ -123,7 +123,8 @@
                 <div class="choose-us-content-1">
                     <div class="tj-section-heading">
                         <span class="sub-title active-shape2">SERVICES</span>
-                        <h2 class="title">HEAVY EQUIPMENT SERVICES</h2>
+                        <h1 class="title fs-2">Top Heavy Equipment Shipping Company – Trusted & Efficient
+                        </h1>
                         <p class="desc-2">
                             ShipA1 has pledged to provide all-in-one auto transport solutions to all its
                             customers and seeks your trust in return of our services.

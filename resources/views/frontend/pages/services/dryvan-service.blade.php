@@ -1,6 +1,6 @@
 @extends('frontend.layouts.app')
-@section('title', 'Efficient Dry Van Transportation Services Across USA')
-@section('meta_description', 'Our professional team provides excellent dry van transportation across the USA. We value punctuality for all of your van transportation needs.')
+@section('title', 'Get Best Dry Van Shipping Services All Over USA– Get a Free Quote!')
+@section('meta_description', 'Need dry van transportation services? We offer reliable freight shipping with safe handling and on-time delivery in USA. Contact Ship A1 now!')
 @section('content')
 <style>
     .full-width {
@@ -58,7 +58,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="breadcrumb-content">
-                    <h1 class="breadcrumb-title text-center">Dry Van Transport</h1>
+                    <h1 class="breadcrumb-title text-center">Top-Rated Dry Van Transportation Services – Contact Ship A1 Today!</h1>
                     <div class="breadcrumb-link">
                         <span>
                             <a href="{{ route('welcome') }}">

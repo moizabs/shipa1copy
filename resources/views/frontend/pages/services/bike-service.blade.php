@@ -1,6 +1,6 @@
 @extends('frontend.layouts.app')
-@section('title', 'Bike & Motorcycle Shipping Services in USA with Fast Delivery')
-@section('meta_description', 'Trust our professional motorcycle shipping services for secure and timely delivery. Get your bike transported with care and precision all over the USA.')
+@section('title', 'Best Bike Transportation Services  In The USA –  Affordable & Secure Shipping')
+@section('meta_description', 'Looking for a top motorcycle shipping services? Ship A1 offers safe, reliable, and affordable bike transportation services across the USA. Get a free quote now!')
 @section('content')
 <style>
     .card-2 {
@@ -171,7 +171,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="breadcrumb-content">
-                    <h1 class="breadcrumb-title text-center">Motorcyle Transport</h1>
+                    <h1 class="breadcrumb-title text-center">Looking for Reliable Bike Transport? Ship A1 Has You Covered!</h1>
                     <div class="breadcrumb-link">
                         <span>
                             <a href="{{ route('welcome') }}">

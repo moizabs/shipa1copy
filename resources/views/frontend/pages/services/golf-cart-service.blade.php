@@ -1,6 +1,6 @@
 @extends('frontend.layouts.app')
-@section('title', 'Fast Golf Cart Shipping Services in USA at Best Pricing')
-@section('meta_description', 'Professional golf cart shipping services for safe, efficient delivery in USA. Enjoy peace of mind while we handle your golf cart shipping with care.')
+@section('title', 'Get Affordable Golf Cart Transport & Shipping Services in USA | Get Free Quote!')
+@section('meta_description', 'Ship A1 is best among all golf cart shipping companies in USA, offering cost-effective and damage-free golf cart transport service nationwide')
 @section('content')
 <style>
     .full-width {
@@ -147,7 +147,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="breadcrumb-content">
-                    <h1 class="breadcrumb-title text-center">Golf Cart Transport</h1>
+                    <h1 class="breadcrumb-title text-center">Ship Your Golf Cart Safely in All Over USA with Trusted Golf Cart Shipping Company</h1>
                     <div class="breadcrumb-link">
                         <span>
                             <a href="{{ route('welcome') }}">

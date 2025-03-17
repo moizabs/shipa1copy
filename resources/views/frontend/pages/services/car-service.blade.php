@@ -1,6 +1,6 @@
 @extends('frontend.layouts.app')
-@section('title', 'Best Car Shipping Services in USA with Fast Delivery')
-@section('meta_description', 'Professional car shipping services in USA guarantee that your vehicle is delivered securely on time at affordable prices and quality services.')
+@section('title', 'Best Car Transport Service for State-to-State Shipping in All Over USA | Get Free Quote!')
+@section('meta_description', 'Get affordable and top-rated car transport services in allover USA with Ship A1. Whether you need local or state-to-state car transport services, Ship A1 offers cheap car shipping services with top-rated service quality.')
 @section('content')
 <style>
     .custom-hover-flip {
@@ -186,7 +186,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="breadcrumb-content">
-                    <h1 class="breadcrumb-title text-center">Car Transport</h1>
+                    <h1 class="breadcrumb-title text-center">Affordable Car Transportation Services from State to State in The USA – Fast & Secure Shipping</h1>
                     <div class="breadcrumb-link">
                         <span>
                             <a href="{{ route('welcome') }}">
