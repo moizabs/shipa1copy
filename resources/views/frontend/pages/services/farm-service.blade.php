@@ -1,6 +1,6 @@
 @extends('frontend.layouts.app')
-@section('title', 'Best State to State Farm Transport Services in USA')
-@section('meta_description', 'Experience seamless state to state farm transport services in the USA. We specialize in safe delivery and transportation of farm equipment.')
+@section('title', 'Top-Rated Farm Equipment Transport In the USA – Ship A1')
+@section('meta_description', 'Need farm tractor transport services? Ship A1 ensures safe, secure, and on-time delivery of tractors and farming equipment nationwide.')
 @section('content')
 <Style>
     .title-2 {
@@ -123,7 +123,7 @@
                 <div class="choose-us-content-1">
                     <div class="tj-section-heading">
                         <span class="sub-title active-shape2">SERVICES</span>
-                        <h2 class="title">FARM EQUIPMENT SERVICES</h2>
+                        <h1 class="title fs-2">Reliable Farm Equipment Transport Services In USA You Can Trust!</h1>
                         <p class="desc-2">
                             ShipA1 has pledged to provide all-in-one auto transport solutions to all its
                             customers and seeks your trust in return of our services.

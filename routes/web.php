@@ -56,6 +56,8 @@ Route::prefix('transport-services')->group(function () {
     Route::get('/hazmat', [FrontendController::class, 'hazmatService'])->name('frontend.pages.services.hazmat-service');
     Route::get('/reefer', [FrontendController::class, 'reeferService'])->name('frontend.pages.services.reefer-service');
     Route::get('/dry-van', [FrontendController::class, 'dryvanService'])->name('frontend.pages.services.dryvan-service');
+    Route::get('/roro', [FrontendController::class, 'roroService'])->name('frontend.pages.services.roro-service');
+
     // Service detail
     Route::get('/services/{slug}', [FrontendController::class, 'serviceDetails'])->name('service.details');
 });
@@ -114,7 +116,6 @@ Route::get('/frequently-asked-questions', [FrontendController::class, 'faq'])->n
 Route::get('/privacy_policy', [FrontendController::class, 'privacyPolicy'])->name('privacyPolicy');
 Route::get('/thank-you', [FrontendController::class, 'thankYou'])->name('thankYou');
 Route::get('/freight', [FormVehicleController::class, 'freight'])->name('form.vehicle.freight');
-Route::get('/roro-shipping-international', [FrontendController::class, 'roroService'])->name('frontend.pages.services.roro-service');
 Route::get('/recreational-vehicle', [FormVehicleController::class, 'recreationalVehicle'])->name('form.recreational-vehicle');
 Route::get('/vehicle-transportation-detail', [FrontendController::class, 'vehicleTransportDetail'])->name('vehicleTransportDetail');
 Route::get('/heavy-transport-detail', [FrontendController::class, 'heavyTransportDetail'])->name('heavy-transport-detail');

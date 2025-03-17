@@ -1,6 +1,6 @@
 @extends('frontend.layouts.app')
-@section('title', 'Best ATV & UTV Transport Services in USA with Quick Delivery')
-@section('meta_description', 'Affordable and fast ATV and UTV transport services in USA. We ensure your ATV/UTV are transported safely and efficiently to your destination.')
+@section('title', 'Affordable & Best ATV/UTV Transportation Services in USA | Ship A1')
+@section('meta_description', 'Looking for ATV/UTV transportation? Ship A1 is the best ATV/UTV transport company in USA, providing safe and affordable nationwide shipping. Get a free quote now!')
 @section('content')
 <style>
     .full-width {
@@ -143,7 +143,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="breadcrumb-content">
-                    <h1 class="breadcrumb-title text-center">ATV/UTV Transport</h1>
+                    <h1 class="breadcrumb-title text-center">Best UTV Transport Company in USA– Trust Ship A1 for Your ATV/UTV Transportation Needs!</h1>
                     <div class="breadcrumb-link">
                         <span>
                             <a href="{{ route('welcome') }}">

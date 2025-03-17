@@ -1,6 +1,6 @@
 @extends('frontend.layouts.app')
-@section('title', 'Top Hazmat Transport and Shipping Services Across USA')
-@section('meta_description', 'Discover safe and reliable hazmat transport services. We ensure your hazmat materials are handled with care and ship on time.')
+@section('title', 'Trusted Hazmat Transportation Company in USA – Safe & Compliant Services')
+@section('meta_description', 'Get hazmat shipping services in All-over USA! Choose Ship A1 for hazmat transportation companies that prioritize safety, compliance, and efficient hazardous material shipping.')
 @section('content')
 <style>
     .full-width {
@@ -153,7 +153,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="breadcrumb-content">
-                    <h1 class="breadcrumb-title text-center">Hazmat Transport</h1>
+                    <h1 class="breadcrumb-title text-center">Hazmat Transportation Services in USA You Can Trust - Get Quote Now!</h1>
                     <div class="breadcrumb-link">
                         <span>
                             <a href="{{ route('welcome') }}">

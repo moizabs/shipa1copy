@@ -1,6 +1,6 @@
 @extends('frontend.layouts.app')
-@section('title', 'State to State Commercial Truck Transport Services in USA')
-@section('meta_description', 'Experience hassle free commercial truck transport with our trusted services in USA. We provide efficient and cost-effective solutions for truck transportation.')
+@section('title', 'Get Trusted Commercial Truck Shipping Services Nationwide | Ship A1')
+@section('meta_description', 'Looking for commercial truck transport companies? Ship A1 offers safe, reliable, and affordable commercial truck transport across the USA.')
 @section('content')
 <Style>
     .title-2 {
@@ -123,7 +123,7 @@
                 <div class="choose-us-content-1">
                     <div class="tj-section-heading">
                         <span class="sub-title active-shape2">SERVICES</span>
-                        <h2 class="title">COMMERCIAL TRUCK TRANSPORT</h2>
+                        <h1 class="title fs-2">Reliable Commercial Truck Shipping Services In The USA – Secure & Affordable</h1>
                         <p class="desc-2">
                             ShipA1 has pledged to provide all-in-one auto transport solutions to all its
                             customers and seeks your trust in return of our services.

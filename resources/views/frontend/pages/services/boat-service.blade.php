@@ -1,8 +1,7 @@
 @extends('frontend.layouts.app')
-@section('title', 'USA Boat Shipping & Transport Services at Best Pricing')
+@section('title', 'Get Best Boat Transportation & Shipping Services in All Over USA | Ship A1')
 @section('meta_description',
-'Trust our state to state boat shipping and transport services with timely delivery to your
-home in USA. Explore our fast and reliable boat transportation services.')
+'Looking for boat transporters in USA? Ship A1 is one of the top boat transport companies, Get a free boat transportation cost today!')
 @section('content')
 <style>
     .full-width {
@@ -147,7 +146,7 @@ home in USA. Explore our fast and reliable boat transportation services.')
                 <div class="choose-us-content-1">
                     <div class="tj-section-heading">
                         <span class="sub-title active-shape2">SERVICES</span>
-                        <h2 class="title">BOAT TRANSPORT SERVICE</h2>
+                        <h2 class="title">Nationwide Boat Transport Services in USA – Ship Your Boat with Confidence!</h2>
                         <p class="desc-2">
                             ShipA1 has pledged to provide all-in-one auto transport solutions to all its
                             customers and seeks your trust in return of our services.
