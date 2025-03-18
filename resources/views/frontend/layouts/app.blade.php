@@ -21,7 +21,7 @@
     <link rel="shortcut icon" href="{{ asset('/frontend/images/logo/favicon.webp') }}" type=image/x-icon>
     <link rel=preload href=https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css as=style
         onload='this.onload=null,this.rel="stylesheet"'>
-    {{-- <script src=https://unpkg.com/imask async></script> --}}
+    <script src=https://unpkg.com/imask async></script>
     <link rel=preload href=https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css as=style
         onload='this.onload=null,this.rel="stylesheet"'>
     <link rel=stylesheet href=https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css>
@@ -1838,9 +1838,9 @@
     <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" defer></script>-->
     <!--{{-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js" defer></script> --}}-->
     <!--<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" defer></script>-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js" defer></script>
+    {{-- <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js" defer></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js" defer></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js" defer></script> --}}
     <!--<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11" defer></script>-->
     <!--{{-- <script>-->
     <!--    setTimeout(function() {-->
