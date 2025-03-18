@@ -21,20 +21,20 @@
     <link rel="shortcut icon" href="{{ asset('/frontend/images/logo/favicon.webp') }}" type=image/x-icon>
     <link rel=preload href=https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css as=style
         onload='this.onload=null,this.rel="stylesheet"'>
-    <script src=https://unpkg.com/imask async></script>
+    <script src="https://unpkg.com/imask" async></script>
     <link rel=preload href=https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css as=style
         onload='this.onload=null,this.rel="stylesheet"'>
     <link rel=stylesheet href=https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css>
-    <link rel=preload href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round&display=swap" rel=stylesheet>
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round&display=swap" rel=stylesheet>
     <link rel=stylesheet href=https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css
         onload='this.onload=null,this.rel="stylesheet"'>
-    {{-- <link rel=stylesheet href=https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css
-        onload='this.onload=null,this.rel="stylesheet"'> --}}
+    <link rel=stylesheet href=https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css
+        onload='this.onload=null,this.rel="stylesheet"'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         as="style">
-    <noscript>
+ 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    </noscript>
+  
     <link rel=preload href=https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css
         onload='this.onload=null,this.rel="stylesheet"'>
     <link rel=preload href=https://unpkg.com/swiper/swiper-bundle.min.css
@@ -128,7 +128,7 @@
     <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css>
     <link rel=stylesheet href=https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css>
     <script src="https://cdn.jsdelivr.net/npm/@coreui/icons@2.0.1/js/coreui-icons.min.js"></script>
-    <script>
+    {{-- <script>
         document.addEventListener("DOMContentLoaded", function() {
             if (typeof IMask !== 'undefined') {
                 var element = document.getElementById('phone'); // Apna input ID change karein
@@ -140,7 +140,7 @@
                 console.error("IMask library not loaded properly.");
             }
         });
-    </script>
+    </script> --}}
     <script type=application/ld+json>
         {
             "@context": "https://schema.org",
