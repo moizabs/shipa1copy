@@ -273,7 +273,7 @@
                             <div class="col-md-6">
                                 <div class="input-form">
                                     <label class="d-block">Phone:</label>
-                                    <input class="ophone" type="tel" id="phone" name="phone" placeholder="Number" required="" />
+                                    <input class="ophone" type="tel" id="phone" name="phone" placeholder="Number" required />
                                     <small id="errPhone" class="err-style"></small>
                                     <input type="hidden" name="country_code" id="country_code" />
                                 </div>
