@@ -1,6 +1,9 @@
 @extends('frontend.layouts.app')
-@section('title', 'Excavator Shipping Get Quote')
-@section('meta_description', 'Discover hassle-free excavator shipping services! Get a quick quote today and ensure your heavy equipment is transported safely and efficiently.')
+@section('title', 'Find the Best Excavator Shipping Rates – Get a Quote')
+@section('meta_description', 'Need to ship an excavator? Use our excavator shipping cost calculator to find the best rates for reliable transport.')
+@section('canonical')
+<link rel="canonical" href="{{ url()->current() }}">
+@endsection
 @section('content')
 <style>
     .lab-cos{
@@ -104,7 +107,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="breadcrumb-content">
-                    <h1 class="breadcrumb-title text-center">Excavator</h1>
+                    <h1 class="breadcrumb-title text-center">Instant Excavator Transport Cost Calculator – Get a Fast Quote!</h1>
                     <div class="breadcrumb-link">
                         <span>
                             <a href="{{ route('welcome') }}">

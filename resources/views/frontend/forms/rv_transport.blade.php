@@ -1,6 +1,9 @@
 @extends('frontend.layouts.app')
-@section('title', 'Instant RV Shipping Quote')
-@section('meta_description', 'Discover the easiest way to ship your RV! Get an instant quote and enjoy fast, reliable service tailored to your needs. Start your shipping journey today!')
+@section('title', 'Instant RV Shipping Quote Calculator – Find the Best Transport Rates')
+@section('meta_description', 'Get an instant RV transport cost calculator quote! Fast, transparent pricing for hassle-free RV shipping.')
+@section('canonical')
+<link rel="canonical" href="{{ url()->current() }}">
+@endsection
 @section('content')
 <style>
     .lab-cos {
@@ -121,7 +124,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="breadcrumb-content">
-                    <h1 class="breadcrumb-title text-center">RV Transport</h1>
+                    <h1 class="breadcrumb-title text-center">Accurate RV Transport Cost Calculator – Get Free RV Shipping Quote Now!</h1>
                     <div class="breadcrumb-link">
                         <span>
                             <a href="{{ route('welcome') }}">

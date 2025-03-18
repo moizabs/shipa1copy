@@ -1,7 +1,10 @@
 @extends('frontend.layouts.app')
-@section('title', 'Heavy Shipping Get Quote')
+@section('title', 'Get Instant Heavy Equipment Shipping Quote | Fast & Transparent Pricing')
 @section('meta_description',
-'Get instant quotes for heavy shipping services! Our platform connects you with reliable carriers to ensure your cargo arrives safely and on time.')
+'Need to transport heavy equipment? Use our tool to get a heavy equipment shipping quote in seconds. Reliable, affordable, and nationwide transport solutions!')
+@section('canonical')
+<link rel="canonical" href="{{ url()->current() }}">
+@endsection
 @section('content')
 <style>
     .lab-cos {
@@ -125,7 +128,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="breadcrumb-content">
-                    <h1 class="breadcrumb-title text-center">Heavy</h1>
+                    <h1 class="breadcrumb-title text-center">Ship Your Heavy Equipment with Confidence – Get Your Free Estimate Now!</h1>
                     <div class="breadcrumb-link">
                         <span>
                             <a href="{{ route('welcome') }}">

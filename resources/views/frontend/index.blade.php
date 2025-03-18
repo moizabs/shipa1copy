@@ -126,8 +126,8 @@ delivery. We focus on your satisfaction with reliable, affordable services.') @s
                 @php
                     $slides = [
                         ['image' => 'frontend/images/slider/DSF.webp', 'title' => 'Top-Rated Auto Transport Company in All Over USA – Safe, Fast & Affordable', 'desc' => 'ShipA1 has pledged to provide all-in-one auto transport solutions to all its customers and seeks your trust in return of our services.'],
-                        ['image' => 'frontend/images/slider/home-slider-2.webp', 'title' => 'Top-Rated Auto Transport Company in All Over USA – Safe, Fast & Affordable', 'desc' => 'ShipA1 has pledged to provide all-in-one Heavy Equipment transportation solutions to all its customers and seeks your trust in return of our services.'],
-                        ['image' => 'frontend/images/slider/freight-banner-home.webp', 'title' => 'Top-Rated Auto Transport Company in All Over USA – Safe, Fast & Affordable', 'desc' => 'ShipA1 has pledged to provide all-in-one Freight Shipping solutions to all its customers and seeks your trust in return of our services.']
+                        // ['image' => 'frontend/images/slider/home-slider-2.webp', 'title' => 'Top-Rated Auto Transport Company in All Over USA – Safe, Fast & Affordable', 'desc' => 'ShipA1 has pledged to provide all-in-one Heavy Equipment transportation solutions to all its customers and seeks your trust in return of our services.'],
+                        // ['image' => 'frontend/images/slider/freight-banner-home.webp', 'title' => 'Top-Rated Auto Transport Company in All Over USA – Safe, Fast & Affordable', 'desc' => 'ShipA1 has pledged to provide all-in-one Freight Shipping solutions to all its customers and seeks your trust in return of our services.']
                     ];
                 @endphp
                 @foreach ($slides as $slide)
@@ -151,8 +151,6 @@ delivery. We focus on your satisfaction with reliable, affordable services.') @s
                 <div class="swiper-slide" style="background-image: url('{{ asset('frontend/images/slider/DSF.webp') }}');">
                     <div class="container">
                         <div class="slider-content p-z-idex">
-                            <h1 class="slider-title">Trustworthy, Efficient, And Cost-effective Auto Transport Solutions
-                            </h1>
                             <div class="slider-desc">ShipA1 has pledged to provide all-in-one auto transport solutions to
                                 all its customers and seeks your trust in return of our services.</div>
                             <div class="tj-theme-button"><a class="tj-transparent-btn ms-4"

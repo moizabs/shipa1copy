@@ -1,6 +1,9 @@
 @extends('frontend.layouts.app')
 @section('title', 'Professional Heavy Equipment Transportation In USA – Get Free Shipping Quote!')
 @section('meta_description', 'Need a heavy equipment transporter? Ship A1 specializes in secure and professional heavy equipment shipping across the USA. Contact us now!')
+@section('canonical')
+<link rel="canonical" href="{{ url()->current() }}">
+@endsection
 @section('content')
 <Style>
     .title-2 {

@@ -1,6 +1,9 @@
 @extends('frontend.layouts.app')
-@section('title', 'Farm Transport Get Quote')
-@section('meta_description', 'Discover reliable farm transport services tailored to your needs. Get a quick quote today and ensure your goods are delivered safely and efficiently!')
+@section('title', 'Find the Best Rates for Farm Equipment Transport | Fast & Reliable')
+@section('meta_description', 'Get a fast & free farm equipment transport quote today! Trusted shipping solutions at affordable rates.')
+@section('canonical')
+<link rel="canonical" href="{{ url()->current() }}">
+@endsection
 @section('content')
 <style>
     .lab-cos {
@@ -104,7 +107,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="breadcrumb-content">
-                    <h1 class="breadcrumb-title text-center">Farm Transport</h1>
+                    <h1 class="breadcrumb-title text-center">Quick & Reliable Farm Equipment Shipping Estimates</h1>
                     <div class="breadcrumb-link">
                         <span>
                             <a href="{{ route('welcome') }}">

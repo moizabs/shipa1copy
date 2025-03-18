@@ -1,6 +1,6 @@
 @extends('frontend.layouts.app')
-@section('title', 'Auctions Car and Auto Transport Services in USA')
-@section('meta_description', 'We are providing the best auctions car and auto transport services in USA, reliable auto and car delivery services to ensure your auctions run smoothly.')
+@section('title', 'Book Professional Car Auction Shipping Services in USA | Top Auction Transport Company | Ship A1 ')
+@section('meta_description', 'Need auction car shipping service? Get professional car transport from auction services with Ship A1! We handle everything from pickup to delivery with expert precision. Contact us today!')
 @section('content')
 <style>
     .why-box {
@@ -136,7 +136,7 @@
                 <div class="choose-us-content-1">
                     <div class="tj-section-heading">
                         <span class="sub-title active-shape2">Specialized Service</span>
-                        <h2 class="title">Auctions Auto Transport</h2>
+                        <h1 class="title fs-2">Best Auto Auction Shipping Services in USA – Your Vehicle, Delivered with Care </h1>
                         <p class="desc-2 text-white">
                             Ship A1 specializes in providing all types of vehicles for auto
                             auction services tailored to your needs and specifications!

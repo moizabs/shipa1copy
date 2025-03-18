@@ -1,7 +1,10 @@
 @extends('frontend.layouts.app')
-@section('title', 'Commercial Truck Get Quote')
+@section('title', 'Get an Instant Commercial Truck Shipping Quote Today')
 @section('meta_description',
-'Get a fast and free quote for your commercial truck needs! Compare options and find the best deals tailored just for you. Start your journey today!')
+'Find out the cost of shipping a commercial truck with our easy-to-use calculator. Get a fast and transparent estimate now!')
+@section('canonical')
+<link rel="canonical" href="{{ url()->current() }}">
+@endsection
 @section('content')
 <style>
     .lab-cos {
@@ -105,7 +108,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="breadcrumb-content">
-                    <h1 class="breadcrumb-title text-center">Commercial Truck</h1>
+                    <h1 class="breadcrumb-title text-center">Find the Best Rates for Commercial Truck Transport - Get a Fast Quote!</h1>
                     <div class="breadcrumb-link">
                         <span>
                             <a href="{{ route('welcome') }}">

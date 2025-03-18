@@ -1,6 +1,6 @@
 @extends('frontend.layouts.app')
-@section('title', 'Ship A1 Transport - All-in-one Freight Logistics Solution Provider')
-@section('meta_description', 'Select Ship A1 Transport for customized and reliable freight logistics. We offer end-to-end service, real-time tracking, and cost-effective routing to support your business growth.')
+@section('title', 'Trusted & Affordable Freight Auction Transport Service in USA | Get a Free Quote!')
+@section('meta_description', 'Get expert freight auction shipping with fully insured transport, competitive pricing, and reliable service. Request a free quote today!')
 @section('content')
 <style>
     .why-box {
@@ -136,7 +136,7 @@
                 <div class="choose-us-content-1">
                     <div class="tj-section-heading">
                         <span class="sub-title active-shape2">Specialized Service</span>
-                        <h2 class="title">Streamline Your Freight Operations</h2>
+                        <h1 class="title fs-2">Best Freight Auction Transport Services in All Over USA – Safe & Affordable</h1>
                         <p class="desc-2 text-white">
                             Ship A1 Transport provides specialized freight logistics tailored to various industries, emphasizing safety, cost reduction, and real-time tracking to fulfill all business requirements.
                         </p>

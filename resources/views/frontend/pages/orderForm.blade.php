@@ -2,6 +2,9 @@
 @section('title', 'Order Form ')
 @section('meta_description',
 'Streamline your purchasing process with our user-friendly order form. Easily submit your requests and enjoy a hassle-free experience today!')
+@section('canonical')
+<link rel="canonical" href="{{ url()->current() }}">
+@endsection
 @section('content')
 @include('partials.return_function2')
 <style>

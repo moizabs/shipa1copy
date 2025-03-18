@@ -1,6 +1,9 @@
 @extends('frontend.layouts.app')
 @section('title', 'Top Reefer Shipping Services in USA – Cold Chain Logistics Experts')
 @section('meta_description', 'Book best reefer shipping services in USA with Ship A1! Our cold chain logistics services ensure the safe and efficient transportation of perishable and temperature-sensitive cargo nationwide.')
+@section('canonical')
+<link rel="canonical" href="{{ url()->current() }}">
+@endsection
 @section('content')
 <style>
     .full-width {

@@ -2,6 +2,9 @@
 @section('title', 'Terms & Conditions')
 @section('meta_description',
 'Explore our shipping services terms & conditions for essential information on shipping policies, and service commitments. Stay informed and secure.')
+@section('canonical')
+<link rel="canonical" href="{{ url()->current() }}">
+@endsection
 @section('content')
 <section class="breadcrumb-wrapper" data-bg-image="{{ asset('frontend/images/banner/all-cover-banner.webp') }}">
     <div class="container">

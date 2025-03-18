@@ -4,6 +4,7 @@
 <head>
     <meta charset=utf-8>
     <title>@yield('title')</title>
+    @yield('canonical')
     <meta name="msvalidate.01" content="7F27FF1E63D54DD806577C838257A603" />
     <meta name="google-site-verification" content="iPRCmYmGw3eStYbopLQQ4h2y982VGa48rKpBNSR9TCU" />
     <meta name=description content="@yield('meta_description', 'Ship A1')">

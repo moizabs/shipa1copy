@@ -1,6 +1,9 @@
 @extends('frontend.layouts.app')
-@section('title', 'Construction Transport Get Quote')
-@section('meta_description', 'Streamline your construction project with our transport services. Request a quote now and experience efficient, reliable solutions for all your transport needs!')
+@section('title', 'Get Construction Equipment Transport Cost – Calculate Your Price Now')
+@section('meta_description', 'Get an instant construction equipment shipping quote with our easy-to-use calculator. Fast, accurate, and hassle-free pricing!')
+@section('canonical')
+<link rel="canonical" href="{{ url()->current() }}">
+@endsection
 @section('content')
 <style>
     .lab-cos {
@@ -130,7 +133,8 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="breadcrumb-content">
-                    <h1 class="breadcrumb-title text-center">Construction Transport</h1>
+                    <h1 class="breadcrumb-title text-center">Get a Fast & Transparent Quote for Heavy Equipment Transport Now!
+                    </h1>
                     <div class="breadcrumb-link">
                         <span>
                             <a href="{{ route('welcome') }}">

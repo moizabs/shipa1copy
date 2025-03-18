@@ -1,7 +1,10 @@
 @extends('frontend.layouts.app')
-@section('title', 'Reefer Trucking Get Quote')
+@section('title', 'Instant Reefer Trucking Cost Calculator – Free & Accurate')
 @section('meta_description',
-    'Discover reliable reefer trucking services! Get a quick quote today and ensure your perishable goods are transported safely and efficiently.')
+    'Looking for the best reefer transport rates? Get a fast and accurate shipping quote with our calculator.')
+@section('canonical')
+<link rel="canonical" href="{{ url()->current() }}">
+@endsection
 @section('content')
 <style>
     .lab-cos {
@@ -132,7 +135,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="breadcrumb-content">
-                    <h1 class="breadcrumb-title text-center">Reefer Shipping</h1>
+                    <h1 class="breadcrumb-title text-center">Plan Your Shipment with Our Reefer Trucking Cost Calculator!</h1>
                     <div class="breadcrumb-link">
                         <span>
                             <a href="{{ route('welcome') }}">

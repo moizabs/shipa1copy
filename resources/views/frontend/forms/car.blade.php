@@ -1,6 +1,9 @@
 @extends('frontend.layouts.app')
-@section('title', 'Car Transport Get Quote')
-@section('meta_description', 'Get the best car transport quotes! Request yours today for fast, easy service tailored to your needs. Instant car shipping quotes available feel free to contact.')
+@section('title', 'Get an Instant Enclosed & Open Car Shipping Quote Online | Fast & Accurate')
+@section('meta_description', 'Get a free open & enclosed car transport quote for high-value vehicles. Safe, insured, and handled with expert care. Get Quote Now!')
+@section('canonical')
+<link rel="canonical" href="{{ url()->current() }}">
+@endsection
 @section('content')
 <style>
     .error {
@@ -28,7 +31,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="breadcrumb-content">
-                    <h1 class="breadcrumb-title text-center">Vehicle - Car</h1>
+                    <h1 class="breadcrumb-title text-center">Car Shipping Quote Calculator – Find the Best Price!</h1>
                     <div class="breadcrumb-link">
                         <span>
                             <a href="{{ route('welcome') }}">

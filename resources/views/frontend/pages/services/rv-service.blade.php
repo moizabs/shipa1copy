@@ -1,6 +1,9 @@
 @extends('frontend.layouts.app')
 @section('title', 'Fast & Secure RV Shipping Service - Best Transporter in USA')
 @section('meta_description', 'Searching for RV transportation services in USA? Ship A1 is a Top RV transporter in USA. We offer cost-effective, damage-free, and nationwide RV transportation solutions. Get a free quote today!')
+@section('canonical')
+<link rel="canonical" href="{{ url()->current() }}">
+@endsection
 @section('content')
 <Style>
     .text-c-1 {

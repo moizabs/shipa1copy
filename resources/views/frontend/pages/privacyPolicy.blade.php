@@ -2,6 +2,9 @@
 @section('title', 'Privacy Policy ')
 @section('meta_description',
 'Read our privacy policy to learn about our commitment to protecting your personal information and how we handle your data responsibly and securely.')
+@section('canonical')
+<link rel="canonical" href="{{ url()->current() }}">
+@endsection
 @section('content')
 <section class="breadcrumb-wrapper" data-bg-image="{{ asset('frontend/images/banner/all-cover-banner.webp') }}">
     <div class="container">

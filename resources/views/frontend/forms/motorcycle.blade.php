@@ -1,6 +1,9 @@
 @extends('frontend.layouts.app')
-@section('title', 'Motorcycle Shipping Quote')
-@section('meta_description', 'Get your instant motorcycle shipping quote today! Fast, reliable, and hassle-free service to transport your bike anywhere. Start your journey now!')
+@section('title', 'Get Accurate Motorcycle Shipping Calculator – Get Your Quote Now!')
+@section('meta_description', 'Find out your motorcycle transportation cost with our easy-to-use calculator. Fast, affordable, and hassle-free shipping estimates!')
+@section('canonical')
+<link rel="canonical" href="{{ url()->current() }}">
+@endsection
 @section('content')
 <style>
     .lab-cos {
@@ -104,7 +107,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="breadcrumb-content">
-                    <h1 class="breadcrumb-title text-center">Vehicle - Motorcycle</h1>
+                    <h1 class="breadcrumb-title text-center">Find Out Your Motorcycle Shipping Cost in Seconds!</h1>
                     <div class="breadcrumb-link">
                         <span>
                             <a href="{{ route('welcome') }}">

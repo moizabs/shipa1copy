@@ -1,5 +1,8 @@
 @extends('frontend.layouts.app')
 @section('title', 'Contact Us')
+@section('canonical')
+<link rel="canonical" href="{{ url()->current() }}">
+@endsection
 @section('meta_description','Need assistance or have a question? Our team is ready to help! Contact us now and let’s get the conversation started. We’d love to hear from you!')
 @section('content')
 <style>
