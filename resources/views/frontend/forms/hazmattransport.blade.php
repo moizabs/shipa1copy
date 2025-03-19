@@ -1,7 +1,10 @@
 @extends('frontend.layouts.app')
-@section('title', 'Hazmat Transport Get Quote')
+@section('title', 'Instant Hazmat Shipping Services Cost Calculator | Ship A1')
 @section('meta_description',
-'Discover safe and reliable hazmat transport solutions. Get a quote today and ensure your hazardous materials are handled with care and expertise.')
+'Get a fast & accurate Hazmat Shipping cost estimate with our easy-to-use calculator. No hidden fees!')
+@section('canonical')
+<link rel="canonical" href="{{ url()->current() }}">
+@endsection
 @section('content')
 <style>
     .image-preview-container {
@@ -156,7 +159,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="breadcrumb-content">
-                    <h1 class="breadcrumb-title text-center">Hazmat Transport</h1>
+                    <h1 class="breadcrumb-title text-center">Fast & Reliable Hazmat Shipping Rates Calculator - Get Quote Now!</h1>
                     <div class="breadcrumb-link">
                         <span>
                             <a href="{{ route('welcome') }}">

@@ -28,6 +28,7 @@ class Kernel extends HttpKernel
         \RenatoMarinho\LaravelPageSpeed\Middleware\RemoveComments::class,
         \RenatoMarinho\LaravelPageSpeed\Middleware\TrimUrls::class,
         // \RenatoMarinho\LaravelPageSpeed\Middleware\CollapseWhitespace::class,
+        \App\Http\Middleware\RedirectMiddleware::class,
     ];
 
     /**

@@ -3,6 +3,9 @@
 @section('meta_description',
 'Get an instant Freight shipping quote with ease! Trust our reliable service for nationwide
 coverage, transparent pricing, and secure transportation. Plan your shipment quickly and efficiently.')
+@section('canonical')
+<link rel="canonical" href="{{ url()->current() }}">
+@endsection
 @section('content')
 <style>
     .suggestionsTwo {

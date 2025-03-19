@@ -1,6 +1,9 @@
 @extends('frontend.layouts.app')
 @section('title', 'Instant RV Shipping Quote')
 @section('meta_description', 'Discover the easiest way to ship your RV! Get an instant quote and enjoy fast, reliable service tailored to your needs. Start your shipping journey today!')
+@section('canonical')
+<link rel="canonical" href="{{ url()->current() }}">
+@endsection
 @section('content')
 <style>
     .suggestionsTwo {

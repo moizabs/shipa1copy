@@ -1,7 +1,10 @@
 @extends('frontend.layouts.app')
-@section('title', 'Dry Van Transport Get Quote')
+@section('title', 'Get the Best Rates with Our Dry Van Shipping Cost Calculator')
 @section('meta_description',
-'Need dry van transport? Get a fast quote now! We offer dependable services to keep your shipments secure and on schedule. Start your journey with us!')
+'Find out your dry van freight cost with our easy-to-use calculator. Get a free, no-obligation quote in seconds!')
+@section('canonical')
+<link rel="canonical" href="{{ url()->current() }}">
+@endsection
 @section('content')
 <style>
     .lab-cos {
@@ -132,7 +135,8 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="breadcrumb-content">
-                    <h1 class="breadcrumb-title text-center">Dry Van Transport</h1>
+                    <h1 class="breadcrumb-title text-center">Affordable Dry Van Freight Quotes Calculator– Find the Best Rates
+                    </h1>
                     <div class="breadcrumb-link">
                         <span>
                             <a href="{{ route('welcome') }}">

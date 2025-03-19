@@ -1,7 +1,10 @@
 @extends('frontend.layouts.app')
-@section('title', 'RORO Shipping Get Quote')
+@section('title', 'Instant RoRo Shipping Quotes Calculator – Find the Best Rates')
 @section('meta_description',
-'Need RORO shipping? Get an instant quote now! We offer efficient and affordable solutions for transporting your vehicles safely and securely.')
+'Need affordable roll-on/roll-off transport Quotes? Use our RoRo shipping calculator to get an instant price estimate with no hidden fees!')
+@section('canonical')
+<link rel="canonical" href="{{ url()->current() }}">
+@endsection
 @section('content')
 <style>
     .tj-testimonial-section {
@@ -238,7 +241,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="breadcrumb-content">
-                    <h1 class="breadcrumb-title text-center">RORO</h1>
+                    <h1 class="breadcrumb-title text-center">Plan Your Shipment with Our RoRo Shipping Cost Calculator!</h1>
                     <div class="breadcrumb-link">
                         <span>
                             <a href="{{ route('welcome') }}">

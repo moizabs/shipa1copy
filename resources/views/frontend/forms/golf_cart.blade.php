@@ -1,6 +1,9 @@
 @extends('frontend.layouts.app')
-@section('title', 'Golf Cart Transport Get Quote')
-@section('meta_description', 'Need to transport your golf cart? Get a quick quote today! Our reliable service ensures your cart arrives safely and on time. Easy, fast, and affordable!')
+@section('title', 'Find Out Your Golf Cart Shipping Cost – Instant Quote Available')
+@section('meta_description', 'Enter your details into our golf cart transport cost calculator for a fast, no-obligation quote. Safe & affordable shipping!')
+@section('canonical')
+<link rel="canonical" href="{{ url()->current() }}">
+@endsection
 @section('content')
 <style>
     .suggestionsTwo {
@@ -124,7 +127,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="breadcrumb-content">
-                    <h1 class="breadcrumb-title text-center">Vehicle - Golf Cart</h1>
+                    <h1 class="breadcrumb-title text-center">Instant Golf Cart Transport Cost Calculator – Fast & Transparent Shipping Quotes</h1>
                     <div class="breadcrumb-link">
                         <span>
                             <a href="{{ route('welcome') }}">

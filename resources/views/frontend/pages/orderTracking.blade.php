@@ -2,6 +2,9 @@
 @section('title', 'Order Tracking')
 @section('meta_description',
 'Simplify your shopping experience by tracking your orders seamlessly. Receive real-time notifications and stay informed about your delivery progress.')
+@section('canonical')
+<link rel="canonical" href="{{ url()->current() }}">
+@endsection
 @section('content')
 <section class="breadcrumb-wrapper" data-bg-image="{{ asset('frontend/images/banner/all-cover-banner.webp') }}">
     <div class="container">

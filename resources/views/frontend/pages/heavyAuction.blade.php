@@ -1,6 +1,6 @@
 @extends('frontend.layouts.app')
-@section('title', 'Ship Equipment From Auction Heavy Transport Services | ShipA1')
-@section('meta_description', 'Transport your car from directly auction Heavy transport, Shipa1 provides door to door auto transport services with scratchless and insured auto shipping.')
+@section('title', 'Top Heavy Equipment Auction Transport Company in USA – On-Time Delivery')
+@section('meta_description', 'Searching for heavy equipment auction transport? We specialize in safe, damage-free shipping with fully insured services. Book your transport today!')
 @section('content')
 <style>
     .why-box {
@@ -136,7 +136,7 @@
                 <div class="choose-us-content-1">
                     <div class="tj-section-heading">
                         <span class="sub-title active-shape2">Specialized Service</span>
-                        <h2 class="title">Heavy Auctions Transport</h2>
+                        <h2 class="title">Ship Your Heavy Equipment from Auctions with Confidence & Ease</h2>
                         <p class="desc-2 text-white">
                             Ship A1 specializes in providing all types of Equipment for Heavy
                             auction transport services tailored to your needs and specifications!

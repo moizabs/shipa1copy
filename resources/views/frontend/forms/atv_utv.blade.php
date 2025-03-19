@@ -1,14 +1,17 @@
 @extends('frontend.layouts.app')
-@section('title', 'Get Quote for ATV UTV in The USA')
+@section('canonical')
+<link rel="canonical" href="{{ url()->current() }}">
+@endsection
+@section('title', 'Find the Best ATV & UTV Transport Rates – Get a Free Quote')
 @section('meta_description',
-    'Get Instant ATV/UTV Shipping Quote ! Request yours today for fast pricing and easy service tailored to your needs.Trust us for nationwide transportation.')
+    'Need to ship an ATV or UTV? Get an instant ATV/UTV shipping quote and book hassle-free transport with trusted carriers. ')
 @section('content')
 <section class="breadcrumb-wrapper" data-bg-image="{{ asset('frontend/images/banner/all-cover-banner.webp') }}">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
                 <div class="breadcrumb-content">
-                    <h1 class="breadcrumb-title text-center">Vehicle - ATV/UTV</h1>
+                    <h1 class="breadcrumb-title text-center">Instant ATV & UTV Shipping Quotes – Instant Pricing Available!</h1>
                     <div class="breadcrumb-link">
                         <span>
                             <a href="{{ route('welcome') }}">

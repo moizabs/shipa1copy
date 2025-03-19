@@ -1,7 +1,10 @@
 @extends('frontend.layouts.app')
-@section('title', 'Boat Transport Get Quote')
+@section('title', 'Instant Boat Shipping Cost Calculator – Fast & Accurate Pricing')
 @section('meta_description',
-'Discover hassle-free boat transport services! Get a quick quote today and ensure your vessel is safely delivered to its destination with ease.')
+'Wondering how much it costs to ship a boat? Our boat transport cost calculator provides instant and accurate pricing.')
+@section('canonical')
+<link rel="canonical" href="{{ url()->current() }}">
+@endsection
 @section('content')
 <style>
     .lab-cos {
@@ -105,7 +108,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="breadcrumb-content">
-                    <h1 class="breadcrumb-title text-center">Boat</h1>
+                    <h1 class="breadcrumb-title text-center">Affordable & Accurate Boat Shipping Quotes – Try It Now!</h1>
                     <div class="breadcrumb-link">
                         <span>
                             <a href="{{ route('welcome') }}">

@@ -2,6 +2,9 @@
 @section('title', 'Get Quote for Commercial & Non Commercial Vehicles')
 @section('meta_description',
 'Get instant quote for commercial & non commercial vehicles from trusted providers. Simple and comprehensive instant quote services.')
+@section('canonical')
+<link rel="canonical" href="{{ url()->current() }}">
+@endsection
 @section('content')
 <style>
     .text-overline {

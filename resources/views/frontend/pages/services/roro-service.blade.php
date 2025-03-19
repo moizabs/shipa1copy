@@ -2,6 +2,9 @@
 @section('title', 'Fast & Secure RoRo Shipping Services in USA | Ship A1')
 @section('meta_description',
 'Searching for RoRo shipping companies? We provide international and nationwide RoRo transport for vehicles, ensuring secure and efficient delivery.')
+@section('canonical')
+<link rel="canonical" href="{{ url()->current() }}">
+@endsection
 @section('content')
 <Style>
     .title-2 {

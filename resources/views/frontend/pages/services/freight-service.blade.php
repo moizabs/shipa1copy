@@ -1,4 +1,7 @@
 @extends('frontend.layouts.app')
+@section('canonical')
+<link rel="canonical" href="{{ url()->current() }}">
+@endsection
 @section('content')
 <style>
     .full-width {

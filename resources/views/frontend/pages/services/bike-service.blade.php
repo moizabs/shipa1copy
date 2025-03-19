@@ -1,6 +1,9 @@
 @extends('frontend.layouts.app')
 @section('title', 'Best Bike Transportation Services  In The USA –  Affordable & Secure Shipping')
 @section('meta_description', 'Looking for a top motorcycle shipping services? Ship A1 offers safe, reliable, and affordable bike transportation services across the USA. Get a free quote now!')
+@section('canonical')
+<link rel="canonical" href="{{ url()->current() }}">
+@endsection
 @section('content')
 <style>
     .card-2 {
