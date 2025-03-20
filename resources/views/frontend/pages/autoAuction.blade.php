@@ -1,6 +1,9 @@
 @extends('frontend.layouts.app')
 @section('title', 'Book Professional Car Auction Shipping Services in USA | Top Auction Transport Company | Ship A1 ')
 @section('meta_description', 'Need auction car shipping service? Get professional car transport from auction services with Ship A1! We handle everything from pickup to delivery with expert precision. Contact us today!')
+@section('canonical')
+<link rel="canonical" href="{{ url()->current() }}">
+@endsection
 @section('content')
 <style>
     .why-box {
