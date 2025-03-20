@@ -1,6 +1,8 @@
-@extends('frontend.layouts.app') @section('title', 'Trusted State to State Auto Transport Services in USA - SHIPA1')
-@section('meta_description', 'Best state to state auto transport services in USA for quick, safe & secure auto vehicle
-delivery. We focus on your satisfaction with reliable, affordable services.') @section('content')
+@extends('frontend.layouts.app') @section('title', 'Best & Top-Rated Auto Transport Company in USA | Fast & Affordable ')
+@section('meta_description', 'Looking for the best vehicle transport company? Choose Ship A1 for best vehicle transport services near you! We ensure safe, fast, and affordable auto transport services nationwide.') @section('content')
+@section('canonical')
+<link rel="canonical" href="{{ url()->current() }}">
+@endsection
 <head>
     <link rel="preload" as="image" href="{{ asset('/frontend/images/banner/home-underline.webp') }}" type="image/webp">
 </head>
