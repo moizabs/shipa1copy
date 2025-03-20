@@ -95,7 +95,7 @@ Route::prefix('instant-quote')->group(function () {
     Route::get('/boat', [FormVehicleController::class, 'boat'])->name('form.vehicle.boat');
     Route::get('/heavy-equipment', [FormVehicleController::class, 'heavyEquipment'])->name('form.vehicle.heavyEquipment');
     Route::get('/commercial-truck', [FormVehicleController::class, 'commercialTruck'])->name('commercial.truck.transport');
-    Route::get('/construction_equipment', [FormVehicleController::class, 'constructionTransport'])->name('frontend.forms.construction_transport');
+    Route::get('/construction-equipment', [FormVehicleController::class, 'constructionTransport'])->name('frontend.forms.construction_transport');
     Route::get('/excavator', [FormVehicleController::class, 'excavator'])->name('frontend.forms.excavator');
     Route::get('/farm-equipment', [FormVehicleController::class, 'farmTransport'])->name('frontend.forms.farm_transport');
     Route::get('/rv', [FormVehicleController::class, 'rvTransport'])->name('frontend.forms.rv_transport');
