@@ -395,7 +395,7 @@
     <div class="container why-box">
         <div class="row services">
             <div class="col-12">
-                <h1 class="services-h1">Benefits of Our Services</h1>
+                <h2 class="services-h1">Benefits of Our Services</h2>
             </div>
 
             <div class="col-12 col-md-4 mb-4">

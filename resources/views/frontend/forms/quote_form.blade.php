@@ -1,7 +1,7 @@
 @extends('frontend.layouts.app')
-@section('title', 'Get Quote for Commercial & Non Commercial Vehicles')
+@section('title', 'Find the Instant Shipping Cost with Our Auto Transport Quote Calculator | Fast & Free!')
 @section('meta_description',
-'Get instant quote for commercial & non commercial vehicles from trusted providers. Simple and comprehensive instant quote services.')
+'Wondering how much it costs to ship a car? Our free auto transport quote calculator gives you an instant estimate with no obligation.')
 @section('canonical')
 <link rel="canonical" href="{{ url()->current() }}">
 @endsection
@@ -326,7 +326,7 @@
 </style>
 <section class="tj-choose-us-section-get-quote pt-200">
     <div class="container w-75">
-        <h1 class="text-center text-white mb-5 text-overline  position-relative">Get an instant Quote</h1>
+        <h1 class="text-center text-white mb-5 text-overline  position-relative">Calculate an Instant Auto Transport Quote Free – Fast & Transparent!</h1>
         <div class="row ">
             <div class="col-lg-4 col-md-6 col-sm-12">
                 <div class="custom-card car-card">

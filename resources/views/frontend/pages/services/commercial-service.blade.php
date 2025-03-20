@@ -378,7 +378,7 @@
         <div class="row services">
             <div class="col-12">
 
-                <h1 class="services-h1">Factors Affecting the Price</h1>
+                <h2 class="services-h1">Factors Affecting the Price</h2>
             </div>
 
             <div class="col-12 col-md-4 mb-4">

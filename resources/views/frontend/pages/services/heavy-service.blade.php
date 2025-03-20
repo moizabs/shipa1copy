@@ -417,7 +417,7 @@
     <div class="container why-box">
         <div class="row services">
             <div class="col-12">
-                <h1 class="services-h1">Ins & Outs of Heavy Equipment</h1>
+                <h2 class="services-h1">Ins & Outs of Heavy Equipment</h2>
             </div>
             <div class="col-12 col-md-4 mb-4">
                 <div class="card- h-100">
