@@ -23,6 +23,9 @@ use App\Http\Controllers\Admin\NationWideTransportController;
 use App\Http\Controllers\MarketingController;
 use App\Http\Controllers\ChatController;
 
+Route::get('/robots.txt', function () {
+    return response()->view('robots')->header('Content-Type', 'text/plain');
+});
 
 Route::get('chat_dashboard', [ChatController::class, 'index'])->name('chat.dashboard');
 Route::get('iframe', [ChatController::class, 'iframe'])->name('chat.iframe');

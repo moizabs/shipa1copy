@@ -222,7 +222,23 @@
             </ul>
         </div>
     </section>
-    @include('partials.reveiw-site')
+{{-- @include('partials.reveiw-site') --}}
+@include('partials.reveiw-small-detail') 
+    <section> 
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-lg-12 tj-section-heading">
+                    <h4 class="text-center"><span class="sub-title active-shape">Your One-Stop Agency for Complete Auto Shipping Services</h4>
+                    <p class="text-center">
+                        In the hunt for the best auto transport services in the USA? Ever heard about ShipA1’s qualified,
+                        expert team? Connect with the shipping industry legend, offering speedy city-to-city, state-to-state,
+                        and cross-country vehicle transport services. Become part of our elite automobile, freight cargo, and
+                         heavy machinery transportation clients today. Customized and affordable quotes - just one click away!
+                    </p>    
+                </div>
+            </div>
+        </div>
+    </section>
     <section class="tj-about-section">
         <div class="container">
             <div class="row">
@@ -230,9 +246,9 @@
                     <div class="about-content-one">
                         <div class="tj-section-heading"><span class="sub-title active-shape">A1 Transportation
                                 Company</span>
-                            <h2 class="title fs-4" >What Makes Us Dependable?</h2>
-                            <p class="desc">Among all the shipping companies out there, factors that make us stand out
-                                from the rest are:</p>
+                            <h2 class="title fs-4" >How Are We Trusted & Unstopable?</h2>
+                            <p class="desc"> It took us a decade to rule the industry and to be known as a reliable and top-notch hub
+                                of auto transport services in the USA. As we believe in:</p>
                         </div>
                         <div class="tj-icon-box">
                             <div class="ab-text d-flex align-items-center">
@@ -244,44 +260,52 @@
                                         width="40" height="40"  loading="lazy">
                                 </div>
                                 <div class="ab-title">
-                                    <h3 class="title fs-5">Our Values</h3>
+                                    <h3 class="title fs-5">Following Client-First Policy</h3>
                                 </div>
                             </div>                            
-                            <p class="desc">We are a licensed Transportation company with high moral values and have
-                                attained customer satisfaction through their remarks on esteemed platforms.</p>
+                            <p class="desc">We listen to what you demand. The team is always ready to suggest under-budget 
+                                and convenient auto shipping service instant quotes. How you want it and where you want it -
+                                 share with us.
+                            </p>
                         </div>
                         <div class="tj-icon-box">
                             <div class="ab-text d-flex align-items-center">
                                 <div class="ab-icon"><i class="fa-light fa-bell-concierge fa-2xl"
                                         style="color:#8fc445"></i></div>
                                 <div class="ab-title">
-                                    <h3 class="title fs-5">Scope of Services</h3>
+                                    <h3 class="title fs-5">Providing Skillful Expert</h3>
                                 </div>
                             </div>
-                            <p class="desc">Range of vehicles, we ship, is not limited to just conventional cars and
-                                motorbikes.</p>
+                            <p class="desc">The staff is qualified enough to handle everything from your and our side. They 
+                                are native, trained, and professional enough to complete city-to-city car transport journeys 
+                                within a couple of days!
+                            </p>
                         </div>
                         <div class="tj-icon-box">
                             <div class="ab-text d-flex align-items-center">
                                 <div class="ab-icon"><i class="fa-light fa-shield-heart fa-2xl"
                                         style="color:#8fc445"></i></div>
                                 <div class="ab-title">
-                                    <h3 class="title fs-5">Safety Is Our Priority</h3>
+                                    <h3 class="title fs-5">Offering Security & Efficiency</h3>
                                 </div>
                             </div>
-                            <p class="desc">No matter which mode of transportation you use, ShipA1 assures its customers,
-                                atmost security to their assets.</p>
+                            <p class="desc">Enclosed and fully secured trailers are lined up to load your luxurious vehicles.
+                                 Connect with the team and learn more about budget-friendly deals, high-tech haulers, and our
+                                  trending highest-rated auto transport services.
+                            </p>
                         </div>
                         <div class="tj-icon-box">
                             <div class="ab-text d-flex align-items-center">
                                 <div class="ab-icon"><i class="fa-light fa-handshake fa-2xl" style="color:#8fc445"></i>
                                 </div>
                                 <div class="ab-title">
-                                    <h3 class="title fs-5">Skilful & Devoted Staff</h3>
+                                    <h3 class="title fs-5">Be Sustained as Qualified</h3>
                                 </div>
                             </div>
-                            <p class="desc">Our team is loaded with highly experienced professionals of both customer
-                                dealing and vehicle handling.</p>
+                            <p class="desc">Experts don’t need paid promotions to be highlighted at the top. ShipA1, your 
+                                trusted and best auto shipping services companion is a licensed firm, running freight and 
+                                logistics business all over the USA. 
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -320,12 +344,12 @@
             </div>
         </div>
     </section>
-    {{-- @include('partials.car-cta-section')
+ {{-- @include('partials.car-cta-section') --}}
     <section class="tj-step-section">
         <div class="container">
             <div class="row">
                 <div class="tj-section-heading text-center"><span class="sub-title active-shape">Working Process</span>
-                    <h2 class="title">We Follow Great Process</h2>
+                    <h2 class="">Here Is How ShipA1, A Complete Automobile Shipping Agency Works </h2>
                 </div>
                 <div class="row">
                     <div class="col-lg-12">
@@ -336,8 +360,7 @@
                                         class="number">01.</span>
                                 </div>
                                 <div class="step-content">
-                                    <h6 class="title fs-4">Online Quote</h6><span>Get an instant online quote from our website
-                                        or call our agent.</span>
+                                    <h6 class="title fs-4">Offer Customized Quote</h6>
                                 </div>
                             </div>
                             <div class="tj-step-item text-center">
@@ -346,8 +369,7 @@
                                         class="number">02.</span>
                                 </div>
                                 <div class="step-content">
-                                    <h6 class="title fs-4">Confirm Order</h6><span>Confirm your order over the phone and fill
-                                        out the booking form.</span>
+                                    <h6 class="title fs-4">Schedule an Instant Shipment</h6>
                                 </div>
                             </div>
                             <div class="tj-step-item text-center">
@@ -356,8 +378,7 @@
                                         class="number">03.</span>
                                 </div>
                                 <div class="step-content">
-                                    <h6 class="title fs-4">Track Shipment</h6><span>Track your shipment by your unique order id
-                                        number.</span>
+                                    <h6 class="title fs-4">Early Pickup & Fast Delivery </h6>
                                 </div>
                             </div>
                             <div class="tj-step-item text-center">
@@ -366,8 +387,7 @@
                                         class="number">04.</span>
                                 </div>
                                 <div class="step-content">
-                                    <h6 class="title fs-4">Shipment Delivery</h6><span>Your shipment reached to their drop-off
-                                        location.</span>
+                                    <h6 class="title fs-4">Shipment Delivery</h6>
                                 </div>
                                 <div class="stp-arrow"><i class="fa-regular fa-arrow-right"></i></div>
                             </div>
@@ -376,7 +396,82 @@
                 </div>
             </div>
         </div>
-    </section> --}}
+    </section>
+
+    <section class="tj-faq-section tj-faq-page pt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="tj-section-heading text-center">
+                        <span class="sub-title active-shape"> How It’s Work</span>
+                        <h2 class="title">Frequently Asked Questions</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 sal-animate" data-sal="slide-left" data-sal-duration="800">
+                    <div class="tj-faq-left-content">
+                        <div class="faq-image">
+                            <img src="https://airforshare.com/files/oqsSqc.jpg" alt="Image">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 sal-animate d-flex align-items-center" data-sal="slide-right" data-sal-duration="800">
+                    <div class="tj-faq-area">
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        How do I prepare my vehicle for transport?
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <strong>We'll provide detailed instructions, but you'll need to remove personal
+                                            belongings, as well as make sure to follow guidelines or instructions based on
+                                            the chosen transport method.</strong>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        How do I get a quote?
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        At Ship A1, we have the convenience of free quotes that we offer to all our
+                                        customers online.<br>You can call our direct
+                                        number<a class="pp-link" href="#"> 1 (844) 474-4721</a> for an instant quote.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        Can I track my vehicle during transport?
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <strong>Yes! ShipA1 provides a user-friendly tracking system for real-time updates
+                                            on your vehicle's location throughout the journey.</strong>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     @include('partials.cta-section')
     <section class="tj-team-section">
         <div class="container">
