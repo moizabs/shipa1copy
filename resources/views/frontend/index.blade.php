@@ -10,9 +10,28 @@ services near you! We ensure safe, fast, and affordable auto transport services 
     <link rel="preload" as="image" href="{{ asset('/frontend/images/banner/home-underline.webp') }}" type="image/webp">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-   
+    <link rel="preload" href="https://fonts.gstatic.com/s/your-font.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <script src="script.js" defer></script>
 </head>
 <style>
+    /* .tj-header-button {
+    position: relative;
+}
+.tj-header-button a {
+    min-width: 120px;
+}
+    .tj-service-icon-box {
+    width: 100px;
+    height: 100px;
+} */
+    body {
+    font-family: Arial, sans-serif;
+}
+    @font-face {
+    font-family: 'CustomFont';
+    src: url('/fonts/customfont.woff2') format('woff2');
+    font-display: swap;
+}
     .card {
         background: #fff;
         border: 1px solid #ddd;
@@ -604,33 +623,33 @@ services near you! We ensure safe, fast, and affordable auto transport services 
                 <div class="service-section-parent gap-3 ">
                     <div class="services-section ">
                         <span>
-                            <h6 class="text-center">Auto Dealerships</h6>
+                            <h6 class="text-center font-weight-bold">Auto Dealerships</h6>
                             <p class="text-center">Continuous collaboration opportunities for auto sales businesses.
                             </p>
                         </span>
                     </div>
                     <div class="services-section ">
                         <span>
-                            <h6 class="text-center">Auto Auctions</h6>
+                            <h6 class="text-center font-weight-bold">Auto Auctions</h6>
                             <p class="text-center">Expedited shipping for vehicles destined for auctions.</p>
                         </span>
                     </div>
                     <div class="services-section ">
                         <span>
-                            <h6 class="text-center">Company Vehicle Fleets</h6>
+                            <h6 class="text-center font-weight-bold">Company Vehicle Fleets</h6>
                             <p class="text-center">Corporate firms are also our special B2B clients for car shipping.
                             </p>
                         </span>
                     </div>
                     <div class="services-section ">
                         <span>
-                            <h6 class="text-center">Rental Car Companies</h6>
+                            <h6 class="text-center font-weight-bold">Rental Car Companies</h6>
                             <p class="text-center">We are all set every day for rental car agencies.</p>
                         </span>
                     </div>
                     <div class="services-section ">
                         <span>
-                            <h6 class="text-center">Manufacturing Hubs</h6>
+                            <h6 class="text-center font-weight-bold">Manufacturing Hubs</h6>
                             <p class="text-center">Fast and fully secure shipping for your manufacturing vehicles.</p>
                         </span>
                     </div>
@@ -1122,6 +1141,10 @@ services near you! We ensure safe, fast, and affordable auto transport services 
             $("#dynamicHeader").html(heading);
         });
     });
+
+    optimization: {
+    usedExports: true,
+    }
 </script>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
