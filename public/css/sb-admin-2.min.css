@@ -99,9 +99,9 @@ p {
 }
 abbr[data-original-title],
 abbr[title] {
-  text-decoration: underline;
-  -webkit-text-decoration: underline dotted;
-  text-decoration: underline dotted;
+  text-decoration: none;
+  -webkit-text-decoration: none ;
+  text-decoration: none ;
   cursor: help;
   border-bottom: 0;
   -webkit-text-decoration-skip-ink: none;
@@ -161,7 +161,7 @@ a {
 }
 a:hover {
   color: #224abe;
-  text-decoration: underline;
+  text-decoration: none;
 }
 a:not([href]):not([class]) {
   color: inherit;
@@ -2761,11 +2761,11 @@ fieldset:disabled a.btn {
 }
 .btn-link:hover {
   color: #224abe;
-  text-decoration: underline;
+  text-decoration: none;
 }
 .btn-link.focus,
 .btn-link:focus {
-  text-decoration: underline;
+  text-decoration: none;
 }
 .btn-link.disabled,
 .btn-link:disabled {
@@ -4423,7 +4423,7 @@ input[type="submit"].btn-block {
   content: "/";
 }
 .breadcrumb-item + .breadcrumb-item:hover::before {
-  text-decoration: underline;
+  text-decoration: none;
 }
 .breadcrumb-item + .breadcrumb-item:hover::before {
   text-decoration: none;
@@ -8933,7 +8933,7 @@ a.text-dark:hover {
     box-shadow: none !important;
   }
   a:not(.btn) {
-    text-decoration: underline;
+    text-decoration: none;
   }
   abbr[title]::after {
     content: " (" attr(title) ")";

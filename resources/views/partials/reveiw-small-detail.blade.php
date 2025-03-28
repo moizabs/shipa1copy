@@ -1,4 +1,3 @@
-<link rel="preload" as="image" href="path-to-slider-image.jpg">
 <style>
     .fa-star {
         color: #f39c12;

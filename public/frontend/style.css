@@ -165,7 +165,7 @@ p {
 }
 
 abbr[title] {
-    text-decoration: underline dotted;
+    text-decoration: none ;
     cursor: help;
     text-decoration-skip-ink: none;
 }
@@ -240,7 +240,7 @@ sup {
 
 a {
     color: var(--bs-link-color);
-    text-decoration: underline;
+    text-decoration: none;
 }
 a:hover {
     color: var(--bs-link-hover-color);
@@ -3088,7 +3088,7 @@ textarea.form-control-lg {
     --bs-btn-disabled-border-color: transparent;
     --bs-btn-box-shadow: none;
     --bs-btn-focus-shadow-rgb: 49, 132, 253;
-    text-decoration: underline;
+    text-decoration: none;
 }
 .btn-link:focus-visible {
     color: var(--bs-btn-color);
@@ -7952,7 +7952,7 @@ textarea.form-control-lg {
 }
 
 .text-decoration-underline {
-    text-decoration: underline !important;
+    text-decoration: none !important;
 }
 
 .text-decoration-line-through {

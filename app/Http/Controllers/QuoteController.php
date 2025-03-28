@@ -301,7 +301,7 @@ class QuoteController extends Controller
 
             foreach ($uploadedImages as $image) {
                 $imagePath = $this->uploadImage('quoteForm', $image);
-                $imageUrl = 'https://shipa1.com/public/' . $imagePath;
+                $imageUrl = 'https://shipa1.com/' . $imagePath;
                 $imageUrls[] = $imageUrl;
             }
 

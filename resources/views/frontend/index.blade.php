@@ -9,29 +9,19 @@ services near you! We ensure safe, fast, and affordable auto transport services 
 <head>
     <link rel="preload" as="image" href="{{ asset('/frontend/images/banner/home-underline.webp') }}" type="image/webp">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <link rel="preload" href="https://fonts.gstatic.com/s/your-font.woff2" as="font" type="font/woff2" crossorigin="anonymous">
-    <script src="script.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 
+
 </head>
 <style>
-    /* .tj-header-button {
-    position: relative;
-}
-.tj-header-button a {
-    min-width: 120px;
-}
-    .tj-service-icon-box {
-    width: 100px;
-    height: 100px;
-} */
     body {
-    font-family: Arial, sans-serif;
-}
-    @font-face {
-    font-family: 'CustomFont';
-    src: url('/fonts/customfont.woff2') format('woff2');
-    font-display: swap;
-}
+        font-family: Arial, sans-serif;
+    }
+
+    body a {
+        text-decoration: none;
+    }
+
+
     .card {
         background: #fff;
         border: 1px solid #ddd;
@@ -540,7 +530,8 @@ services near you! We ensure safe, fast, and affordable auto transport services 
 <section class="tj-faq-section tj-faq-page pt-5">
     <div class="container mt-5">
         <div class="row">
-            <div class="tj-section-heading text-center"><span class="sub-title active-shape">Our Trending Car Transport Services Modes</span>
+            <div class="tj-section-heading text-center"><span class="sub-title active-shape">Our Trending Car
+                    Transport Services Modes</span>
             </div>
         </div>
         <div class="row">
@@ -688,7 +679,7 @@ services near you! We ensure safe, fast, and affordable auto transport services 
                 </div>
             </div>
             <div class="col-12 col-lg-5  d-flex justify-content-center align-items-center"><img class="shadow-lg"
-                    src="{{asset('frontend/images/450 x 500 Nevada.jpg')  }}" alt=""></div>
+                    src="{{ asset('frontend/images/about/450x500Nevada.jpg') }}" alt=""></div>
         </div>
     </div>
 </section>
@@ -696,9 +687,10 @@ services near you! We ensure safe, fast, and affordable auto transport services 
     <div class="container my-5">
         <div class="row">
             <div class="col-12 col-lg-5 d-flex justify-content-center align-items-center">
-                <img class="shadow-lg img-fluid" src="{{asset('frontend/images/450 x 500 West Virginia.jpg')  }}" alt="">
+                <img class="shadow-lg img-fluid" src="{{ asset('frontend/images/about/450x500WestVirginia.jpg') }}"
+                    alt="">
             </div>
-              
+
             <div class=" col-12 col-lg-7 ">
                 <div class="col-12 my-5 mx-2 tj-section-heading">
                     <h3><span class="sub-title active-shape"> Don’t Worry About Your All Automobile Transport Hurdles
@@ -1141,10 +1133,6 @@ services near you! We ensure safe, fast, and affordable auto transport services 
             $("#dynamicHeader").html(heading);
         });
     });
-
-    optimization: {
-    usedExports: true,
-    }
 </script>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
