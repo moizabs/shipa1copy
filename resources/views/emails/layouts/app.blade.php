@@ -101,7 +101,7 @@
         }
 
         .content a:hover {
-            text-decoration: underline;
+            text-decoration: none;
         }
 
         .rating-section {

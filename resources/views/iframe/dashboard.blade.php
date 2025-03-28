@@ -194,8 +194,6 @@ header("Access-Control-Allow-Methods: GET, POST");
 
                             </form>
                         </div>
-
-
                     </div>
                 </div>
                 @else
