@@ -679,7 +679,7 @@ services near you! We ensure safe, fast, and affordable auto transport services 
                 </div>
             </div>
             <div class="col-12 col-lg-5  d-flex justify-content-center align-items-center"><img class="shadow-lg"
-                    src="{{ asset('frontend/images/about/450x500Nevada.jpg') }}" alt=""></div>
+                    src="{{ asset('public/frontend/images/about/450x500Nevada.jpg') }}" alt=""></div>
         </div>
     </div>
 </section>
@@ -687,7 +687,7 @@ services near you! We ensure safe, fast, and affordable auto transport services 
     <div class="container my-5">
         <div class="row">
             <div class="col-12 col-lg-5 d-flex justify-content-center align-items-center">
-                <img class="shadow-lg img-fluid" src="{{ asset('frontend/images/about/450x500WestVirginia.jpg') }}"
+                <img class="shadow-lg img-fluid" src="{{ asset('public/frontend/images/about/450x500WestVirginia.jpg') }}"
                     alt="">
             </div>
 
