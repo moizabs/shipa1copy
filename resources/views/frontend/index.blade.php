@@ -42,7 +42,7 @@ services near you! We ensure safe, fast, and affordable auto transport services 
     .service-section-parent {
         display: flex;
         justify-content: center;
-        margin-bottom: 100px;
+        margin-bottom: 50px;
         display: grid;
         grid-template-columns: auto auto auto auto auto;
         /* background-color: dodgerblue; */
@@ -57,8 +57,8 @@ services near you! We ensure safe, fast, and affordable auto transport services 
         text-align: center;
         color: black;
         background-color: #fff;
-        width: 200px;
-        height: 200px;
+        width: 210px;
+        height: 210px;
         border-radius: 50%;
         display: flex;
         justify-content: center;
@@ -600,17 +600,20 @@ services near you! We ensure safe, fast, and affordable auto transport services 
         </div>
     </div>
 </section>
-<section>
-    <div class="container">
-        <div class="">
-            <div>
-                <h2 class="text-center" style="color: #8fc445;">ShipA1’s Conquered B2B Marketplace</h2>
-                <p class="text-center">Find out who are our targeted businesses. It’s not just a common customer we
+{{-- <div class="container">
+    
+</div> --}}
+<section class="tj-choose-us-section-service-moiz my-5">
+    <div class="container why-box">
+        <div class="row services">
+            
+                {{-- <p class="text-center">Find out who are our targeted businesses. It’s not just a common customer we
                     cater to in the USA.
                     ShipA1 is a brand of convenient and helpful assistance for each logistics transport requesting
                     business platform.
-                </p>
-
+                </p> --}}
+            <div class="pt-5" style="background-color: rgba(255, 255, 255, 0.5); border-radius: 25px; ">
+                <h2 class="text-center" style="">ShipA1’s Conquered B2B Marketplace</h2>
                 <div class="service-section-parent gap-3 ">
                     <div class="services-section ">
                         <span>
@@ -646,7 +649,6 @@ services near you! We ensure safe, fast, and affordable auto transport services 
                     </div>
 
                 </div>
-            </div>
         </div>
     </div>
 </section>

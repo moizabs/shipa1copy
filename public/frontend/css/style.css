@@ -3181,6 +3181,7 @@ div .tj-service-icon-box2 ul li .service-item::before {
   background-attachment: fixed;
 }
 .tj-choose-us-section-service-RV-4,
+.tj-choose-us-section-service-moiz,
 .tj-choose-us-section-service-atv-utv-2,
 .tj-choose-us-section-service-bike-6,
 .tj-choose-us-section-service-cars-2,
@@ -3201,6 +3202,9 @@ div .tj-service-icon-box2 ul li .service-item::before {
   padding-top: 50px;
   position: relative;
   background-attachment: fixed;
+}
+.tj-choose-us-section-service-moiz{
+  background-image: url("../../img/1430_x_863_Nebraska\(1\).jpg") ;
 }
 .tj-choose-us-section-service-cars-2 {
   background-image: url("../../img/sasacar.webp");
