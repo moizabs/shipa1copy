@@ -6,7 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Interactive Map</title>
     <style>
-
+        .map-container{
+            width: 90%;
+            margin: auto
+        }
         .map-container svg {
             width: 60%;
             height: auto;
@@ -44,7 +47,7 @@
 
     <script>
         document.addEventListener("DOMContentLoaded", function() {
-            fetch("/public/frontend/images/usa-labels-boxes.svg")
+            fetch("/frontend/images/about/usa-labels-boxes.svg")
                 .then((response) => response.text())
                 .then((data) => {
                     document.getElementById("svg-container-map").innerHTML = data;
