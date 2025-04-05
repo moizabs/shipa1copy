@@ -47,7 +47,7 @@
 
     <script>
         document.addEventListener("DOMContentLoaded", function() {
-            fetch("/frontend/images/about/usa-labels-boxes.svg")
+            fetch("public/frontend/images/about/usa-labels-boxes.svg")
                 .then((response) => response.text())
                 .then((data) => {
                     document.getElementById("svg-container-map").innerHTML = data;
