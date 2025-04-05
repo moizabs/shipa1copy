@@ -1,4 +1,4 @@
-{{-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -6,8 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Interactive Map</title>
     <style>
-
-        .container svg {
+        .map-container{
+            width: 90%;
+            margin: auto
+        }
+        .map-container svg {
             width: 60%;
             height: auto;
             cursor: pointer;
@@ -32,7 +35,7 @@
 
 <body>
     <div id="tooltip" class="tooltip"></div>
-    <div class="container text-center py-5">
+    <div class="map-container text-center py-5">
         <h4 style="color: #8fc445;">ShipA1’s Competitive Edge & Unstoppable Service from New York to California</h4>
         <p class="">Our services aren’t limited to just a couple of regions. Leaving all mediocre auto transport companies behind, 
         ShipA1 has achieved the excellence of becoming the leading vehicle shipping agency all across the USA, serving all 
@@ -44,7 +47,7 @@
 
     <script>
         document.addEventListener("DOMContentLoaded", function() {
-            fetch("frontend/images/usa-labels-boxes.svg")
+            fetch("public/frontend/images/about/usa-labels-boxes.svg")
                 .then((response) => response.text())
                 .then((data) => {
                     document.getElementById("svg-container-map").innerHTML = data;
@@ -155,4 +158,4 @@
     </script>
 </body>
 
-</html> --}}
+</html>
