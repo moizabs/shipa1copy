@@ -3204,7 +3204,7 @@ div .tj-service-icon-box2 ul li .service-item::before {
   background-attachment: fixed;
 }
 .tj-choose-us-section-service-moiz{
-  background-image: url("../../img/1430_x_863_Nebraska\(1\).jpg") ;
+  background-image: url("../../img/1430_x_863_Nebraska\(1\).jpg") !important ;
 }
 .tj-choose-us-section-service-cars-2 {
   background-image: url("../../img/sasacar.webp");
