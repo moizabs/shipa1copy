@@ -258,7 +258,11 @@
             padding: 50px 10px;
             text-align: center;
         }
+        .top-notch-childs:hover{
+            transition: 2s; 
+            border: 1px solid #062e39 ; 
 
+        }
         .top-notch-childs div {
             display: flex;
             justify-content: center;
@@ -308,6 +312,8 @@
             text-align: center;
         }
 
+       
+
         .top-notch-childs2 div {
             display: flex;
             justify-content: center;
@@ -353,9 +359,9 @@
     <section>
         <div class="container">
             <div class="row full-width mt-4 ms-1">
-                <div class="col-12 custom-style">
+                <div class="col-12 mt-5">
                     <h4 class=" text-center">We Are Acclaimed for Swift & Secure Car Transport Services in the USA </h4>
-                    <p>
+                    <p class=" text-center">
                         Do you need fast and affordable car transport services in the USA right away? Guess what? We have
                         some amazing plans
                         for you to prevent all seasonal struggles in all fifty states of the USA. Our team is open to a
@@ -366,12 +372,12 @@
                         ShipA1’s expert carriers for car transport
                         services near me” and witness the magic of speedy and reliable vehicle transportation support.
                     </p>
-                    <div class="tj-theme-button  text-center mt-2">
+                    {{-- <div class="tj-theme-button  text-center mt-2">
                         <a class="tj-transparent-btn" href="{{ route('form.vehicle.car') }}">
                             Get Quote
                             <i class="flaticon-right-1"></i>
                         </a>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         </div>
@@ -621,7 +627,7 @@
             </div>
         </div>
     </section>
-    <section class="tj-about-section pt-0">
+    {{-- <section class="tj-about-section pt-0">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-md-12 order-sm-1 order-md-1 order-2 d-flex align-items-center justify-content-center sal-animate"
@@ -727,7 +733,8 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
+    <br>
     @include('partials.cta-section')
     <section class="tj-about-section pt-0">
         <div class="container">
@@ -916,7 +923,7 @@
         </div>
     </section>
 
-    <section class="tj-about-section pt-0 pb-0">
+    {{-- <section class="tj-about-section pt-0 pb-0">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-md-12 order-sm-2 order-md-1 order-1 d-flex align-items-center justify-content-center sal-animate pt-4 mt-4"
@@ -956,7 +963,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
     <section class="tj-testimonial-section">
         <div class="container">
             <div class="row">
@@ -1039,7 +1046,7 @@
                     <div class="swiper-slide">
                         <div class="row">
                             <div class="col-lg-12">
-                                <div class="card-2 mb-3">
+                                <div class="card-2 mb-2">
                                     <div class="row g-0">
                                         <div class="col-sm-6 d-flex align-items-center justify-content-center">
                                             <div class="card-body tj-section-heading mb-0">
@@ -1104,45 +1111,6 @@
         </div>
     </section>
     @include('partials.reveiw-small-detail')
-    <section class="tj-choose-us-section-home">
-        <div class="container">
-            <div class="row">
-                @if (session('success'))
-                    <div class="alert alert-success">{{ session('success') }}</div>
-                    @endif @if (session('error'))
-                        <div class="alert alert-error">{{ session('error') }}</div>
-                    @endif
-                    <div class="col-lg-6 sal-animate" data-sal="slide-left" data-sal-duration="800">
-                        <div class="choose-us-content-1">
-                            <div class="tj-section-heading"><span class="sub-title active-shape2">Get Instant quote</span>
-                                <h2 class="title fs-3">Get an instant quote in few simple steps</h2>
-                                <p class="desc">ShipA1 has pledged to provide all-in-one auto transport solutions to all
-                                    its customers and seeks your trust in return of our services.</p>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-4 col-sm-4 col-6">
-                                    <div class="tj-icon-box3 text-center"><i class="flaticon flaticon-courier"></i>
-                                        <h6 class="title">Optimized Cost</h6>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 col-sm-4 col-6">
-                                    <div class="tj-icon-box3 text-center"><i class="flaticon flaticon-cargo"></i>
-                                        <h6 class="title">Delivery on Time</h6>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 col-sm-4 col-6">
-                                    <div class="tj-icon-box3 text-center"><i class="flaticon flaticon-agreement"></i>
-                                        <h6 class="title">Safety &amp; Reliability</h6>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6" data-sal="slide-down" data-sal-duration="800">@include('partials.multi-form')
-                    </div>
-            </div>
-        </div>
-    </section>
     <section>
         <div class="container py-5  ">
             <h2 class="text-center pb-3">Why Get a Car Shipping Quote from Us?</h2>
@@ -1193,8 +1161,49 @@
             </div>
         </div>
     </section>
+    <br>
+    <section class="tj-choose-us-section-home">
+        <div class="container">
+            <div class="row">
+                @if (session('success'))
+                    <div class="alert alert-success">{{ session('success') }}</div>
+                    @endif @if (session('error'))
+                        <div class="alert alert-error">{{ session('error') }}</div>
+                    @endif
+                    <div class="col-lg-6 sal-animate" data-sal="slide-left" data-sal-duration="800">
+                        <div class="choose-us-content-1">
+                            <div class="tj-section-heading"><span class="sub-title active-shape2">Get Instant quote</span>
+                                <h2 class="title fs-3">Get an instant quote in few simple steps</h2>
+                                <p class="desc">ShipA1 has pledged to provide all-in-one auto transport solutions to all
+                                    its customers and seeks your trust in return of our services.</p>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4 col-sm-4 col-6">
+                                    <div class="tj-icon-box3 text-center"><i class="flaticon flaticon-courier"></i>
+                                        <h6 class="title">Optimized Cost</h6>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-4 col-6">
+                                    <div class="tj-icon-box3 text-center"><i class="flaticon flaticon-cargo"></i>
+                                        <h6 class="title">Delivery on Time</h6>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-4 col-6">
+                                    <div class="tj-icon-box3 text-center"><i class="flaticon flaticon-agreement"></i>
+                                        <h6 class="title">Safety &amp; Reliability</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6" data-sal="slide-down" data-sal-duration="800">@include('partials.multi-form')
+                    </div>
+            </div>
+        </div>
+    </section>
     
-    <section class="tj-choose-us-section-service-cars-2 mt-4">
+    
+    {{-- <section class="tj-choose-us-section-service-cars-2 mt-4">
         <div class="container why-box">
             <div class="row services">
                 <div class="col-12">
@@ -1233,10 +1242,10 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
     {{-- @include('partials.usa-states-map') --}}
     @include('partials.faqs')
-    <section class="why-choose-us-slider">
+    {{-- <section class="why-choose-us-slider">
         <div class="container">
             <div class="tj-section-heading text-center">
                 <h2 class="title text-white">Why Choose Us?</h2>
@@ -1297,7 +1306,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
     @include('partials.blog-slider')
 @endsection
 @section('extraScript')
