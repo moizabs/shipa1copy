@@ -9,6 +9,87 @@
 @endsection
 @section('content')
     <style>
+        .side-container{
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           margin: 50px auto;
+           padding:20px;
+        }
+        .side-container div h2{
+            color: #062e39;
+        }
+        .side-container div p {
+            color: #062e39;
+        }
+        .side-container div h2 span{
+            color: #8fc445;
+            font-weight: 700;
+        }
+        .side-container div hr{
+            color: #8fc445;
+            height: 8px;    
+            opacity: 1; 
+            /* border-radius: 5px; */
+            border-top-left-radius: 50px;
+            border-bottom-right-radius: 50px;
+        }
+        .btnfaq{
+            border: none;
+            border-radius: 5px;
+            background-color: #8fc445;
+            color: white;
+            padding: 6px ;
+            transition: 1s;
+        }
+        .btnfaq:hover{
+            background-color: #062e39;
+            color: white;
+        }
+        .faq-container {
+            max-width: 700px;
+            margin: 50px auto;
+            background: #fff;
+            padding:20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .faq-container h2 {
+            text-align: center;
+            color: #8fc445;
+        }
+        .faq {
+            border-bottom: 1px solid #ddd;
+        }
+        .faq button {
+            width: 100%;
+            background: none;
+            color: #062e39;
+            border: none;
+            text-align: left;
+            font-size: 18px;
+            padding: 15px;
+            cursor: pointer;
+            outline: none;
+            font-weight: bold;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .faq button:hover {
+            background: #f1f1f1;
+        }
+        .faq-content {
+            display: none;
+            padding: 15px;
+            font-size: 16px;
+            background: #f9f9f9;
+            border-radius: 5px;
+        }
+        .open-faq {
+            background: #d22;
+            color: white;
+        }
         .custom-hover-flip {
             position: relative;
             display: inline-block;
@@ -1244,7 +1325,59 @@
         </div>
     </section> --}}
     @include('partials.usa-states-map')
-    @include('partials.faqs')
+    {{-- @include('partials.faqs') --}}
+    <div class="container">
+        <div class="row p-5">
+           <div class="side-container col-12 col-lg-5 ">
+                <div>
+                    <h2>Frequently <span>Asked Questions</span> </h2>
+                    <hr class="w-50">
+                    <p>Have a look at answers to trending customer queries about our vehicle shipping services.</p>
+                        <a class="text-decoration-none  btnfaq" href="{{ route('faq') }}">Get Detailed Shipping Answer</a>
+                </div>
+           </div>
+    
+           <div class="col-12 col-lg-7">
+            <div class="faq-container">
+                <div class="faq">
+                    <button class="faq-toggle">Does ShipA1 offer the fastest car transport services near me? <span>+</span></button>
+                    <div class="faq-content">
+                        <p>ShipA1’s team is operational across all states of the US. It allows us to be ready for each coming car shipping order. We believe in quick and customer-friendly transport assistance.</p>
+                    </div>
+                </div>
+            
+                <div class="faq">
+                    <button class="faq-toggle">How does ShipA1 offer the most secure car transport service? <span>+</span></button>
+                    <div class="faq-content">
+                        <p>All our shippers, carriers, brokers, and consignees are certified and experienced for this regular job of car shipping. They are qualified experts, taking care of each consignment with proper care and attention.</p>
+                    </div>
+                </div>
+            
+                <div class="faq">
+                    <button class="faq-toggle">How to get cheap car shipping services from ShipA1 <span>+</span></button>
+                    <div class="faq-content">
+                        <p>Simply, go for city-to-city, open car transportation service. Or just reach out to our professional customer support team, share the requirements/budget, and get a suitable quote.</p>
+                    </div>
+                </div>
+                
+                <div class="faq">
+                    <button class="faq-toggle">How much time does it take for city-to-city car transport in the USA?<span>+</span></button>
+                    <div class="faq-content">
+                        <p>Every freight and logistics agency has its own delivery plans. At ShipA1, our carriers and drivers mostly take two days (on average) to drop off cars at the shared destinations.</p>
+                    </div>
+                </div>
+            
+                <div class="faq">
+                    <button class="faq-toggle">How much does a state-to-state car shipping service cost?<span>+</span></button>
+                    <div class="faq-content">
+                        <p>The cost of car shipping in the USA depends on the load, distance, type of service, and your selected transport agency. However, if the days are concerned then at ShipA1, it takes five to seven days for a state-to-state car transport delivery.</p>
+                    </div>
+                </div>
+            
+            </div>
+           </div>
+        </div>
+    </div>
     {{-- <section class="why-choose-us-slider">
         <div class="container">
             <div class="tj-section-heading text-center">
@@ -1540,5 +1673,26 @@
             };
             updateCounter();
         });
+
+
+        document.querySelectorAll(".faq-toggle").forEach(button => {
+            button.addEventListener("click", () => {
+                const faqContent = button.nextElementSibling;
+                const isOpen = button.classList.contains("open-faq");
+    
+                document.querySelectorAll(".faq-toggle").forEach(btn => {
+                    btn.classList.remove("open-faq");
+                    btn.nextElementSibling.style.display = "none";
+                    btn.querySelector("span").textContent = "+";
+                });
+    
+                if (!isOpen) {
+                    button.classList.add("open-faq");
+                    faqContent.style.display = "block";
+                    button.querySelector("span").textContent = "-";
+                }
+            });
+        });
     </script>
+    
 @endsection
