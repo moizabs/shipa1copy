@@ -8,7 +8,7 @@
     <style>
         .map-container {
             width: 90%;
-            margin: auto
+            margin: auto;
         }
 
         .map-container svg {
@@ -49,47 +49,42 @@
             ShipA1 has achieved the excellence of becoming the leading vehicle shipping agency all across the USA,
             serving all
             fifty states. </p>
-        <div id="svg-container-map">
-
-        </div>
+        <div id="svg-container-map"></div>
     </div>
 
     <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            fetch("public/frontend/images/about/usa-labels-boxes.svg")
+        const svgPath = "{{ asset('public/frontend/images/about/usa-labels-boxes.svg') }}";
+
+        document.addEventListener("DOMContentLoaded", function () {
+            fetch(svgPath)
                 .then((response) => response.text())
                 .then((data) => {
                     document.getElementById("svg-container-map").innerHTML = data;
 
-                    // Tooltip ko body ke andar move kar do
                     let tooltip = document.getElementById("tooltip");
                     document.body.appendChild(tooltip);
 
                     document.querySelectorAll("#svg-container-map path").forEach((state) => {
-                        state.addEventListener("click", function() {
+                        state.addEventListener("click", function () {
                             let stateId = this.getAttribute("id");
                             if (stateId) openStateRoute(stateId);
                         });
 
-                        state.addEventListener("mouseenter", function(event) {
+                        state.addEventListener("mouseenter", function (event) {
                             this.classList.add("hovered");
-                            const stateFullName = this.getAttribute("data-name") || this
-                                .getAttribute("id") || "Unknown State";
-                            // console.log(stateFullName, "stateFullName")
+                            const stateFullName = this.getAttribute("data-name") || this.getAttribute("id") || "Unknown State";
                             tooltip.textContent = stateFullName;
                             tooltip.style.display = "block";
-                            tooltip.style.position = "absolute";
-
                             tooltip.style.left = event.pageX + 15 + "px";
                             tooltip.style.top = event.pageY + 15 + "px";
                         });
 
-                        state.addEventListener("mousemove", function(event) {
+                        state.addEventListener("mousemove", function (event) {
                             tooltip.style.left = event.pageX + 15 + "px";
                             tooltip.style.top = event.pageY + 15 + "px";
                         });
 
-                        state.addEventListener("mouseleave", function() {
+                        state.addEventListener("mouseleave", function () {
                             this.classList.remove("hovered");
                             tooltip.style.display = "none";
                         });
@@ -98,11 +93,8 @@
                 .catch((error) => console.error("Error loading SVG:", error));
         });
 
-
-
         function openStateRoute(stateId) {
             if (!stateId) return;
-
 
             const routes = {
                 AL: "https://www.shipa1.com/car-transportation-in-alabama",
@@ -156,7 +148,6 @@
                 WI: "https://www.shipa1.com/car-transportation-wisconsin",
                 WY: "https://www.shipa1.com/car-transportation-wyoming",
             };
-
 
             if (routes[stateId]) {
                 window.location.href = routes[stateId];
