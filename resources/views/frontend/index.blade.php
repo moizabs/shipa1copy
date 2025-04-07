@@ -102,6 +102,9 @@ services near you! We ensure safe, fast, and affordable auto transport services 
             text-align: center;
 
         }
+        .services-section{
+            width: 260px;
+        }
     }
 
     @keyframes custom-slides {
@@ -811,7 +814,7 @@ services near you! We ensure safe, fast, and affordable auto transport services 
             @endforeach --}}
     </div>
 </section>
-<section class="tj-choose-us-section-service-moiz my-5" style=" background-image: url('../../img/1430_x_863_Nebraska%281%29.jpg'); ">
+<section class="tj-choose-us-section-service-moiz my-5" style="background-image: url({{ asset('img/1430_x_863_Nebraska%281%29.jpg') }} ) ">
     <div class="container why-box">
         <div class="row services">
             
