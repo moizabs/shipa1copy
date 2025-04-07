@@ -6,14 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Interactive Map</title>
     <style>
-        .map-container{
+        .map-container {
             width: 90%;
             margin: auto
         }
+
         .map-container svg {
             width: 60%;
             height: auto;
             cursor: pointer;
+        }
+
+        @media only screen and (max-width: 600px) {
+            .map-container svg {
+                width: 90%;
+            }
         }
 
         #svg-container-map path.hovered {
@@ -37,9 +44,11 @@
     <div id="tooltip" class="tooltip"></div>
     <div class="map-container text-center py-5">
         <h4 style="color: #8fc445;">ShipA1’s Competitive Edge & Unstoppable Service from New York to California</h4>
-        <p class="">Our services aren’t limited to just a couple of regions. Leaving all mediocre auto transport companies behind, 
-        ShipA1 has achieved the excellence of becoming the leading vehicle shipping agency all across the USA, serving all 
-        fifty states. </p>
+        <p class="">Our services aren’t limited to just a couple of regions. Leaving all mediocre auto transport
+            companies behind,
+            ShipA1 has achieved the excellence of becoming the leading vehicle shipping agency all across the USA,
+            serving all
+            fifty states. </p>
         <div id="svg-container-map">
 
         </div>
