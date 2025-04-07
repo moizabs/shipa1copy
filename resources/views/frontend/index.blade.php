@@ -393,7 +393,7 @@ services near you! We ensure safe, fast, and affordable auto transport services 
                                     fetchpriority="high" alt="Icon" width="40" height="40" loading="lazy">
                             </div>
                             <div class="ab-title">
-                                <h3 class="title fs-5">Following Client-First Policy</h3>
+                                <h3 class="title fs-5 font-weight-bold">Following Client-First Policy</h3>
                             </div>
                         </div>
                         <p class="desc">We listen to what you demand. The team is always ready to suggest under-budget
@@ -406,7 +406,7 @@ services near you! We ensure safe, fast, and affordable auto transport services 
                             <div class="ab-icon"><i class="fa-light fa-bell-concierge fa-2xl" style="color:#8fc445"></i>
                             </div>
                             <div class="ab-title">
-                                <h3 class="title fs-5">Providing Skillful Expert</h3>
+                                <h3 class="title fs-5 font-weight-bold">Providing Skillful Expert</h3>
                             </div>
                         </div>
                         <p class="desc">The staff is qualified enough to handle everything from your and our side.
@@ -420,7 +420,7 @@ services near you! We ensure safe, fast, and affordable auto transport services 
                             <div class="ab-icon"><i class="fa-light fa-shield-heart fa-2xl" style="color:#8fc445"></i>
                             </div>
                             <div class="ab-title">
-                                <h3 class="title fs-5">Offering Security & Efficiency</h3>
+                                <h3 class="title fs-5 font-weight-bold">Offering Security & Efficiency</h3>
                             </div>
                         </div>
                         <p class="desc">Enclosed and fully secured trailers are lined up to load your luxurious
@@ -434,7 +434,7 @@ services near you! We ensure safe, fast, and affordable auto transport services 
                             <div class="ab-icon"><i class="fa-light fa-handshake fa-2xl" style="color:#8fc445"></i>
                             </div>
                             <div class="ab-title">
-                                <h3 class="title fs-5">Be Sustained as Qualified</h3>
+                                <h3 class="title fs-5 font-weight-bold">Be Sustained as Qualified</h3>
                             </div>
                         </div>
                         <p class="desc">Experts don’t need paid promotions to be highlighted at the top. ShipA1, your
@@ -543,7 +543,7 @@ services near you! We ensure safe, fast, and affordable auto transport services 
                 <div class="p-3 border bg-light">
                     <h6 class="card-btn" id="dynamicHeader"> 1. Cross-Country Vehicle Transport</h6>
                     <div id="dynamicContent">
-                        shipA1’s team of shippers, carriers, and consignees have decades of experience in long-distance
+                        ShipA1’s team of shippers, carriers, and consignees have decades of experience in long-distance
                         cross-country vehicle shipping all over the USA. This mode is ideal for extended-range
                         transportation of your vehicles to a remote or far-off state.
                     </div>
@@ -561,7 +561,7 @@ services near you! We ensure safe, fast, and affordable auto transport services 
                         </h2>
                         <div class="card-btn-collapse " id="collapseOne">
                             <div class="card-btn-body">
-                                shipA1’s team of shippers, carriers, and consignees have decades of experience in
+                                ShipA1’s team of shippers, carriers, and consignees have decades of experience in
                                 long-distance cross-country vehicle shipping all over the USA. This mode is ideal for
                                 extended-range transportation of your vehicles to a remote or far-off state.
                             </div>
@@ -869,19 +869,19 @@ services near you! We ensure safe, fast, and affordable auto transport services 
                     <p>ShipA1 is a 24/7 active remotely available automobile shipping agency. Follow the process to
                         book your vehicle transport consignment hassle-free.</p>
                     <br />
-                    <h5>1. Request a Quote</h5>
+                    <h5 class="font-weight-bold">1. Request a Quote</h5>
                     <p>Learn about our services through our official website and request an instant customized plan by
                         clicking on “Get a Quote”.
                     </p>
                     <br />
-                    <h5>2. Get Options & Booking Confirmation</h5>
+                    <h5 class="font-weight-bold">2. Get Options & Booking Confirmation</h5>
                     <p>
                         Choose your automobile shipping plan and obtain booking confirmation by following a simple order
                         booking
                         process.
                     </p>
                     <br />
-                    <h5>3. Wait for Speedy Shipping Delivery</h5>
+                    <h5 class="font-weight-bold">3. Wait for Speedy Shipping Delivery</h5>
                     <p>
                         That’s it; you are done here. Wait for the foremost and safe drop-off of your vehicle shipment
                         delivery.
@@ -909,20 +909,20 @@ services near you! We ensure safe, fast, and affordable auto transport services 
                         shippers, carriers, and consignees and
                         allow them to serve you with the best vehicle shipping service perks.</p>
                     <br />
-                    <h5>No More On-Road Snags</h5>
+                    <h5 class="font-weight-bold">No More On-Road Snags</h5>
                     <p>Fuel stops, vehicle maintenance and unpredictable weather are no longer on-route challenges for
                         ShipA1. Hire us and get uninterrupted
                         vehicle shipping experience.
                     </p>
                     <br />
-                    <h5>We Handle All Legal Compliance</h5>
+                    <h5 class="font-weight-bold">We Handle All Legal Compliance</h5>
                     <p>
                         Cargo detentions are never new in the USA. ShipA1’s carriers and drivers are qualified enough to
                         get through
                         each regulatory checkpoint and vehicle inspection station.
                     </p>
                     <br />
-                    <h5>Only Specialized Expert Carriers</h5>
+                    <h5 class="font-weight-bold">Only Specialized Expert Carriers</h5>
                     <p>
                         ShipA1 works for your exceptional service satisfaction. That’s why our assigned carrier
                         companions are trained to follow professional friendly gestures throughout car shipping
@@ -961,7 +961,7 @@ services near you! We ensure safe, fast, and affordable auto transport services 
                             </div>
                             <div class="col-md-4 col-sm-4 col-6">
                                 <div class="tj-icon-box3 text-center"><i class="flaticon flaticon-agreement"></i>
-                                    <h6 class="title">Safety &amp; Reliability</h6>
+                                    <h6 class="title">Safe &amp; Reliable</h6>
                                 </div>
                             </div>
                         </div>

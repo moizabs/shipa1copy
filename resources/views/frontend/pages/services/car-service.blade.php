@@ -1234,7 +1234,7 @@
             </div>
         </div>
     </section>
-    @include('partials.usa-states-map')
+    {{-- @include('partials.usa-states-map') --}}
     @include('partials.faqs')
     <section class="why-choose-us-slider">
         <div class="container">
