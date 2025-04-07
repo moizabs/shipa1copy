@@ -101,7 +101,7 @@
                 <h2>Frequently <span>Asked Questions</span> </h2>
                 <hr class="w-50">
                 <p>Have a look at answers to trending customer queries about our vehicle shipping services.</p>
-                    <a class="text-decoration-none  btnfaq" href="{{ route('faq') }}">Get Car Shipping Answer</a>
+                    <a class="text-decoration-none  btnfaq" href="{{ route('faq') }}">Get Detailed Shipping Answer</a>
             </div>
        </div>
 
