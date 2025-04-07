@@ -760,7 +760,7 @@
                                 The open transportation option in our shipping services is an element of a cost-efficient
                                 model. For
                                 multiple-vehicle transportation and budget-friendly packages, select the open transport
-                                option. ShipA1
+                                option. <a href="{{ route('home') }}">ShipA1</a> 
                                 makes sure to offer proper security for your transporting vehicle all across the USA.
                             </p>
                         </div>
@@ -1104,6 +1104,45 @@
         </div>
     </section>
     @include('partials.reveiw-small-detail')
+    <section class="tj-choose-us-section-home">
+        <div class="container">
+            <div class="row">
+                @if (session('success'))
+                    <div class="alert alert-success">{{ session('success') }}</div>
+                    @endif @if (session('error'))
+                        <div class="alert alert-error">{{ session('error') }}</div>
+                    @endif
+                    <div class="col-lg-6 sal-animate" data-sal="slide-left" data-sal-duration="800">
+                        <div class="choose-us-content-1">
+                            <div class="tj-section-heading"><span class="sub-title active-shape2">Get Instant quote</span>
+                                <h2 class="title fs-3">Get an instant quote in few simple steps</h2>
+                                <p class="desc">ShipA1 has pledged to provide all-in-one auto transport solutions to all
+                                    its customers and seeks your trust in return of our services.</p>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4 col-sm-4 col-6">
+                                    <div class="tj-icon-box3 text-center"><i class="flaticon flaticon-courier"></i>
+                                        <h6 class="title">Optimized Cost</h6>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-4 col-6">
+                                    <div class="tj-icon-box3 text-center"><i class="flaticon flaticon-cargo"></i>
+                                        <h6 class="title">Delivery on Time</h6>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-4 col-6">
+                                    <div class="tj-icon-box3 text-center"><i class="flaticon flaticon-agreement"></i>
+                                        <h6 class="title">Safety &amp; Reliability</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6" data-sal="slide-down" data-sal-duration="800">@include('partials.multi-form')
+                    </div>
+            </div>
+        </div>
+    </section>
     <section>
         <div class="container py-5  ">
             <h2 class="text-center pb-3">Why Get a Car Shipping Quote from Us?</h2>
@@ -1121,14 +1160,14 @@
                         <div><i class="fa-solid fa-file-shield"></i></div>
                     </div>
                     <h5>Budget Friendly Quotes</h5>
-                    <p>All car shipping costs and fares are designed as per your custom demands. Contact us and get your personalized quote today.</p>
+                    <p>All car shipping costs and fares are designed as per your custom demands. <a href="{{ route('contactUs') }}">Contact us</a>  and get your personalized quote today.</p>
                 </div>
                 <div class="top-notch-childs2  ">
                     <div>
                         <div><i class="fa-solid fa-people-arrows"></i></div>
                     </div>
                     <h5>All-in-One Services</h5>
-                    <p>There is a list of features and trailer types for your car, freight cargo, and heavy transportation needs. shipA1 is an omni-shipping service offering platform.</p>
+                    <p>There is a list of features and trailer types for your car, freight cargo, and <a href="{{ route('frontend.pages.services.heavy-service') }}">heavy transportation</a>  needs. shipA1 is an omni-shipping service offering platform.</p>
                 </div>
                 <div class="top-notch-childs2  ">
                     <div>
@@ -1154,6 +1193,7 @@
             </div>
         </div>
     </section>
+    
     <section class="tj-choose-us-section-service-cars-2 mt-4">
         <div class="container why-box">
             <div class="row services">
@@ -1194,6 +1234,7 @@
             </div>
         </div>
     </section>
+    @include('partials.usa-states-map')
     @include('partials.faqs')
     <section class="why-choose-us-slider">
         <div class="container">

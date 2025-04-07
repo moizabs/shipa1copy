@@ -354,11 +354,10 @@ services near you! We ensure safe, fast, and affordable auto transport services 
     </div>
 </section>
 {{-- @include('partials.reveiw-site') --}}
-@include('partials.reveiw-small-detail')
 <section>
     <div class="container mt-5">
         <div class="row">
-            <div class="col-lg-12 tj-section-heading">
+            <div class="col-lg-12 tj-section-heading mt-5">
                 <h4 class="text-center"><span class="sub-title active-shape">Your One-Stop Agency for Complete Auto
                         Shipping Services</h4>
                 <p class="text-center">
@@ -374,6 +373,7 @@ services near you! We ensure safe, fast, and affordable auto transport services 
         </div>
     </div>
 </section>
+@include('partials.reveiw-small-detail')
 <section class="tj-about-section">
     <div class="container">
         <div class="row">
@@ -473,6 +473,9 @@ services near you! We ensure safe, fast, and affordable auto transport services 
         </div>
     </div>
 </section>
+@include('partials.cta-section')
+
+
 {{-- @include('partials.car-cta-section') --}}
 <section class="tj-step-section">
     <div class="container">
@@ -603,131 +606,7 @@ services near you! We ensure safe, fast, and affordable auto transport services 
 {{-- <div class="container">
     
 </div> --}}
-<section class="tj-choose-us-section-service-moiz my-5">
-    <div class="container why-box">
-        <div class="row services">
-            
-                {{-- <p class="text-center">Find out who are our targeted businesses. It’s not just a common customer we
-                    cater to in the USA.
-                    ShipA1 is a brand of convenient and helpful assistance for each logistics transport requesting
-                    business platform.
-                </p> --}}
-            <div class="pt-5" style="background-color: rgba(255, 255, 255, 0.5); border-radius: 25px; ">
-                <h2 class="text-center" style="">ShipA1’s Conquered B2B Marketplace</h2>
-                <div class="service-section-parent gap-3 ">
-                    <div class="services-section ">
-                        <span>
-                            <h6 class="text-center font-weight-bold">Auto Dealerships</h6>
-                            <p class="text-center">Continuous collaboration opportunities for auto sales businesses.
-                            </p>
-                        </span>
-                    </div>
-                    <div class="services-section ">
-                        <span>
-                            <h6 class="text-center font-weight-bold">Auto Auctions</h6>
-                            <p class="text-center">Expedited shipping for vehicles destined for auctions.</p>
-                        </span>
-                    </div>
-                    <div class="services-section ">
-                        <span>
-                            <h6 class="text-center font-weight-bold">Company Vehicle Fleets</h6>
-                            <p class="text-center">Corporate firms are also our special B2B clients for car shipping.
-                            </p>
-                        </span>
-                    </div>
-                    <div class="services-section ">
-                        <span>
-                            <h6 class="text-center font-weight-bold">Rental Car Companies</h6>
-                            <p class="text-center">We are all set every day for rental car agencies.</p>
-                        </span>
-                    </div>
-                    <div class="services-section ">
-                        <span>
-                            <h6 class="text-center font-weight-bold">Manufacturing Hubs</h6>
-                            <p class="text-center">Fast and fully secure shipping for your manufacturing vehicles.</p>
-                        </span>
-                    </div>
 
-                </div>
-        </div>
-    </div>
-</section>
-<section>
-    <div class="container my-5">
-        <div class="row">
-            <div class="col-12 col-lg-7 ">
-                <div class="col-12 my-5 mx-2 tj-section-heading">
-                    <h3><span class="sub-title active-shape"> 3 Steps Order Booking Process - Get a Quote Today! </h3>
-                    <p>ShipA1 is a 24/7 active remotely available automobile shipping agency. Follow the process to
-                        book your vehicle transport consignment hassle-free.</p>
-                    <br />
-                    <h5>1. Request a Quote</h5>
-                    <p>Learn about our services through our official website and request an instant customized plan by
-                        clicking on “Get a Quote”.
-                    </p>
-                    <br />
-                    <h5>2. Get Options & Booking Confirmation</h5>
-                    <p>
-                        Choose your automobile shipping plan and obtain booking confirmation by following a simple order
-                        booking
-                        process.
-                    </p>
-                    <br />
-                    <h5>3. Wait for Speedy Shipping Delivery</h5>
-                    <p>
-                        That’s it; you are done here. Wait for the foremost and safe drop-off of your vehicle shipment
-                        delivery.
-                    </p>
-                </div>
-            </div>
-            <div class="col-12 col-lg-5  d-flex justify-content-center align-items-center"><img class="shadow-lg"
-                    src="{{ asset('public/frontend/images/about/450x500Nevada.jpg') }}" alt=""></div>
-        </div>
-    </div>
-</section>
-<section>
-    <div class="container my-5">
-        <div class="row">
-            <div class="col-12 col-lg-5 d-flex justify-content-center align-items-center">
-                <img class="shadow-lg img-fluid" src="{{ asset('public/frontend/images/about/450x500WestVirginia.jpg') }}"
-                    alt="">
-            </div>
-
-            <div class=" col-12 col-lg-7 ">
-                <div class="col-12 my-5 mx-2 tj-section-heading">
-                    <h3><span class="sub-title active-shape"> Don’t Worry About Your All Automobile Transport Hurdles
-                            in the USA</h3>
-                    <p>We got everything covered, you just have to reach out to our ready-to-assist expert team of
-                        shippers, carriers, and consignees and
-                        allow them to serve you with the best vehicle shipping service perks.</p>
-                    <br />
-                    <h5>No More On-Road Snags</h5>
-                    <p>Fuel stops, vehicle maintenance and unpredictable weather are no longer on-route challenges for
-                        ShipA1. Hire us and get uninterrupted
-                        vehicle shipping experience.
-                    </p>
-                    <br />
-                    <h5>We Handle All Legal Compliance</h5>
-                    <p>
-                        Cargo detentions are never new in the USA. ShipA1’s carriers and drivers are qualified enough to
-                        get through
-                        each regulatory checkpoint and vehicle inspection station.
-                    </p>
-                    <br />
-                    <h5>Only Specialized Expert Carriers</h5>
-                    <p>
-                        ShipA1 works for your exceptional service satisfaction. That’s why our assigned carrier
-                        companions are trained to follow professional friendly gestures throughout car shipping
-                        journeys.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-@include('partials.usa-states-map')
-@include('partials.faqs')
-@include('partials.cta-section')
 <section class="tj-team-section">
     <div class="container">
         <div class="tj-section-heading text-center">
@@ -932,6 +811,128 @@ services near you! We ensure safe, fast, and affordable auto transport services 
             @endforeach --}}
     </div>
 </section>
+<section class="tj-choose-us-section-service-moiz my-5" style=" background-image: url('../../img/1430_x_863_Nebraska%281%29.jpg'); ">
+    <div class="container why-box">
+        <div class="row services">
+            
+                {{-- <p class="text-center">Find out who are our targeted businesses. It’s not just a common customer we
+                    cater to in the USA.
+                    ShipA1 is a brand of convenient and helpful assistance for each logistics transport requesting
+                    business platform.
+                </p> --}}
+            <div class="pt-5" style="background-color: rgba(255, 255, 255, 0.5); border-radius: 25px; ">
+                <h2 class="text-center" style="">ShipA1’s Conquered B2B Marketplace</h2>
+                <div class="service-section-parent gap-3 ">
+                    <div class="services-section ">
+                        <span>
+                            <h6 class="text-center font-weight-bold">Auto Dealerships</h6>
+                            <p class="text-center">Continuous collaboration opportunities for auto sales businesses.
+                            </p>
+                        </span>
+                    </div>
+                    <div class="services-section ">
+                        <span>
+                            <h6 class="text-center font-weight-bold">Auto Auctions</h6>
+                            <p class="text-center">Expedited shipping for vehicles destined for auctions.</p>
+                        </span>
+                    </div>
+                    <div class="services-section ">
+                        <span>
+                            <h6 class="text-center font-weight-bold">Company Vehicle Fleets</h6>
+                            <p class="text-center">Corporate firms are also our special B2B clients for car shipping.
+                            </p>
+                        </span>
+                    </div>
+                    <div class="services-section ">
+                        <span>
+                            <h6 class="text-center font-weight-bold">Rental Car Companies</h6>
+                            <p class="text-center">We are all set every day for rental car agencies.</p>
+                        </span>
+                    </div>
+                    <div class="services-section ">
+                        <span>
+                            <h6 class="text-center font-weight-bold">Manufacturing Hubs</h6>
+                            <p class="text-center">Fast and fully secure shipping for your manufacturing vehicles.</p>
+                        </span>
+                    </div>
+
+                </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-12 col-lg-7 ">
+                <div class="col-12 my-5 mx-2 tj-section-heading">
+                    <h3><span class="sub-title active-shape"> 3 Steps Order Booking Process - Get a Quote Today! </h3>
+                    <p>ShipA1 is a 24/7 active remotely available automobile shipping agency. Follow the process to
+                        book your vehicle transport consignment hassle-free.</p>
+                    <br />
+                    <h5>1. Request a Quote</h5>
+                    <p>Learn about our services through our official website and request an instant customized plan by
+                        clicking on “Get a Quote”.
+                    </p>
+                    <br />
+                    <h5>2. Get Options & Booking Confirmation</h5>
+                    <p>
+                        Choose your automobile shipping plan and obtain booking confirmation by following a simple order
+                        booking
+                        process.
+                    </p>
+                    <br />
+                    <h5>3. Wait for Speedy Shipping Delivery</h5>
+                    <p>
+                        That’s it; you are done here. Wait for the foremost and safe drop-off of your vehicle shipment
+                        delivery.
+                    </p>
+                </div>
+            </div>
+            <div class="col-12 col-lg-5  d-flex justify-content-center align-items-center"><img class="shadow-lg"
+                    src="{{ asset('public/frontend/images/about/450x500Nevada.jpg') }}" alt=""></div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-12 col-lg-5 d-flex justify-content-center align-items-center">
+                <img class="shadow-lg img-fluid" src="{{ asset('public/frontend/images/about/450x500WestVirginia.jpg') }}"
+                    alt="">
+            </div>
+
+            <div class=" col-12 col-lg-7 ">
+                <div class="col-12 my-5 mx-2 tj-section-heading">
+                    <h3><span class="sub-title active-shape"> Don’t Worry About Your All Automobile Transport Hurdles
+                            in the USA</h3>
+                    <p>We got everything covered, you just have to reach out to our ready-to-assist expert team of
+                        shippers, carriers, and consignees and
+                        allow them to serve you with the best vehicle shipping service perks.</p>
+                    <br />
+                    <h5>No More On-Road Snags</h5>
+                    <p>Fuel stops, vehicle maintenance and unpredictable weather are no longer on-route challenges for
+                        ShipA1. Hire us and get uninterrupted
+                        vehicle shipping experience.
+                    </p>
+                    <br />
+                    <h5>We Handle All Legal Compliance</h5>
+                    <p>
+                        Cargo detentions are never new in the USA. ShipA1’s carriers and drivers are qualified enough to
+                        get through
+                        each regulatory checkpoint and vehicle inspection station.
+                    </p>
+                    <br />
+                    <h5>Only Specialized Expert Carriers</h5>
+                    <p>
+                        ShipA1 works for your exceptional service satisfaction. That’s why our assigned carrier
+                        companions are trained to follow professional friendly gestures throughout car shipping
+                        journeys.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 <section class="tj-choose-us-section-home">
     <div class="container">
         <div class="row">
@@ -971,6 +972,10 @@ services near you! We ensure safe, fast, and affordable auto transport services 
         </div>
     </div>
 </section>
+@include('partials.usa-states-map')
+@include('partials.faqs')
+
+
 {{-- <section class="tj-map-section">
         <div class="google-map"><iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3105.167331138309!2d-76.66251388426676!3d39.496062943506464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c81261c3eae243%3A0x81e995e93023e64a!2s201%20International%20Cir%20STE%20230%2C%20Hunt%20Valley%2C%20MD%2021030%2C%20USA!5e0!3m2!1sen!2s!4v1649863458559!5m2!1sen!2s"
