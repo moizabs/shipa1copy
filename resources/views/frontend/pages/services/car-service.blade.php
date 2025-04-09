@@ -820,7 +820,7 @@
     <section class="tj-about-section pt-0">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 col-md-12 order-sm-1 order-md-1 order-2 d-flex align-items-center justify-content-center sal-animate"
+                {{-- <div class="col-lg-4 col-md-12 order-sm-1 order-md-1 order-2 d-flex align-items-center justify-content-center sal-animate"
                     data-sal="slide-left" data-sal-duration="800">
                     <div class="mt-4 rounded ">
                         <div class="image-box">
@@ -835,8 +835,8 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-8 col-md-12 order-sm-2 order-md-2 order-1 d-flex align-items-center justify-content-center sal-animate pt-4 mt-4"
+                </div> --}}
+                {{-- <div class="col-lg-8 col-md-12 order-sm-2 order-md-2 order-1 d-flex align-items-center justify-content-center sal-animate pt-4 mt-4"
                     data-sal="slide-left" data-sal-duration="800">
                     <div class="about-content-one">
                         <div class="tj-section-heading">
@@ -853,10 +853,10 @@
                             </p>
                         </div>
                     </div>
-                </div>
+                </div> --}}
             </div>
             <div class="row">
-                <div class="col-lg-8 col-md-12 order-sm-2 order-md-1 order-1 d-flex align-items-center justify-content-center sal-animate pt-4 mt-4"
+                {{-- <div class="col-lg-8 col-md-12 order-sm-2 order-md-1 order-1 d-flex align-items-center justify-content-center sal-animate pt-4 mt-4"
                     data-sal="slide-left" data-sal-duration="800">
                     <div class="about-content-one">
                         <div class="tj-section-heading">
@@ -877,8 +877,8 @@
                         </div>
 
                     </div>
-                </div>
-                <div class="col-lg-4 col-md-12 order-sm-1 order-md-2 order-2 d-flex align-items-center justify-content-center sal-animate"
+                </div> --}}
+                {{-- <div class="col-lg-4 col-md-12 order-sm-1 order-md-2 order-2 d-flex align-items-center justify-content-center sal-animate"
                     data-sal="slide-left" data-sal-duration="800">
                     <div class="mt-4 rounded ">
                         <div class="image-box">
@@ -893,7 +893,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> --}}
             </div>
         </div>
     </section>
@@ -929,7 +929,7 @@
     <section class="tj-about-section pt-0">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 col-md-12 order-sm-2 order-md-2 order-1 d-flex align-items-center justify-content-center sal-animate pt-4 mt-4"
+                {{-- <div class="col-lg-8 col-md-12 order-sm-2 order-md-2 order-1 d-flex align-items-center justify-content-center sal-animate pt-4 mt-4"
                     data-sal="slide-left" data-sal-duration="800">
                     <div class="about-content-one">
                         <div class="tj-section-heading">
@@ -961,10 +961,10 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> --}}
             </div>
             <div class="row">
-                <div class="col-lg-4 col-md-12 order-sm-1 order-md-2 order-2 d-flex align-items-center justify-content-center sal-animate"
+                {{-- <div class="col-lg-4 col-md-12 order-sm-1 order-md-2 order-2 d-flex align-items-center justify-content-center sal-animate"
                     data-sal="slide-left" data-sal-duration="800">
                     <div class="mt-4 rounded ">
                         <div class="image-box">
@@ -998,7 +998,7 @@
                         </div>
 
                     </div>
-                </div>
+                </div> --}}
                 
             </div>
         </div>
@@ -1067,14 +1067,8 @@
                                         </div>
                                         <div class="col-sm-6 d-flex align-items-center justify-content-center">
                                             <div class="card-body tj-section-heading mb-0">
-                                                <h5 class="card-title sub-title active-shape">Enclosed transport</h5>
-                                                <p class="card-text  text-dark">Enclosed transport service is the ideal
-                                                    option for people who want to provide their cars
-                                                    additional security. Although a little more expensive, guarantees that
-                                                    your vehicle
-                                                    is completely protected from outside elements including weather, road
-                                                    debris, and other possible
-                                                    threats.</p>
+                                                <h5 class="card-title sub-title active-shape">Enclosed Trailer Car Shipping Service</h5>
+                                                <p class="card-text  text-dark">Here comes the most protected trailer type offered by ShipA1. Enclosed transport is a universal-satisfactory choice for luxury and high-rated cars. The fully digitally integrated walls and roof make sure to keep your premium automobile protected from sunshine, roadside dust, and other vehicle damage. Enclosed transport is considerable for exotic cars, as prices are a bit higher than regular vehicle shipping trailers.</p>
                                                 <div class="tj-theme-button mt-2">
                                                     <a class="tj-transparent-btn"
                                                         href="{{ route('frontend.forms.dryvan') }}">
@@ -1102,14 +1096,8 @@
                                         </div>
                                         <div class="col-sm-6 d-flex align-items-center justify-content-center">
                                             <div class="card-body tj-section-heading mb-0">
-                                                <h5 class="card-title sub-title active-shape">Open Transport</h5>
-                                                <p class="card-text  text-dark">This is the usual method we use while
-                                                    shipping cars. The most affordable choice for car transportation
-                                                    is an open transport, which makes it perfect for individuals looking for
-                                                    a low-cost option. Due of its
-                                                    price and effectiveness, this method is very popular even if your car
-                                                    faces exposure to the environment
-                                                    while in transit.</p>
+                                                <h5 class="card-title sub-title active-shape">Open Trailer Car Shipping Service</h5>
+                                                <p class="card-text  text-dark">The open transportation option in our shipping services is an element of a cost-efficient model. For multiple-vehicle transportation and budget-friendly packages, select the open transport option. ShipA1 makes sure to offer proper security for your transporting vehicle all across the USA.</p>
                                                 <div class="tj-theme-button mt-2">
                                                     <a class="tj-transparent-btn"
                                                         href="{{ route('frontend.forms.dryvan') }}">
@@ -1131,11 +1119,8 @@
                                     <div class="row g-0">
                                         <div class="col-sm-6 d-flex align-items-center justify-content-center">
                                             <div class="card-body tj-section-heading mb-0">
-                                                <h5 class="card-title sub-title active-shape">Drop Deck Trailers</h5>
-                                                <p class="card-text text-dark">These types of trailers usually are pretty
-                                                    similar to flatbeds but with a lower deck, which allows easy
-                                                    transportation
-                                                    of dry vans that exceeds the height limit.</p>
+                                                <h5 class="card-title sub-title active-shape">Drop Deck Trailer Car Shipping Service</h5>
+                                                <p class="card-text text-dark">Top choice for taller vehicles. For easy rides of your vehicles, choose the drop deck trailer option. ShipA1 never comes short on the hauler and trailer types. It’s not only about offering the best car shipping services under convincible transportation rates, but also about your custom demands; let us suggest the best vehicle transportation alternative.</p>
                                                 <div class="tj-theme-button mt-2">
                                                     <a class="tj-transparent-btn"
                                                         href="{{ route('frontend.forms.dryvan') }}">
@@ -1163,10 +1148,8 @@
                                     <div class="row g-0">
                                         <div class="col-sm-6 d-flex align-items-center justify-content-center">
                                             <div class="card-body tj-section-heading mb-0">
-                                                <h5 class="card-title sub-title active-shape">Flatbed Trailers</h5>
-                                                <p class="card-text text-dark">These trailers are equipped with a flatbed
-                                                    without any sides or roof, which allows them
-                                                    to load and unload commercial trucks from any convenient angle.</p>
+                                                <h5 class="card-title sub-title active-shape">Flatbed Trailer Car Shipping Service</h5>
+                                                <p class="card-text text-dark">This trailer type also remains standard, non-enclosed like drop decks and open transport options. But still, go for a Flatbed if you need a suitable auto transport truck for inoperable and oversized vehicles. Let us know how you want your car shipped. With custom security attachments, we serve with a hundred percent insurance covering support.</p>
                                                 <div class="tj-theme-button mt-2">
                                                     <a class="tj-transparent-btn"
                                                         href="{{ route('commercial.truck.transport') }}">
