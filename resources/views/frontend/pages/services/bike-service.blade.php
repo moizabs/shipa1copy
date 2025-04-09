@@ -1,6 +1,7 @@
 @extends('frontend.layouts.app')
 @section('title', 'Best Bike Transportation Services In The USA – Affordable & Secure Shipping')
-@section('meta_description', 'Looking for a top motorcycle shipping services? Ship A1 offers safe, reliable, and
+@section('meta_description',
+    'Looking for a top motorcycle shipping services? Ship A1 offers safe, reliable, and
     affordable bike transportation services across the USA. Get a free quote now!')
 @section('canonical')
     <link rel="canonical" href="{{ url()->current() }}">
@@ -194,6 +195,7 @@
             line-height: 1.6;
             opacity: 0.9;
         }
+
         .top-notch-parent {
             display: grid;
             grid-template-columns: auto auto auto;
@@ -205,12 +207,13 @@
 
         @media only screen and (max-width: 1000px) {
             .top-notch-parent {
-                grid-template-columns: auto auto ;
+                grid-template-columns: auto auto;
             }
         }
+
         @media only screen and (max-width: 560px) {
             .top-notch-parent {
-                grid-template-columns: auto ;
+                grid-template-columns: auto;
             }
         }
 
@@ -221,11 +224,13 @@
             padding: 50px 10px;
             text-align: center;
         }
-        .top-notch-childs:hover{
-            transition: 2s; 
-            border: 1px solid #062e39 ; 
+
+        .top-notch-childs:hover {
+            transition: 2s;
+            border: 1px solid #062e39;
 
         }
+
         .top-notch-childs div {
             display: flex;
             justify-content: center;
@@ -244,6 +249,7 @@
             font-size: 25px;
             color: #062e39;
         }
+
         .top-notch-parent2 {
             display: grid;
             grid-template-columns: auto auto auto;
@@ -255,12 +261,13 @@
 
         @media only screen and (max-width: 1000px) {
             .top-notch-parent2 {
-                grid-template-columns: auto auto ;
+                grid-template-columns: auto auto;
             }
         }
+
         @media only screen and (max-width: 560px) {
             .top-notch-parent2 {
-                grid-template-columns: auto ;
+                grid-template-columns: auto;
             }
         }
 
@@ -272,13 +279,14 @@
             text-align: center;
             position: relative;
         }
+
         .top-notch-childs2:hover {
             background-color: #062e39;
             color: #f1f1f1;
-           transition: 1s;
+            transition: 1s;
         }
 
-       
+
 
         .top-notch-childs2 div {
             margin-right: 20px;
@@ -301,58 +309,69 @@
             font-weight: 800;
             color: #062e39;
         }
-        .side-container{
-           display: flex;
-           justify-content: center;
-           align-items: center;
-           margin: 50px auto;
-           padding:20px;
+
+        .side-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 50px auto;
+            padding: 20px;
         }
-        .side-container div h2{
+
+        .side-container div h2 {
             color: #062e39;
         }
+
         .side-container div p {
             color: #062e39;
         }
-        .side-container div h2 span{
+
+        .side-container div h2 span {
             color: #8fc445;
             font-weight: 700;
         }
-        .side-container div hr{
+
+        .side-container div hr {
             color: #8fc445;
-            height: 8px;    
-            opacity: 1; 
+            height: 8px;
+            opacity: 1;
             /* border-radius: 5px; */
             border-top-left-radius: 50px;
             border-bottom-right-radius: 50px;
         }
-        .btnfaq{
+
+        .btnfaq {
             border: none;
             border-radius: 5px;
             background-color: #8fc445;
             color: white;
-            padding: 6px ;
+            padding: 6px;
             transition: 1s;
         }
-        .btnfaq:hover{
+
+        .btnfaq:hover {
             background-color: #062e39;
             color: white;
         }
+
         .faq-container {
             max-width: 700px;
             margin: 50px auto;
             background: #fff;
-            padding:20px;
+            padding: 20px;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
+
         .faq-container h2 {
             text-align: center;
             color: #8fc445;
         }
+
         .faq {
             border-bottom: 1px solid #ddd;
         }
+
         .faq button {
             width: 100%;
             background: none;
@@ -368,9 +387,11 @@
             justify-content: space-between;
             align-items: center;
         }
+
         .faq button:hover {
             background: #f1f1f1;
         }
+
         .faq-content {
             display: none;
             padding: 15px;
@@ -378,6 +399,7 @@
             background: #f9f9f9;
             border-radius: 5px;
         }
+
         .open-faq {
             background: #d22;
             color: white;
@@ -531,15 +553,15 @@
                                             </ul>
                                         </div>
                                         <!-- <select class="nice-select year vehicle-year custom-select-style" name="year[]"
-                                                    id="year" required>
-                                                    <option value="" disabled selected>Select Year</option>
-                                                    @php
-                                                        $currentYear = date('Y');
-                                                        for ($year = $currentYear; $year >= 1936; $year--) {
-                                                            echo "<option value='$year'>$year</option>";
-                                                        }
-                                                    @endphp
-                                                </select> -->
+                                                        id="year" required>
+                                                        <option value="" disabled selected>Select Year</option>
+                                                        @php
+                                                            $currentYear = date('Y');
+                                                            for ($year = $currentYear; $year >= 1936; $year--) {
+                                                                echo "<option value='$year'>$year</option>";
+                                                            }
+                                                        @endphp
+                                                    </select> -->
                                         <div class="error-message" style="color: red; display: none;">
                                             Please select a year.
                                         </div>
@@ -631,25 +653,33 @@
             </div>
         </div>
     </section>
+    @include('partials.reveiw-small-detail')
     <section>
-        <div class="container my-5  shadow-lg  bg-white rounded">
-            <h2 class="text-center py-3 " style="color: #8FC445;">Why Choose Us</h2>
+        <div class="container my-5  shadow-lg  bg-white rounded" style="background-image: url(''); background-size: cover; background-position: center;">
+            <h2 class="text-center py-3 mt-4 " style="color: #062e39;">What Sets Ship A1 Apart</h2>
+            {{-- <div class="col-lg-12 d-flex align-items-center justify-content-center ">
+                <div class="card-body col-sm-4 tj-section-heading mb-0 ">
+                    <h5 class="card-title sub-title active-shape ">What Sets Ship A1 Apart</h5>
+                </div>
+            </div> --}}
             <div class="row">
-                <div class="col-7  py-5 px-5">
+                <div class="col-lg-7 col-md-7 col-12  pb-5 pt-0 px-5" style="color: #062e39;">
                     <h3>Your Native Companion for Fully Secured Bike Shipping Service</h3>
                     <p>
                         Others start by listing the price tags and additional charges for their shipping solutions of
-                        <a href="{{ route('services') }}">transport services</a> . Our agency is different or unique. We understand what you demand and intend from
+                        <a href="{{ route('services') }}">transport services</a> . Our agency is different or unique. We
+                        understand what you demand and intend from
                         a leading motorcycle shipping partner. The team knows that you need the best plus convenient bike
                         transport service package, city-to-city delivery within a couple of days, and a proper two-wheeler
                         insurance plan. Trust the service, experience, and skilled team.
                     </p>
                 </div>
-                <div class="col-5  py-5 px-5">
-                    <h6>Best from Our Bike Transport Service</h6>
+                <div class="col-lg-5  col-md-5 col-12 pb-5 pt-0 px-5 " style="color: #062e39;">
+                    <h5>Best from Our Bike Transport Service</h5>
                     <ul>
                         <li>Custom plan for each transport order.</li>
-                        <li><a href="{{ route('frontend.pages.services.bike-service') }}">Quick bike quote</a>  response.</li>
+                        <li><a href="{{ route('frontend.pages.services.bike-service') }}">Quick bike quote</a> response.
+                        </li>
                         <li>Professional consultation about bike shipping</li>
                         <li>No additional costs for extra protection.</li>
                         <li>Fast and smoother on-route experience.</li>
@@ -661,7 +691,7 @@
     </section>
 
     <section class="tj-about-section pt-0">
-        <div class="container pb-4">
+        {{-- <div class="container pb-4">
             <div class="row">
                 <div class="col-lg-4 col-md-12 order-sm-1 order-md-1 order-2 d-flex align-items-center justify-content-center sal-animate"
                     data-sal="slide-left" data-sal-duration="800">
@@ -692,7 +722,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> --}}
         <section>
             <div class="container py-5  ">
                 <h2 class="text-center pb-3">Are ShipA1’s Car Transport Services Top-Notch & Reliable Enough?</h2>
@@ -721,101 +751,33 @@
                 </div>
             </div>
         </section>
-        @include('partials.cta-section')
-        <section>
-            <div class="container py-5  ">
-                <h2 class="text-center pb-3">Shipping Edges After Choosing Us for Bike Shipping Service</h2>
-                <p class="text-center">Your stop at ShipA1 is going to be a relaxing ride. You asked for your top bike transportation in USA and here we are with the best assistance.</p>
-                <div class=" top-notch-parent2">
-                    <div class="top-notch-childs2  ">
-                        <div>
-                            <div>i</div>
-                        </div>
-                        <h5>Expert Shippers </h5>
-                        <p>We are here for you. That’s the reason we only work with professional drivers and carriers for safe bike transport delivery. </p>
-                    </div>
-                    <div class="top-notch-childs2  ">
-                        <div>
-                            <div>ii</div>
-                        </div>
-                        <h5>No More Delays</h5>
-                        <p>Get notified about every shipping step. Like pickup, loading, and delivery drop-off. It’s on you how you want to monitor.</p>
-                    </div>
-                    <div class="top-notch-childs2  ">
-                        <div>
-                            <div>iii</div>
-                        </div>
-                        <h5>Early Pick </h5>
-                        <p>The team starts working on your shipment right after the confirmation of your bike transport service booking. Our team is at your service.</p>
-                    </div>
-                    <div class="top-notch-childs2  ">
-                        <div>
-                            <div>iV</div>
-                        </div>
-                        <h5>Timely Drop-Off </h5>
-                        <p>After confirmation, we suggest you wait for the delivery. Because we don’t disturb our clients throughout shipping journeys.</p>
-                    </div>
-                    <div class="top-notch-childs2  ">
-                        <div>
-                            <div>V</div>
-                        </div>
-                        <h5>Full Insurance Support </h5>
-                        <p>Don’t worry about your vehicle safety; let us handle everything for you. ShipA1 got you covered with careful transportation and strong insurance backup.</p>
-                    </div>
-                    <div class="top-notch-childs2  ">
-                        <div>
-                            <div>Vi</div>
-                        </div>
-                        <h5>Fully Secured Transport </h5>
-                        <p>It’s open, enclosed, or expedited shipping of your beloved bike. Every motorcycle is loaded within a high-tech fully secured trailer.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <div class="container">
-            <div class="row d-flex justify-content-center">
-                <div class="col-lg-6 col-md-6 order-sm-2 order-md-1 order-1 d-flex align-items-center justify-content-center sal-animate pt-4 mt-4"
+        {{-- <div class="container">
+            <div class="row ">
+                <div class="col-lg-8 col-md-8 order-sm-2 order-md-1 order-1 d-flex align-items-center justify-content-center sal-animate pt-4 mt-4"
                     data-sal="slide-left" data-sal-duration="800">
                     <div class="about-content-one">
                         <div class="tj-section-heading">
-                            <h3 class="sal-animate" data-sal="slide-left" data-sal-duration="800">Types of Motorbikes We Transport Nationwide </h3>
+                                    <h5 class="card-title sub-title active-shape ">Types of Motorbikes We Transport Nationwide</h5>
+                               
                             <p class="desc">
-                                This special motorbike transport service can load every type of motorcycle. Such as these shared below:
+                                This special motorbike transport service can load every type of motorcycle. Such as these
+                                shared below:
                             </p>
-                            <div class="row gap-5">
-                                <div class="col-4">
+                            <div class="row ">
                                     <h6>Street Motorbikes </h6>
-                                    <ul>
-                                        <li>Sports bikes</li>
-                                        <li>Cafe racers </li>
-                                        <li>Cruiser bikes </li>
-                                        <li>Electric bikes</li>
-                                    </ul>
-                                    <h6>Street Motorbikes </h6>
-                                    <ul>
-                                        <li>Commuter bikes</li>
-                                        <li>Scooters </li>
-                                        <li>Mopeds  </li>
-                                    </ul>
-                                </div>
+                                    <p>Designed for urban agility and speed, street motorbikes offer a sleek and responsive ride perfect for daily commutes or city exploration. With their lightweight frames and sharp handling, these bikes thrive on paved roads and tight turns.</p>
+                                    <h6> Touring Motorbikes </h6>
+                                    <p>Built for long-distance comfort and performance, touring motorbikes are ideal for riders who crave the open road. Featuring advanced ergonomics, spacious storage, and powerful engines, they make cross-country adventures smooth and enjoyable.</p>
 
-                                <div class="col-4">
-                                    <h6>Street Motorbikes </h6>
-                                    <ul>
-                                        <li>Adventure bikes</li>
-                                        <li>Dirt bikes</li>
-                                        
-                                    </ul>
-                                    <h6>Street Motorbikes </h6>
-                                    <ul>
-                                        <li>Tricks & three-wheelers</li>
-                                        <li>Custom bikes </li>
-                                    </ul>
-                                </div>
+                                    <h6>Off-Road Motorbikes</h6>
+                                    <p>Engineered to conquer rough terrains, off-road motorbikes are perfect for adventure seekers who thrive on dirt trails, rocky paths, and muddy tracks. Their rugged suspension and durable build deliver control and confidence in extreme conditions.</p>
+                                   
+                                    <h6>Multi-Wheel Motorbikes </h6>
+                                    <p>Offering enhanced stability and unique design, multi-wheel motorbikes combine the thrill of riding with added safety. Whether for urban travel or touring, they provide a secure and innovative experience for riders of all skill levels.</p>
 
                             </div>
-                           
-                            
+
+
                         </div>
                     </div>
                 </div>
@@ -829,7 +791,102 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> --}}
+        {{-- <div class="container pb-4">
+            <div class="row d-flex justify-content-center">
+                <div class="col-lg-4 col-md-4 order-sm-1 order-md-1 order-2 d-flex align-items-center justify-content-center sal-animate"
+                    data-sal="slide-left" data-sal-duration="800">
+                    <div class="mt-4 rounded">
+                        <div class="image-box">
+                            <img class="rounded"
+                                src="{{ asset('/frontend/images/project/2a-image-for-motorcycle-transport-_1_.webp') }}"
+                                alt="Image">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 order-sm-2 order-md-2 order-1 d-flex align-items-center justify-content-center sal-animate pt-4 mt-4"
+                    data-sal="slide-left" data-sal-duration="800">
+                    <div class="about-content-one">
+                        <div class="tj-section-heading">
+                            <h3 class="sal-animate" data-sal="slide-left" data-sal-duration="800">Type of Trailers for
+                                Your Motorbike Transport </h3>
+                            <p class="desc">
+                                <strong> Open Trailer:</strong> Convenient and most used motorbike shipping type
+                            </p>
+                            <p class="desc">
+                                <strong>Enclosed Trailer:</strong> Best for your luxurious and vintage motorbikes.
+                            </p>
+                            <p class="desc">
+                                <strong> Single Bike Trailer:</strong> Fully secured haulers. Mostly in enclosed walls.
+                            </p>
+                            <p class="desc">
+                                <strong> Multiple Bikes Trailer:</strong> Bulk bike transport option for used and new
+                                two-wheelers.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> --}}
+        @include('partials.cta-section')
+        <section>
+            <div class="container py-5  ">
+                <h2 class="text-center pb-3">Shipping Edges After Choosing Us for Bike Shipping Service</h2>
+                <p class="text-center">Your stop at ShipA1 is going to be a relaxing ride. You asked for your top bike
+                    transportation in USA and here we are with the best assistance.</p>
+                <div class=" top-notch-parent2">
+                    <div class="top-notch-childs2  ">
+                        <div>
+                            <div>i</div>
+                        </div>
+                        <h5>Expert Shippers </h5>
+                        <p>We are here for you. That’s the reason we only work with professional drivers and carriers for
+                            safe bike transport delivery. </p>
+                    </div>
+                    <div class="top-notch-childs2  ">
+                        <div>
+                            <div>ii</div>
+                        </div>
+                        <h5>No More Delays</h5>
+                        <p>Get notified about every shipping step. Like pickup, loading, and delivery drop-off. It’s on you
+                            how you want to monitor.</p>
+                    </div>
+                    <div class="top-notch-childs2  ">
+                        <div>
+                            <div>iii</div>
+                        </div>
+                        <h5>Early Pick </h5>
+                        <p>The team starts working on your shipment right after the confirmation of your bike transport
+                            service booking. Our team is at your service.</p>
+                    </div>
+                    <div class="top-notch-childs2  ">
+                        <div>
+                            <div>iV</div>
+                        </div>
+                        <h5>Timely Drop-Off </h5>
+                        <p>After confirmation, we suggest you wait for the delivery. Because we don’t disturb our clients
+                            throughout shipping journeys.</p>
+                    </div>
+                    <div class="top-notch-childs2  ">
+                        <div>
+                            <div>V</div>
+                        </div>
+                        <h5>Full Insurance Support </h5>
+                        <p>Don’t worry about your vehicle safety; let us handle everything for you. ShipA1 got you covered
+                            with careful transportation and strong insurance backup.</p>
+                    </div>
+                    <div class="top-notch-childs2  ">
+                        <div>
+                            <div>Vi</div>
+                        </div>
+                        <h5>Fully Secured Transport </h5>
+                        <p>It’s open, enclosed, or expedited shipping of your beloved bike. Every motorcycle is loaded
+                            within a high-tech fully secured trailer.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         {{-- <div class="container">
             <div class="row">
                 <h2 class="title sal-animate text-center pt-4" data-sal="slide-left" data-sal-duration="800">
@@ -900,40 +957,8 @@
             </div>
         </div> --}}
     </section>
-    <div class="container pb-4">
-        <div class="row d-flex justify-content-center">
-            <div class="col-lg-4 col-md-4 order-sm-1 order-md-1 order-2 d-flex align-items-center justify-content-center sal-animate"
-                data-sal="slide-left" data-sal-duration="800">
-                <div class="mt-4 rounded">
-                    <div class="image-box">
-                        <img class="rounded"
-                            src="{{ asset('/frontend/images/project/2a-image-for-motorcycle-transport-_1_.webp') }}"
-                            alt="Image">
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6 col-md-12 order-sm-2 order-md-2 order-1 d-flex align-items-center justify-content-center sal-animate pt-4 mt-4"
-                data-sal="slide-left" data-sal-duration="800">
-                <div class="about-content-one">
-                    <div class="tj-section-heading">
-                        <h3 class="sal-animate" data-sal="slide-left" data-sal-duration="800">Type of Trailers for Your Motorbike Transport </h3>
-                        <p class="desc">
-                           <strong> Open Trailer:</strong> Convenient and most used motorbike shipping type
-                        </p>
-                        <p class="desc">
-                            <strong>Enclosed Trailer:</strong> Best for your luxurious and vintage motorbikes. 
-                        </p>
-                        <p class="desc">
-                           <strong> Single Bike Trailer:</strong> Fully secured haulers. Mostly in enclosed walls. </p>
-                        <p class="desc">
-                           <strong> Multiple Bikes Trailer:</strong> Bulk bike transport option for used and new two-wheelers. 
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-  
+
+
     <section class="tj-testimonial-section">
         <div class="container">
             <div class="row">
@@ -1011,7 +1036,7 @@
             </div>
         </div>
     </section>
-    <section class="tj-choose-us-section-service-bike-6">
+    {{-- <section class="tj-choose-us-section-service-bike-6">
         <div class="container why-box">
             <div class="row services">
                 <div class="col-12">
@@ -1051,60 +1076,68 @@
                 </div>
             </div>
         </div>
-    </section>
-    <br>
+    </section> --}}
     <br>
     @include('partials.usa-states-map')
     <div class="container">
         <div class="row p-5">
-           <div class="side-container col-12 col-lg-5 ">
+            <div class="side-container col-12 col-lg-5 ">
                 <div>
                     <h2>Frequently <span>Asked Questions</span> </h2>
                     <hr class="w-50">
                     <p>Have a look at answers to trending customer queries about our vehicle shipping services.</p>
-                        <a class="text-decoration-none  btnfaq" href="{{ route('faq') }}">Get Detailed Shipping Answer</a>
+                    <a class="text-decoration-none  btnfaq" href="{{ route('faq') }}">Get Detailed Shipping Answer</a>
                 </div>
-           </div>
-    
-           <div class="col-12 col-lg-7">
-            <div class="faq-container">
-                <div class="faq">
-                    <button class="faq-toggle">Is ShipA1 available in New York & California?<span>+</span></button>
-                    <div class="faq-content">
-                        <p>Yes, we are active in all fifty states of the USA for car, bike, freight, and heavy transport. </p>
-                    </div>
-                </div>
-            
-                <div class="faq">
-                    <button class="faq-toggle">Can you transport my sports and cruiser bikes to the USA?  <span>+</span></button>
-                    <div class="faq-content">
-                        <p>We are open for transportation of every type of bike. Choose the trailer type and share needed info (year, make, and year) about your bike.</p>
-                    </div>
-                </div>
-            
-                <div class="faq">
-                    <button class="faq-toggle">Does ShipA1 have the cheapest bike shipping service? <span>+</span></button>
-                    <div class="faq-content">
-                        <p>We do not just offer the most convenient bike shipping offer; our expert team also serves with the best trailer security and monitoring in each transport service all across the USA. </p>
-                    </div>
-                </div>
-                
-                <div class="faq">
-                    <button class="faq-toggle">What do I need for safe bike transport service in the USA? <span>+</span></button>
-                    <div class="faq-content">
-                        <p>Not much just ID, title of ownership, bike documentation, insurance, and BOL. These shared requirements allow you for safe motorcycle transport.</p>
-                    </div>
-                </div>
-            
-                <div class="faq">
-                    <button class="faq-toggle">Can I get a bike shipping service right now?<span>+</span></button>
-                    <div class="faq-content">
-                        <p>Yes, and it just takes a few minutes of yours. Click on < Get a Quote>, select the service, and fill out a short online form.</p>
-                    </div>
-                </div>
-            
             </div>
-           </div>
+
+            <div class="col-12 col-lg-7">
+                <div class="faq-container">
+                    <div class="faq">
+                        <button class="faq-toggle">Is ShipA1 available in New York & California?<span>+</span></button>
+                        <div class="faq-content">
+                            <p>Yes, we are active in all fifty states of the USA for car, bike, freight, and heavy
+                                transport. </p>
+                        </div>
+                    </div>
+
+                    <div class="faq">
+                        <button class="faq-toggle">Can you transport my sports and cruiser bikes to the USA?
+                            <span>+</span></button>
+                        <div class="faq-content">
+                            <p>We are open for transportation of every type of bike. Choose the trailer type and share
+                                needed info (year, make, and year) about your bike.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq">
+                        <button class="faq-toggle">Does ShipA1 have the cheapest bike shipping service?
+                            <span>+</span></button>
+                        <div class="faq-content">
+                            <p>We do not just offer the most convenient bike shipping offer; our expert team also serves
+                                with the best trailer security and monitoring in each transport service all across the USA.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="faq">
+                        <button class="faq-toggle">What do I need for safe bike transport service in the USA?
+                            <span>+</span></button>
+                        <div class="faq-content">
+                            <p>Not much just ID, title of ownership, bike documentation, insurance, and BOL. These shared
+                                requirements allow you for safe motorcycle transport.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq">
+                        <button class="faq-toggle">Can I get a bike shipping service right now?<span>+</span></button>
+                        <div class="faq-content">
+                            <p>Yes, and it just takes a few minutes of yours. Click on < Get a Quote>, select the service,
+                                    and fill out a short online form.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
         </div>
     </div>
     @include('partials.blog-slider')
@@ -1206,22 +1239,22 @@
         });
 
         document.querySelectorAll(".faq-toggle").forEach(button => {
-        button.addEventListener("click", () => {
-            const faqContent = button.nextElementSibling;
-            const isOpen = button.classList.contains("open-faq");
+            button.addEventListener("click", () => {
+                const faqContent = button.nextElementSibling;
+                const isOpen = button.classList.contains("open-faq");
 
-            document.querySelectorAll(".faq-toggle").forEach(btn => {
-                btn.classList.remove("open-faq");
-                btn.nextElementSibling.style.display = "none";
-                btn.querySelector("span").textContent = "+";
+                document.querySelectorAll(".faq-toggle").forEach(btn => {
+                    btn.classList.remove("open-faq");
+                    btn.nextElementSibling.style.display = "none";
+                    btn.querySelector("span").textContent = "+";
+                });
+
+                if (!isOpen) {
+                    button.classList.add("open-faq");
+                    faqContent.style.display = "block";
+                    button.querySelector("span").textContent = "-";
+                }
             });
-
-            if (!isOpen) {
-                button.classList.add("open-faq");
-                faqContent.style.display = "block";
-                button.querySelector("span").textContent = "-";
-            }
         });
-    });
     </script>
 @endsection
