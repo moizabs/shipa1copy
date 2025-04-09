@@ -906,8 +906,7 @@ services near you! We ensure safe, fast, and affordable auto transport services 
 
             <div class=" col-12 col-lg-7 ">
                 <div class="col-12 my-5 mx-2 tj-section-heading">
-                    <h3><span class="sub-title active-shape"> Don’t Worry About Your All Automobile Transport Hurdles
-                            in the USA</h3>
+                    <h3><span class="sub-title active-shape"> Say Goodbye to Auto Transport Hassles in the USA</h3>
                     <p>We got everything covered, you just have to reach out to our ready-to-assist expert team of
                         shippers, carriers, and consignees and
                         allow them to serve you with the best vehicle shipping service perks.</p>
