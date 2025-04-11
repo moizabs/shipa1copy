@@ -963,7 +963,7 @@
         <div class="container">
             <div class="row">
                 <div class="tj-section-heading text-center">
-                    <h5 class="title fs-1">Advanced Trailers used for Motorcycles</h5>
+                    <h5 class="title fs-1">Advanced Trailers used for Motorcycle Transportation</h5>
                 </div>
             </div>
             <div class="swiper-container swiper-new-1">

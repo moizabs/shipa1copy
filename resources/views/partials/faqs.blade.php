@@ -119,7 +119,7 @@
             <div class="faq">
                 <button class="faq-toggle">How much time does it take to hire the best car shipping agency near me?<span>+</span></button>
                 <div class="faq-content">
-                    <p>Locating and hiring a car shipping agency depends on your digital exploration and selected car transport partner. However, At ShipA1, you get quotes and order booking confirmation within minutes.</p>
+                    <p>Locating and hiring a car shipping agency depends on your digital exploration and selected car transport partner. However, at ShipA1, you get quotes and order booking confirmation within minutes.</p>
                 </div>
             </div>
             
