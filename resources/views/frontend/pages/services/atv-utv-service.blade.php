@@ -140,6 +140,88 @@
         line-height: 1.6;
         opacity: 0.9;
     }
+
+    .side-container{
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           margin: 50px auto;
+           padding:20px;
+        }
+        .side-container div h2{
+            color: #062e39;
+        }
+        .side-container div p {
+            color: #062e39;
+        }
+        .side-container div h2 span{
+            color: #8fc445;
+            font-weight: 700;
+        }
+        .side-container div hr{
+            color: #8fc445;
+            height: 8px;    
+            opacity: 1; 
+            /* border-radius: 5px; */
+            border-top-left-radius: 50px;
+            border-bottom-right-radius: 50px;
+        }
+        .btnfaq{
+            border: none;
+            border-radius: 5px;
+            background-color: #8fc445;
+            color: white;
+            padding: 6px ;
+            transition: 1s;
+        }
+        .btnfaq:hover{
+            background-color: #062e39;
+            color: white;
+        }
+        .faq-container {
+            max-width: 700px;
+            margin: 50px auto;
+            background: #fff;
+            padding:20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .faq-container h2 {
+            text-align: center;
+            color: #8fc445;
+        }
+        .faq {
+            border-bottom: 1px solid #ddd;
+        }
+        .faq button {
+            width: 100%;
+            background: none;
+            color: #062e39;
+            border: none;
+            text-align: left;
+            font-size: 18px;
+            padding: 15px;
+            cursor: pointer;
+            outline: none;
+            font-weight: bold;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .faq button:hover {
+            background: #f1f1f1;
+        }
+        .faq-content {
+            display: none;
+            padding: 15px;
+            font-size: 16px;
+            background: #f9f9f9;
+            border-radius: 5px;
+        }
+        .open-faq {
+            background: #d22;
+            color: white;
+        }
 </style>
 <section class="breadcrumb-wrapper" data-bg-image="{{ asset('frontend/images/banner/all-cover-banner.webp') }}">
     <div class="container">
@@ -172,12 +254,9 @@
                 </div>
                     <br>
                 <div class="text-container text-left">
-                    <h3>ATV/UTV Transport Service</h3>
-                    <p>Are you in search of a trustworthy ATV/UTV transport company for your shipment? Well, then you are on the right platform.
-                        Ship A1 is a dominating vehicle transport company providing top-rated ATV/UTV services to its valuable customers at competitive 
-                        market rates. Choosing the right company will save you from trouble, and you will have a remarkable journey. 
-                        We will share some noteworthy factors that come into play whenever you plan to ship an ATV/UTV. <br> The key considerations
-                        during the ATV shipment that you need to consider are:
+                    <h3>Convenient ATV/UTV Transport Service</h3>
+                    <p>ShipA1 is not just the top or best ATV/UTV transport company; it’s the trusted and proven all-terrain vehicle and utility task vehicle shipping agency. Taking care of side-by-side hauling, convenience, packaging, and security, we offer the suitable ATV/UTV shipping options all over the USA.
+                       <p>A simple quote changes your delayed all-terrain vehicle and utility task vehicle transport into just-arriving delivery. ShipA1 is ready for urgent quotes for your ATV or UTV orders. Connect with us today. </p>
                         <br>
                             <ul>
                             <li>Convenience</li>
@@ -391,6 +470,53 @@
    </div>
 </section>
 @include('partials.reveiw-small-detail') 
+<section class="why-choose-us-slider">
+    <div class="container">
+        <div class="tj-section-heading text-center">
+            <h2 class="title text-white">Why ShipA1’s ATV/UTV Transport Service?</h2>
+            <span class="sub-title active-shape">Here is how we make your ATV/UTV shipping easy in the USA.</span>
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-lg-4 mb-4">
+                <div class="slide text-center">
+                    <i class="fas fa-headset icon-hover-shake" style="font-size: 50px;"></i>
+                    <h3 class="slide-title">All-Day Active Help Desk </h3>
+                    <p class="slide-text">The team is ready to get you a quote, suggest best ATV/UTV shipping options, and confirm the booking.</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-lg-4 mb-4">
+                <div class="slide text-center">
+                    <i class="fas fa-truck icon-hover-shake" style="font-size: 50px;"></i>
+                    <h3 class="slide-title">Budget-Friendly Prices</h3>
+                    <p class="slide-text">Utilize a free digital average <a href="{{ route('quote.form.combine') }}">shipping cost calculator</a> . We shape your ATV/UTV transport journey effortlessly.</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-lg-4 mb-4">
+                <div class="slide text-center">
+                    <i class="fas fa-shield-alt icon-hover-shake" style="font-size: 50px;"></i>
+                    <h3 class="slide-title">Full Vehicle Security</h3>
+                    <p class="slide-text">Safe pickup and loading of your ATV/UTV vehicles. On-road monitoring of advanced trailers.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-4 col-lg-4 mb-4">
+                <div class="slide text-center">
+                    <i class="fas fa-map-marker-alt icon-hover-shake" style="font-size: 50px;"></i>
+                    <h3 class="slide-title">Trained Carriers </h3>
+                    <p class="slide-text">Our aligned team is experienced enough to handle touch roadblocks, heavy traffic, and unpredictable weather conditions.</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-lg-4 mb-4">
+                <div class="slide text-center">
+                    <i class="fas fa-trailer icon-hover-shake" style="font-size: 50px;"></i>
+                    <h3 class="slide-title">Timely Delivery</h3>
+                    <p class="slide-text">No more delays, fixed maintenance stops, and on-time delivery of your hand-picked ATV/UTV transporting trailers.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 <section class="tj-about-section pt-0">
         <div class="container">
             <div class="row">
@@ -398,16 +524,10 @@
                     <div class="about-content-one">
                         <div class="tj-section-heading">
                             <h3 class="sal-animate" data-sal="slide-left" 
-                             data-sal-duration="800">Insurance and Safety</h3>
+                             data-sal-duration="800">Single-Person ATV Transport</h3>
                             <p class="desc">
-                                Apart from the company’s experience, ratings, and shipping services, another thing that you need to consider
-                                 when choosing an All-Terrain transport company is the insurance coverage. We all are vulnerable to unexpected 
-                                 incidents, and all we can do is prepare ourselves beforehand to avoid any trouble in the long run, and for that,
-                                  insurance coverage is essential. <br>
-                                Before making any step towards the shipment process ask all the necessary questions about the insurance policy. 
-                                Some shipping companies provide the full insurance package. However, it is smart to ask beforehand so to free yourself 
-                                in case there is any mishap during the shipment. You can also have a conversation with the company’s representative 
-                                if you are having any problems understanding the process.
+                                The trend of ATV rides in the remote locations of California, New Jersey, Nevada, and Alabama is not new. You need your all-terrain vehicles (sports, utility, and farm) around your backyard. Or maybe there should be a luxurious collection of modern quad bikes at your farmhouses in Taxes, Iowa, and Missouri.<br>
+                                ATV rides are fun. You can make their shipping more relaxing by collaborating with our team: ready and available in your city or state in the USA. So, not just in New York, Alaska, Maryland, and Virginia, we are active all over the United States of America. Say yes to convenient and <a href="{{ route('services') }}">trusted side-by-side hauling services</a>.
                                 </p>
                         </div>
                         
@@ -435,29 +555,23 @@
                 <div class="about-content-one">
                     <div class="tj-section-heading">
                         <h3 class="sal-animate" data-sal="slide-left" 
-                        data-sal-duration="800">Pricing Factors Consideration</h3>
+                        data-sal-duration="800">Multiple Riders UTV Transport</h3>
                     <p class="desc">
-                        At last, you cannot erase the price factor from the list when talking about
-                         All-Terrain transportation. The price for the shipment of an ATV depends on several factors such as <br>
+                        Yes, you heard it right, this UTV transport service is for your adventure/trail, work/crew, and electric utility task vehicles. SxS UTVs size, type, and delivery distance matter to suggest a suitable highly advanced trailer from our side. As we take the info of year, make, and model for transportation of vehicles. <br>
                          <ul>
                             <li>Weight</li>
                             <li>Size</li>
                             <li>Shape</li>
                             <li>Distance traveled</li>
                             </ul> 
-                            Apart from that, other things that can impact the price include fuel costs, the time of the year, and other additional
-                             insurance. 
-                            Weight is the main factor affecting the price of the shipment. Considering all these factors, Ship A1 is the all-in-one 
-                            choice for anyone willing to ship their All-Terrain vehicle. You can get our services all over the United States with ease. 
-                            So, get your quotes and start your car transport journey with us.
+                            If our affordable rates work for you then you are welcome to get our additional benefits during this city-to-city or state-to-state UTV transportation service. Hand-pick the shipping hauler from our tilt, open, enclosed, and multi-vehicle options. It just takes a few steps to book our UTV relocation services. 
                     </p>
                     </div>
                 </div>
             </div>
             </div>
         </div>
-        @include('partials.cta-section')
-        <div class="container">
+        {{-- <div class="container">
             <div class="row">
                 <h2 class="title sal-animate text-center pt-4" data-sal="slide-left" data-sal-duration="800">
                     Why Choose Us?</h2>
@@ -531,7 +645,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> --}}
 </section>
 <section class="tj-testimonial-section">
     <div class="container">
@@ -651,7 +765,9 @@
         </div>
     </div>
 </section>
-<section class="tj-choose-us-section-service-atv-utv-2">
+@include('partials.cta-section')
+@include('partials.usa-states-map')
+{{-- <section class="tj-choose-us-section-service-atv-utv-2">
     <div class="container why-box">
         <div class="row services">
             <div class="col-12">
@@ -686,8 +802,8 @@
             </div>
         </div>
     </div>
-</section>
-<section class="tj-faq-section tj-faq-page pt-4">
+</section> --}}
+{{-- <section class="tj-faq-section tj-faq-page pt-4">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -778,54 +894,59 @@
             </div>
         </div>
     </div>
-</section>
-<section class="why-choose-us-slider">
-    <div class="container">
-        <div class="tj-section-heading text-center">
-            <h2 class="title text-white">Why Choose Us?</h2>
-            <span class="sub-title active-shape">Discover the benefits of choosing ShipA1 through our features.</span>
+</section> --}}
+<div class="container">
+    <div class="row p-5">
+       <div class="side-container col-12 col-lg-5 ">
+            <div>
+                <h2>Frequently <span>Asked Questions</span> </h2>
+                <hr class="w-50">
+                <p>Have a look at answers to trending customer queries about our vehicle shipping services.</p>
+                    <a class="text-decoration-none  btnfaq" href="{{ route('faq') }}">Get Detailed Shipping Answer</a>
+            </div>
+       </div>
+
+       <div class="col-12 col-lg-7">
+        <div class="faq-container">
+            <div class="faq">
+                <button class="faq-toggle">Is ShipA1 available in my city for ATV/UTV transportation?<span>+</span></button>
+                <div class="faq-content">
+                    <p>Yes, we are active all over the USA. Our team covers all commercial and remote locations of all fifty states here.</p>
+                </div>
+            </div>
+        
+            <div class="faq">
+                <button class="faq-toggle">Can I ship my ATV and UTV at the same time? <span>+</span></button>
+                <div class="faq-content">
+                    <p>Why not, with custom ATV/UTV transportation options you can choose a multi-vehicle trailer type. <a href="{{ route('contactUs') }}">Contact us now.</a></p>
+                </div>
+            </div>
+        
+            <div class="faq">
+                <button class="faq-toggle">How Secure ShipA1’s ATV/UTV Transport Services Are?<span>+</span></button>
+                <div class="faq-content">
+                    <p>Our drivers and carriers are native and experienced. We also make sure to secure your selected trailers before you go towards on-route journeys.</p>
+                </div>
+            </div>
+            
+            <div class="faq">
+                <button class="faq-toggle">How do you transport ATVs/UTVs in the USA? <span>+</span></button>
+                <div class="faq-content">
+                    <p>In simple terms, after the pickup and loading of your ATVs/UTVs, our team delivers the shipment through state-to-state, and city-to-city transport methods, ending the on-road journeys with door-to-door submission.</p>
+                </div>
+            </div>
+        
+            <div class="faq">
+                <button class="faq-toggle">How much for single-vehicle UTV transport? <span>+</span></button>
+                <div class="faq-content">
+                    <p>Charges for your UTV transport depend on distance, UTV type, and location. You are requested to connect with our customer support team for better cost-efficient options.</p>
+                </div>
+            </div>
+        
         </div>
-        <div class="row">
-            <div class="col-md-4 col-lg-4 mb-4">
-                <div class="slide text-center">
-                    <i class="fas fa-headset icon-hover-shake" style="font-size: 50px;"></i>
-                    <h3 class="slide-title">24/7 Customer Support</h3>
-                    <p class="slide-text">Our customers are our top priority, which is why we offer 24/7 support to address any concerns and provide tailored solutions to meet their needs.</p>
-                </div>
-            </div>
-            <div class="col-md-4 col-lg-4 mb-4">
-                <div class="slide text-center">
-                    <i class="fas fa-truck icon-hover-shake" style="font-size: 50px;"></i>
-                    <h3 class="slide-title">Competitive Pricing</h3>
-                    <p class="slide-text">We provide cost-effective rates and premium services without compromising the quality of our customer’s shipments.</p>
-                </div>
-            </div>
-            <div class="col-md-4 col-lg-4 mb-4">
-                <div class="slide text-center">
-                    <i class="fas fa-shield-alt icon-hover-shake" style="font-size: 50px;"></i>
-                    <h3 class="slide-title">Full Insurance Coverage</h3>
-                    <p class="slide-text">100% insured vehicles to ensure peace of mind and security for our customers against unforeseen incidents.</p>
-                </div>
-            </div>
-        </div>
-        <div class="row justify-content-center">
-            <div class="col-md-4 col-lg-4 mb-4">
-                <div class="slide text-center">
-                    <i class="fas fa-map-marker-alt icon-hover-shake" style="font-size: 50px;"></i>
-                    <h3 class="slide-title">Real-Time Tracking</h3>
-                    <p class="slide-text">Track your shipment from anywhere, anytime with the help of our advanced tracking service.</p>
-                </div>
-            </div>
-            <div class="col-md-4 col-lg-4 mb-4">
-                <div class="slide text-center">
-                    <i class="fas fa-trailer icon-hover-shake" style="font-size: 50px;"></i>
-                    <h3 class="slide-title">Advanced Trailers</h3>
-                    <p class="slide-text">We offer reliable enclosed and open trailers equipped with premium features to protect your UTV and ATV during transport.</p>
-                </div>
-            </div>
-        </div>
+       </div>
     </div>
-</section>
+</div>
     @include('partials.blog-slider')
 @endsection
 @section('extraScript')
@@ -923,5 +1044,24 @@
             });
             initializeSearchableDropdown();
         });
+
+        document.querySelectorAll(".faq-toggle").forEach(button => {
+        button.addEventListener("click", () => {
+            const faqContent = button.nextElementSibling;
+            const isOpen = button.classList.contains("open-faq");
+
+            document.querySelectorAll(".faq-toggle").forEach(btn => {
+                btn.classList.remove("open-faq");
+                btn.nextElementSibling.style.display = "none";
+                btn.querySelector("span").textContent = "+";
+            });
+
+            if (!isOpen) {
+                button.classList.add("open-faq");
+                faqContent.style.display = "block";
+                button.querySelector("span").textContent = "-";
+            }
+        });
+    });
     </script>
 @endsection
