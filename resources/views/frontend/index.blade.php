@@ -9,7 +9,6 @@ services near you! We ensure safe, fast, and affordable auto transport services 
 <head>
     <link rel="preload" as="image" href="{{ asset('/frontend/images/banner/home-underline.webp') }}" type="image/webp">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 
 
 </head>
 <style>
@@ -240,8 +239,14 @@ services near you! We ensure safe, fast, and affordable auto transport services 
     <div class="animation-preloader"></div>
 </div>
 <section class="tj-slider-section">
-    <div class="slider_shape"><img src="{{ asset('/frontend/images/banner/home-underline.webp') }}" fetchpriority="high"
-            alt="Image" width="1200" height="150" style="max-width: 100%; height: auto;" loading="lazy"></div>
+    <div class="slider_shape"><img src="{{ asset('/frontend/images/banner/home-underline.webp') }}" 
+        fetchpriority="high"
+        alt="Image"
+        width="1200"
+        height="150"
+        style="max-width: 100%; height: auto;" 
+        loading="lazy"
+        decoding="async"></div>
     <div class="swiper sc-slider-1" data-autoplay="5000">
         <div class="swiper-wrapper">
             @php
@@ -271,9 +276,9 @@ services near you! We ensure safe, fast, and affordable auto transport services 
                     <div class="container">
                         <div class="slider-content p-z-idex">
                             @if ($index == 0)
-                                <h1 class="slider-title">{{ $slide['title'] }}</h1>
+                                <h1 class="slider-title fs-2">{{ $slide['title'] }}</h1>
                             @else
-                                <h2 class="slider-title">{{ $slide['title'] }}</h2>
+                                <h2 class="slider-title fs-2">{{ $slide['title'] }}</h2>
                             @endif
                             <div class="slider-desc">{{ $slide['desc'] }}</div>
                             <div class="tj-theme-button">
@@ -393,7 +398,12 @@ services near you! We ensure safe, fast, and affordable auto transport services 
                         <div class="ab-text d-flex align-items-center">
                             <div class="ab-icon">
                                 <img loading="lazy" src="{{ asset('frontend/images/icon/winner.svg') }}"
-                                    fetchpriority="high" alt="Icon" width="40" height="40" loading="lazy">
+                                    fetchpriority="high"
+                                    alt="Icon"
+                                    width="40"
+                                    height="40"
+                                    loading="lazy"
+                                    decoding="async">
                             </div>
                             <div class="ab-title">
                                 <h3 class="title fs-5 font-weight-bold">Following Client-First Policy</h3>
@@ -465,12 +475,22 @@ services near you! We ensure safe, fast, and affordable auto transport services 
                             alt="Image" width="1200" height="800"> --}}
                     <div class="image-box">
                         <img class="p-z-idex aspect-ratio aspect-ratio-3x2 img-fluid"
-                            src="{{ asset('/frontend/images/about/WMUD-Home.webp') }}" fetchpriority="high"
-                            loading="lazy" alt="Image" width="1200" height="800">
+                            src="{{ asset('/frontend/images/about/WMUD-Home.webp') }}" 
+                            fetchpriority="high"
+                            loading="lazy"
+                            alt="Image"
+                            width="1200"
+                            height="800"
+                            decoding="async">
                     </div>
                     <img class="group-1 p-z-idex aspect-ratio aspect-ratio-3x2 img-fluid"
-                        src="{{ asset('/frontend/images/about/about-3.webp') }}" fetchpriority="high" loading="lazy"
-                        alt="Image" width="1200" height="800">
+                        src="{{ asset('/frontend/images/about/about-3.webp') }}"
+                        fetchpriority="high"
+                        alt="Image"
+                        width="1200"
+                        height="800"
+                        loading="lazy"
+                        decoding="async">
                 </div>
             </div>
         </div>
@@ -892,7 +912,10 @@ services near you! We ensure safe, fast, and affordable auto transport services 
                 </div>
             </div>
             <div class="col-12 col-lg-5  d-flex justify-content-center align-items-center"><img class="shadow-lg"
-                    src="{{ asset('public/frontend/images/about/450x500Nevada.jpg') }}" alt=""></div>
+                    src="{{ asset('public/frontend/images/about/450x500Nevada.jpg') }}"
+                    alt="450x500"
+                    loading="lazy"
+                    decoding="async"></div>
         </div>
     </div>
 </section>
@@ -901,7 +924,9 @@ services near you! We ensure safe, fast, and affordable auto transport services 
         <div class="row">
             <div class="col-12 col-lg-5 d-flex justify-content-center align-items-center">
                 <img class="shadow-lg img-fluid" src="{{ asset('public/frontend/images/about/450x500WestVirginia.jpg') }}"
-                    alt="">
+                    alt="450x500"
+                    loading="lazy"
+                    decoding="async">
             </div>
 
             <div class=" col-12 col-lg-7 ">
@@ -1144,5 +1169,6 @@ services near you! We ensure safe, fast, and affordable auto transport services 
     });
 </script>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" defer></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" defer></script> 
 @endsection

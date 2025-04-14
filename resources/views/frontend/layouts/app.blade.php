@@ -5,11 +5,14 @@
     <meta charset=utf-8>
     <title>@yield('title')</title>
     <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-TCTTCZNT');</script>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-TCTTCZNT');
+    </script>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript async src="https://www.googletagmanager.com/ns.html?id=GTM-TCTTCZNT" ></noscript>
     <!-- End Google Tag Manager -->
     
     @yield('canonical')
@@ -22,93 +25,49 @@
     <meta name=twitter:card content=summary_large_image>
     <meta name=twitter:site content=@ShipA1Transport>
     <meta name=twitter:title content="ShipA1 Auto Transport Quotes | Best Vehicle Shipping Service in USA">
-    <meta name=twitter:description
-        content="Get car shipping services in USA, scratchless vehicle transport service along with huge discount offers and FREE auto shipping quotes nationwide.">
+    <meta name=twitter:description content="Get car shipping services in USA, scratchless vehicle transport service along with huge discount offers and FREE auto shipping quotes nationwide.">
     <meta name=twitter:image content=https://www.shipa1.com/img/car-tranportation.png>
+
+
     <link rel=preload href="{{ asset('/frontend/images/logo/favicon.webp') }}" as=image type=image/png>
     <link rel=apple-touch-icon href="{{ asset('/frontend/images/logo/favicon.webp') }}">
     <link rel="shortcut icon" href="{{ asset('/frontend/images/logo/favicon.webp') }}" type=image/x-icon>
     <link rel=preload href=https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css as=style
         onload='this.onload=null,this.rel="stylesheet"'>
-    <script src="https://unpkg.com/imask" async></script>
     <link rel=preload href=https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css as=style
         onload='this.onload=null,this.rel="stylesheet"'>
     <link rel=stylesheet href=https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css>
-    <link href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round&display=swap" rel=stylesheet>
+    <link rel="preconnect" href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round&display=swap" >
     <link rel=stylesheet href=https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css
         onload='this.onload=null,this.rel="stylesheet"'>
-    <link rel=stylesheet href=https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css
-        onload='this.onload=null,this.rel="stylesheet"'>
+    {{-- <link rel=stylesheet href=https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css
+        onload='this.onload=null,this.rel="stylesheet"'> --}}
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         as="style">
  
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   
-    <link rel=preload href=https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css
-        onload='this.onload=null,this.rel="stylesheet"'>
-    <link rel=preload href=https://unpkg.com/swiper/swiper-bundle.min.css
-        onload='this.onload=null,this.rel="stylesheet"'>
-    <link rel=preload href=https://cdn.jsdelivr.net/npm/@coreui/coreui@5.0.2/dist/css/coreui.min.css
-        integrity=sha384-39e9UaGkm/+yp6spIsVfzcs3j7ac7G2cg0hzmDvtG11pT1d7YMnOC26w4wMPhzsL crossorigin=anonymous
-        onload='this.onload=null,this.rel="stylesheet"'>
-    {{-- <link rel=preload href="{{ asset('/frontend/css/bootstrap.min.css') }}" as=style
-        onload='this.onload=null,this.rel="stylesheet"'>
-    <link rel=stylesheet href="{{ asset('/frontend/css/bootstrap.min.css') }}">
-    <link rel=stylesheet href="{{ asset('/frontend/css/meanmenu.css') }}"
-        onload='this.onload=null,this.rel="stylesheet"'>
-    <link rel=stylesheet href="{{ asset('/frontend/css/sal.css') }}" onload='this.onload=null,this.rel="stylesheet"'>
-    <link rel=stylesheet href="{{ asset('/frontend/css/magnific-popup.css') }}"
-        onload='this.onload=null,this.rel="stylesheet"'>
-    <link rel=stylesheet href="{{ asset('/frontend/css/swiper.min.css') }}"
-        onload='this.onload=null,this.rel="stylesheet"'>
-    <link rel=stylesheet href="{{ asset('/frontend/css/owl.carousel.css') }}"
-        onload='this.onload=null,this.rel="stylesheet"'>
-    <link rel=stylesheet href="{{ asset('/frontend/css/icons.css') }}" onload='this.onload=null,this.rel="stylesheet"'>
-    <link rel=stylesheet href="{{ asset('/frontend/css/odometer.min.css') }}"
-        onload='this.onload=null,this.rel="stylesheet"'>
-    <link rel=stylesheet href="{{ asset('/frontend/css/nice-select.css') }}"
-        onload='this.onload=null,this.rel="stylesheet"'>
-    <link rel=stylesheet href="{{ asset('/frontend/css/animate.css') }}"
-        onload='this.onload=null,this.rel="stylesheet"'>
-    <link rel=stylesheet href="{{ asset('/public/frontend/css/style.css') }}"
-        onload='this.onload=null,this.rel="stylesheet"'>
-    <link rel=stylesheet href="{{ asset('/public/frontend/css/responsive.css') }}"
-        onload='this.onload=null,this.rel="stylesheet"'> --}}
-    <!-- Preload Critical CSS -->
+    <link rel=preload href=https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css onload='this.onload=null,this.rel="stylesheet"'>
+    <link rel=preload href=https://unpkg.com/swiper/swiper-bundle.min.css onload='this.onload=null,this.rel="stylesheet"'>
+    <link rel=preload href=https://cdn.jsdelivr.net/npm/@coreui/coreui@5.0.2/dist/css/coreui.min.css integrity=sha384-39e9UaGkm/+yp6spIsVfzcs3j7ac7G2cg0hzmDvtG11pT1d7YMnOC26w4wMPhzsL crossorigin=anonymous onload='this.onload=null,this.rel="stylesheet"'>
     <link rel="icon" href="{{ asset('frontend/images/logo/favicon.webp') }}" type="image/webp">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="preload" href="{{ asset('/frontend/css/bootstrap.min.css') }}" as="style"
-        onload="this.onload=null;this.rel='stylesheet'">
-    <link rel="preload" href="{{ asset('/frontend/css/style.css') }}" as="style"
-        onload="this.onload=null;this.rel='stylesheet'">
-    <noscript>
-        <link rel="stylesheet" href="{{ asset('/frontend/css/bootstrap.min.css') }}">
-    </noscript>
-    <noscript>
-        <link rel="stylesheet" href="{{ asset('/frontend/css/style.css') }}">
-    </noscript>
+    <link rel="preload" href="{{ asset('/frontend/css/bootstrap.min.css') }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="{{ asset('/frontend/css/style.css') }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript> <link rel="stylesheet" href="{{ asset('/frontend/css/bootstrap.min.css') }}" defer> </noscript>
+    <noscript> <link rel="stylesheet" href="{{ asset('/frontend/css/style.css') }}" defer> </noscript>
 
     <!-- Load Non-Critical CSS Asynchronously -->
-    <link rel="stylesheet" href="{{ asset('/frontend/css/meanmenu.css') }}" media="print"
-        onload="this.onload=null;this.removeAttribute('media');">
-    <link rel="stylesheet" href="{{ asset('/frontend/css/sal.css') }}" media="print"
-        onload="this.onload=null;this.removeAttribute('media');">
-    <link rel="stylesheet" href="{{ asset('/frontend/css/magnific-popup.css') }}" media="print"
-        onload="this.onload=null;this.removeAttribute('media');">
-    <link rel="stylesheet" href="{{ asset('/frontend/css/swiper.min.css') }}" media="print"
-        onload="this.onload=null;this.removeAttribute('media');">
-    <link rel="stylesheet" href="{{ asset('/frontend/css/owl.carousel.css') }}" media="print"
-        onload="this.onload=null;this.removeAttribute('media');">
-    <link rel="stylesheet" href="{{ asset('/frontend/css/icons.css') }}" media="print"
-        onload="this.onload=null;this.removeAttribute('media');">
-    <link rel="stylesheet" href="{{ asset('/frontend/css/odometer.min.css') }}" media="print"
-        onload="this.onload=null;this.removeAttribute('media');">
-    <link rel="stylesheet" href="{{ asset('/frontend/css/nice-select.css') }}" media="print"
-        onload="this.onload=null;this.removeAttribute('media');">
-    <link rel="stylesheet" href="{{ asset('/frontend/css/animate.css') }}" media="print"
-        onload="this.onload=null;this.removeAttribute('media');">
-    <link rel="stylesheet" href="{{ asset('/public/frontend/css/responsive.css') }}" media="print"
-        onload="this.onload=null;this.removeAttribute('media');">
+    <link rel="stylesheet" href="{{ asset('/frontend/css/meanmenu.css') }}" media="print" onload="this.onload=null;this.removeAttribute('media');">
+    <link rel="stylesheet" href="{{ asset('/frontend/css/sal.css') }}" media="print" onload="this.onload=null;this.removeAttribute('media');">
+    <link rel="stylesheet" href="{{ asset('/frontend/css/magnific-popup.css') }}" media="print" onload="this.onload=null;this.removeAttribute('media');">
+    <link rel="stylesheet" href="{{ asset('/frontend/css/swiper.min.css') }}" media="print" onload="this.onload=null;this.removeAttribute('media');">
+    <link rel="stylesheet" href="{{ asset('/frontend/css/owl.carousel.css') }}" media="print" onload="this.onload=null;this.removeAttribute('media');">
+    <link rel="stylesheet" href="{{ asset('/frontend/css/icons.css') }}" media="print" onload="this.onload=null;this.removeAttribute('media');">
+    <link rel="stylesheet" href="{{ asset('/frontend/css/odometer.min.css') }}" media="print" onload="this.onload=null;this.removeAttribute('media');">
+    <link rel="stylesheet" href="{{ asset('/frontend/css/nice-select.css') }}" media="print" onload="this.onload=null;this.removeAttribute('media');">
+    <link rel="stylesheet" href="{{ asset('/frontend/css/animate.css') }}" media="print" onload="this.onload=null;this.removeAttribute('media');">
+    <link rel="stylesheet" href="{{ asset('/public/frontend/css/responsive.css') }}" media="print" onload="this.onload=null;this.removeAttribute('media');">
 
     <!-- Minified & Combined CSS (Optional for performance) -->
     <link rel="stylesheet" href="{{ asset('/frontend/css/all.min.css') }}">
@@ -131,12 +90,9 @@
     <link rel=preload href=https://code.jquery.com/jquery-3.6.0.min.js as=script>
     <link rel=preload href=https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css as=style>
     <link rel=preload href=https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css as=style>
-    <script src=https://code.jquery.com/jquery-3.6.0.min.js defer></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/imask/6.4.2/imask.min.js" defer></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  
     <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css>
     <link rel=stylesheet href=https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css>
-    <script src="https://cdn.jsdelivr.net/npm/@coreui/icons@2.0.1/js/coreui-icons.min.js"></script>
     {{-- <script>
         document.addEventListener("DOMContentLoaded", function() {
             if (typeof IMask !== 'undefined') {
@@ -1745,9 +1701,7 @@
 </head>
 
 <body>
-    <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TCTTCZNT"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    
     <!-- End Google Tag Manager (noscript) -->
     
     @php $currentRouteName = Route::currentRouteName(); @endphp
@@ -1849,55 +1803,6 @@
             </svg>
         </div>
     </div>
-    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" defer></script>-->
-    <!--{{-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js" defer></script> --}}-->
-    <!--<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" defer></script>-->
-    {{-- <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js" defer></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js" defer></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js" defer></script> --}}
-    <!--<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11" defer></script>-->
-    <!--{{-- <script>-->
-    <!--    setTimeout(function() {-->
-    <!--        var Tawk_API = Tawk_API || {},-->
-    <!--            Tawk_LoadStart = new Date;-->
-    <!--        var t = document.createElement("script"),-->
-    <!--            e = document.getElementsByTagName("script")[0];-->
-    <!--        t.async = true;-->
-    <!--        t.src = "https://embed.tawk.to/6728df992480f5b4f5986b9c/1ibrqis6f";-->
-    <!--        t.charset = "UTF-8";-->
-    <!--        t.setAttribute("crossorigin", "*");-->
-    <!--        e.parentNode.insertBefore(t, e);-->
-    <!--    }, 5000);-->
-    <!--</script>-->
-    <!--<script src="{{ asset('/frontend/js/modernizr-2.8.3.min.js') }}" defer></script>-->
-    <!--<script src="{{ asset('/frontend/js/bootstrap.min.js') }}" defer></script>-->
-    <!--<script src="{{ asset('/frontend/js/meanmenu.js') }}" defer></script>-->
-    <!--<script src="{{ asset('/frontend/js/imagesloaded.pkgd.min.js') }}" defer></script>-->
-    <!--<script src="{{ asset('/frontend/js/isotope.pkgd.min.js') }}" defer></script>-->
-    <!--<script src="{{ asset('/frontend/js/jquery.magnific-popup.min.js') }}" defer></script>-->
-    <!--<script src="{{ asset('/frontend/js/swiper.min.js') }}" defer></script>-->
-    <!--<script src="{{ asset('/frontend/js/owl.carousel.js') }}" defer></script>-->
-    <!--<script src="{{ asset('/frontend/js/jquery.appear.min.js') }}" defer></script>-->
-    <!--<script src="{{ asset('/frontend/js/odometer.min.js') }}" defer></script>-->
-    <!--<script src="{{ asset('/frontend/js/sal.js') }}" defer></script>-->
-    <!--<script src="{{ asset('/frontend/js/jquery.nice-select.min.js') }}" defer></script>-->
-    <!--<script src="{{ asset('/frontend/js/main.js') }}" defer></script> --}}-->
-
-   
-
-    <!--Start of Tawk.to Script-->
-    // {{-- <script type="text/javascript">
-    // var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-    // (function(){
-    // var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-    // s1.async=true;
-    // s1.src='https://embed.tawk.to/6728df992480f5b4f5986b9c/1ibrqis6f';
-    // s1.charset='UTF-8';
-    // s1.setAttribute('crossorigin','*');
-    // s0.parentNode.insertBefore(s1,s0);
-    // })();
-    // </script> --}}
-    <!--End of Tawk.to Script-->
     <script src="{{ asset('/frontend/js/jquery.min.js') }}"></script>
     <script src=https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js></script>
     <script src=https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js></script>
@@ -2157,83 +2062,6 @@
             }))
         }))
     </script>
-    {{-- <script>
-        document.addEventListener("DOMContentLoaded", (function() {
-            function e(e, n, t, o) {
-                function i() {
-                    const i = t.getSelectedCountryData(),
-                        d = {
-                            us: "(000) 000-0000",
-                            ca: "(000) 000-0000"
-                        } [i.iso2] || "";
-                    o && o.destroy(), d && (o = IMask(e, {
-                        mask: d
-                    })), n.value = i.dialCode
-                }
-                if (t = window.intlTelInput(e, {
-                        separateDialCode: !0,
-                        initialCountry: "auto",
-                        geoIpLookup: function(e) {
-                            e("us")
-                        },
-                        utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
-                        flagsImagePath: "https://www.shipa1.com/public/frontend/images/icon/flags.webp"
-                    }), "frontend.pages.marketing.vehicleTransportInNewyork" == window.location.pathname);
-                e.addEventListener("input", i), e.addEventListener("countrychange", i), e.addEventListener(
-                    "blur", (function() {
-                        return !!t.isValidNumber() || (console.error(`Invalid phone number (${e.id})`),
-                            !1)
-                    })), i()
-            }
-            e(document.querySelector("#phone"), document.querySelector("#country_code"), undefined, undefined);
-            e(document.querySelector("#phone2"), document.querySelector("#country_code2"), undefined, undefined)
-        }))
-    </script> --}}
-    {{-- <script>
-        $(document).ready(function () {
-            function setupIntlTelInput(e, n, t, o) {
-                function updateMask() {
-                    const selectedCountry = t.getSelectedCountryData(),
-                        maskPattern = {
-                            us: "(000) 000-0000",
-                            ca: "(000) 000-0000"
-                        }[selectedCountry.iso2] || "";
-                    if (o) o.destroy();
-                    if (maskPattern) {
-                        o = IMask(e, { mask: maskPattern });
-                    }
-                    n.value = selectedCountry.dialCode;
-                }
-
-                if (t = window.intlTelInput(e, {
-                    separateDialCode: true,
-                    initialCountry: "auto",
-                    geoIpLookup: function (callback) {
-                        callback("us");
-                    },
-                    utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
-                    flagsImagePath: "https://www.shipa1.com/public/frontend/images/icon/flags.webp"
-                })) {
-                    e.addEventListener("input", updateMask);
-                    e.addEventListener("countrychange", updateMask);
-                    e.addEventListener("blur", function () {
-                        if (!t.isValidNumber()) {
-                            console.error(`Invalid phone number (${e.id})`);
-                            return false;
-                        }
-                    });
-                    updateMask();
-                }
-            }
-            // Check if the phone input fields exist before initializing
-            if ($("#phone").length) {
-                setupIntlTelInput(document.querySelector("#phone"), document.querySelector("#country_code"), undefined, undefined);
-            }
-            if ($("#phone2").length) {
-                setupIntlTelInput(document.querySelector("#phone2"), document.querySelector("#country_code2"), undefined, undefined);
-            }
-        });
-    </script> --}}
     <script>
         $(document).ready(function() {
             function setupIntlTelInput(e, n, t, o) {
@@ -2542,116 +2370,6 @@
     </script>
     <script>
         document.addEventListener("DOMContentLoaded", (function() {
-            // document.querySelectorAll(".validate-form").forEach((function(e) {
-            //     e.addEventListener("submit", (function(t) {
-            //         var r = !0;
-            //         e.querySelectorAll("[required]").forEach((function(e) {
-            //             var t = "err" + e.name.replace("[]", ""),
-            //                 n = function(e, t) {
-            //                     let r = e.parentNode.querySelector("." + t);
-            //                     return r || (r = document.createElement(
-            //                                 "span"), r.className = t +
-            //                             " error-message", r.style.color =
-            //                             "red", e.parentNode.appendChild(r)),
-            //                         r
-            //                 }(e, t);
-            //             if (!e.value || "SELECT" === e.tagName && "" === e
-            //                 .value) n.textContent = "SELECT" === e.tagName ?
-            //                 "Please select an option." : e.name +
-            //                 " is required.", e.style.border =
-            //                 "2px solid red", r = !1;
-            //             else if ("tel" === e.type && "undefined" !=
-            //                 typeof iti) {
-            //                 iti.getNumber();
-            //                 iti.isValidNumber() ? (n.textContent = "", e
-            //                     .style.border = "") : (n.textContent =
-            //                     "Valid phone number is required.", e
-            //                     .style.border = "2px solid red", r = !1)
-            //             } else "email" !== e.type || /\S+@\S+\.\S+/.test(e
-            //                 .value) ? (n.textContent = "", e.style
-            //                 .border = "") : (n.textContent =
-            //                 "Valid email is required.", e.style.border =
-            //                 "2px solid red", r = !1)
-            //         })), r || t.preventDefault()
-            //     }))
-            // }))
-
-            // document.querySelectorAll(".validate-form").forEach(function (form) {
-            //     form.addEventListener("submit", function (event) {
-            //         let isValid = true;
-            //
-            //         form.querySelectorAll("[required]").forEach(function (input) {
-            //             let errorClass = "err" + input.name.replace("[]", "");
-            //             let errorMessage = function (element, errorClass) {
-            //                 let errorElement = element.parentNode.querySelector("." + errorClass);
-            //                 if (!errorElement) {
-            //                     errorElement = document.createElement("span");
-            //                     errorElement.className = errorClass + " error-message";
-            //                     errorElement.style.color = "red";
-            //                     element.parentNode.appendChild(errorElement);
-            //                 }
-            //                 return errorElement;
-            //             }(input, errorClass);
-            //
-            //             if (!input.value || (input.tagName === "SELECT" && input.value === "")) {
-            //                 errorMessage.textContent = input.tagName === "SELECT" ? "Please select an option." : input.name + " is required.";
-            //                 input.style.border = "2px solid red";
-            //                 isValid = false;
-            //             } else if (input.type === "tel") {
-            //                 let phoneNumber = input.value.replace(/\D/g, ""); // Remove non-numeric characters
-            //                 let phonePrefix = phoneNumber.substring(0, 3); // Extract first 3 digits
-            //
-            //                 let validPrefixes = [
-            //                     '205', '251', '256', '334', '938', '907', '480', '520', '602', '623', '928', '327', '479',
-            //                     '501', '870', '209', '213', '279', '310', '323', '341', '408', '415', '424', '442', '510',
-            //                     '530', '559', '562', '619', '626', '628', '650', '657', '661', '707', '714', '747', '752',
-            //                     '760', '805', '818', '820', '831', '858', '909', '916', '925', '949', '951', '303', '719',
-            //                     '720', '970', '203', '475', '860', '959', '302', '239', '305', '321', '352', '386', '407',
-            //                     '448', '561', '656', '727', '754', '772', '786', '813', '850', '863', '904', '941', '954',
-            //                     '229', '404', '470', '478', '678', '706', '762', '770', '912', '808', '208', '986', '217',
-            //                     '224', '309', '312', '331', '447', '464', '618', '630', '708', '773', '779', '815', '847',
-            //                     '872', '219', '260', '317', '463', '574', '765', '812', '930', '319', '515', '563', '641',
-            //                     '712', '316', '620', '785', '913', '270', '364', '502', '606', '859', '225', '318', '337',
-            //                     '504', '985', '207', '240', '301', '410', '443', '667', '339', '351', '413', '508', '617',
-            //                     '774', '781', '857', '978', '231', '248', '278', '313', '517', '586', '616', '679', '734',
-            //                     '810', '906', '947', '989', '218', '320', '507', '612', '651', '763', '952', '228', '601',
-            //                     '662', '769', '314', '417', '557', '573', '636', '660', '816', '406', '308', '402', '531',
-            //                     '702', '725', '775', '603', '201', '551', '609', '640', '732', '848', '856', '862', '908',
-            //                     '973', '505', '575', '212', '315', '332', '347', '516', '518', '585', '607', '631', '646',
-            //                     '680', '716', '718', '838', '845', '914', '917', '929', '934', '252', '336', '472', '704',
-            //                     '743', '828', '910', '919', '980', '984', '701', '216', '220', '234', '283', '326', '330',
-            //                     '380', '419', '440', '513', '567', '614', '740', '937', '405', '539', '572', '580', '918',
-            //                     '458', '503', '541', '971', '215', '223', '267', '272', '412', '445', '484', '570', '610',
-            //                     '717', '724', '814', '878', '401', '803', '839', '843', '854', '864', '605', '423', '615',
-            //                     '629', '731', '865', '901', '931', '210', '214', '254', '281', '325', '346', '361', '409',
-            //                     '430', '432', '469', '512', '682', '713', '726', '737', '806', '817', '830', '832', '903',
-            //                     '915', '936', '940', '956', '972', '979', '385', '435', '801', '802', '276', '434', '540',
-            //                     '571', '703', '757', '804', '206', '253', '360', '425', '509', '564', '304', '681', '262',
-            //                     '414', '534', '608', '715', '920', '307'
-            //                 ];
-            //
-            //                 if (!validPrefixes.includes(phonePrefix)) {
-            //                     errorMessage.textContent = "Phone number must start with a valid USA prefix.";
-            //                     input.style.border = "2px solid red";
-            //                     isValid = false;
-            //                 } else {
-            //                     errorMessage.textContent = "";
-            //                     input.style.border = "";
-            //                 }
-            //             } else if (input.type === "email" && !/\S+@\S+\.\S+/.test(input.value)) {
-            //                 errorMessage.textContent = "Valid email is required.";
-            //                 input.style.border = "2px solid red";
-            //                 isValid = false;
-            //             } else {
-            //                 errorMessage.textContent = "";
-            //                 input.style.border = "";
-            //             }
-            //         });
-            //
-            //         if (!isValid) event.preventDefault();
-            //     });
-            // });
-
             document.querySelectorAll(".validate-form").forEach(function(form) {
                 function validateInput(input) {
                     let isValid = true;
@@ -2835,6 +2553,12 @@
             document.getElementById("content").classList.add("visible");
         });
     </script>
+      <script src="https://unpkg.com/imask" async></script>
+      <script src=https://code.jquery.com/jquery-3.6.0.min.js defer></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/imask/6.4.2/imask.min.js" defer></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" defer></script>
+      <script src="https://cdn.jsdelivr.net/npm/@coreui/icons@2.0.1/js/coreui-icons.min.js" defer></script>
+
 </body>
 
 </html>
