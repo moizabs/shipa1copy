@@ -141,6 +141,89 @@
         line-height: 1.6;
         opacity: 0.9;
     }
+
+    
+    .side-container{
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           margin: 50px auto;
+           padding:20px;
+        }
+        .side-container div h2{
+            color: #062e39;
+        }
+        .side-container div p {
+            color: #062e39;
+        }
+        .side-container div h2 span{
+            color: #8fc445;
+            font-weight: 700;
+        }
+        .side-container div hr{
+            color: #8fc445;
+            height: 8px;    
+            opacity: 1; 
+            /* border-radius: 5px; */
+            border-top-left-radius: 50px;
+            border-bottom-right-radius: 50px;
+        }
+        .btnfaq{
+            border: none;
+            border-radius: 5px;
+            background-color: #8fc445;
+            color: white;
+            padding: 6px ;
+            transition: 1s;
+        }
+        .btnfaq:hover{
+            background-color: #062e39;
+            color: white;
+        }
+        .faq-container {
+            max-width: 700px;
+            margin: 50px auto;
+            background: #fff;
+            padding:20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .faq-container h2 {
+            text-align: center;
+            color: #8fc445;
+        }
+        .faq {
+            border-bottom: 1px solid #ddd;
+        }
+        .faq button {
+            width: 100%;
+            background: none;
+            color: #062e39;
+            border: none;
+            text-align: left;
+            font-size: 18px;
+            padding: 15px;
+            cursor: pointer;
+            outline: none;
+            font-weight: bold;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .faq button:hover {
+            background: #f1f1f1;
+        }
+        .faq-content {
+            display: none;
+            padding: 15px;
+            font-size: 16px;
+            background: #f9f9f9;
+            border-radius: 5px;
+        }
+        .open-faq {
+            background: #d22;
+            color: white;
+        }
 </style>
 <section class="tj-choose-us-section-service-boat">
     <div class="container mt-4">
@@ -175,7 +258,23 @@
     </div>
 </section>
 @include('partials.reveiw-small-detail')
-<section class="tj-about-section pt-4 pb-0">
+<section class="tj-blog-standard pt-2 pb-4 mb-4">
+    <div class="container">
+        <div class="row full-width ps-4 pt-4">
+            <div class="col-12 custom-style">
+                <h4 class=" text-center">Hiring ShipA1 for Boat Shipping - Simple, Fast, & Efficient</h4>
+                <p class=" text-center">Offering speedy <a href="{{ route('services') }}">transport services</a> is not our primary goal. As one of the best boat transporters across the USA, with more than fifteen years of experience, our continuous elite legacy motivates us to serve with what’s best for you. Connect with us anytime; the team is ready to book your order and collaborate on your most satisfying boat transport experience in the USA.  </p>
+                <div class="tj-theme-button  text-center mt-2">
+                    <a class="tj-transparent-btn" href="{{ route('form.vehicle.boat') }}" >
+                        Get Quote
+                        <i class="flaticon-right-1"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{-- <section class="tj-about-section pt-4 pb-0">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-md-12 order-sm-2 order-md-1 order-1 d-flex align-items-center justify-content-center sal-animate pt-4 mt-4"
@@ -245,30 +344,9 @@
             </div>
         </div>
     </div>
-</section>
-<section class="tj-blog-standard pt-2 pb-4 mb-4">
-    <div class="container">
-        <div class="row full-width ps-4 pt-4">
-            <div class="col-12 custom-style">
-                <h4 class=" text-center">What is Boat Auto Shipping?</h4>
-                <p class=" text-center">The process of transporting or shipping boats from one place to another using
-                    specialized carriers is called Boat Auto Transport
-                    or Boat Shipping! Is it safe? Yes! Ship A1 ensures that your boat is delivered or picked up from the
-                    designated location safe and sound, with the
-                    help of special and equipped carriers you don’t need to worry at all about the shipping process and
-                    completely trust us to ensure timely delivery
-                    with 100% transparency and 24/7 customer service to tend to your concerns and queries.</p>
-                <div class="tj-theme-button  text-center mt-2">
-                    <a class="tj-transparent-btn" href="{{ route('form.vehicle.boat') }}" >
-                        Get Quote
-                        <i class="flaticon-right-1"></i>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-@include('partials.cta-section')
+</section> --}}
+
+
 <section class="tj-about-section pt-4">
     <div class="container">
         <div class="row">
@@ -276,22 +354,15 @@
                 data-sal="slide-left" data-sal-duration="800">
                 <div class="about-content-one">
                     <div class="tj-section-heading">
-                        <h3 class="sal-animate" data-sal="slide-left" data-sal-duration="800">Why is that?</h3>
-                        <p class="desc">Keeping in mind the daily rising expenses we have customized suitable and
-                            affordable
-                            boat shipping solutions for you without compromising on the service quality or reliability!
-                            We
-                            maintain 100% transparency when it comes to our services and rates so it is convenient for
-                            you
-                            to choose the option that best fits your needs.<br>However, prices might differ depending on
+                        <h3 class="sal-animate" data-sal="slide-left" data-sal-duration="800">ShipA1’s Best Boat Shipping Services - How We Do It? </h3>
+                        <p class="desc">Ship A1 allows you to pick your own highly advanced trailer for boat transport. After booking, the team will arrive at the pick-up location and load the boats before the on-road journey. Following the final paperwork, your shipment gets started. As You just have to: 
+
                         <ul>
-                            <li>Distance</li>
-                            <li>Size & weight of the boat</li>
-                            <li>Shipping method</li>
-                            <li>Additional services</li>
+                            <li>Visit the <Instant Boat Quote Calculator> section and share the asked info. </li>
+                            <li>Learn about average costs through a digital pricing calculator.</li>
+                            <li>Confirm the booking and wait for the instant delivery.</li>
                         </ul>
-                        These factors play a significant role in determining the total cost of your shipping. To find
-                        out an estimated rate of your shipping go get your free online quotes now!
+                        Here at ShipA1, we understand what our precious existing and potential clients are looking for regarding boat transport services in the USA. That's the reason, the team always lists down various budget-friendly boat transport cost packages. 
                         </p>
                     </div>
                 </div>
@@ -324,34 +395,79 @@
                 data-sal="slide-left" data-sal-duration="800">
                 <div class="about-content-one">
                     <div class="tj-section-heading">
-                        <h3 class="sal-animate" data-sal="slide-left" data-sal-duration="800">Pick Your Perfect
-                            Shipping</h3>
+                        <h3 class="sal-animate" data-sal="slide-left" data-sal-duration="800">Boat Transport Quote in Minutes - Shipping of all Watercrafts</h3>
                         <p class="desc">
-                            Are you an indecisive person? Need help with choosing the perfect mode of shipping for you?
-                            Worry no
-                            more! Ship A1 has a variety of shipping modes for your convenience, all you have to do is
-                            select the
-                            type of shipping you think is best for you, and leave the rest to us!
-                        <ul>
-                            <li>Open Transport:</li>
-                            <li>Enclosed Transport:</li>
-                            <li>Flat Rack Transport:</li>
+                            Your collaboration with ShipA1 won’t involve selective options regarding boat transportation. We load/unload every type of watercraft nationwide. Including these shared in their respectable categories:
+                        <h5>Utility & Work Boats</h5>
+                            <ul>
+                            <li>Commercial boats</li>
+                            <li>Fishing boats</li>
+                            <li>Tugboats </li>
                         </ul>
                         Ship A1 offers these shipping modes to ensure your boat is transported and delivered on time
                         with proper
                         safety measures!
                         </p>
+                        <h5>Personal & Speedy Boats</h5>
+                        <ul>
+                            <li>Jet Skis</li>
+                            <li>Motorboats</li>
+                            <li>Catamarans</li>
+                        </ul>
+                        <h5>Luxury & Customized Boats</h5>
+                        <ul>
+                            <li>Yachts </li>
+                            <li>Sailboats </li>
+                            <li>Pontoon Boats </li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
+@include('partials.cta-section')
+<br>
+<br>
+<section class="tj-choose-us-section-service-commercial-4">
+    <div class="container why-box">
+        <div class="row services">
+            <div class="col-12">
+                <h1 class="services-h1">Easy Boat Preparation & Documentation Process</h1>
+            </div>
+            <div class="col-12 col-md-4 mb-4">
+                <div class="card- h-100">
+                    <div class="card-body">
+                        <h5 class="card-title text-dark">Boat Inspection & Packaging</h5>
+                        <p class="card-text text-dark">The first step is the thorough inspection of the boat's conditions. It includes proper packaging to save the crafts from possible damage.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 mb-4">
+                <div class="card- h-100">
+                    <div class="card-body">
+                        <h5 class="card-title text-dark">Documents Preparation</h5>
+                        <p class="card-text text-dark">In this stage, both parties (client and broker) go through documentation verifications. Including boat ownership, insurance, BOL, permit, and contract agreement.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 mb-4">
+                <div class="card- h-100">
+                    <div class="card-body">
+                        <h5 class="card-title text-dark">Live Boat Transport Tracking </h5>
+                        <p class="card-text text-dark">ShipA1 keeps tracking active till the final boat cargo delivery. Clients can also track the shipment or leave it to us to handle everything.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <section class="tj-testimonial-section">
     <div class="container">
         <div class="row">
             <div class="tj-section-heading text-center">
-                <h5 class="title fs-1">Trailers used for Boat Transportation</h5>
+                <h5 class="title fs-1">Advanced Trailers Used for Boat Shipping </h5>
             </div>
         </div> 
         <div class="swiper-container swiper-new-1">
@@ -366,10 +482,8 @@
                                     </div>
                                     <div class="col-sm-6 d-flex align-items-center justify-content-center">
                                     <div class="card-body tj-section-heading mb-0">
-                                        <h5 class="card-title sub-title active-shape">Open Transport</h5>
-                                        <p class="card-text  text-dark">This is the type of transport that is both cost-effective and suitable for
-                                            shipping. This shipping mode involves your boat being situated onto an open trailer or a
-                                            flatbed truck.</p>
+                                        <h5 class="card-title sub-title active-shape">Lowboy Trailers</h5>
+                                        <p class="card-text  text-dark">This trailer type easily carries taller boats. With effortless loading, you can pick heavy crafts without any on-road trouble. This hauling cargo comes with an open-air option.</p>
                                         <div class="tj-theme-button mt-2">
                                         <a class="tj-transparent-btn" href="{{ route('form.vehicle.boat') }}" >
                                             Get Quote
@@ -390,10 +504,8 @@
                                 <div class="row g-0">
                                     <div class="col-sm-6 d-flex align-items-center justify-content-center">
                                     <div class="card-body tj-section-heading mb-0">
-                                        <h5 class="card-title sub-title active-shape">Enclosed Transport</h5>
-                                        <p class="card-text text-dark">Enclosed transport may not be the cheapest mode of shipping but it does provide an extra
-                                            layer
-                                            of protection for your luxury yachts and boats that require extra care.</p>
+                                        <h5 class="card-title sub-title active-shape">Flatbed Trailers </h5>
+                                        <p class="card-text text-dark">The flat, open-air space allows you to load oversized or medium-sized boats from every side. This trailer type is more flexible and affordable than others.</p>
                                         <div class="tj-theme-button mt-2">
                                         <a class="tj-transparent-btn" href="{{ route('form.vehicle.boat') }}" >
                                             Get Quote
@@ -420,11 +532,8 @@
                                     </div>
                                     <div class="col-sm-6 d-flex align-items-center justify-content-center">
                                     <div class="card-body tj-section-heading mb-0">
-                                        <h5 class="card-title sub-title active-shape">Flat Rack Transport</h5>
-                                        <p class="card-text text-dark">This mode of shipping includes placing and securing your boat on a flat rack, it is only
-                                            suitable
-                                            for irregular-shaped boats or oversized boats which cannot be transported on standard
-                                            trailers or carriers.</p>
+                                        <h5 class="card-title sub-title active-shape">Multi-Axle Trailers</h5>
+                                        <p class="card-text text-dark">The premium transporting trailer offers much-needed security to both the boat and the trailer. Keeping the weight balanced, this hauler is used for oversized boats.</p>
                                         <div class="tj-theme-button mt-2">
                                         <a class="tj-transparent-btn" href="{{ route('form.vehicle.boat') }}" >
                                             Get Quote
@@ -438,7 +547,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="swiper-slide">
+                {{-- <div class="swiper-slide">
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="card-2 mb-3">
@@ -465,124 +574,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="tj-choose-us-section-service-commercial-4">
-    <div class="container why-box">
-        <div class="row services">
-            <div class="col-12">
-                <h1 class="services-h1">Boat Preparation and Documentation</h1>
-            </div>
-            <div class="col-12 col-md-4 mb-4">
-                <div class="card- h-100">
-                    <div class="card-body">
-                        <h5 class="card-title text-dark">Clean & Inspect Boat</h5>
-                        <p class="card-text text-dark">Ensure your Boat is clean inside and out,
-                            and remove any dirt, debris, and personal belongings that have a risk of damaging your
-                            vehicle further.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-4 mb-4">
-                <div class="card- h-100">
-                    <div class="card-body">
-                        <h5 class="card-title text-dark">Prepare Necessary Documentation</h5>
-                        <p class="card-text text-dark">Make sure the necessary documents of your boat like registration
-                            papers,
-                            insurance certificates, or any permits and licenses required.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-4 mb-4">
-                <div class="card- h-100">
-                    <div class="card-body">
-                        <h5 class="card-title text-dark">Track your Ride</h5>
-                        <p class="card-text text-dark">If you are someone who constantly has to keep updates on their
-                            vehicle,
-                            worry not! Contact Ship A1 for timely updates, or you can even track your ride online.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="tj-faq-section tj-faq-page pt-4 pb-0">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="tj-section-heading text-center">
-                    <span class="sub-title active-shape"> How It’s Work</span>
-                    <h2 class="title">Frequently Asked Questions</h2>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-6 sal-animate" data-sal="slide-left" data-sal-duration="800">
-                <div class="tj-faq-left-content">
-                    <div class="faq-image">
-                        <img src="{{ asset('frontend/images/slider/FAQ.webp') }}" alt="Image">
-                    </div>
-
-                </div>
-            </div>
-            <div class="col-lg-6 sal-animate" data-sal="slide-right" data-sal-duration="800">
-                <div class="tj-faq-area">
-                    <div class="accordion" id="accordionExample">
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingOne">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    How do I need to prepare my boat for transport?
-                                </button>
-                            </h2>
-                            <div id="collapseOne" class="accordion-collapse collapse show"
-                                aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <strong>Take out personal items; tie up loose parts, drain tanks, disconnect
-                                        batteries, and document any pre-existing damage.</strong>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingTwo">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    How is my boat protected while in your care during a move?
-                                </button>
-                            </h2>
-                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <strong>Specialized trailers with the feature requirements of your boat's safe
-                                        fastening and skilled handlers, frequent inspections along the route, and
-                                        adherence to all safety regulations for all involved.</strong>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingThree">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseThree" aria-expanded="false"
-                                    aria-controls="collapseThree">
-                                    How is the cost for boat transportation calculated?
-                                </button>
-                            </h2>
-                            <div id="collapseThree" class="accordion-collapse collapse"
-                                aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <strong>The factors that determine the price of boat transport include the size and
-                                        weight of your vessel, how far it must travel, special handling requirements,
-                                        and what additional services are needed. Give us a call for an accurate quote 1
-                                        (844) 474-4721.</strong>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
+                </div> --}}
             </div>
         </div>
     </div>
@@ -590,34 +582,29 @@
 <section class="why-choose-us-slider">
     <div class="container">
         <div class="tj-section-heading text-center">
-            <h2 class="title text-white">Why Choose Us?</h2>
+            <h2 class="title text-white">Why ShipA1 for Boat Transport in the USA? </h2>
             <span class="sub-title active-shape">Discover the benefits of choosing ShipA1 through our features.</span>
         </div>
         <div class="row">
             <div class="col-md-4 col-lg-4 mb-4">
                 <div class="slide text-center">
                     <i class="fas fa-users icon-hover-shake" style="font-size: 50px;"></i>
-                    <h3 class="slide-title">Experience:</h3>
-                    <p class="slide-text">Ship A1 has been in this business for 16 years maintaining a proven record of
-                        satisfied
-                        customers all across the USA</p>
+                    <h3 class="slide-title">Decades of Experience </h3>
+                    <p class="slide-text">ShipA1 has been conquering the boat shipping market for more than sixteen years. Trust the experience.</p>
                 </div>
             </div>
             <div class="col-md-4 col-lg-4 mb-4">
                 <div class="slide text-center">
                     <i class="fas fa-dollar-sign icon-hover-shake" style="font-size: 50px;"></i>
-                    <h3 class="slide-title">Cost-Effective Rates:</h3>
-                    <p class="slide-text">We offer the best rates in the market without compromising the quality of our
-                        services.</p>
+                    <h3 class="slide-title">Trained Expert Team</h3>
+                    <p class="slide-text">Our expert shippers and carriers are licensed boat transporters following allocated DOT compliance rules.</p>
                 </div>
             </div>
             <div class="col-md-4 col-lg-4 mb-4">
                 <div class="slide text-center">
                     <i class="fas fa-headset icon-hover-shake" style="font-size: 50px;"></i>
-                    <h3 class="slide-title">24/7 Customer Support: </h3>
-                    <p class="slide-text">Anywhere and anytime customers reach out to our helpline 1 (844) 474-4721
-                        whenever they have questions and concerns, we provide our assistance 24/7 leaving the customer
-                        satisfied and happy at the end of the day.</p>
+                    <h3 class="slide-title">Boat Security & Insurance</h3>
+                    <p class="slide-text">Don’t worry about the safety and maintenance of your boats. ShipA1 offers proper security along with boat insurance support.</p>
                 </div>
             </div>
         </div>
@@ -625,25 +612,98 @@
             <div class="col-md-4 col-lg-4 mb-4">
                 <div class="slide text-center">
                     <i class="fas fa-shield-alt icon-hover-shake" style="font-size: 50px;"></i>
-                    <h3 class="slide-title">Real-Time Tracking:</h3>
-                    <p class="slide-text"> When transporting with Ship A1 you will have the benefit of tracking your
-                        boat
-                        from anywhere and anytime with the help of our tracking service.</p>
+                    <h3 class="slide-title">Real-Time Boat Monitoring </h3>
+                    <p class="slide-text"> 24/7 active monitoring by ShipA1. We track each boat shipping trailer following assigned destination routes in the USA.</p>
                 </div>
             </div>
             <div class="col-md-4 col-lg-4 mb-4">
                 <div class="slide text-center">
                     <i class="fas fa-clock icon-hover-shake" style="font-size: 50px;"></i>
-                    <h3 class="slide-title">100% Insurance:</h3>
-                    <p class="slide-text"> At Ship A1 all of our vehicles are secured and protected so our customers
-                        don’t have to
-                        worry about stressing over this factor.</p>
+                    <h3 class="slide-title">Budget Friendly Shipping</h3>
+                    <p class="slide-text"> Fill out the simple online form, pick your trailer, learn about cost-efficient average costs, and book a quote in minutes.</p>
                 </div>
             </div>
         </div>
     </div>
 </section>
+@include('partials.usa-states-map')
+<section>
+    <div class="container">
+        <div class="row p-5">
+           <div class="side-container col-12 col-lg-5 ">
+                <div>
+                    <h2>Frequently <span>Asked Questions</span> </h2>
+                    <hr class="w-50">
+                    <p>Have a look at answers to trending customer queries about our vehicle shipping services.</p>
+                        <a class="text-decoration-none  btnfaq" href="{{ route('faq') }}">Get Detailed Shipping Answer</a>
+                </div>
+           </div>
+    
+           <div class="col-12 col-lg-7">
+            <div class="faq-container">
+                <div class="faq">
+                    <button class="faq-toggle">How should I prepare my boat for transport? <span>+</span></button>
+                    <div class="faq-content">
+                        <p>Firstly, clean your boat, get broken parts fixed, pack the whole watercraft, remove all personal belongings, and get the paperwork/documentation ready.</p>
+                    </div>
+                </div>
+            
+                <div class="faq">
+                    <button class="faq-toggle">What is the average boat transport cost? <span>+</span></button>
+                    <div class="faq-content">
+                        <p>The boat shipping cost depends on various factors. Like size, distance, and your chosen transport partner. Otherwise, you can learn about the average price through ShipA1’s digital cost calculator. </p>
+                    </div>
+                </div>
+            
+                <div class="faq">
+                    <button class="faq-toggle">How many days does it take to transport a boat?<span>+</span></button>
+                    <div class="faq-content">
+                        <p>As an average for city-to-city transport, it usually takes two to three days. Similarly, for longer, state-to-state boat delivery, you will have to wait for around five to seven days. </p>
+                    </div>
+                </div>
+                
+                <div class="faq">
+                    <button class="faq-toggle">Is boat transportation safe?<span>+</span></button>
+                    <div class="faq-content">
+                        <p>Yes, boat shipping is safe in the USA when you hire a partner who is trusted and offers an experienced and trained team, taking care of every on-road challenge.</p>
+                    </div>
+                </div>
+            
+                <div class="faq">
+                    <button class="faq-toggle">How to find trusted boat transport companies?<span>+</span></button>
+                    <div class="faq-content">
+                        <p>Search around for top-noted brands, read online available reviews about them, check verifications, and confirm if they offer boat damage insurance. Plus, learn about the average prices as well before the final go. </p>
+                    </div>
+                </div>
+            
+            </div>
+           </div>
+        </div>
+    </div>
+</section>
+
 @include('partials.blog-slider')
+
+<script>
+    document.querySelectorAll(".faq-toggle").forEach(button => {
+        button.addEventListener("click", () => {
+            const faqContent = button.nextElementSibling;
+            const isOpen = button.classList.contains("open-faq");
+
+            document.querySelectorAll(".faq-toggle").forEach(btn => {
+                btn.classList.remove("open-faq");
+                btn.nextElementSibling.style.display = "none";
+                btn.querySelector("span").textContent = "+";
+            });
+
+            if (!isOpen) {
+                button.classList.add("open-faq");
+                faqContent.style.display = "block";
+                button.querySelector("span").textContent = "-";
+            }
+        });
+    });
+</script>
 @endsection
 @section('extraScript')
 @endsection
