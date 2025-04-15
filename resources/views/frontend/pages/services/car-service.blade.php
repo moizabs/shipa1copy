@@ -8,6 +8,40 @@
     <link rel="canonical" href="{{ url()->current() }}">
 @endsection
 @section('content')
+<script type="application/ld+json">
+    {
+    @context ": "Schema.org - Schema.org ",
+    @type ": "Product",
+    "name": "Car Transport",
+    "image": "https://www.shipa1.com/frontend/images/project/CAR-SERVICE-MAIN.webp",
+    "description": "Get affordable and top-rated car transport services in allover USA with Ship A1. Whether you need local or state-to-state car transport services, Ship A1 offers cheap car shipping services with top-rated service quality.",
+    "brand": {
+    @type ": "Brand",
+    "name": "Ship A1"
+    },
+    "aggregateRating": {
+    @type ": "AggregateRating",
+    "ratingValue": "4.8",
+    "bestRating": "5",
+    "worstRating": "1",
+    "ratingCount": "4897",
+    "reviewCount": "1"
+    },
+    "review": {
+    @type ": "Review",
+    "name": "Google Reviews",
+    "reviewBody": "googles' most trust car shipping services provider in USA.",
+    "reviewRating": {
+    @type ": "Rating",
+    "ratingValue": "4.8",
+    "bestRating": "5",
+    "worstRating": "1"
+    },
+    "datePublished": "2024-04-11",
+    "author": {"@type ": "Person", "name": "Google"}
+    }
+    }
+    </script>    
     <style>
         .side-container{
            display: flex;

@@ -9,6 +9,7 @@ services near you! We ensure safe, fast, and affordable auto transport services 
 <head>
     <link rel="preload" as="image" href="{{ asset('/frontend/images/banner/home-underline.webp') }}" type="image/webp">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preload" as="image" href="/frontend/images/slider/fright-banner-home.webp" />
 
 </head>
 <style>
@@ -234,17 +235,34 @@ services near you! We ensure safe, fast, and affordable auto transport services 
     .show {
         display: block;
     }
+    .homeunderline{
+        max-width: 100%;
+        height: auto;
+    }
+
+    .iconsss{
+        color:#8fc445; 
+    }
+
+    .service-m{
+        background-color: rgba(255, 255, 255, 0.5);
+        border-radius: 25px;
+    }
+
+    .services-bg{
+        background-image: url({{ asset('img/1430_x_863_Nebraska%281%29.jpg') }} )
+    }
 </style>
 <div id="preloader" class="preloader">
     <div class="animation-preloader"></div>
 </div>
 <section class="tj-slider-section">
     <div class="slider_shape"><img src="{{ asset('/frontend/images/banner/home-underline.webp') }}" 
+        class="home-underline"
         fetchpriority="high"
         alt="Image"
         width="1200"
         height="150"
-        style="max-width: 100%; height: auto;" 
         loading="lazy"
         decoding="async"></div>
     <div class="swiper sc-slider-1" data-autoplay="5000">
@@ -292,47 +310,7 @@ services near you! We ensure safe, fast, and affordable auto transport services 
                 </div>
             @endforeach
         </div>
-        {{-- <div class="swiper-wrapper">
-                <div class="swiper-slide" style="background-image: url('{{ asset('frontend/images/slider/DSF.webp') }}');">
-                    <div class="container">
-                        <div class="slider-content p-z-idex">
-                            <div class="slider-desc">ShipA1 has pledged to provide all-in-one auto transport solutions to
-                                all its customers and seeks your trust in return of our services.</div>
-                            <div class="tj-theme-button"><a class="tj-transparent-btn ms-4"
-                                    href="{{ route('quote.form.combine') }}">Get Quote<i class="flaticon-right-1"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="banner-shape"></div>
-                </div>
-                <div class="swiper-slide"  style="background-image: url('{{ asset('frontend/images/slider/home-slider-2.webp') }}');">
-                    <div class="container">
-                        <div class="slider-content p-z-idex">
-                            <h4 class="slider-title">Trustworthy, Efficient and Cost-Effective Transportation Services</h4>
-                            <div class="slider-desc">ShipA1 has pledged to provide all-in-one Heavy Equipment transportation
-                                solutions to all its customers and seeks your trust in return of our services.</div>
-                            <div class="tj-theme-button"><a class="tj-transparent-btn ms-4"
-                                    href="{{ route('quote.form.combine') }}">Get Quote<i class="flaticon-right-1"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="banner-shape"></div>
-                </div>
-                <div class="swiper-slide"  style="background-image: url('{{ asset('frontend/images/slider/freight-banner-home.webp') }}');">
-                    <div class="container">
-                        <div class="slider-content p-z-idex">
-                            <h4 class="slider-title">Trustworthy, Efficient and Cost-Effective Logistic Services</h4>
-                            <div class="slider-desc">ShipA1 has pledged to provide all-in-one Freight Shipping solutions to
-                                all its customers and seeks your trust in return of our services.</div>
-                            <div class="tj-theme-button"><a class="tj-transparent-btn ms-4 mt-4"
-                                    href="{{ route('quote.form.combine') }}">Get Quote<i class="flaticon-right-1"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="banner-shape"></div>
-                </div>
-            </div> --}}
-        <div></div>
+       
     </div>
     @php
         $services = [
@@ -416,7 +394,7 @@ services near you! We ensure safe, fast, and affordable auto transport services 
                     </div>
                     <div class="tj-icon-box">
                         <div class="ab-text d-flex align-items-center">
-                            <div class="ab-icon"><i class="fa-light fa-bell-concierge fa-2xl" style="color:#8fc445"></i>
+                            <div class="ab-icon"><i class="fa-light fa-bell-concierge fa-2xl iconsss" ></i>
                             </div>
                             <div class="ab-title">
                                 <h3 class="title fs-5 font-weight-bold">Providing Skillful Expert</h3>
@@ -430,7 +408,7 @@ services near you! We ensure safe, fast, and affordable auto transport services 
                     </div>
                     <div class="tj-icon-box">
                         <div class="ab-text d-flex align-items-center">
-                            <div class="ab-icon"><i class="fa-light fa-shield-heart fa-2xl" style="color:#8fc445"></i>
+                            <div class="ab-icon"><i class="fa-light fa-shield-heart fa-2xl iconsss" ></i>
                             </div>
                             <div class="ab-title">
                                 <h3 class="title fs-5 font-weight-bold">Offering Security & Efficiency</h3>
@@ -444,7 +422,7 @@ services near you! We ensure safe, fast, and affordable auto transport services 
                     </div>
                     <div class="tj-icon-box">
                         <div class="ab-text d-flex align-items-center">
-                            <div class="ab-icon"><i class="fa-light fa-handshake fa-2xl" style="color:#8fc445"></i>
+                            <div class="ab-icon"><i class="fa-light fa-handshake fa-2xl iconsss" ></i>
                             </div>
                             <div class="ab-title">
                                 <h3 class="title fs-5 font-weight-bold">Be Sustained as Qualified</h3>
@@ -834,7 +812,7 @@ services near you! We ensure safe, fast, and affordable auto transport services 
             @endforeach --}}
     </div>
 </section>
-<section class="tj-choose-us-section-service-moiz my-5" style="background-image: url({{ asset('img/1430_x_863_Nebraska%281%29.jpg') }} ) ">
+<section class="tj-choose-us-section-service-moiz my-5 services-bg" >
     <div class="container why-box">
         <div class="row services">
             
@@ -843,8 +821,8 @@ services near you! We ensure safe, fast, and affordable auto transport services 
                     ShipA1 is a brand of convenient and helpful assistance for each logistics transport requesting
                     business platform.
                 </p> --}}
-            <div class="pt-5" style="background-color: rgba(255, 255, 255, 0.5); border-radius: 25px; ">
-                <h2 class="text-center" style="">ShipA1’s Conquered B2B Marketplace</h2>
+            <div class="pt-5 service-m" >
+                <h2 class="text-center "  >ShipA1’s Conquered B2B Marketplace</h2>
                 <div class="service-section-parent gap-3 ">
                     <div class="services-section ">
                         <span>
@@ -1036,7 +1014,7 @@ services near you! We ensure safe, fast, and affordable auto transport services 
         <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3105.167331138309!2d-76.66251388426676!3d39.496062943506464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c81261c3eae243%3A0x81e995e93023e64a!2s201%20International%20Cir%20STE%20230%2C%20Hunt%20Valley%2C%20MD%2021030%2C%20USA!5e0!3m2!1sen!2s!4v1649863458559!5m2!1sen!2s"
             title="Location: Hunt Valley, MD" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
-            width="100%" height="400" style="border:0;" allowfullscreen>
+            width="100%" height="400"  allowfullscreen>
         </iframe>
     </div>
     <div class="tj-map-tabs"

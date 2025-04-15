@@ -267,7 +267,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="breadcrumb-content">
-                        <h1 class="breadcrumb-title text-center">Ship Your Golf Cart Safely in All Over USA with Trusted Golf
+                        <h1 class="breadcrumb-title text-center ">Ship Your Golf Cart Safely in All Over USA with Trusted Golf
                             Cart Shipping Company</h1>
                         <div class="breadcrumb-link">
                             <span>
@@ -296,7 +296,7 @@
                     <br>
                     <div class="text-container text-left">
                         <h3>Globally Indorsed Golf Cart Transportation</h3>
-                        <p>Your small vehicle transport - golf cart hauling delivery is in safe hands. If our <a href=""> speedy
+                        <p>Your small vehicle transport - golf cart hauling delivery is in safe hands. If our <a href="{{ route('services') }}"> speedy
                             shipping services</a> and on-road uninterrupted communication are not enough then trust our sixteen
                             years of experience in this business. Yes, your custom and luxury club cars demand proper
                             packaging, enclosed trailer support, and additional monitoring updates. We understand your green
@@ -573,10 +573,8 @@
             <div class="col-lg-6 pt-4 mt-0" data-sal="slide-left" data-sal-duration="800">
                 <div class="about-content-one border rounded p-4">
                     <div class="tj-section-heading ">
-                        <span class="sub-title active-shape">Terminal-to-Terminal Shipping</span>
-                        <p class="desc">A cost-effective option is that you drop your golf cart at a
-                            terminal in proximity and pick up from another at the destination. This is,
-                            above all, a budget-friendly choice, more so in the long run.</p>
+                        <span class="sub-title active-shape">Ensured Experts & Insurance</span>
+                        <p class="desc">The team is trained and experienced. Aligned professional carriers work as per the guidelines shared through BOL and SDS sheets. Similarly, each cargo shipment involved strong insurance coverage and backup support.</p>
                     </div>
                 </div>
             </div>
@@ -610,8 +608,27 @@
                     data-sal="slide-left" data-sal-duration="800">
                     <div class="about-content-one">
                         <div class="tj-section-heading">
-                            <h3 class="sal-animate" data-sal="slide-left" data-sal-duration="800">Why is that?</h3>
-                            <p class="desc">
+                            <h3 class="sal-animate" data-sal="slide-left" data-sal-duration="800">Best Golf Cart Shipping of All Types of Club Cars </h3>
+                            <p>Almost all types of golf buggies can be loaded in no time at ShipA1. Is your turf cart of one of these:</p>
+                            <h5>Common & Everyday Carts</h5>
+                            <ul>
+                                <li>Standard golf cart </li>
+                                <li>Street-legal golf cart</li>
+                                <li>Electric golf cart </li>
+                            </ul>
+                            <h5>Premium & Luxury Carts</h5>
+                            <ul>
+                                <li>High-end golf carts </li>
+                                <li>Custom-modified golf carts</li>
+                                <li>Leisure-focused golf carts</li>
+                            </ul>
+                            <h5>Common & Everyday Carts</h5>
+                            <ul>
+                                <li>Standard golf cart </li>
+                                <li>Street-legal golf cart</li>
+                                <li>Electric golf cart </li>
+                            </ul>
+                            {{-- <p class="desc">
                                 We not only focus on providing top-notch services, but we also ensure that our offerings
                                 are meticulously tailored to meet your unique needs and expectations. With years of
                                 accumulated
@@ -625,7 +642,7 @@
                                 with your satisfaction in mind, ensuring that you receive the highest level of care and
                                 attention throughout
                                 the entire process.
-                            </p>
+                            </p> --}}
                         </div>
                     </div>
                 </div>
@@ -657,24 +674,15 @@
                     data-sal="slide-left" data-sal-duration="800">
                     <div class="about-content-one">
                         <div class="tj-section-heading">
-                            <h3 class="sal-animate" data-sal="slide-left" data-sal-duration="800">Why Choose Ship A1
-                                Transport?</h3>
+                            <h3 class="sal-animate" data-sal="slide-left" data-sal-duration="800">Key Guidelines for Our Clients Before Golf Carts Pickup</h3>
+                            <p>To be more assured about the security of your golf carts, follow these core instructions before loading.</p>
                             <p class="desc">
                             <ul>
-                                <li> <b>Proven experience:</b> With over years of experience Ship A1 has managed to deliver
-                                    hundreds of vehicles throughout USA successfully. </li>
-                                <li><b>Trusted By Many:</b> You can check our satisfied clients on our website, google as
-                                    well as on different platforms like BBB
-                                    (Better Business Bureau) and social media platforms.</li>
-                                <li><b>100% Insurance:</b> To avoid any risks and damage we have 100% insured vehicles to
-                                    ensure your vehicle is in safe hands.</li>
-                                <li><b>Affordability:</b> Get amazing and quality services without emptying your bank!
-                                    Better rates and top-notch quality are what we promise our customers. </li>
+                                <li> The first step should be a proper inspection (look-over) of your golf carts.</li>
+                                <li>Go for packaging with perfect padding to be secure from possible damage.</li>
+                                <li>Be attentive while loading your golf carts into traveling trailers.</li>
+                                <li>Have a final look at trailers and shipment documentation for assurance.</li>
                             </ul>
-                            Choosing the right company for your shipping solutions is extremely crucial as it determines
-                            the security, timely delivery, and protection of your vehicles. Hence, <a class="pp-link-2"
-                                href="{{ route('welcome') }}">choosing Ship A1</a>
-                            Transport for your golf cart shipping has to be the best option for your transportation needs.
                             </p>
                         </div>
                     </div>
@@ -706,11 +714,7 @@
                                         <div class="col-sm-6 d-flex align-items-center justify-content-center">
                                             <div class="card-body tj-section-heading mb-0">
                                                 <h5 class="card-title sub-title active-shape">Enclosed Trailers</h5>
-                                                <p class="card-text  text-dark">Used for expensive or luxury golf carts,
-                                                    this type of trailer is designed to protect your
-                                                    vehicle from potential scratches, road debris, and weather conditions
-                                                    although it is a bit pricey as
-                                                    compared to the other trailers it offers peace of mind to the customers.
+                                                <p class="card-text  text-dark">The luxurious trailer is for premium and custom-built golf carts. The highly advanced tech-integrated roof and walls secure your deluxe and leisure-focused carts.
                                                 </p>
                                                 <div class="tj-theme-button mt-2">
                                                     <a class="tj-transparent-btn"
@@ -734,11 +738,7 @@
                                         <div class="col-sm-6 d-flex align-items-center justify-content-center">
                                             <div class="card-body tj-section-heading mb-0">
                                                 <h5 class="card-title sub-title active-shape">Open Trailers</h5>
-                                                <p class="card-text text-dark">A cost-effective option for those who just
-                                                    want their standard golf carts to be shipped, it
-                                                    provides accessibility and visibility to the golf carts strapped onto
-                                                    the trailer, without compromising the
-                                                    quality or duration of your shipment.</p>
+                                                <p class="card-text text-dark">It always gets effortless to move your golf carts from one city to another when you pick an open trailer. For better advantage, it’s regular, fast, and affordable. Guess what? The open trailer does have multiple vehicle transport options.</p>
                                                 <div class="tj-theme-button mt-2">
                                                     <a class="tj-transparent-btn"
                                                         href="{{ route('form.vehicle.golf_cart') }}">
@@ -772,10 +772,9 @@
                                         </div>
                                         <div class="col-sm-6 d-flex align-items-center justify-content-center">
                                             <div class="card-body tj-section-heading mb-0">
-                                                <h5 class="card-title sub-title active-shape">Tilt Trailers</h5>
-                                                <p class="card-text text-dark">This trailer facilitates easy loading and
-                                                    unloading of a golf cart because of its tilted deck.</p>
-                                                <div class="tj-theme-button mt-2">
+                                                    <h5 class="card-title sub-title active-shape">Tilt Trailers</h5>
+                                                    <p class="card-text text-dark">If you have a couple of club cars transported into another state and are looking for a trailer with smoother roll-on and roll-off, then always go for the tilt-hauling option. This trailer type is comfortable for all types of green wheels.</p>
+                                                    <div class="tj-theme-button mt-2">
                                                     <a class="tj-transparent-btn"
                                                         href="{{ route('form.vehicle.golf_cart') }}">
                                                         Get Quote
@@ -789,7 +788,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide">
+                    {{-- <div class="swiper-slide">
                         <div class="row">
                             <div class="col-lg-12">
                                 <div class="card-2 mb-3">
@@ -819,7 +818,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         </div>
@@ -986,45 +985,38 @@
             <div class="col-12 col-lg-7">
                 <div class="faq-container">
                     <div class="faq">
-                        <button class="faq-toggle">Is ShipA1 available in my city for ATV/UTV
-                            transportation?<span>+</span></button>
+                        <button class="faq-toggle">Who is the best among all golf cart shipping companies? 
+                            <span>+</span></button>
                         <div class="faq-content">
-                            <p>Yes, we are active all over the USA. Our team covers all commercial and remote locations of
-                                all fifty states here.</p>
+                            <p>The vehicle transport market is increasing every passing day. Therefore, always go for the licensed, certified, experienced, and strong vehicle insurance offering shipping agency.</p>
                         </div>
                     </div>
 
                     <div class="faq">
-                        <button class="faq-toggle">Can I ship my ATV and UTV at the same time? <span>+</span></button>
+                        <button class="faq-toggle">How to book fast golf cart transport services? <span>+</span></button>
                         <div class="faq-content">
-                            <p>Why not, with custom ATV/UTV transportation options you can choose a multi-vehicle trailer
-                                type. <a href="{{ route('contactUs') }}">Contact us now.</a></p>
+                            <p>Connect with remotely available shipping agencies like ShipA1. We get you a quote in minutes and deliver your golf cart consignment in a couple of days. </a></p>
                         </div>
                     </div>
 
                     <div class="faq">
-                        <button class="faq-toggle">How Secure ShipA1’s ATV/UTV Transport Services
-                            Are?<span>+</span></button>
+                        <button class="faq-toggle">Can I get golf cart shipping delivered in one day?<span>+</span></button>
                         <div class="faq-content">
-                            <p>Our drivers and carriers are native and experienced. We also make sure to secure your
-                                selected trailers before you go towards on-route journeys.</p>
+                            <p>Every vehicle shipping company has its own on-road delivery submission dates. <a href="tel:+1(844)474-4721">Give a call to ShipA1,</a>  share your urgent demands, and get the services as per your requirements.</p>
                         </div>
                     </div>
 
                     <div class="faq">
-                        <button class="faq-toggle">How do you transport ATVs/UTVs in the USA? <span>+</span></button>
+                        <button class="faq-toggle">Is golf car shipping costly in the USA? <span>+</span></button>
                         <div class="faq-content">
-                            <p>In simple terms, after the pickup and loading of your ATVs/UTVs, our team delivers the
-                                shipment through state-to-state, and city-to-city transport methods, ending the on-road
-                                journeys with door-to-door submission.</p>
+                            <p>Charges for golf car transport depend on the distance, the market’s average costs, and your selected service provider. For easy shipping under cost-efficient rates, choose none other than ShipA1. </p>
                         </div>
                     </div>
 
                     <div class="faq">
-                        <button class="faq-toggle">How much for single-vehicle UTV transport? <span>+</span></button>
+                        <button class="faq-toggle">How can I get custom golf cart transport services?<span>+</span></button>
                         <div class="faq-content">
-                            <p>Charges for your UTV transport depend on distance, UTV type, and location. You are requested
-                                to connect with our customer support team for better cost-efficient options.</p>
+                            <p>At ShipA1, it’s easy to get customized golf cart shipping in the USA. Just fill in a short form of customized options and book the delivery in minutes.</p>
                         </div>
                     </div>
 

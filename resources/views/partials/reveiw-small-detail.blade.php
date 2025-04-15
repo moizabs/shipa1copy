@@ -71,7 +71,7 @@
                                                 height="100%" alt="BBB" loading="lazy" />
                                         @elseif ($site_review->profile_name == 'Google')
                                             <img class="float-end"
-                                                src="{{ asset('frontend/images/testimonial/google.png') }}"
+                                                src="{{ asset('frontend/images/testimonial/google.webp') }}"
                                                 width="80%" height="100%" alt="Google" loading="lazy" />
                                         @elseif($site_review->profile_name == 'Transport Reviews')
                                             <img class="float-end"
