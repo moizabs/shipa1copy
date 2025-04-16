@@ -118,6 +118,87 @@
         line-height: 1.6;
         opacity: 0.9;
     }
+    .side-container{
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           margin: 50px auto;
+           padding:20px;
+        }
+        .side-container div h2{
+            color: #062e39;
+        }
+        .side-container div p {
+            color: #062e39;
+        }
+        .side-container div h2 span{
+            color: #8fc445;
+            font-weight: 700;
+        }
+        .side-container div hr{
+            color: #8fc445;
+            height: 8px;    
+            opacity: 1; 
+            /* border-radius: 5px; */
+            border-top-left-radius: 50px;
+            border-bottom-right-radius: 50px;
+        }
+        .btnfaq{
+            border: none;
+            border-radius: 5px;
+            background-color: #8fc445;
+            color: white;
+            padding: 6px ;
+            transition: 1s;
+        }
+        .btnfaq:hover{
+            background-color: #062e39;
+            color: white;
+        }
+        .faq-container {
+            max-width: 700px;
+            margin: 50px auto;
+            background: #fff;
+            padding:20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .faq-container h2 {
+            text-align: center;
+            color: #8fc445;
+        }
+        .faq {
+            border-bottom: 1px solid #ddd;
+        }
+        .faq button {
+            width: 100%;
+            background: none;
+            color: #062e39;
+            border: none;
+            text-align: left;
+            font-size: 18px;
+            padding: 15px;
+            cursor: pointer;
+            outline: none;
+            font-weight: bold;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .faq button:hover {
+            background: #f1f1f1;
+        }
+        .faq-content {
+            display: none;
+            padding: 15px;
+            font-size: 16px;
+            background: #f9f9f9;
+            border-radius: 5px;
+        }
+        .open-faq {
+            background: #d22;
+            color: white;
+        }
 </Style>
 <section class="tj-choose-us-section-service-farm">
     <div class="container mt-4">
@@ -157,14 +238,9 @@
             <div class="col-lg-8 col-md-12 order-sm-2 order-md-1 order-1 d-flex align-items-center justify-content-center sal-animate pt-4 mt-4" data-sal="slide-left" data-sal-duration="800">
                 <div class="about-content-one">
                     <div class="tj-section-heading">
-                        <h3 class="sal-animate" data-sal="slide-left" data-sal-duration="800">Efficient Farm Transportation</h3>
+                        <h3 class="sal-animate" data-sal="slide-left" data-sal-duration="800">Quick Farm Equipment Transport Services by ShipA1 </h3>
                         <p class="desc">
-                            Transportation has its importance in every industry, whether it be the industrial sector or
-                             the business sector. If we talk about farming, farmers most importantly need to deliver goods 
-                             from the field to the storage house to ensure smooth cultivation and procedures. Farm transportation 
-                             or simply farm transport begins and ends with a properly managed shipment process. <br>
-                            Farmers need proper equipment to perform their tasks efficiently, this is where Ship A1 plays an 
-                            important role in delivering the best and most efficient farm transportation services.
+                            Your farm equipment is the agricultural machinery that is mostly required in the USA’s rural areas, remote locations, and other grounding corps fields. These farmland vehicles, diggers, and forklifts are not comfortable to carry - you need better support for their hauling. That’s why ShipA1 is here to bring the <a href="{{ route('frontend.forms.farm_transport') }}">best transportation services</a>  for you in farm equipment. Trust the sixteen years of experience in the market for speedy farm machinery lifting.
                             </p>
                     </div>
                 </div>
@@ -192,16 +268,9 @@
             <div class="col-lg-8 col-md-12 order-sm-2 order-md-2 order-1 d-flex align-items-center justify-content-center sal-animate pt-4 mt-4" data-sal="slide-left" data-sal-duration="800">
                 <div class="about-content-one">
                     <div class="tj-section-heading">
-                        <h3 class="sal-animate" data-sal="slide-left" data-sal-duration="800">Choosing Reliable Farm Transportation service</h3>
+                        <h3 class="sal-animate" data-sal="slide-left" data-sal-duration="800">Choose the Best, Choose the Trusted</h3>
                         <p class="desc">
-                            Whether it comes to harvesting the crops or arranging the goods for the crops, transport is an
-                             essential part of this industry. However, the process of farm transportation is a difficult task.
-                              You cannot rely on any random company offering services for transportation at affordable rates. 
-                              One has to be careful when choosing a reliable resource as there are plenty of fraudulent companies
-                               and scammers. <br>
-                            Ship A1, a leading transportation company with a proven record of 16 successful years of dealing with
-                             shipments across the USA is fully equipped with advanced vehicles used for farming, along with 
-                             affordable rates, and multiple modes of services we are here to offer what we do best!
+                            The comfortable hauling of farmland heavy loads means your agricultural machinery is not typical oversized materials. ShipA1’s farm tractor transport services include the loading of all types of wheeled lorries, including utility, row, compact, and high-horsepower tractors. That’s why you should never take the chance; only hire a trusted expert team like ShipA1's qualified carriers’ groups in the USA.
                         </p>
                     </div>
                 </div>
@@ -214,24 +283,30 @@
             <div class="col-lg-8 col-md-12 order-sm-2 order-md-1 order-1 d-flex align-items-center justify-content-center sal-animate pt-4 mt-4" data-sal="slide-left" data-sal-duration="800">
                 <div class="about-content-one">
                     <div class="tj-section-heading">
-                        <h3 class="sal-animate" data-sal="slide-left" data-sal-duration="800">Method used in Farm Transport</h3>
+                        <h3 class="sal-animate" data-sal="slide-left" data-sal-duration="800">No Time for Manual Mode of Farm Equipment Transportation</h3>
                         <p class="desc">
-                            The two main categories of farm transport are:
+                            We have left the industrial era; this is the time to go for highly advanced tech-integrated transportation road fleets such as ShipA1 modern trailers. Here are the top-notch hauling trucks we use for the safe journeys of your farming machinery towards the pointed locations:
                         <ul>
                             <li>
-                                The manual mode of transport.
+                                Flatbed Transport 
                             </li>
                             <li>
-                                The advanced or mechanized method of transport.
-
+                                Step Deck Transport 
                             </li>
+                            <li>
+                                Open Transport 
+                            </li>
+                            <li>
+                                Enclosed Transport 
+                            </li>
+                            <li>
+                                Lowboy Transport  
+                            </li>
+                            <li>
+                                Tilt Deck Transport 
+                            </li>
+
                         </ul>
-                        Both services have their pros and cons. The traditional method is the oldest, and farmers have
-                        been using it for decades. There is no modern equipment involved in this mode of transportation.
-                        Therefore, the manual mode consumes more physical effort and time of the farmers. This method is
-                        compatible with short distances, usually from the field to the storage place.
-                        The advanced method of transport is the modern method, and it is best for long-distance
-                        transportation.
                         </p>
                     </div>
                 </div>
@@ -259,25 +334,33 @@
             <div class="col-lg-8 col-md-12 order-sm-2 order-md-2 order-1 d-flex align-items-center justify-content-center sal-animate pt-4 mt-4" data-sal="slide-left" data-sal-duration="800">
                 <div class="about-content-one">
                     <div class="tj-section-heading">
-                        <h3 class="sal-animate" data-sal="slide-left" data-sal-duration="800">Factors Affecting Cost and Efficiency</h3>
+                        <h3 class="sal-animate" data-sal="slide-left" data-sal-duration="800">Your Farming Equipment Type, Our Fast-Shipping Services</h3>
                         <p class="desc">
-                            In advanced farm transportation, modern equipment, and the latest machinery is used for
-                            transportation. Therefore, there is less consumption of time and energy in this mode of
-                            transport. Ship A1 offers all these services at affordable price rates.
-                            The price of these services depends on certain factors that you should always consider when
-                            you plan to ship your farm material.
+                            Tractors and harvesters shipping is regular in the USA. Share your on-road machinery type with us and we will align the qualified team for you to handle everything. From early pick-up to timely unloading on your shared agricultural land, we got you covered here. The frontier of top farm equipment shipping is open for you with transporting numerous captivated land machinery types such as:
                         <ul>
                             <li>
-                                The total distance of your journey.
+                                Seeders 
                             </li>
                             <li>
-                                Types of goods need to be transported.
+                                Movers 
                             </li>
                             <li>
-                                The overall size and quantity of the goods.
+                                Backhoe loafers 
                             </li>
                             <li>
-                                Additional services if there are any.
+                                Front-end loafers
+                            </li>
+                            <li>
+                                Plows  
+                            </li>
+                            <li>
+                                Cultivators  
+                            </li>
+                            <li>
+                                Forklifts  
+                            </li>
+                            <li>
+                                Telehandlers 
                             </li>
                         </ul>
                         </p>
@@ -291,24 +374,22 @@
     <div class="container">
         <div class="row">
             <h2 class="title sal-animate text-center" data-sal="slide-left" data-sal-duration="800">
-                Why Choose Ship A1?</h2>
+                Why ShipA1’s Farm Equipment Transportation?</h2>
             <div class="col-lg-6 sal-animate pt-4 mt-0" data-sal="slide-left" data-sal-duration="800">
                 <div class="about-content-one border rounded-5 p-4">
                     <div class="tj-section-heading">
-                        <span class="sub-title active-shape">Safeguarding From Insurance</span>
+                        <span class="sub-title active-shape">Reliable Collaboration </span>
                         <p class="desc">
-                            Expert shipping firms like Ship A1 offer complete insurance coverage for your farm equipment 
-                            during transportation, making sure you are covered and reimbursed in the event that any damage occurs.</p>
+                            The team is trained to serve you with professionalism. With ShipA1, it’s easy to track your shipping trailers of farming implements. Reliable service in every assistance.</p>
                     </div>
                 </div>
             </div>
             <div class="col-lg-6 sal-animate pt-4 mt-0" data-sal="slide-left" data-sal-duration="800">
                 <div class="about-content-one border rounded-5 p-4">
                     <div class="tj-section-heading">
-                        <span class="sub-title active-shape">Professional Shipping Team</span>
+                        <span class="sub-title active-shape">Super-Fast Service</span>
                         <p class="desc">
-                            Our knowledgeable shipping staff prioritizes your equipment's safety by securely fastening it with straps and following
-                             all required safety measures, guaranteeing your total pleasure with our service.</p>
+                            We are all set to work on your transportation consignment.  It just takes the order confirmation from your site. Hire them to be super-fast in farm tools drop-off. </p>
                     </div>
                 </div>
             </div>
@@ -317,20 +398,18 @@
             <div class="col-lg-6 sal-animate pt-4 mt-4" data-sal="slide-left" data-sal-duration="800">
                 <div class="about-content-one border rounded-5 p-4">
                     <div class="tj-section-heading">
-                        <span class="sub-title active-shape">Timely Delivery </span>
+                        <span class="sub-title active-shape">Experienced Team </span>
                         <p class="desc">
-                            Ship A1 places a high value on timeliness, ensuring that your farm equipment reaches its destination on schedule. 
-                            This minimizes delays and keeps your farming operations operating efficiently.</p>
+                            The market experience of more than fifteen years matters. Trust those who are licensed, certified, and proficient in the USA shipping market. </p>
                     </div>
                 </div>
             </div>
             <div class="col-lg-6 sal-animate pt-4 mt-4" data-sal="slide-left" data-sal-duration="800">
                 <div class="about-content-one border rounded-5 p-4">
                     <div class="tj-section-heading">
-                        <span class="sub-title active-shape">Personalized Transportation Options</span>
+                        <span class="sub-title active-shape">Safety Control</span>
                         <p class="desc">
-                            Based on the unique requirements of your Farm equipment, we provide customized transport solutions. This includes choosing the
-                             right trailers and organizing the necessary logistics to guarantee a timely and safe delivery.</p>
+                            ShipA1’s guaranteed safe deliveries make sure to track the cargo trailers of your farming tools following their rural or remote destinations. </p>
                     </div>
                 </div>
             </div>
@@ -341,7 +420,7 @@
     <div class="container">
         <div class="row">
             <div class="tj-section-heading text-center">
-                <h5 class="title fs-1">Trailers used for Farm Transport</h5>
+                <h5 class="title fs-1">Advanced Trailers for Your Farm Transport </h5>
             </div>
         </div> 
         <div class="swiper-container swiper-new-1">
@@ -354,9 +433,7 @@
                                     <div class="col-sm-6 d-flex align-items-center justify-content-center">
                                     <div class="card-body tj-section-heading mb-0">
                                         <h5 class="card-title sub-title active-shape">Lowboy Trailers</h5>
-                                        <p class="card-text text-dark">These trailers are commonly used for heavy or oversized equipment, featuring a low
-                                            deck height that accommodates tall equipment which ensures easier loading and unloading of farm
-                                            vehicles.</p>
+                                        <p class="card-text text-dark">Your farm equipment loading may face oversized scenarios. That’s why lowboy is the better option for the effortless pick-up and unloading of your farming machinery.</p>
                                         <div class="tj-theme-button mt-2">
                                         <a class="tj-transparent-btn" href="{{ route('frontend.forms.farm_transport') }}" >
                                             Get Quote
@@ -384,8 +461,7 @@
                                     <div class="col-sm-6 d-flex align-items-center justify-content-center">
                                     <div class="card-body tj-section-heading mb-0">
                                         <h5 class="card-title sub-title active-shape">Tilt Deck Trailers</h5>
-                                        <p class="card-text text-dark">These are convenient for loading and unloading large or low-clearance farm vehicles
-                                            by tilting the deck to ground level.</p>
+                                        <p class="card-text text-dark">In this type of trailer, you just need a little push to carry tractors into a fully secured hauling space. This hauling vehicle is also convenient for all types of balers, plows, and harvesters</p>
                                         <div class="tj-theme-button mt-2">
                                         <a class="tj-transparent-btn" href="{{ route('frontend.forms.farm_transport') }}" >
                                             Get Quote
@@ -407,8 +483,7 @@
                                     <div class="col-sm-6 d-flex align-items-center justify-content-center">
                                     <div class="card-body tj-section-heading mb-0">
                                         <h5 class="card-title sub-title active-shape">Enclosed Trailers</h5>
-                                        <p class="card-text text-dark">This type of trailer offers maximum protection from weather, scratches, and theft.
-                                            Enclosed trailers are most suitable for expensive and sensitive farm vehicles.</p>
+                                        <p class="card-text text-dark">While an open trailer is more convenient. But an enclosed hauling truck is an extra protective trailer type. Best choice for utility and high-horsepower tractors.</p>
                                         <div class="tj-theme-button mt-2">
                                         <a class="tj-transparent-btn" href="{{ route('frontend.forms.farm_transport') }}" >
                                             Get Quote
@@ -433,24 +508,13 @@
     <div class="container why-box">
         <div class="row services">
             <div class="col-12">
-                <h2 class="services-h1">Additional Services Provided</h2>
+                <h2 class="services-h1">Cost Determining Factors for Your Farm Equip Shipping</h2>
             </div>
             <div class="col-12 col-md-4 mb-4">
                 <div class="card- h-100">
                     <div class="card-body">
-                        <h5 class="card-title text-dark">Experienced Network of Truckers</h5>
-                        <p class="card-text text-dark">The vast network of competent truckers enables us to deliver
-                            your shipment timely and they are also aware of the areas that they would encounter during
-                            transit.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-4 mb-4">
-                <div class="card- h-100">
-                    <div class="card-body">
-                        <h5 class="card-title text-dark">Tracking Services</h5>
-                        <p class="card-text text-dark">We offer tracking services to the people who want their
-                            construction equipment shipped so that they can track the time for the arrival of shipment.</p>
+                        <h5 class="card-title text-dark">Shipping Distance</h5>
+                        <p class="card-text text-dark">Distance is a vital factor for your rural and remote location farm equipment transportation. Use our instant farm equipment shipping calculator for average cost results.</p>
                     </div>
                 </div>
             </div>
@@ -458,15 +522,22 @@
                 <div class="card- h-100">
                     <div class="card-body">
                         <h5 class="card-title text-dark">Trailer Type</h5>
-                        <p class="card-text text-dark">You could choose an option for construction equipment where
-                            your shipment will be prioritized but it has a price attached to it.</p>
+                        <p class="card-text text-dark">We allow our clients to handpick their form tools transporting trailers. As each hauling vehicle has a different price rate. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 mb-4">
+                <div class="card- h-100">
+                    <div class="card-body">
+                        <h5 class="card-title text-dark">Shipping Type</h5>
+                        <p class="card-text text-dark">The transportation type matters in costs. City-to-city and state-to-state shipping affect the overall fares for agricultural machinery transport.</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
-<section class="tj-faq-section tj-faq-page pt-5">
+{{-- <section class="tj-faq-section tj-faq-page pt-5">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
@@ -567,36 +638,87 @@
             </div>
         </div>
     </div>
-</section>
+</section> --}}
+<div class="container">
+    <div class="row p-5">
+       <div class="side-container col-12 col-lg-5 ">
+            <div>
+                <h2>Frequently <span>Asked Questions</span> </h2>
+                <hr class="w-50">
+                <p>Have a look at answers to trending customer queries about our vehicle shipping services.</p>
+                    <a class="text-decoration-none  btnfaq" href="{{ route('faq') }}">Get Detailed Shipping Answer</a>
+            </div>
+       </div>
+
+       <div class="col-12 col-lg-7">
+        <div class="faq-container">
+            <div class="faq">
+                <button class="faq-toggle">Can I transport my tractor within the city in the USA?<span>+</span></button>
+                <div class="faq-content">
+                    <p>Yes, this within-the-city moving comes in an intercity transportation model. It charges less than city-to-city and state-to-state shipping.</p>
+                </div>
+            </div>
+        
+            <div class="faq">
+                <button class="faq-toggle">Who loads and unloads agricultural machinery in city-to-city shipping? <span>+</span></button>
+                <div class="faq-content">
+                    <p>It’s the trained carriers and drivers who pick up/drop off the agricultural tools and equipment for every type of freight service. They carefully transport the heavy loads following guided fleet safety compliance sheets.  </p>
+                </div>
+            </div>
+        
+            <div class="faq">
+                <button class="faq-toggle">Do I need a broker for farming tools transportation?<span>+</span></button>
+                <div class="faq-content">
+                    <p>Yes, in state-to-state transportation, dealers and heavy load owners have to reach out to experienced shipping brokers like ShipA1 for a secured and legally following fleet.</p>
+                </div>
+            </div>
+            
+        
+            <div class="faq">
+                <button class="faq-toggle">Can we transport personal belongings along with farm equipment?<span>+</span></button>
+                <div class="faq-content">
+                    <p>As per the transportation guidance, shippers are advised to remove personal belongings from the transporting vehicles due to safety hazards. However, it depends on the obtained shipping package and transportation type.</p>
+                </div>
+            </div>
+        
+            <div class="faq">
+                <button class="faq-toggle">How to book instant farming equipment transportation services? 
+                    <span>+</span></button>
+                <div class="faq-content">
+                    <p>Instant order booking agencies such as ShipA1 allow shippers to get transportation quotes in minutes. It just takes to click to get instant quote, fill out the form with basic info, select the trailer type, and submit the request. </p>
+                </div>
+            </div>
+        
+        </div>
+       </div>
+    </div>
+</div>
 <section class="why-choose-us-slider">
     <div class="container">
         <div class="tj-section-heading text-center">
-            <h2 class="title text-white">Why Choose Us?</h2>
-            <span class="sub-title active-shape">Discover the benefits of choosing ShipA1 through our features.</span>
+            <h2 class="title text-white">Why Hire ShipA1 Right Now?</h2>
+            <span class="sub-title active-shape">Here is why you should only trust us and hire our trained shipping team.</span>
         </div>
         <div class="row">
             <div class="col-md-4 col-lg-4 mb-4">
                 <div class="slide text-center">
                     <i class="fas fa-shield-alt icon-hover-shake" style="font-size: 50px;"></i>
-                    <h3 class="slide-title">100% Insured Vehicles</h3>
-                    <p class="slide-text">Our 100% insured vehicles ensure customers’ peace of mind and satisfaction, 
-                       every vehicle at Ship A1 is fully secured and protected.</p>
+                    <h3 class="slide-title">Door-to-Door Shipping</h3>
+                    <p class="slide-text">Our existing and potential clients get the advantage of door-to-door pickup and delivery services.</p>
                 </div>
             </div>
             <div class="col-md-4 col-lg-4 mb-4">
                 <div class="slide text-center">
                     <i class="fas fa-clock icon-hover-shake" style="font-size: 50px;"></i>
-                    <h3 class="slide-title">Timely Delivery</h3>
-                    <p class="slide-text">Your satisfaction is our top priority, which is why Ship A1 ensures that your farm equipment 
-                        reaches its destination on time, avoiding delays.</p>
+                    <h3 class="slide-title">No Hidden Charge</h3>
+                    <p class="slide-text">We don’t charge hidden costs. Be free from the hassle of paying extra for shipping heavy loads and logistics.</p>
                 </div>
             </div>
             <div class="col-md-4 col-lg-4 mb-4">
                 <div class="slide text-center">
                     <i class="fas fa-users icon-hover-shake" style="font-size: 50px;"></i>
-                    <h3 class="slide-title">Team of Professionals</h3>
-                    <p class="slide-text">With a highly experienced and professional staff, you can rest knowing your vehicle is in safe hands. 
-                        With 16 years of experience, Ship A1 delivers the absolute best to its customers.</p>
+                    <h3 class="slide-title">Market Challenging Rates</h3>
+                    <p class="slide-text">We welcome you to come and book a quote in minutes even in peak seasons. Try us for highly competitive rates.</p>
                 </div>
             </div>
         </div>
@@ -604,16 +726,15 @@
             <div class="col-md-4 col-lg-4 mb-4">
                 <div class="slide text-center">
                     <i class="fas fa-headset icon-hover-shake" style="font-size: 50px;"></i>
-                    <h3 class="slide-title">Real-Time Tracking</h3>
-                    <p class="slide-text">Avail our real-time tracking service that allows the customer to track their shipment status anytime.</p>
+                    <h3 class="slide-title">100% Insurance Coverage</h3>
+                    <p class="slide-text">Don’t worry about machinery damage. Your cargo of heavy equipment is covered with strong insurance coverage. </p>
                 </div>
             </div>
             <div class="col-md-4 col-lg-4 mb-4">
                 <div class="slide text-center">
                     <i class="fas fa-phone-alt icon-hover-shake" style="font-size: 50px;"></i>
-                    <h3 class="slide-title">24/7 Customer Support</h3>
-                    <p class="slide-text">Our customers are our top priority, which is why we offer 24/7 support to erase any doubts 
-                        and offer tailored solutions to their needs and concerns.</p>
+                    <h3 class="slide-title">24/7 Active Tracking </h3>
+                    <p class="slide-text">Along with all-day available customer service, the team also keeps a vigilant eye on each consignment with active monitoring.</p>
                 </div>
             </div>
         </div>
@@ -628,5 +749,25 @@
         var videoSrc = iframe.src;
         iframe.src = videoSrc + "&autoplay=1";
     }
+   
+    document.querySelectorAll(".faq-toggle").forEach(button => {
+        button.addEventListener("click", () => {
+            const faqContent = button.nextElementSibling;
+            const isOpen = button.classList.contains("open-faq");
+
+            document.querySelectorAll(".faq-toggle").forEach(btn => {
+                btn.classList.remove("open-faq");
+                btn.nextElementSibling.style.display = "none";
+                btn.querySelector("span").textContent = "+";
+            });
+
+            if (!isOpen) {
+                button.classList.add("open-faq");
+                faqContent.style.display = "block";
+                button.querySelector("span").textContent = "-";
+            }
+        });
+    });
+
 </script>
 @endsection
