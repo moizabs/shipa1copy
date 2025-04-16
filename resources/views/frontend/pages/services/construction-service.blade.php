@@ -118,6 +118,88 @@
         line-height: 1.6;
         opacity: 0.9;
     }
+
+    .side-container{
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           margin: 50px auto;
+           padding:20px;
+        }
+        .side-container div h2{
+            color: #062e39;
+        }
+        .side-container div p {
+            color: #062e39;
+        }
+        .side-container div h2 span{
+            color: #8fc445;
+            font-weight: 700;
+        }
+        .side-container div hr{
+            color: #8fc445;
+            height: 8px;    
+            opacity: 1; 
+            /* border-radius: 5px; */
+            border-top-left-radius: 50px;
+            border-bottom-right-radius: 50px;
+        }
+        .btnfaq{
+            border: none;
+            border-radius: 5px;
+            background-color: #8fc445;
+            color: white;
+            padding: 6px ;
+            transition: 1s;
+        }
+        .btnfaq:hover{
+            background-color: #062e39;
+            color: white;
+        }
+        .faq-container {
+            max-width: 700px;
+            margin: 50px auto;
+            background: #fff;
+            padding:20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .faq-container h2 {
+            text-align: center;
+            color: #8fc445;
+        }
+        .faq {
+            border-bottom: 1px solid #ddd;
+        }
+        .faq button {
+            width: 100%;
+            background: none;
+            color: #062e39;
+            border: none;
+            text-align: left;
+            font-size: 18px;
+            padding: 15px;
+            cursor: pointer;
+            outline: none;
+            font-weight: bold;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .faq button:hover {
+            background: #f1f1f1;
+        }
+        .faq-content {
+            display: none;
+            padding: 15px;
+            font-size: 16px;
+            background: #f9f9f9;
+            border-radius: 5px;
+        }
+        .open-faq {
+            background: #d22;
+            color: white;
+        }
 </Style>
 <section class="tj-choose-us-section-service-construction">
     <div class="container mt-4">
@@ -158,24 +240,17 @@
             <div class="col-lg-8 col-md-12 order-sm-2 order-md-1 order-1 d-flex align-items-center justify-content-center sal-animate pt-4 mt-4" data-sal="slide-left" data-sal-duration="800">
                 <div class="about-content-one">
                     <div class="tj-section-heading">
-                        <h3 class="sal-animate" data-sal="slide-left" data-sal-duration="800">Construction Equipment Transport</h3>
+                        <h3 class="sal-animate" data-sal="slide-left" data-sal-duration="800">Certified & Approved Construction Equipment Shipping </h3>
                         <p class="desc">
-                            Heavy construction equipment is one of the most prominent and most competitive sectors of the U.S. 
-                            manufacturing economy involved in the making of construction equipment. Since this industry is 
-                            developing in its way, the need for construction equipment transport is increasing with time. 
-                            Because of this, many companies are currently in operation and business for the transportation 
-                            of construction equipment, it is extremely crucial to have a dependable resource that can assure 
-                            you peace of mind as well as amazing services. Ship A1, is a top leading auto shipping company that 
-                            offers its services to the customer based on their needs and requirements. <br>
-                            Our renowned services consist of:
+                            Heavy loads of industrial machinery cost time, money, and expertise. Your construction equipment (cranes, excavators, bulldozers, graders, and dump trucks) can be a kind of headache that comes without a warranty while shipping. And all of a sudden and urgent need, you will end up hiring inexperienced novices for your construction equipment shipping in the USA. As an ultimate solution to avoid paying sky-high costs, ShipA1 comes as a validated and trained machinery transport for you and your industrial partners. Trust the service and our:
                             <ul>
-                                <li>Affordability</li>
-                                <li>Convenience</li>
-                                <li>Fast and Secure Shipping</li>
-                                <li> 100% Insurance</li>
-                                <li>24/7 Customer Support</li>
-                                <li>Advanced Equipment</li>
-                                <li>Professional and Experience Staff</li>
+                                <li>Proven expert shippers</li>
+                                <li>Fast deliveries all across the USA </li>
+                                <li>All-day active customer service</li>
+                                <li> Fully protected advanced trailers</li>
+                                <li>Vigilantly monitored transport tracking</li>
+                                {{-- <li>Advanced Equipment</li>
+                                <li>Professional and Experience Staff</li> --}}
                             </ul>
                         </p>
                     </div>
@@ -204,7 +279,7 @@
             <div class="col-lg-8 col-md-12 order-sm-2 order-md-2 order-1 d-flex align-items-center justify-content-center sal-animate pt-4 mt-4" data-sal="slide-left" data-sal-duration="800">
                 <div class="about-content-one">
                     <div class="tj-section-heading">
-                        <h3 class="sal-animate" data-sal="slide-left" data-sal-duration="800">Expert Heavy Hauling</h3>
+                        <h3 class="sal-animate" data-sal="slide-left" data-sal-duration="800">Why ShipA1’s Construction Equipment Transport Services </h3>
                         <p class="desc">
                             The <a class="pp-link-2" href="{{ route('frontend.pages.services.heavy-service') }}">heavy machinery </a> transport business has used technology in the best way possible. Many types of
                              haulers are identified with ShipA1. Some are constructed to haul a single car, while some are
@@ -220,21 +295,65 @@
             </div>
         </div>
     </div>
+    <section class="tj-about-section pt-0 pb-4">
+        <div class="container">
+            <div class="row">
+                <h2 class="title sal-animate text-center pt-4" data-sal="slide-left" data-sal-duration="800">
+                    Why ShipA1’s Construction Equipment Transport Services </h2>
+                <div class="col-lg-6 sal-animate pt-4 mt-4" data-sal="slide-left" data-sal-duration="800">
+                    <div class="about-content-one border rounded-5 p-4">
+                        <div class="tj-section-heading">
+                            <span class="sub-title active-shape">Decade-Strong Reliability</span>
+                            <p class="desc">
+                                Active dominance not just in construction machinery shipping; we are also proficient in logistics freight and vehicle shipping services. You can’t beat the sixteen years of successful business journey.
+                            </p>
+                        </div>
+    
+                    </div>
+                </div>
+                <div class="col-lg-6 sal-animate pt-4 mt-4" data-sal="slide-left" data-sal-duration="800">
+                    <div class="about-content-one border rounded-5 p-4">
+                        <div class="tj-section-heading">
+                            <span class="sub-title active-shape">Ready Set Trailers </span>
+                            <p class="desc">
+                                Pick trailers of your choice for the construction machinery. We offer customized options to all in the USA. Our haul trucks are ready and a few steps away to load your heavy-duty equipment in no time.</p>
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 sal-animate pt-4 mt-4" data-sal="slide-left" data-sal-duration="800">
+                    <div class="about-content-one border rounded-5 p-4">
+                        <div class="tj-section-heading">
+                            <span class="sub-title active-shape">Fast Service & Support </span>
+                            <p class="desc">
+                                ShipA1’s construction equipment transportation costs challenge other markets’ average fares. As an advantage, our fast-shipping solutions and free advisory come as bonus benefits to all clients in the USA.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 sal-animate pt-4 mt-4" data-sal="slide-left" data-sal-duration="800">
+                    <div class="about-content-one border rounded-5 p-4">
+                        <div class="tj-section-heading">
+                            <span class="sub-title active-shape">Quick Quote Booking</span>
+                            <p class="desc">
+                                The process is simple and less time-consuming. It just takes a few minutes to share the needed info, handpick the transport trailer, and book our heavy equipment shipping team ready to serve you with more value.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     @include('partials.cta-section')
     <div class="container pt-4">
         <div class="row">
             <div class="col-lg-8 col-md-12 order-sm-2 order-md-1 order-1 d-flex align-items-center justify-content-center sal-animate pt-4 mt-4" data-sal="slide-left" data-sal-duration="800">
                 <div class="about-content-one">
                     <div class="tj-section-heading">
-                        <h3 class="sal-animate" data-sal="slide-left" data-sal-duration="800">Specialized Equipment Shipping</h3>
+                        <h3 class="sal-animate" data-sal="slide-left" data-sal-duration="800">Your Heavy Loads, Our Specialized Shipping Services</h3>
                         <p class="desc">
-                            Heavy equipment hauling can be a complicated undertaking and it’s important to select a company
-                             that specializes in this work. One essential factor to think about aside from the professionalism 
-                             and qualifications of the auto shipping company is the high quality and ability of the machines to 
-                             transport. They should have the ability to haul every load whatever the size, weight, quantity, or
-                              kind of equipment. <br>
-                            ShipA1, in this case, is quite competitive. We are equipped with a variety of heavy haulers used for
-                             construction equipment transport that can move your heavy equipment smoothly.
+                            The USA construction building and large-scale infrastructure development marketplace is connected with machinery equipment shipping agencies. For speedy assistance and cost-cutting during the peak seasons, having a reliable and expert shipping partner is the dream of every growing enterprise. Let us back you with specialized construction equipment cargo transport services. Our solutions come with uninterrupted deliveries, fulfilling all on-road shipping requirements. 
                         </p>
                     </div>
                 </div>
@@ -262,70 +381,42 @@
             <div class="col-lg-8 col-md-12 order-sm-2 order-md-2 order-1 d-flex align-items-center justify-content-center sal-animate pt-4 mt-4" data-sal="slide-left" data-sal-duration="800">
                 <div class="about-content-one">
                     <div class="tj-section-heading">
-                        <h3 class="sal-animate" data-sal="slide-left" data-sal-duration="800">Key Considerations for Choosing the Right Carrier</h3>
+                        <h3 class="sal-animate" data-sal="slide-left" data-sal-duration="800">What’s Your Construction Equipment Type?</h3>
                         <p class="desc">
-                            One more thing that should be considered regarding construction equipment shipping is choosing the
-                             correct construction equipment transport support or company. Before the carrier service arrives, 
-                             you should take the essential actions & check the shipping quotes to make sure your equipment is 
-                             shielded and secured for any unfavorable conditions it may encounter during its shipment.</p>
+                            ShipA1 is your trusted heavy equipment transportation agency. So, what’s your heavy-duty industrial construction machinery type? Is it a bulldozer, crane, or a grader? Or maybe you need our skilled carriers for easy shipping of your loaders and pavers. Time to share, how you want it and where you want in the USA.</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
-<section class="tj-about-section pt-0 pb-4">
-    <div class="container">
-        <div class="row">
-            <h2 class="title sal-animate text-center pt-4" data-sal="slide-left" data-sal-duration="800">
-                Why Choose Ship A1</h2>
-            <div class="col-lg-6 sal-animate pt-4 mt-4" data-sal="slide-left" data-sal-duration="800">
-                <div class="about-content-one border rounded-5 p-4">
-                    <div class="tj-section-heading">
-                        <span class="sub-title active-shape">Experienced</span>
-                        <p class="desc">
-                            You should know, not every shipping company has the ability for construction equipment
-                            shipping as it’s quite a daunting task and requires top-notch skilled personnel & the
-                            appropriate trailers that are necessary for doing the job.
-                        </p>
-                    </div>
-
-                </div>
+<section class="tj-choose-us-section-service-commercial-3 my-5">
+    <div class="container why-box">
+        <div class="row services">
+            <div class="col-12">
+                <h2 class="services-h1">Cost Determining Factors for Your Construction Equipment Shipping</h2>
             </div>
-            <div class="col-lg-6 sal-animate pt-4 mt-4" data-sal="slide-left" data-sal-duration="800">
-                <div class="about-content-one border rounded-5 p-4">
-                    <div class="tj-section-heading">
-                        <span class="sub-title active-shape">Availability of Trailers</span>
-                        <p class="desc">
-                            For construction equipment transport the hauler must have (RGN) Removable Gooseneck
-                            Trailer, Flatbeds and Expendable trailers etc. And along with having these trailers and the
-                            dexterous employees we make it possible to ship your Equipment.</p>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-6 sal-animate pt-4 mt-4" data-sal="slide-left" data-sal-duration="800">
-                <div class="about-content-one border rounded-5 p-4">
-                    <div class="tj-section-heading">
-                        <span class="sub-title active-shape">Specialized Handling</span>
-                        <p class="desc">
-                            Construction equipment calls for handling with precision and care. Our staff at Ship A1 is
-                             specially trained in the loading and offloading requirements of heavy machinery and securing 
-                             each piece of equipment during transport.
-                        </p>
+            <div class="col-12 col-md-4 mb-4">
+                <div class="card- h-100">
+                    <div class="card-body">
+                        <h5 class="card-title text-dark">Shipping Distance</h5>
+                        <p class="card-text text-dark">Distance plays a major role in the price of your building construction machinery shipping. City-to-city and state-to-state transport have different charging costs. </p>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 sal-animate pt-4 mt-4" data-sal="slide-left" data-sal-duration="800">
-                <div class="about-content-one border rounded-5 p-4">
-                    <div class="tj-section-heading">
-                        <span class="sub-title active-shape">Tailor-Made Solutions</span>
-                        <p class="desc">
-                            Every construction project differs. Ship A1 offers personalized transport solutions with a 
-                            customized combination of trailers and logistical expertise in order to meet the specifications 
-                            of the equipment, giving flexibility and reliability.</p>
+            <div class="col-12 col-md-4 mb-4">
+                <div class="card- h-100">
+                    <div class="card-body">
+                        <h5 class="card-title text-dark">Trailer Type</h5>
+                        <p class="card-text text-dark">The hauling trucks are suggested as per the size of your construction machinery equipment. That’s why pricing factors also apply to trailer options.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 mb-4">
+                <div class="card- h-100">
+                    <div class="card-body">
+                        <h5 class="card-title text-dark">Shipping Type</h5>
+                        <p class="card-text text-dark">Urgent orders during the peak season will directly affect the prices. Our team gets involved to obtain early permits and arrange things quickly for you.</p>
                     </div>
                 </div>
             </div>
@@ -336,7 +427,7 @@
     <div class="container">
         <div class="row">
             <div class="tj-section-heading text-center">
-                <h5 class="title fs-1">Trailers used for Construction Transport</h5>
+                <h5 class="title fs-1">Advanced Trailers for Your Construction Equipment Transport </h5>
             </div>
         </div>
         <div class="swiper-container swiper-new-1">
@@ -351,8 +442,8 @@
                                     </div>
                                     <div class="col-sm-6 d-flex align-items-center justify-content-center">
                                     <div class="card-body tj-section-heading mb-0">
-                                        <h5 class="card-title sub-title active-shape">Flatbed Trailers</h5>
-                                        <p class="card-text  text-dark">This trailer is most ideal for transporting multiple construction vehicles due to its open structure and easy access.</p>
+                                        <h5 class="card-title sub-title active-shape">Lowboy Trailers </h5>
+                                        <p class="card-text  text-dark">This trailer type is best for your oversized and difficult-to-load equipment. The lower deck height helps in the easy loading of cranes, backhoes, and bulldozers.</p>
                                         <div class="tj-theme-button mt-2">
                                         <a class="tj-transparent-btn" href="{{ route('frontend.forms.construction_transport') }}" >
                                             Get Quote
@@ -373,9 +464,8 @@
                                 <div class="row g-0">
                                     <div class="col-sm-6 d-flex align-items-center justify-content-center">
                                     <div class="card-body tj-section-heading mb-0">
-                                        <h5 class="card-title sub-title active-shape">Lowboy Trailers</h5>
-                                        <p class="card-text text-dark">Most commonly used for oversized and heavy construction vehicles offering a low deck which is used to manage
-                                            height restrictions as well as stability.</p>
+                                        <h5 class="card-title sub-title active-shape">Flatbed Trailers </h5>
+                                        <p class="card-text text-dark">Primary and most efficient trailer type in all advanced options. It gives a clear and open space for your construction heavy loads. </p>
                                         <div class="tj-theme-button mt-2">
                                         <a class="tj-transparent-btn" href="{{ route('frontend.forms.construction_transport') }}" >
                                             Get Quote
@@ -402,9 +492,8 @@
                                     </div>
                                     <div class="col-sm-6 d-flex align-items-center justify-content-center">
                                     <div class="card-body tj-section-heading mb-0">
-                                        <h5 class="card-title sub-title active-shape">Gooseneck Trailers</h5>
-                                        <p class="card-text text-dark">This trailer is widely known and popular for its stability and capacity to easily handle and carry large loads,
-                                            equipped with a detachable front that allows easier loading and unloading.</p>
+                                        <h5 class="card-title sub-title active-shape">Step Deck Trailers</h5>
+                                        <p class="card-text text-dark">Much more familiar like the flatbed trailer, step deck carries types of machinery that are too tall for flat space and need an extra open area.</p>
                                         <div class="tj-theme-button mt-2">
                                         <a class="tj-transparent-btn" href="{{ route('frontend.forms.construction_transport') }}" >
                                             Get Quote
@@ -418,7 +507,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="swiper-slide">
+                {{-- <div class="swiper-slide">
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="card-2 mb-3">
@@ -443,153 +532,66 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> --}}
             </div>
         </div>
     </div>
 </section>
-<section class="tj-choose-us-section-service-commercial-3">
-    <div class="container why-box">
-        <div class="row services">
-            <div class="col-12">
-                <h2 class="services-h1">Factors That Determine The Price</h2>
+
+@include('partials.usa-states-map')
+<div class="container">
+    <div class="row p-5">
+       <div class="side-container col-12 col-lg-5 ">
+            <div>
+                <h2>Frequently <span>Asked Questions</span> </h2>
+                <hr class="w-50">
+                <p>Have a look at answers to trending customer queries about our vehicle shipping services.</p>
+                    <a class="text-decoration-none  btnfaq" href="{{ route('faq') }}">Get Detailed Shipping Answer</a>
             </div>
-            <div class="col-12 col-md-4 mb-4">
-                <div class="card- h-100">
-                    <div class="card-body">
-                        <h5 class="card-title text-dark">Dimensions of the equipment</h5>
-                        <p class="card-text text-dark">We will need to evaluate the size, length etc. The permits that
-                            needs to be taken and if the equipments are large we have to dismantle it first & all these
-                            factors increases the price of your shipment.</p>
-                    </div>
+       </div>
+
+       <div class="col-12 col-lg-7">
+        <div class="faq-container">
+            <div class="faq">
+                <button class="faq-toggle">Is construction equipment transportation time-consuming?<span>+</span></button>
+                <div class="faq-content">
+                    <p>No, construction equipment shipping takes the same time as it takes for other freight logistics and vehicle transportation. </p>
                 </div>
             </div>
-            <div class="col-12 col-md-4 mb-4">
-                <div class="card- h-100">
-                    <div class="card-body">
-                        <h5 class="card-title text-dark">Trailer Type</h5>
-                        <p class="card-text text-dark">From a wide range of options you should choose the trailer
-                            which is the most feasible for shipping. You will be guided whether a flatbed trailer is
-                            suitable or not etc and will modify the price you’re paying.</p>
-                    </div>
+        
+            <div class="faq">
+                <button class="faq-toggle">Do industrial generators and compressors come in heavy equipment? <span>+</span></button>
+                <div class="faq-content">
+                    <p>Yes, industrial generators and compressors come in heavy-duty construction equipment that can be transported in bulk through gooseneck trailers. </p>
                 </div>
             </div>
-            <div class="col-12 col-md-4 mb-4">
-                <div class="card- h-100">
-                    <div class="card-body">
-                        <h5 class="card-title text-dark">International Shipping</h5>
-                        <p class="card-text text-dark">Although we don’t ship internationally, but we believe in
-                            educating our customers and creating awareness. This is also among the detrimental factors
-                            affect your price.</p>
-                    </div>
+        
+            <div class="faq">
+                <button class="faq-toggle">What is the average cost of construction equipment shipping in the USA? <span>+</span></button>
+                <div class="faq-content">
+                    <p>There are no fixed average costs for construction heavy loads. Fares go up and down every month. In the USA, charges depend on distance, shipping type, and trailer selection.</p>
                 </div>
             </div>
+            
+            <div class="faq">
+                <button class="faq-toggle">Which is the most convenient trailer type for construction equipment transport?<span>+</span></button>
+                <div class="faq-content">
+                    <p>The step deck trailer is the ideal trailer type that gives extra space for more large machinery. However, the flatbed is the most considered hauler in the USA for such heavy loads.</p>
+                </div>
+            </div>
+        
+            <div class="faq">
+                <button class="faq-toggle">Does construction equipment have insurance support? <span>+</span></button>
+                <div class="faq-content">
+                    <p>Yes, Leading shipping agencies such as ShipA1 back their clients with strong insurance coverage for the transporting of heavy-weight equipment in the USA. </p>
+                </div>
+            </div>
+        
         </div>
+       </div>
     </div>
-</section>
-<section class="tj-faq-section tj-faq-page pt-5">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="tj-section-heading text-center">
-                    <span class="sub-title active-shape"> How It’s Work</span>
-                    <h2 class="title">Frequently Asked Questions</h2>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-6" data-sal="slide-left" data-sal-duration="800">
-                <div class="tj-faq-left-content">
-                    <div class="faq-image">
-                        <img src="{{ asset('frontend/images/slider/FAQ.webp') }}" alt="Image" />
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6" data-sal="slide-right" data-sal-duration="800">
-                <div class="tj-faq-area">
-                    <div class="accordion" id="accordionExample">
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingOne">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    Do you transport all kinds of heavy equipment?
-                                </button>
-                            </h2>
-                            <div id="collapseOne" class="accordion-collapse collapse show"
-                                aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <strong>Yes, Ship A1 offers a variety of heavy equipment services specially tailored
-                                        to your needs, whether it’s a
-                                        forklift, excavator, trailer, crane, etc. we are here to assist you with a 100%
-                                        guarantee of quality, safety,
-                                        and flexible rates for your route.</strong>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingTwo">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    How much time will it take to ship my heavy equipment?
-                                </button>
-                            </h2>
-                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <strong>It all depends on the type of equipment you are planning on shipping, other
-                                        than that our estimated
-                                        delivery time also varies on the distance, weather conditions as well and road
-                                        conditions. However, if
-                                        you want your heavy equipment to be delivered urgently then we would suggest you
-                                        opt for expedited
-                                        shipping as it’s the fastest shipping service provided by Ship A1, while it is a
-                                        bit pricey it would ensure
-                                        your equipment reaches you in your desired timeframe.</strong>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingThree">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseThree" aria-expanded="false"
-                                    aria-controls="collapseThree">
-                                    Can you arrange for the loading and unloading of my equipment?
-                                </button>
-                            </h2>
-                            <div id="collapseThree" class="accordion-collapse collapse"
-                                aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <strong>ShipA1 can connect you with qualified heavy equipment loading and unloading
-                                        service providers in your
-                                        area. We can advise on the best approach based on your specific equipment and
-                                        needs.</strong>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingFour">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseFour" aria-expanded="false"
-                                    aria-controls="collapseFour">
-                                    Are your equipment insured?
-                                </button>
-                            </h2>
-                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    Not only you will get the insurance coverage. The carrier company will provide you
-                                    with insurance up to a whopping upto $1 million. As soon as you get in touch with
-                                    the driver you will get the documents which are related to your insurance.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="why-choose-us-slider">
+</div>
+{{-- <section class="why-choose-us-slider">
     <div class="container">
         <div class="tj-section-heading text-center">
             <h2 class="title text-white">Why Choose Us?</h2>
@@ -639,7 +641,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> --}}
 @include('partials.blog-slider')
 <script>
     function playVideo() {
@@ -649,5 +651,25 @@
         var videoSrc = iframe.src;
         iframe.src = videoSrc + "&autoplay=1"; 
     }
+    
+    document.querySelectorAll(".faq-toggle").forEach(button => {
+        button.addEventListener("click", () => {
+            const faqContent = button.nextElementSibling;
+            const isOpen = button.classList.contains("open-faq");
+
+            document.querySelectorAll(".faq-toggle").forEach(btn => {
+                btn.classList.remove("open-faq");
+                btn.nextElementSibling.style.display = "none";
+                btn.querySelector("span").textContent = "+";
+            });
+
+            if (!isOpen) {
+                button.classList.add("open-faq");
+                faqContent.style.display = "block";
+                button.querySelector("span").textContent = "-";
+            }
+        });
+    });
+
 </script>
 @endsection

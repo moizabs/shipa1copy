@@ -118,6 +118,139 @@
         line-height: 1.6;
         opacity: 0.9;
     }
+
+    .side-container{
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           margin: 50px auto;
+           padding:20px;
+        }
+        .side-container div h2{
+            color: #062e39;
+        }
+        .side-container div p {
+            color: #062e39;
+        }
+        .side-container div h2 span{
+            color: #8fc445;
+            font-weight: 700;
+        }
+        .side-container div hr{
+            color: #8fc445;
+            height: 8px;    
+            opacity: 1; 
+            /* border-radius: 5px; */
+            border-top-left-radius: 50px;
+            border-bottom-right-radius: 50px;
+        }
+        .btnfaq{
+            border: none;
+            border-radius: 5px;
+            background-color: #8fc445;
+            color: white;
+            padding: 6px ;
+            transition: 1s;
+        }
+        .btnfaq:hover{
+            background-color: #062e39;
+            color: white;
+        }
+        .faq-container {
+            max-width: 700px;
+            margin: 50px auto;
+            background: #fff;
+            padding:20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .faq-container h2 {
+            text-align: center;
+            color: #8fc445;
+        }
+        .faq {
+            border-bottom: 1px solid #ddd;
+        }
+        .faq button {
+            width: 100%;
+            background: none;
+            color: #062e39;
+            border: none;
+            text-align: left;
+            font-size: 18px;
+            padding: 15px;
+            cursor: pointer;
+            outline: none;
+            font-weight: bold;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .faq button:hover {
+            background: #f1f1f1;
+        }
+        .faq-content {
+            display: none;
+            padding: 15px;
+            font-size: 16px;
+            background: #f9f9f9;
+            border-radius: 5px;
+        }
+        .open-faq {
+            background: #d22;
+            color: white;
+        }
+        .top-notch-parent {
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            /* background-color: dodgerblue; */
+            padding: 10px;
+            gap: 10px;
+            text-align: center;
+        }
+
+        @media only screen and (max-width: 1000px) {
+            .top-notch-parent {
+                grid-template-columns: auto auto auto ;
+            }
+        }
+        @media only screen and (max-width: 560px) {
+            .top-notch-parent {
+                grid-template-columns: auto auto ;
+            }
+        }
+
+        .top-notch-childs {
+            /* background-color: #f1f1f1; */
+            border: none;
+            border-radius: 5px;
+            padding: 50px 10px;
+            text-align: center;
+        }
+        /* .top-notch-childs:hover{
+            transition: 2s; 
+            border: 1px solid #062e39 ; 
+
+        } */
+        .top-notch-childs div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .top-notch-childs div div {
+            border: none;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            background-color: #8FC445;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 25px;
+            color: #062e39;
+        }
+
 </Style>
 <section class="tj-choose-us-section-service-commercial">
     <div class="container mt-4">
@@ -157,13 +290,8 @@
             <div class="col-lg-8 col-md-12 order-sm-2 order-md-1 order-1 d-flex align-items-center justify-content-center sal-animate pt-4 mt-4" data-sal="slide-left" data-sal-duration="800">
                 <div class="about-content-one">
                     <div class="tj-section-heading">
-                        <h3 class="sal-animate" data-sal="slide-left" data-sal-duration="800">Overview of Commercial Truck Transport</h3>
-                        <p class="desc">Whether it comes to transporting standard vehicles or delivering goods through commercial trucks, all these 
-                            services are accessible on the Internet easily. The industry of auto transport is increasing rapidly and has successfully 
-                            spread over multiple domains and categories, offering a variety of different services. <br>
-                            Ship A1 is a leading transportation company that has been in the market for 16 years, we not only offer multiple services
-                             to our valuable customers. We also ensure we have gained their trust by giving our 100% to them. With advanced trailers 
-                             and top-tier quality, Ship A1 has made more than 1000 successful deliveries nationwide. 
+                        <h3 class="sal-animate" data-sal="slide-left" data-sal-duration="800">Industrial Expert Carriers for Your Commercial Truck Transport </h3>
+                        <p class="desc">The commercial trucks are heavy-duty loads. You may need expert help to have an unerupted run on the challenging remote areas in the US. And that expert help means ShipA1’s experienced carriers. It takes days to get your pickup, tanker, box, and dump trucks crossed through strict regulations following states in the USA. That's why be with someone who has a certified team, serving locals for more than a decade. Our drivers and carriers are proven, qualified, and trained as per the guidance of FMCSA and DOT. 
                             </p>
                     </div>
                 </div>
@@ -189,15 +317,10 @@
             <div class="col-lg-8 col-md-12 order-sm-2 order-1 d-flex align-items-center justify-content-center sal-animate pt-4 mt-4" data-sal="slide-left" data-sal-duration="800">
                 <div class="about-content-one">
                     <div class="tj-section-heading">
-                        <h3 class="sal-animate" data-sal="slide-left" data-sal-duration="800">Choosing a Truck Transport Service</h3>
-                        <p class="desc">There are certain terms and conditions that you need to know before you go to search for 
-                            commercial truck transport service through a reliable shipping company. Although the companies offering auto transport 
-                            services are in great numbers, finding a suitable service at a market-competitive price that meets your transportation 
-                            requirements is not an easy job. <br>
+                        <h3 class="sal-animate" data-sal="slide-left" data-sal-duration="800">Quick Shipping Quotes - Fast Truck Hauling Services</h3>
+                        <p class="desc">Heavy vehicles such as your commercial truck are difficult to load, pass through cross-state borders, drive through challenging traffic, and safely unload on the shared site. But when you have a licensed and proficient truck-hauling partner like ShipA1 then you should only care about being on the drop-off locations. <br>
                             When you are looking for a commercial truck shipping service, some key points come into play affecting the overall price
-                             factor and the service quality. The factors that you need to consider will determine your overall shipping journey. When 
-                             transporting your vehicle some scenarios play a major role in the price and service you are getting for example distance,
-                              route, and time.
+                            It just takes a few simple steps to learn how ShipA1 has left behind other competitors in commercial truck transport companies. Our expert team is just one click away! 
                             </p>
                     </div>
                 </div>
@@ -205,7 +328,90 @@
         </div>
     </div>
 </section>
+<section class="tj-about-section pt-4 mt-4">   
+    <div class="container">
+        <div class="row">
+            <h2 class="title sal-animate text-center" data-sal="slide-left" data-sal-duration="800">
+                Why ShipA1’s Commercial Truck Shipping? </h2>
+            <div class="col-lg-6 sal-animate pt-4 mt-0" data-sal="slide-left" data-sal-duration="800">
+                <div class="about-content-one border rounded-5 p-4 mb-0">
+                    <div class="tj-section-heading">
+                        <span class="sub-title active-shape">Shipping All Across The USA </span>
+                        <p class="desc">
+                            We cover all fifty states. Our network for speedy commercial truck transport is spread all over the USA. ShipA1 is a popular nationwide shipping brand. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 sal-animate pt-4 mt-0" data-sal="slide-left" data-sal-duration="800">
+                <div class="about-content-one border rounded-5 p-4 mb-0">
+                    <div class="tj-section-heading">
+                        <span class="sub-title active-shape">No More Permit Issues </span>
+                        <p class="desc">
+                            Easy transportation to or from your native state. Don’t worry about the permit clearance. Our team handles everything to serve you better and quickly. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 sal-animate pt-4 mt-2" data-sal="slide-left" data-sal-duration="800">
+                <div class="about-content-one border rounded-5 p-4 mb-0">
+                    <div class="tj-section-heading">
+                        <span class="sub-title active-shape">Early Booking</span>
+                        <p class="desc">
+                            There are no peak season limitations here in ShipA1. You can book a <a href="{{ route('commercial.truck.transport') }}"> customized quote for commercial truck shipping</a> within a few minutes. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 sal-animate pt-4 mt-2" data-sal="slide-left" data-sal-duration="800">
+                <div class="about-content-one border rounded-5 p-4 mb-0">
+                    <div class="tj-section-heading">
+                        <span class="sub-title active-shape">High-Tech Trailers </span>
+                        <p class="desc">
+                            Come and select the suitable trailer for the comfortable shipping of your heavy-duty trucks. Or let us suggest the best hauling option.</p>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 @include('partials.cta-section')
+<section>
+    <div class="container py-5  ">
+        <h2 class="text-center pb-3">What Do You Get Along with Fast Truck Shipping Services?</h2>
+        <div class=" top-notch-parent">
+            <div class="top-notch-childs  ">
+                <div>
+                    <div><i class="fa-solid fa-clipboard-check"></i></div>
+                </div>
+                <h5>No Hidden Charges</h5>
+                <p>ShipA1 only charges what is contracted and shared through a digital pricing calculator.</p>
+            </div>
+            <div class="top-notch-childs  ">
+                <div>
+                    <div><i class="fa-solid fa-file-shield"></i></div>
+                </div>
+                <h5>No Shipping Delays</h5>
+                <p>Early pickup and timely delivery are our prime motto here at ShipA1.</p>
+            </div>
+            <div class="top-notch-childs  ">
+                <div>
+                    <div><i class="fa-solid fa-people-arrows"></i></div>
+                </div>
+                <h5>No Cargo Maintenance Issues</h5>
+                <p>Trailer fueling and heavyweight maintenance are not your hassle.</p>
+            </div>
+            <div class="top-notch-childs  ">
+                <div>
+                    <div><i class="fa-solid fa-people-arrows"></i></div>
+                </div>
+                <h5>No Logistics Equipment Damage</h5>
+                <p>Our team is trained in cargo security. Otherwise, your trucks are covered with strong insurance.</p>
+            </div>
+        </div>
+    </div>
+</section>
 <section class="tj-about-section pt-4 mt-2 pb-0">
     <div class="container">
         <div class="row">           
@@ -213,13 +419,10 @@
                 <div class="about-content-one">
                     <div class="tj-section-heading">
                     <h3 class="sal-animate" 
-                    data-sal="slide-left" data-sal-duration="800">Safe and Affordable Truck Transport</h3>
+                    data-sal="slide-left" data-sal-duration="800">We Dominate the Market with Unmatched Heavy Duty Truck Transport</h3>
                         <p class="desc">
-                            We understand that It is quite risky to transport the vehicle on your own, especially on certain routes. One does not need to
-                             worry again because ShipA1 offers reliable commercial truck transport service at an affordable cost. <br>
-                            Ship A1 has an extensive network of workers who are experts in the vehicle shipping industry as well as aware of the 
-                            routes and pathways that work best during the shipment. To add more safety and security, our team tracks your vehicle
-                             continuously during the shipment. </p>
+                            ShipA1 is the <a href="{{ route('welcome') }}">trusted transportation company</a>  of B2B enterprises, serving them with market-dominating heavy-duty shipping packages. <br>
+                            Our online quote booking platforms managed by a skilled customer support team give an edge to our shipping agency in the USA. It has been more than sixteen years, and we have been admired for the professionalism shown by our local carriers (available all across the USA). </p>
                     </div>
                 </div>
             </div>
@@ -233,49 +436,36 @@
         </div>
     </div>
 </section>
-<section class="tj-about-section pt-4 mt-4">   
-    <div class="container">
-        <div class="row">
-            <h2 class="title sal-animate text-center" data-sal="slide-left" data-sal-duration="800">
-            Why Choose Ship A1 Transport for Your Truck Hauling Needs?</h2>
-            <div class="col-lg-6 sal-animate pt-4 mt-0" data-sal="slide-left" data-sal-duration="800">
-                <div class="about-content-one border rounded-5 p-4 mb-0">
-                    <div class="tj-section-heading">
-                        <span class="sub-title active-shape">Affordable Pricing</span>
-                        <p class="desc">
-                        The reason why we standout as a supreme quality truck hauling company is our stellar quality with pricing. We haul your trucks with utmost care and prompt delivery.
-                        </p>
+<section class="tj-choose-us-section-service-commercial-2 mt-5">
+    <div class="container why-box">
+        <div class="row services">
+            <div class="col-12">
+
+                <h2 class="services-h1">Cost Determining Factors for Your Commercial Truck Transport</h2>
+            </div>
+
+            <div class="col-12 col-md-4 mb-4">
+                <div class="card- h-100">
+                    <div class="card-body">
+                        <h5 class="card-title text-dark">Shipping Distance</h5>
+                        <p class="card-text text-dark">Commercial truck shipping costs depend on the distance covered through city-to-city or state-to-state transport types.</p>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 sal-animate pt-4 mt-0" data-sal="slide-left" data-sal-duration="800">
-                <div class="about-content-one border rounded-5 p-4 mb-0">
-                    <div class="tj-section-heading">
-                        <span class="sub-title active-shape">Country-Wide Shipping</span>
-                        <p class="desc">
-                        Even if you are looking to move commercial truck to a new state you won’t feel any obstacle in shipping with us. We ship all around the contiguous United States.</p>
+            <div class="col-12 col-md-4 mb-4">
+                <div class="card- h-100">
+                    <div class="card-body">
+                        <h5 class="card-title text-dark">Trailer Type </h5>
+                        <p class="card-text text-dark">Flatbed, lowboy, and multi-axle do have their different price rates for commercial truck hauling. They also affect the overall pricing.</p>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-6 sal-animate pt-4 mt-2" data-sal="slide-left" data-sal-duration="800">
-                <div class="about-content-one border rounded-5 p-4 mb-0">
-                    <div class="tj-section-heading">
-                        <span class="sub-title active-shape">Dependability You Can Count On</span>
-                        <p class="desc">
-                        You may feel easy knowing that your vehicles are being carried by a team of experts who work together to ensure safety and security throughout the entire procedure.
-                        </p>
+            <div class="col-12 col-md-4 mb-4">
+                <div class="card- h-100">
+                    <div class="card-body">
+                        <h5 class="card-title text-dark">Shipping Type</h5>
+                        <p class="card-text text-dark">It takes extra effort to get an early permit in peak seasons. That’s why there are different costs for regular and urgent quote orders.</p>
                     </div>
-                </div>
-            </div>
-            <div class="col-lg-6 sal-animate pt-4 mt-2" data-sal="slide-left" data-sal-duration="800">
-                <div class="about-content-one border rounded-5 p-4 mb-0">
-                    <div class="tj-section-heading">
-                        <span class="sub-title active-shape">High-Tech Equipment</span>
-                        <p class="desc">
-                        In order to minimize the possibility of damage occurring during transit, we load, move, and unload your trucks quickly and efficiently using the newest technology and equipment.</p>
-                    </div>  
                 </div>
             </div>
         </div>
@@ -285,7 +475,7 @@
     <div class="container">
         <div class="row">
             <div class="tj-section-heading text-center">
-                <h5 class="title fs-1">Advanced Trailers for Commercial Trucks</h5>
+                <h5 class="title fs-1">Advanced Trailers for Your Construction Equip Transport </h5>
             </div>
         </div>
         <div class="swiper-container swiper-new-1">
@@ -300,10 +490,8 @@
                                     </div>
                                     <div class="col-sm-6 d-flex align-items-center justify-content-center">
                                     <div class="card-body tj-section-heading mb-0">
-                                        <h5 class="card-title sub-title active-shape">Lowboy Trailer</h5>
-                                        <p class="card-text  text-dark">These trailers have a low deck height that allows easier
-                                            transport of tall commercial
-                                            trucks. With detachable goosenecks, it is easier for them to load and unload the cargo.</p>
+                                        <h5 class="card-title sub-title active-shape">Lowboy Trailers</h5>
+                                        <p class="card-text  text-dark">The flatbed trailer offers the open wide space for easy shipping of your commercial trucks. This hauling vehicle is convenient for all.</p>
                                         <div class="tj-theme-button mt-2">
                                         <a class="tj-transparent-btn" href="{{ route('commercial.truck.transport') }}" >
                                             Get Quote
@@ -325,8 +513,7 @@
                                     <div class="col-sm-6 d-flex align-items-center justify-content-center">
                                     <div class="card-body tj-section-heading mb-0">
                                         <h5 class="card-title sub-title active-shape">Flatbed Trailers</h5>
-                                        <p class="card-text text-dark">These trailers are equipped with a flatbed without any sides or roof, which allows them
-                                            to load and unload commercial trucks from any convenient angle.</p>
+                                        <p class="card-text text-dark">The flatbed trailer offers the open wide space for easy shipping of your commercial trucks. This hauling vehicle is convenient for all.</p>
                                         <div class="tj-theme-button mt-2">
                                         <a class="tj-transparent-btn" href="{{ route('commercial.truck.transport') }}" >
                                             Get Quote
@@ -353,9 +540,8 @@
                                     </div>
                                     <div class="col-sm-6 d-flex align-items-center justify-content-center">
                                     <div class="card-body tj-section-heading mb-0">
-                                        <h5 class="card-title sub-title active-shape">Multi-Axle Trailers</h5>
-                                        <p class="card-text text-dark">These trailers are only required and used for oversized trucks. By maintaining the
-                                            weight and distributing it across multiple axles, these provide stability and reduce the axle load.</p>
+                                        <h5 class="card-title sub-title active-shape">Multi-Axle</h5>
+                                        <p class="card-text text-dark">If your cranes, dump trucks, and semi-trucks are oversized and much heavier, go for a multi-axle trailer type for conformable pickup and secure delivery.  </p>
                                         <div class="tj-theme-button mt-2">
                                         <a class="tj-transparent-btn" href="{{ route('commercial.truck.transport') }}" >
                                             Get Quote
@@ -373,142 +559,60 @@
         </div>
     </div>
 </section>
-<section class="tj-choose-us-section-service-commercial-2">
-    <div class="container why-box">
-        <div class="row services">
-            <div class="col-12">
+@include('partials.usa-states-map')
+<div class="container">
+    <div class="row p-5">
+       <div class="side-container col-12 col-lg-5 ">
+            <div>
+                <h2>Frequently <span>Asked Questions</span> </h2>
+                <hr class="w-50">
+                <p>Have a look at answers to trending customer queries about our vehicle shipping services.</p>
+                    <a class="text-decoration-none  btnfaq" href="{{ route('faq') }}">Get Detailed Shipping Answer</a>
+            </div>
+       </div>
 
-                <h2 class="services-h1">Factors Affecting the Price</h2>
-            </div>
-
-            <div class="col-12 col-md-4 mb-4">
-                <div class="card- h-100">
-                    <div class="card-body">
-                        <h5 class="card-title text-dark">Dimensions of the Truck</h5>
-                        <p class="card-text text-dark">The size and weight of the moving vehicle is the detrimental factor that
-                            brings change to the price. The trailer type also varies as per the dimensions of the truck.</p>
-                    </div>
+       <div class="col-12 col-lg-7">
+        <div class="faq-container">
+            <div class="faq">
+                <button class="faq-toggle">Are commercial truck shipping brokers trusted? <span>+</span></button>
+                <div class="faq-content">
+                    <p>Yes, in general. However, commercial truck dealers and car owners are advised to do a background check of their service providers before hiring them for state-to-state transport.</p>
                 </div>
             </div>
-            <div class="col-12 col-md-4 mb-4">
-                <div class="card- h-100">
-                    <div class="card-body">
-                        <h5 class="card-title text-dark">Underlying Trailer Type</h5>
-                        <p class="card-text text-dark">To ship a truck in a safe manner from one place to another destination,
-                            you need to have a specific trailer type. For mid-size trucks a flatbed trailer is fine but not for 
-                            every truck.</p>
-                    </div>
+        
+            <div class="faq">
+                <button class="faq-toggle">What is the best way to transport commercial trucks in the USA?  <span>+</span></button>
+                <div class="faq-content">
+                    <p>Towing or driving your commercial truck does have its disadvantages. That’s why, always go for an expert shipping agency that has experience in regular truck hauling in the USA. </p>
                 </div>
             </div>
-            <div class="col-12 col-md-4 mb-4">
-                <div class="card- h-100">
-                    <div class="card-body">
-                        <h5 class="card-title text-dark">Pick-up and drop-off location</h5>
-                        <p class="card-text text-dark">Its a no-brainer to calculate the per-mile cost of delivery. Lesser the miles more the cost & vice versa. If the route being travelled is common then also the cost will be down.</p>
-                    </div>
+        
+            <div class="faq">
+                <button class="faq-toggle">Can we drive through commercial trucks in the USA?<span>+</span></button>
+                <div class="faq-content">
+                    <p>Yes! However, it is highly advised to have verified documents and a transportation permit by yourself. As in the USA, each state follows strict regulations regarding heavy-duty trucks and vehicles.</p>
                 </div>
             </div>
+            
+            <div class="faq">
+                <button class="faq-toggle">Will I have to pay upfront for commercial truck transportation?<span>+</span></button>
+                <div class="faq-content">
+                    <p>It all depends on your shipping service provider. Transport agencies such as ShipA1 offer customized deals including no upfront payment.</p>
+                </div>
+            </div>
+        
+            <div class="faq">
+                <button class="faq-toggle">Is a legal permit important for commercial truck shipping?<span>+</span></button>
+                <div class="faq-content">
+                    <p>It all depends on your vehicle or truck type. For commercial trucks and logistics, you will be asked to have a permit during crossing state lines.</p>
+                </div>
+            </div>
+        
         </div>
+       </div>
     </div>
-</section>
-<section class="tj-faq-section tj-faq-page pt-5">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="tj-section-heading text-center">
-                    <span class="sub-title active-shape"> How It’s Work</span>
-                    <h2 class="title">Frequently Asked Questions</h2>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-6" data-sal="slide-left" data-sal-duration="800">
-                <div class="tj-faq-left-content">
-                    <div class="faq-image">
-                        <img src="{{ asset('frontend/images/slider/FAQ.webp') }}" alt="Image" />
-                    </div>
-                    
-                </div>
-            </div>
-            <div class="col-lg-6" data-sal="slide-right" data-sal-duration="800">
-                <div class="tj-faq-area">
-                <div class="accordion" id="accordionExample">
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingOne">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    Do you transport all kinds of heavy equipment?
-                                </button>
-                            </h2>
-                            <div id="collapseOne" class="accordion-collapse collapse show"
-                                aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <strong>Yes, Ship A1 offers a variety of heavy equipment services specially tailored to your needs, whether it’s a
-                        forklift, excavator, trailer, crane, etc. we are here to assist you with a 100% guarantee of quality, safety,
-                        and flexible rates for your route.
-                        </strong>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingTwo">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    How much time will it take to ship my heavy equipment?
-                                </button>
-                            </h2>
-                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <strong>It all depends on the type of equipment you are planning on shipping, other than that our estimated
-                                        delivery time also varies on the distance, weather conditions as well and road conditions. However, if
-                                        you want your heavy equipment to be delivered urgently then we would suggest you opt for expedited
-                                        shipping as it’s the fastest shipping service provided by Ship A1, while it is a bit pricey it would ensure
-                                        your equipment reaches you in your desired timeframe.
-                                        </strong>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingThree">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseThree" aria-expanded="false"
-                                    aria-controls="collapseThree">
-                                    Can you arrange for the loading and unloading of my equipment?
-                                </button>
-                            </h2>
-                            <div id="collapseThree" class="accordion-collapse collapse"
-                                aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <strong>ShipA1 can connect you with qualified heavy equipment loading and unloading service providers in your
-                                    area. We can advise on the best approach based on your specific equipment and needs.</strong>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingFour">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseFour" aria-expanded="false"
-                                    aria-controls="collapseFour">
-                                    Are your equipment insured?
-                                </button>
-                            </h2>
-                            <div id="collapseFour" class="accordion-collapse collapse"
-                                aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                Not only you will get the insurance coverage. The carrier company will provide you with 
-                                insurance up to a whopping upto $1 million. As soon as you get in touch with the driver you 
-                                will get the documents which are related to your insurance.  
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="why-choose-us-slider">
+</div>
+{{-- <section class="why-choose-us-slider">
     <div class="container">
         <div class="tj-section-heading text-center">
             <h2 class="title text-white">Why Choose Us?</h2>
@@ -559,7 +663,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> --}}
 @include('partials.blog-slider')
 <script>
     function playVideo() {
@@ -569,5 +673,26 @@
         var videoSrc = iframe.src;
         iframe.src = videoSrc + "&autoplay=1";
     }
+
+    
+    document.querySelectorAll(".faq-toggle").forEach(button => {
+        button.addEventListener("click", () => {
+            const faqContent = button.nextElementSibling;
+            const isOpen = button.classList.contains("open-faq");
+
+            document.querySelectorAll(".faq-toggle").forEach(btn => {
+                btn.classList.remove("open-faq");
+                btn.nextElementSibling.style.display = "none";
+                btn.querySelector("span").textContent = "+";
+            });
+
+            if (!isOpen) {
+                button.classList.add("open-faq");
+                faqContent.style.display = "block";
+                button.querySelector("span").textContent = "-";
+            }
+        });
+    });
+
 </script>
 @endsection

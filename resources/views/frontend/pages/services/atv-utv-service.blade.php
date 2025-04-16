@@ -473,8 +473,8 @@
 <section class="why-choose-us-slider">
     <div class="container">
         <div class="tj-section-heading text-center">
-            <h2 class="title text-white">Why ShipA1’s ATV/UTV Transport Service?</h2>
-            <span class="sub-title active-shape">Here is how we make your ATV/UTV shipping easy in the USA.</span>
+            <h2 class="title text-white fs-3">Here is how we make your ATV/UTV shipping easy in the USA.</h2>
+            {{-- <span class="sub-title active-shape text-white">Here is how we make your ATV/UTV shipping easy in the USA.</span> --}}
         </div>
         <div class="row">
             <div class="col-md-4 col-lg-4 mb-4">
