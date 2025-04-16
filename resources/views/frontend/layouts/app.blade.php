@@ -106,44 +106,7 @@
             }
         });
     </script> --}}
-    <script type=application/ld+json>
-        {
-            "@context": "https://schema.org",
-            "@type": "LocalBusiness",
-            "name": "ShipA1",
-            "image": "https://shipa1.com/frontend/images/logo/LOGO%20NEW-2.webp",
-            "@id": "https://www.shipa1.com",
-            "url": "https://www.shipa1.com/",
-            "telephone": "(844) 474-4721",
-            "address": {
-                "@type": "PostalAddress",
-                "streetAddress": "201 International Cir STE 230",
-                "addressLocality": "Hunt Valley",
-                "addressRegion": "MD",
-                "postalCode": "21030",
-                "addressCountry": "US"
-            },
-            "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": 39.4960629,
-                "longitude": -76.6603247
-            },
-            "openingHoursSpecification": {
-                "@type": "OpeningHoursSpecification",
-                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
-                "opens": "08:00",
-                "closes": "19:00"
-            },
-            "sameAs": [
-                "https://www.facebook.com/shipa1autotransport",
-                "https://www.instagram.com/shipa1_transport",
-                "https://www.youtube.com/@shipA1autotransport",
-                "https://www.linkedin.com/in/shipa1-transport",
-                "https://www.shipa1.com/"
-            ]
-        }
-    </script>
-
+   
 
     <style>
         .css-1h1ne2e {
