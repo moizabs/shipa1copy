@@ -5,6 +5,42 @@
 @section('canonical')
     <link rel="canonical" href="{{ url()->current() }}">
 @endsection
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "ShipA1",
+      "url": "https://www.shipa1.com/transport-services/heavy-equipment",
+      "image": "https://www.shipa1.com/frontend/images/project/3a-image-for-excavator-transport.webp",
+      "telephone": "(844) 474-4721",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "201 International Cir STE 230",
+        "addressLocality": "Hunt Valley",
+        "addressRegion": "MD",
+        "postalCode": "21030",
+        "addressCountry": "US"
+      },
+      "department": {
+        "@type": "Service",
+        "name": "Heavy Equipment Transport Service",
+        "serviceType": "Heavy Equipment Transport",
+        "description": "Need a heavy equipment transporter? Ship A1 specializes in secure and professional heavy equipment shipping across the USA. Contact us now!",
+        "areaServed": {
+          "@type": "Country",
+          "name": "United States"
+        }
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.9,
+        "reviewCount": 814,
+        "bestRating": 5,
+        "worstRating": 1
+      }
+    }
+    </script>
+    
 @section('content')
     <Style>
         .title-2 {

@@ -6,21 +6,20 @@
 @section('canonical')
     <link rel="canonical" href="{{ url()->current() }}">
 @endsection
-@section('content')
 <script type="application/ld+json">
     {
-    @context": "Schema.org - Schema.org ",
-    @type": "Product",
+    "@context": "https://schema.org/",
+    "@type": "Product",
     "name": "Motorcycle Transport Services",
     "image": "https://www.shipa1.com/frontend/images/slider/Single-Motorcycle-on-Closed-Trailer.webp",
     "description": "
     Looking for a top motorcycle shipping services? Ship A1 offers safe, reliable, and affordable bike transportation services across the USA. Get a free quote now!",
     "brand": {
-    @type": "Brand",
+    "@type": "Brand",
     "name": "Ship A1"
     },
     "aggregateRating": {
-    @type": "AggregateRating",
+    "@type": "AggregateRating",
     "ratingValue": "4.8",
     "bestRating": "5",
     "worstRating": "1",
@@ -28,11 +27,11 @@
     "reviewCount": "1"
     },
     "review": {
-    @type": "Review",
+    "@type": "Review",
     "name": "Google Reviews",
     "reviewBody": "googles' most trusted motorcycle shipping services provider in USA.",
     "reviewRating": {
-    @type": "Rating",
+    "@type": "Rating",
     "ratingValue": "4.8",
     "bestRating": "5",
     "worstRating": "1"
@@ -42,6 +41,8 @@
     }
     }
     </script>
+@section('content')
+ 
     <style>
         .card-2 {
             display: flex;

@@ -4,7 +4,44 @@
 @section('canonical')
 <link rel="canonical" href="{{ url()->current() }}">
 @endsection
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "ShipA1",
+      "url": "https://www.shipa1.com/transport-services/atv-utv",
+      "image": "https://www.shipa1.com/frontend/images/project/tuxpi.coo.webp",
+      "telephone": "(844) 474-4721",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "201 International Cir STE 230",
+        "addressLocality": "Hunt Valley",
+        "addressRegion": "MD",
+        "postalCode": "21030",
+        "addressCountry": "US"
+      },
+      "department": {
+        "@type": "Service",
+        "name": "ATV/UTV Shipping Service",
+        "serviceType": "Vehicle Transport",
+        "description": "Looking for ATV/UTV transportation? Ship A1 is the best ATV/UTV transport company in USA, providing safe and affordable nationwide shipping. Get a free quote now!",
+        "areaServed": {
+          "@type": "Country",
+          "name": "United States"
+        }
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.9,
+        "reviewCount": 2683,
+        "bestRating": 5,
+        "worstRating": 1
+      }
+    }
+    </script>
 @section('content')
+
+    
 <style>
     .full-width {
         width: 100%;

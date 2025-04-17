@@ -4,6 +4,41 @@
 @section('canonical')
 <link rel="canonical" href="{{ url()->current() }}">
 @endsection
+<script type="application/ld+json">
+    {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "ShipA1",
+    "url": "https://www.shipa1.com/transport-services/commercial-truck",
+    "image": "https://www.shipa1.com/frontend/images/project/3a images for commercial transport.webp",
+    "telephone": "(844) 474-4721",
+    "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "201 International Cir STE 230",
+    "addressLocality": "Hunt Valley",
+    "addressRegion": "MD",
+    "postalCode": "21030",
+    "addressCountry": "US"
+    },
+    "department": {
+    "@type": "Service",
+    "name": "Commercial Truck Transport Service",
+    "serviceType": "Heavy Equipment Transport",
+    "description": "Looking for commercial truck transport companies? Ship A1 offers safe, reliable, and affordable commercial truck transport across the USA.",
+    "areaServed": {
+    "@type": "Country",
+    "name": "United States"
+    }
+    },
+    "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.8,
+    "reviewCount": 1349,
+    "bestRating": 5,
+    "worstRating": 1
+    }
+    }
+    </script>
 @section('content')
 <Style>
     .title-2 {
