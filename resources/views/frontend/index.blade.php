@@ -10,7 +10,67 @@ services near you! We ensure safe, fast, and affordable auto transport services 
     <link rel="preload" as="image" href="{{ asset('/frontend/images/banner/home-underline.webp') }}" type="image/webp">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="preload" as="image" href="/frontend/images/slider/fright-banner-home.webp" />
-
+    <script type="application/ld+json">
+        {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "ShipA1",
+        "description": "ShipA1 is a trusted auto transport and logistics company offering nationwide vehicle shipping services with reliability, speed, and safety.",
+        "image": "https://shipa1.com/frontend/images/logo/LOGO NEW-2.webp",
+        "@id": "https://www.shipa1.com ",
+        "url": "https://www.shipa1.com/ ",
+        "telephone": "(844) 474-4721",
+        "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "201 International Cir STE 230",
+        "addressLocality": "Hunt Valley",
+        "addressRegion": "MD",
+        "postalCode": "21030",
+        "addressCountry": "US"
+        },
+        "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 39.4960629,
+        "longitude": -76.6603247
+        },
+        "openingHoursSpecification": [
+        {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+        ],
+        "opens": "08:00",
+        "closes": "19:00"
+        }
+        ],
+        "priceRange": "$$",
+        "areaServed": {
+        "@type": "Country",
+        "name": "United States"
+        },
+        
+        "foundingDate": "2020",
+        "serviceType": [
+        "Auto Transport",
+        "Vehicle Shipping",
+        "Car Carrier Services",
+        "Door-to-Door Transport",
+        "Open and Enclosed Transport",
+        "Logistics and Freight Coordination"
+        ],
+        "sameAs": [
+        "https://www.facebook.com/shipa1autotransport ",
+        "https://www.instagram.com/shipa1_transport ",
+        "https://www.youtube.com/@shipA1autotransport ",
+        "https://www.linkedin.com/in/shipa1-transport"
+        ]
+        }
+        </script>
 </head>
 <style>
     body {

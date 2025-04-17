@@ -5,6 +5,42 @@
 @section('canonical')
     <link rel="canonical" href="{{ url()->current() }}">
 @endsection
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "ShipA1",
+      "url": "https://www.shipa1.com/transport-services/rv",
+      "image": "https://www.shipa1.com/frontend/images/project/4a%20image%20for%20RV-Transport.webp",
+      "telephone": "(844) 474-4721",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "201 International Cir STE 230",
+        "addressLocality": "Hunt Valley",
+        "addressRegion": "MD",
+        "postalCode": "21030",
+        "addressCountry": "US"
+      },
+      "department": {
+        "@type": "Service",
+        "name": "RV Transport Service",
+        "serviceType": "Heavy Equipment Transport",
+        "description": "Searching for RV transportation services in USA? Ship A1 is a Top RV transporter in USA. We offer cost-effective, damage-free, and nationwide RV transportation solutions. Get a free quote today!",
+        "areaServed": {
+          "@type": "Country",
+          "name": "United States"
+        }
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.9,
+        "reviewCount": 2545,
+        "bestRating": 5,
+        "worstRating": 1
+      }
+    }
+    </script>
+    
 @section('content')
     <Style>
         .text-c-1 {

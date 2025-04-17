@@ -4,6 +4,41 @@
 @section('canonical')
 <link rel="canonical" href="{{ url()->current() }}">
 @endsection
+<script type="application/ld+json">
+    {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "ShipA1",
+    "url": "https://www.shipa1.com/transport-services/construction-equipment ",
+    "image": "https://www.shipa1.com/frontend/images/project/4b image for construction-equipment (1).webp",
+    "telephone": "(844) 474-4721",
+    "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "201 International Cir STE 230",
+    "addressLocality": "Hunt Valley",
+    "addressRegion": "MD",
+    "postalCode": "21030",
+    "addressCountry": "US"
+    },
+    "department": {
+    "@type": "Service",
+    "name": "Construction Equipment Shipping Service",
+    "serviceType": "Heavy Equipment Transport",
+    "description": "Ship A1 specializes in construction equipment shipping, ensuring safe handling and fast shipping across the USA. Contact us today!",
+    "areaServed": {
+    "@type": "Country",
+    "name": "United States"
+    }
+    },
+    "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.8,
+    "reviewCount": 1153,
+    "bestRating": 5,
+    "worstRating": 1
+    }
+    }
+    </script>
 @section('content')
 <Style>
     .title-2 {
