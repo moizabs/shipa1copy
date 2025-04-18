@@ -45,7 +45,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         as="style">
  
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+        {{-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"> --}}
   
     <link rel=preload href=https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css onload='this.onload=null,this.rel="stylesheet"'>
     <link rel=preload href=https://unpkg.com/swiper/swiper-bundle.min.css onload='this.onload=null,this.rel="stylesheet"'>
@@ -67,10 +67,10 @@
     <link rel="stylesheet" href="{{ asset('/frontend/css/odometer.min.css') }}" media="print" onload="this.onload=null;this.removeAttribute('media');">
     <link rel="stylesheet" href="{{ asset('/frontend/css/nice-select.css') }}" media="print" onload="this.onload=null;this.removeAttribute('media');">
     <link rel="stylesheet" href="{{ asset('/frontend/css/animate.css') }}" media="print" onload="this.onload=null;this.removeAttribute('media');">
-    <link rel="stylesheet" href="{{ asset('/public/frontend/css/responsive.css') }}" media="print" onload="this.onload=null;this.removeAttribute('media');">
+    <link rel="stylesheet" href="{{ asset('/frontend/css/responsive.css') }}" media="print" onload="this.onload=null;this.removeAttribute('media');">
 
     <!-- Minified & Combined CSS (Optional for performance) -->
-    <link rel="stylesheet" href="{{ asset('/frontend/css/all.min.css') }}">
+    {{-- <link rel="stylesheet" href="{{ asset('/frontend/css/all.min.css') }}"> --}}
 
     {{-- <link rel="preload" href="{{ asset('/frontend/css/bootstrap.min.css') }}" as="style">
     <link rel="stylesheet" href="{{ asset('/frontend/css/bootstrap.min.css') }}">
@@ -1767,9 +1767,9 @@
         </div>
     </div>
     <script src="{{ asset('/frontend/js/jquery.min.js') }}"></script>
+    <script src=https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js></script>
     <script src=https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js></script>
     <script src=https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js></script>
-    <script src=https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js></script>
     {{-- <script src=https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js></script> --}}
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src=https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js></script>
@@ -2520,7 +2520,8 @@
       <script src=https://code.jquery.com/jquery-3.6.0.min.js defer></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/imask/6.4.2/imask.min.js" defer></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" defer></script>
-      <script src="https://cdn.jsdelivr.net/npm/@coreui/icons@2.0.1/js/coreui-icons.min.js" defer></script>
+      <link href="https://cdn.jsdelivr.net/npm/@coreui/icons@2.0.1/css/all.min.css" rel="stylesheet">
+
 
 </body>
 
