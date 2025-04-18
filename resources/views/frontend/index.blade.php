@@ -10,6 +10,9 @@ services near you! We ensure safe, fast, and affordable auto transport services 
     <link rel="preload" as="image" href="{{ asset('/frontend/images/banner/home-underline.webp') }}" type="image/webp">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="preload" as="image" href="/frontend/images/slider/fright-banner-home.webp" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script type="application/ld+json">
         {
         "@context": "https://schema.org",
@@ -162,7 +165,8 @@ services near you! We ensure safe, fast, and affordable auto transport services 
             text-align: center;
 
         }
-        .services-section{
+
+        .services-section {
             width: 260px;
         }
     }
@@ -295,21 +299,22 @@ services near you! We ensure safe, fast, and affordable auto transport services 
     .show {
         display: block;
     }
-    .homeunderline{
+
+    .homeunderline {
         max-width: 100%;
         height: auto;
     }
 
-    .iconsss{
-        color:#8fc445; 
+    .iconsss {
+        color: #8fc445;
     }
 
-    .service-m{
+    .service-m {
         background-color: rgba(255, 255, 255, 0.5);
         border-radius: 25px;
     }
 
-    .services-bg{
+    .services-bg {
         background-image: url({{ asset('img/1430_x_863_Nebraska%281%29.jpg') }} )
     }
 </style>
@@ -317,14 +322,9 @@ services near you! We ensure safe, fast, and affordable auto transport services 
     <div class="animation-preloader"></div>
 </div>
 <section class="tj-slider-section">
-    <div class="slider_shape"><img src="{{ asset('/frontend/images/banner/home-underline.webp') }}" 
-        class="home-underline"
-        fetchpriority="high"
-        alt="Image"
-        width="1200"
-        height="150"
-        loading="lazy"
-        decoding="async"></div>
+    <div class="slider_shape"><img src="{{ asset('/frontend/images/banner/home-underline.webp') }}"
+            class="home-underline" fetchpriority="high" alt="Image" width="1200" height="150" loading="lazy"
+            decoding="async"></div>
     <div class="swiper sc-slider-1" data-autoplay="5000">
         <div class="swiper-wrapper">
             @php
@@ -370,7 +370,7 @@ services near you! We ensure safe, fast, and affordable auto transport services 
                 </div>
             @endforeach
         </div>
-       
+
     </div>
     @php
         $services = [
@@ -436,11 +436,7 @@ services near you! We ensure safe, fast, and affordable auto transport services 
                         <div class="ab-text d-flex align-items-center">
                             <div class="ab-icon">
                                 <img loading="lazy" src="{{ asset('frontend/images/icon/winner.svg') }}"
-                                    fetchpriority="high"
-                                    alt="Icon"
-                                    width="40"
-                                    height="40"
-                                    loading="lazy"
+                                    fetchpriority="high" alt="Icon" width="40" height="40" loading="lazy"
                                     decoding="async">
                             </div>
                             <div class="ab-title">
@@ -454,7 +450,7 @@ services near you! We ensure safe, fast, and affordable auto transport services 
                     </div>
                     <div class="tj-icon-box">
                         <div class="ab-text d-flex align-items-center">
-                            <div class="ab-icon"><i class="fa-light fa-bell-concierge fa-2xl iconsss" ></i>
+                            <div class="ab-icon"><i class="fa-light fa-bell-concierge fa-2xl iconsss"></i>
                             </div>
                             <div class="ab-title">
                                 <h3 class="title fs-5 font-weight-bold">Providing Skillful Expert</h3>
@@ -468,7 +464,7 @@ services near you! We ensure safe, fast, and affordable auto transport services 
                     </div>
                     <div class="tj-icon-box">
                         <div class="ab-text d-flex align-items-center">
-                            <div class="ab-icon"><i class="fa-light fa-shield-heart fa-2xl iconsss" ></i>
+                            <div class="ab-icon"><i class="fa-light fa-shield-heart fa-2xl iconsss"></i>
                             </div>
                             <div class="ab-title">
                                 <h3 class="title fs-5 font-weight-bold">Offering Security & Efficiency</h3>
@@ -482,7 +478,7 @@ services near you! We ensure safe, fast, and affordable auto transport services 
                     </div>
                     <div class="tj-icon-box">
                         <div class="ab-text d-flex align-items-center">
-                            <div class="ab-icon"><i class="fa-light fa-handshake fa-2xl iconsss" ></i>
+                            <div class="ab-icon"><i class="fa-light fa-handshake fa-2xl iconsss"></i>
                             </div>
                             <div class="ab-title">
                                 <h3 class="title fs-5 font-weight-bold">Be Sustained as Qualified</h3>
@@ -513,22 +509,12 @@ services near you! We ensure safe, fast, and affordable auto transport services 
                             alt="Image" width="1200" height="800"> --}}
                     <div class="image-box">
                         <img class="p-z-idex aspect-ratio aspect-ratio-3x2 img-fluid"
-                            src="{{ asset('/frontend/images/about/WMUD-Home.webp') }}" 
-                            fetchpriority="high"
-                            loading="lazy"
-                            alt="Image"
-                            width="1200"
-                            height="800"
-                            decoding="async">
+                            src="{{ asset('/frontend/images/about/WMUD-Home.webp') }}" fetchpriority="high"
+                            loading="lazy" alt="Image" width="1200" height="800" decoding="async">
                     </div>
                     <img class="group-1 p-z-idex aspect-ratio aspect-ratio-3x2 img-fluid"
-                        src="{{ asset('/frontend/images/about/about-3.webp') }}"
-                        fetchpriority="high"
-                        alt="Image"
-                        width="1200"
-                        height="800"
-                        loading="lazy"
-                        decoding="async">
+                        src="{{ asset('/frontend/images/about/about-3.webp') }}" fetchpriority="high" alt="Image"
+                        width="1200" height="800" loading="lazy" decoding="async">
                 </div>
             </div>
         </div>
@@ -594,7 +580,7 @@ services near you! We ensure safe, fast, and affordable auto transport services 
 <section class="tj-faq-section tj-faq-page pt-5">
     <div class="container mt-5">
         <div class="row">
-            <div class="tj-section-heading text-center"><span class="sub-title active-shape">Our Trending Car
+            <div class="tj-section-heading text-center"><span class="sub-title active-shape">
                     Transport Services Modes</span>
             </div>
         </div>
@@ -872,17 +858,17 @@ services near you! We ensure safe, fast, and affordable auto transport services 
             @endforeach --}}
     </div>
 </section>
-<section class="tj-choose-us-section-service-moiz my-5 services-bg" >
+<section class="tj-choose-us-section-service-moiz my-5 services-bg">
     <div class="container why-box">
         <div class="row services">
-            
-                {{-- <p class="text-center">Find out who are our targeted businesses. It’s not just a common customer we
+
+            {{-- <p class="text-center">Find out who are our targeted businesses. It’s not just a common customer we
                     cater to in the USA.
                     ShipA1 is a brand of convenient and helpful assistance for each logistics transport requesting
                     business platform.
                 </p> --}}
-            <div class="pt-5 service-m" >
-                <h2 class="text-center "  >ShipA1’s Conquered B2B Marketplace</h2>
+            <div class="pt-5 service-m">
+                <h2 class="text-center ">ShipA1’s Conquered B2B Marketplace</h2>
                 <div class="service-section-parent gap-3 ">
                     <div class="services-section ">
                         <span>
@@ -918,8 +904,8 @@ services near you! We ensure safe, fast, and affordable auto transport services 
                     </div>
 
                 </div>
+            </div>
         </div>
-    </div>
 </section>
 <section>
     <div class="container my-5">
@@ -950,10 +936,8 @@ services near you! We ensure safe, fast, and affordable auto transport services 
                 </div>
             </div>
             <div class="col-12 col-lg-5  d-flex justify-content-center align-items-center"><img class="shadow-lg"
-                    src="{{ asset('public/frontend/images/about/450x500Nevada.jpg') }}"
-                    alt="450x500"
-                    loading="lazy"
-                    decoding="async"></div>
+                    src="{{ asset('public/frontend/images/about/450x500Nevada.jpg') }}" alt="450x500"
+                    loading="lazy" decoding="async"></div>
         </div>
     </div>
 </section>
@@ -961,10 +945,9 @@ services near you! We ensure safe, fast, and affordable auto transport services 
     <div class="container my-5">
         <div class="row">
             <div class="col-12 col-lg-5 d-flex justify-content-center align-items-center">
-                <img class="shadow-lg img-fluid" src="{{ asset('public/frontend/images/about/450x500WestVirginia.jpg') }}"
-                    alt="450x500"
-                    loading="lazy"
-                    decoding="async">
+                <img class="shadow-lg img-fluid"
+                    src="{{ asset('public/frontend/images/about/450x500WestVirginia.jpg') }}" alt="450x500"
+                    loading="lazy" decoding="async">
             </div>
 
             <div class=" col-12 col-lg-7 ">
@@ -1074,7 +1057,7 @@ services near you! We ensure safe, fast, and affordable auto transport services 
         <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3105.167331138309!2d-76.66251388426676!3d39.496062943506464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c81261c3eae243%3A0x81e995e93023e64a!2s201%20International%20Cir%20STE%20230%2C%20Hunt%20Valley%2C%20MD%2021030%2C%20USA!5e0!3m2!1sen!2s!4v1649863458559!5m2!1sen!2s"
             title="Location: Hunt Valley, MD" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
-            width="100%" height="400"  allowfullscreen>
+            width="100%" height="400" allowfullscreen>
         </iframe>
     </div>
     <div class="tj-map-tabs"
@@ -1207,6 +1190,5 @@ services near you! We ensure safe, fast, and affordable auto transport services 
     });
 </script>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" defer></script>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js" defer></script> 
+
 @endsection
