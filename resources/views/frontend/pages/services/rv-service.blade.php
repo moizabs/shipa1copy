@@ -330,7 +330,7 @@
                     <div class="mt-4 rounded">
                         <div class="image-box">
                             <img class="rounded"
-                                src="{{ asset('/frontend/images/project/4a image for RV-Transport.webp') }}" alt="Image">
+                                src="{{ asset('public/frontend/images/project/4a image for RV-Transport.webp') }}" alt="Image">
                         </div>
                     </div>
                 </div>
@@ -343,7 +343,7 @@
                     <div class="mt-4 rounded">
                         <div class="image-box">
                             <img class="rounded"
-                                src="{{ asset('/frontend/images/project/4b image for RV-Transport.webp') }}" alt="Image">
+                                src="{{ asset('public/frontend/images/project/4b image for RV-Transport.webp') }}" alt="Image">
                         </div>
 
                     </div>
@@ -453,7 +453,7 @@
                     <div class="mt-4 rounded">
                         <div class="image-box">
                             <img class="rounded"
-                                src="{{ asset('/frontend/images/project/4c image for RV-Transport.webp') }}"
+                                src="{{ asset('public/frontend/images/project/4c image for RV-Transport.webp') }}"
                                 alt="Image">
                         </div>
 
@@ -470,7 +470,7 @@
                     <div class="mt-4 rounded">
                         <div class="image-box">
                             <img class="rounded"
-                                src="{{ asset('/frontend/images/project/4d image for RV-Transport.webp') }}"
+                                src="{{ asset('public/frontend/images/project/4d image for RV-Transport.webp') }}"
                                 alt="Image">
                         </div>
                     </div>
@@ -549,7 +549,7 @@
                                             </div>
                                         </div>
                                         <div class="col-sm-6 d-flex align-items-center justify-content-center">
-                                            <img src="{{ asset('/frontend/images/slider/Farm Low Boy trailer.webp') }}"
+                                            <img src="{{ asset('public/frontend/images/slider/Farm Low Boy trailer.webp') }}"
                                                 class="img-fluid rounded-start"
                                                 style="height: 100%; background-size: cover; background-position: center;"
                                                 alt="...">
@@ -565,7 +565,7 @@
                                 <div class="card-2 mb-3">
                                     <div class="row g-0">
                                         <div class="col-sm-6 d-flex align-items-center justify-content-center">
-                                            <img src="{{ asset('/frontend/images/slider/Farm tilt deck trailer.webp') }}"
+                                            <img src="{{ asset('public/frontend/images/slider/Farm tilt deck trailer.webp') }}"
                                                 class="img-fluid rounded-start"
                                                 style="height: 100%; background-size: cover; background-position: center;"
                                                 alt="...">
@@ -607,7 +607,7 @@
                                             </div>
                                         </div>
                                         <div class="col-sm-6 d-flex align-items-center justify-content-center">
-                                            <img src="{{ asset('/frontend/images/slider/Farm enclosed trailer.webp') }}"
+                                            <img src="{{ asset('public/frontend/images/slider/Farm enclosed trailer.webp') }}"
                                                 class="img-fluid rounded-start"
                                                 style="height: 100%; background-size: cover; background-position: center;"
                                                 alt="...">

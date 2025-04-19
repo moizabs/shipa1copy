@@ -7,7 +7,7 @@ services near you! We ensure safe, fast, and affordable auto transport services 
 @endsection
 
 <head>
-    <link rel="preload" as="image" href="{{ asset('/frontend/images/banner/home-underline.webp') }}" type="image/webp">
+    <link rel="preload" as="image" href="{{ asset('public/frontend/images/banner/home-underline.webp') }}" type="image/webp">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="preload" as="image" href="/frontend/images/slider/fright-banner-home.webp" />
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -322,7 +322,7 @@ services near you! We ensure safe, fast, and affordable auto transport services 
     <div class="animation-preloader"></div>
 </div>
 <section class="tj-slider-section">
-    <div class="slider_shape"><img src="{{ asset('/frontend/images/banner/home-underline.webp') }}"
+    <div class="slider_shape"><img src="{{ asset('public/frontend/images/banner/home-underline.webp') }}"
             class="home-underline" fetchpriority="high" alt="Image" width="1200" height="150" loading="lazy"
             decoding="async"></div>
     <div class="swiper sc-slider-1" data-autoplay="5000">
@@ -502,18 +502,18 @@ services near you! We ensure safe, fast, and affordable auto transport services 
                         </div>
                     </div>
                     {{-- <div class="image-box"><img class="p-z-idex aspect-ratio aspect-ratio-3x2 img-fluid"
-                                src="{{ asset('/frontend/images/about/WMUD-Home.webp') }}" fetchpriority="high"
+                                src="{{ asset('public/frontend/images/about/WMUD-Home.webp') }}" fetchpriority="high"
                                 loading="lazy" alt="Image"></div><img
                             class="group-1 p-z-idex aspect-ratio aspect-ratio-3x2 img-fluid"
-                            src="{{ asset('/frontend/images/about/about-3.webp') }}" fetchpriority="high" loading="lazy"
+                            src="{{ asset('public/frontend/images/about/about-3.webp') }}" fetchpriority="high" loading="lazy"
                             alt="Image" width="1200" height="800"> --}}
                     <div class="image-box">
                         <img class="p-z-idex aspect-ratio aspect-ratio-3x2 img-fluid"
-                            src="{{ asset('/frontend/images/about/WMUD-Home.webp') }}" fetchpriority="high"
+                            src="{{ asset('public/frontend/images/about/WMUD-Home.webp') }}" fetchpriority="high"
                             loading="lazy" alt="Image" width="1200" height="800" decoding="async">
                     </div>
                     <img class="group-1 p-z-idex aspect-ratio aspect-ratio-3x2 img-fluid"
-                        src="{{ asset('/frontend/images/about/about-3.webp') }}" fetchpriority="high" alt="Image"
+                        src="{{ asset('public/frontend/images/about/about-3.webp') }}" fetchpriority="high" alt="Image"
                         width="1200" height="800" loading="lazy" decoding="async">
                 </div>
             </div>
@@ -681,7 +681,7 @@ services near you! We ensure safe, fast, and affordable auto transport services 
             @foreach ($services as $index => $service)
                 @php
                     $serviceRoute = route($service['route']);
-                    $imgSrc = asset('/frontend/images/' . $service['img']);
+                    $imgSrc = asset('public/frontend/images/' . $service['img']);
                     $fetchPriority = $index === 0 ? 'high' : 'low';
                 @endphp
     
@@ -788,7 +788,7 @@ services near you! We ensure safe, fast, and affordable auto transport services 
         @foreach ($services as $index => $service)
             @php
                 $serviceRoute = route($service['route']);
-                $imgSrc = asset('/frontend/images/' . $service['img']);
+                $imgSrc = asset('public/frontend/images/' . $service['img']);
                 $fetchPriority = $index === 0 ? 'high' : 'low';
             @endphp
 
@@ -817,7 +817,7 @@ services near you! We ensure safe, fast, and affordable auto transport services 
         {{-- @foreach ($services as $index => $service)
                 @php
                     $serviceRoute = route($service['route'] ?? '');
-                    $imgSrc = isset($service['img']) ? asset('/frontend/images/' . $service['img']) : asset('/frontend/images/default.webp');
+                    $imgSrc = isset($service['img']) ? asset('public/frontend/images/' . $service['img']) : asset('public/frontend/images/default.webp');
                     $fetchPriority = $index === 0 ? 'high' : 'low';
 
                     // Define default dimensions
