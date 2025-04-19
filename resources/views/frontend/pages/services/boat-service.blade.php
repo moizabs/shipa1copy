@@ -639,7 +639,7 @@
                 <div class="slide text-center">
                     <i class="fas fa-headset icon-hover-shake" style="font-size: 50px;"></i>
                     <h3 class="slide-title">Boat Security & Insurance</h3>
-                    <p class="slide-text">Don’t worry about the safety and maintenance of your boats. ShipA1 offers proper security along with boat insurance support.</p>
+                    <p class="slide-text">No need to worry about your boat’s safety or upkeep—ShipA1 provides secure transport and boat insurance support.</p>
                 </div>
             </div>
         </div>
@@ -648,7 +648,7 @@
                 <div class="slide text-center">
                     <i class="fas fa-shield-alt icon-hover-shake" style="font-size: 50px;"></i>
                     <h3 class="slide-title">Real-Time Boat Monitoring </h3>
-                    <p class="slide-text"> 24/7 active monitoring by ShipA1. We track each boat shipping trailer following assigned destination routes in the USA.</p>
+                    <p class="slide-text"> ShipA1 provides round-the-clock tracking for every boat trailer on its U.S. route.</p>
                 </div>
             </div>
             <div class="col-md-4 col-lg-4 mb-4">

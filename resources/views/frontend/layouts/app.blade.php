@@ -66,8 +66,8 @@
     <link rel="stylesheet" href="{{ asset('/frontend/css/icons.css') }}" media="print" onload="this.onload=null;this.removeAttribute('media');">
     <link rel="stylesheet" href="{{ asset('/frontend/css/odometer.min.css') }}" media="print" onload="this.onload=null;this.removeAttribute('media');">
     <link rel="stylesheet" href="{{ asset('/frontend/css/nice-select.css') }}" media="print" onload="this.onload=null;this.removeAttribute('media');">
-    <link rel="stylesheet" href="{{ asset('/frontend/css/animate.css') }}" media="print" onload="this.onload=null;this.removeAttribute('media');">
-    <link rel="stylesheet" href="{{ asset('/frontend/css/responsive.css') }}" media="print" onload="this.onload=null;this.removeAttribute('media');">
+    <link rel="stylesheet" href="{{ asset('public/frontend/css/animate.css') }}" media="print" onload="this.onload=null;this.removeAttribute('media');">
+    <link rel="stylesheet" href="{{ asset('public/frontend/css/responsive.css') }}" media="print" onload="this.onload=null;this.removeAttribute('media');">
 
     <!-- Minified & Combined CSS (Optional for performance) -->
     {{-- <link rel="stylesheet" href="{{ asset('/frontend/css/all.min.css') }}"> --}}
