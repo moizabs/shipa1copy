@@ -334,7 +334,7 @@
             <div class="col-lg-4 col-md-12 order-sm-1 order-md-2 order-2 d-flex align-items-center justify-content-center sal-animate" data-sal="slide-left" data-sal-duration="800">
                 <div class="mt-4 rounded">
                     <div class="image-box">
-                        <img class="rounded img-fluid" src="{{ asset('/frontend/images/project/3b image for commercial truck transport (1).webp') }}" alt="Image">
+                        <img class="rounded img-fluid" src="{{ asset('public/frontend/images/project/3b image for commercial truck transport (1).webp') }}" alt="Image">
                     </div>
                 </div>
             </div>
@@ -345,7 +345,7 @@
             <div class="col-lg-4 col-md-12 order-sm-1 order-2 d-flex align-items-center justify-content-center sal-animate" data-sal="slide-left" data-sal-duration="800">
                 <div class="mt-4 rounded">
                     <div class="image-box">
-                        <img class="rounded img-fluid" src="{{ asset('/frontend/images/project/3a images for commercial transport.webp') }}" alt="Image">
+                        <img class="rounded img-fluid" src="{{ asset('public/frontend/images/project/3a images for commercial transport.webp') }}" alt="Image">
                     </div>
                 </div>
             </div>
@@ -464,7 +464,7 @@
             <div class="col-lg-4 col-md-12 sal-animate d-flex align-items-center justify-content-center" data-sal="slide-left" data-sal-duration="800">
                 <div class="mt-4 rounded">
                     <div class="image-box">
-                        <img class="rounded img-fluid" src="{{ asset('/frontend/images/project/3c images for commercial transport.webp') }}" alt="Image">
+                        <img class="rounded img-fluid" src="{{ asset('public/frontend/images/project/3c images for commercial transport.webp') }}" alt="Image">
                     </div>
                 </div>
             </div>
@@ -521,7 +521,7 @@
                             <div class="card-2 mb-3">
                                 <div class="row g-0">
                                     <div class="col-sm-6 d-flex align-items-center justify-content-center">
-                                    <img src="{{ asset('/frontend/images/slider/Semi-Truck-with-Lowboy-Trailer.webp') }}" class="img-fluid rounded-start" style="height: 100%; background-size: cover; background-position: center;" alt="...">
+                                    <img src="{{ asset('public/frontend/images/slider/Semi-Truck-with-Lowboy-Trailer.webp') }}" class="img-fluid rounded-start" style="height: 100%; background-size: cover; background-position: center;" alt="...">
                                     </div>
                                     <div class="col-sm-6 d-flex align-items-center justify-content-center">
                                     <div class="card-body tj-section-heading mb-0">
@@ -558,7 +558,7 @@
                                     </div>
                                     </div>
                                     <div class="col-sm-6 d-flex align-items-center justify-content-center">
-                                        <img src="{{ asset('/frontend/images/slider/Semi-Truck-with-Flatbed-Trailer.webp') }}" class="img-fluid rounded-start" style="height: 100%; background-size: cover; background-position: center;" alt="...">
+                                        <img src="{{ asset('public/frontend/images/slider/Semi-Truck-with-Flatbed-Trailer.webp') }}" class="img-fluid rounded-start" style="height: 100%; background-size: cover; background-position: center;" alt="...">
                                     </div>
                                 </div>
                             </div>
@@ -571,7 +571,7 @@
                             <div class="card-2 mb-3">
                                 <div class="row g-0">
                                     <div class="col-sm-6 d-flex align-items-center justify-content-center">
-                                    <img src="{{ asset('/frontend/images/slider/Semi-Truck-With-Multi-Axel-Trailer.webp') }}" class="img-fluid rounded-start" style="height: 100%; background-size: cover; background-position: center;" alt="...">
+                                    <img src="{{ asset('public/frontend/images/slider/Semi-Truck-With-Multi-Axel-Trailer.webp') }}" class="img-fluid rounded-start" style="height: 100%; background-size: cover; background-position: center;" alt="...">
                                     </div>
                                     <div class="col-sm-6 d-flex align-items-center justify-content-center">
                                     <div class="card-body tj-section-heading mb-0">

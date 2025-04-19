@@ -835,11 +835,11 @@
                         </div>
                     </div>
                     <div class="image-box">
-                        <img class="p-z-idex" src="{{ asset('/frontend/images/about/Freight Transportation 1b image.webp') }}"
+                        <img class="p-z-idex" src="{{ asset('public/frontend/images/about/Freight Transportation 1b image.webp') }}"
                             alt="Image" />
                     </div>
                     <img class="group-1 p-z-idex"
-                        src="{{ asset('/frontend/images/about/Freight Transportation 1a image.webp') }}" alt="Image" />
+                        src="{{ asset('public/frontend/images/about/Freight Transportation 1a image.webp') }}" alt="Image" />
                     <img class="group-shape" src="{{ asset('frontend/images/about/ab-shape.png') }}"
                         alt="Image" />
                 </div>
