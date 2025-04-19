@@ -326,7 +326,7 @@
                     data-sal="slide-left" data-sal-duration="800">
                     <div class="mt-4 rounded">
                         <div class="image-box">
-                            <img class="rounded" src="{{ asset('public/frontend/images/project/tuxpi.com.1729.webp') }}"
+                            <img class="rounded" src="{{ asset('/frontend/images/project/tuxpi.com.1729.webp') }}"
                                 alt="Image">
                         </div>
                     </div>
@@ -341,7 +341,7 @@
                     data-sal="slide-left" data-sal-duration="800">
                     <div class="mt-4 rounded">
                         <div class="image-box">
-                            <img class="rounded" src="{{ asset('public/frontend/images/project/tuxpi.com.17292466.webp') }}"
+                            <img class="rounded" src="{{ asset('/frontend/images/project/tuxpi.com.17292466.webp') }}"
                                 alt="Image">
                         </div>
                     </div>
@@ -472,7 +472,7 @@
                     data-sal="slide-left" data-sal-duration="800">
                     <div class="mt-4 rounded">
                         <div class="image-box">
-                            <img class="rounded" src="{{ asset('public/frontend/images/project/tuxpi.commmm.webp') }}"
+                            <img class="rounded" src="{{ asset('/frontend/images/project/tuxpi.commmm.webp') }}"
                                 alt="Image">
                         </div>
                     </div>
@@ -496,7 +496,7 @@
                                 <div class="card-2 mb-3">
                                     <div class="row g-0">
                                         <div class="col-sm-6 d-flex align-items-center justify-content-center">
-                                            <img src="{{ asset('public/frontend/images/slider/Heavy Equipment on Lowboy Trailer.webp') }}"
+                                            <img src="{{ asset('/frontend/images/slider/Heavy Equipment on Lowboy Trailer.webp') }}"
                                                 class="img-fluid rounded-start"
                                                 style="height: 100%; background-size: cover; background-position: center;"
                                                 alt="...">
@@ -542,7 +542,7 @@
                                             </div>
                                         </div>
                                         <div class="col-sm-6 d-flex align-items-center justify-content-center">
-                                            <img src="{{ asset('public/frontend/images/slider/Heavy Equipment on Flatbed Trailer.webp') }}"
+                                            <img src="{{ asset('/frontend/images/slider/Heavy Equipment on Flatbed Trailer.webp') }}"
                                                 class="img-fluid rounded-start"
                                                 style="height: 100%; background-size: cover; background-position: center;"
                                                 alt="...">
@@ -558,7 +558,7 @@
                                 <div class="card-2 mb-3">
                                     <div class="row g-0">
                                         <div class="col-sm-6 d-flex align-items-center justify-content-center">
-                                            <img src="{{ asset('public/frontend/images/slider/Heavy Equipment on dropdeck Trailer.webp') }}"
+                                            <img src="{{ asset('/frontend/images/slider/Heavy Equipment on dropdeck Trailer.webp') }}"
                                                 class="img-fluid rounded-start"
                                                 style="height: 100%; background-size: cover; background-position: center;"
                                                 alt="...">
@@ -605,7 +605,7 @@
                                             </div>
                                         </div>
                                         <div class="col-sm-6 d-flex align-items-center justify-content-center">
-                                            <img src="{{ asset('public/frontend/images/slider/Heavy Equipment on Gooseneck Trailer.webp') }}"
+                                            <img src="{{ asset('/frontend/images/slider/Heavy Equipment on Gooseneck Trailer.webp') }}"
                                                 class="img-fluid rounded-start"
                                                 style="height: 100%; background-size: cover; background-position: center;"
                                                 alt="...">

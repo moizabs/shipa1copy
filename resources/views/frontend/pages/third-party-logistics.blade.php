@@ -186,7 +186,7 @@
             <div class="col-lg-4 col-md-12 order-sm-1 order-md-2 order-2 d-flex align-items-center justify-content-center sal-animate" data-sal="slide-left" data-sal-duration="800">
                 <div class="mt-4 rounded">
                 <div class="image-box">
-                    <img class="rounded" src="{{ asset('public/frontend/images/project/Freight-auctionnnn.webp') }}" alt="Image">
+                    <img class="rounded" src="{{ asset('/frontend/images/project/Freight-auctionnnn.webp') }}" alt="Image">
                 </div>
                 </div>
             </div>
@@ -195,7 +195,7 @@
             <div class="col-lg-4 col-md-12 order-sm-1 order-md-1 order-1 d-flex align-items-center justify-content-center sal-animate" data-sal="slide-left" data-sal-duration="800">
                 <div class="mt-4 rounded">
                 <div class="image-box">
-                    <img class="rounded" src="{{ asset('public/frontend/images/project/3c-image-for-Reefe.webp') }}" alt="Image">
+                    <img class="rounded" src="{{ asset('/frontend/images/project/3c-image-for-Reefe.webp') }}" alt="Image">
                 </div>
                 </div>
             </div>
@@ -219,7 +219,7 @@
     </div>
 </section>
 <section class="tj-cta-section icon-animate">
-    <div class="cta-inner" data-bg-image="{{ asset('public/frontend/images/cta/freight-cta.webp') }}"></div>
+    <div class="cta-inner" data-bg-image="{{ asset('/frontend/images/cta/freight-cta.webp') }}"></div>
     <div class="container">
         <div class="row">
             <div class="col-lg-8 offset-lg-2">
@@ -254,7 +254,7 @@
             <div class="col-lg-4 col-md-12 order-sm-1 order-md-2 order-2 d-flex align-items-center justify-content-center sal-animate" data-sal="slide-left" data-sal-duration="800">
                 <div class="mt-4 rounded">
                 <div class="image-box">
-                    <img class="rounded" src="{{ asset('public/frontend/images/project/Freight Transportnnnn.webp') }}" alt="Image">
+                    <img class="rounded" src="{{ asset('/frontend/images/project/Freight Transportnnnn.webp') }}" alt="Image">
                 </div>
                 </div>
             </div>
@@ -291,7 +291,7 @@
                             <div class="card-2 mb-3">
                                 <div class="row g-0">
                                     <div class="col-sm-6 d-flex align-items-center justify-content-center">
-                                    <img src="{{ asset('public/frontend/images/slider/Intermodal Container.webp') }}" class="img-fluid rounded-start" style="height: 100%; background-size: cover; background-position: center;" alt="...">
+                                    <img src="{{ asset('/frontend/images/slider/Intermodal Container.webp') }}" class="img-fluid rounded-start" style="height: 100%; background-size: cover; background-position: center;" alt="...">
                                     </div>
                                     <div class="col-sm-6 d-flex align-items-center justify-content-center">
                                     <div class="card-body tj-section-heading mb-0">
@@ -330,7 +330,7 @@
                                     </div>
                                     </div>
                                     <div class="col-sm-6 d-flex align-items-center justify-content-center">
-                                        <img src="{{ asset('public/frontend/images/slider/Tautliner Trailer.webp') }}" class="img-fluid rounded-start" style="height: 100%; background-size: cover; background-position: center;" alt="...">
+                                        <img src="{{ asset('/frontend/images/slider/Tautliner Trailer.webp') }}" class="img-fluid rounded-start" style="height: 100%; background-size: cover; background-position: center;" alt="...">
                                     </div>
                                 </div>
                             </div>
@@ -343,7 +343,7 @@
                             <div class="card-2 mb-3">
                                 <div class="row g-0">
                                     <div class="col-sm-6 d-flex align-items-center justify-content-center">
-                                    <img src="{{ asset('public/frontend/images/slider/Standard Dry Van Trailer.webp') }}" class="img-fluid rounded-start" style="height: 100%; background-size: cover; background-position: center;" alt="...">
+                                    <img src="{{ asset('/frontend/images/slider/Standard Dry Van Trailer.webp') }}" class="img-fluid rounded-start" style="height: 100%; background-size: cover; background-position: center;" alt="...">
                                     </div>
                                     <div class="col-sm-6 d-flex align-items-center justify-content-center">
                                     <div class="card-body tj-section-heading mb-0">
@@ -383,7 +383,7 @@
                                     </div>
                                     </div>
                                     <div class="col-sm-6 d-flex align-items-center justify-content-center">
-                                        <img src="{{ asset('public/frontend/images/slider/Reefer Trailer.webp') }}" class="img-fluid rounded-start" style="height: 100%; background-size: cover; background-position: center;" alt="...">
+                                        <img src="{{ asset('/frontend/images/slider/Reefer Trailer.webp') }}" class="img-fluid rounded-start" style="height: 100%; background-size: cover; background-position: center;" alt="...">
                                     </div>
                                 </div>
                             </div>

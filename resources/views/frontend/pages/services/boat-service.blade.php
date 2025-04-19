@@ -338,7 +338,7 @@
                 <div class="mt-4 rounded">
                     <div class="image-box">
                         <img class="rounded"
-                            src="{{ asset('public/frontend/images/project/4a images for boat transport.webp') }}"
+                            src="{{ asset('/frontend/images/project/4a images for boat transport.webp') }}"
                             alt="Image">
                     </div>
                 </div>
@@ -352,7 +352,7 @@
                 <div class="mt-4 rounded">
                     <div class="image-box">
                         <img class="rounded"
-                            src="{{ asset('public/frontend/images/project/4c images for boat transport.webp') }}"
+                            src="{{ asset('/frontend/images/project/4c images for boat transport.webp') }}"
                             alt="Image">
                     </div>
                 </div>
@@ -407,7 +407,7 @@
                 <div class="mt-4 rounded">
                     <div class="image-box">
                         <img class="rounded"
-                            src="{{ asset('public/frontend/images/project/4b images for boat transport.webp') }}"
+                            src="{{ asset('/frontend/images/project/4b images for boat transport.webp') }}"
                             alt="Image">
                     </div>
                 </div>
@@ -421,7 +421,7 @@
                 <div class="mt-4 rounded">
                     <div class="image-box">
                         <img class="rounded"
-                            src="{{ asset('public/frontend/images/project/4d images for boat transport.webp') }}"
+                            src="{{ asset('/frontend/images/project/4d images for boat transport.webp') }}"
                             alt="Image">
                     </div>
                 </div>
@@ -522,7 +522,7 @@
                             <div class="card-2 mb-3">
                                 <div class="row g-0">
                                     <div class="col-sm-6 d-flex align-items-center justify-content-center">
-                                    <img src="{{ asset('public/frontend/images/slider/Boat Transport on Open Trailer 1--.webp') }}" class="img-fluid rounded-start" style="height: 100%; background-size: cover; background-position: center;" alt="...">
+                                    <img src="{{ asset('/frontend/images/slider/Boat Transport on Open Trailer 1--.webp') }}" class="img-fluid rounded-start" style="height: 100%; background-size: cover; background-position: center;" alt="...">
                                     </div>
                                     <div class="col-sm-6 d-flex align-items-center justify-content-center">
                                     <div class="card-body tj-section-heading mb-0">
@@ -559,7 +559,7 @@
                                     </div>
                                     </div>
                                     <div class="col-sm-6 d-flex align-items-center justify-content-center">
-                                        <img src="{{ asset('public/frontend/images/slider/Boat Transport on Enclosed Trailer 1--.webp') }}" class="img-fluid rounded-start" style="height: 100%; background-size: cover; background-position: center;" alt="...">
+                                        <img src="{{ asset('/frontend/images/slider/Boat Transport on Enclosed Trailer 1--.webp') }}" class="img-fluid rounded-start" style="height: 100%; background-size: cover; background-position: center;" alt="...">
                                     </div>
                                 </div>
                             </div>
@@ -572,7 +572,7 @@
                             <div class="card-2 mb-3">
                                 <div class="row g-0">
                                     <div class="col-sm-6 d-flex align-items-center justify-content-center">
-                                    <img src="{{ asset('public/frontend/images/slider/Boat Transport on Flat-Rack Trailer 1--.webp') }}" class="img-fluid rounded-start" style="height: 100%; background-size: cover; background-position: center;" alt="...">
+                                    <img src="{{ asset('/frontend/images/slider/Boat Transport on Flat-Rack Trailer 1--.webp') }}" class="img-fluid rounded-start" style="height: 100%; background-size: cover; background-position: center;" alt="...">
                                     </div>
                                     <div class="col-sm-6 d-flex align-items-center justify-content-center">
                                     <div class="card-body tj-section-heading mb-0">
@@ -612,7 +612,7 @@
                                     </div>
                                     </div>
                                     <div class="col-sm-6 d-flex align-items-center justify-content-center">
-                                        <img src="{{ asset('public/frontend/images/slider/Boat Transport on Tow-Away Trailer 1--.webp') }}" class="img-fluid rounded-start" style="height: 100%; background-size: cover; background-position: center;" alt="...">
+                                        <img src="{{ asset('/frontend/images/slider/Boat Transport on Tow-Away Trailer 1--.webp') }}" class="img-fluid rounded-start" style="height: 100%; background-size: cover; background-position: center;" alt="...">
                                     </div>
                                 </div>
                             </div>
