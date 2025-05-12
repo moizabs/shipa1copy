@@ -27,7 +27,7 @@
     height: 100px; 
     }
 </style>
-<section class="breadcrumb-wrapper" data-bg-image="{{ asset('/frontend/images/banner/all-cover-banner.webp') }}">
+<section class="breadcrumb-wrapper" data-bg-image="{{ asset('frontend/images/banner/all-cover-banner.webp') }}">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
@@ -57,7 +57,7 @@
                     <div class="tj-blog-item-three">
                         <div class="tj-blog-image">
                             <a href="service-details.html">
-                                <img src="{{ asset('/frontend/images/slider/home-slider-3.webp') }}" alt="Blog"
+                                <img src="{{ asset('frontend/images/slider/home-slider-3.webp') }}" alt="Blog"
                             /></a>
                         </div>
                         <div class="blog-content-area">
@@ -79,7 +79,7 @@
                     <div class="row align-items-center">
                         <div class="col-lg-5 col-md-6">
                             <div class="check-image">
-                                <img src="{{ asset('/frontend/images/project/vehicle-detail-page.webp') }}" alt="Blog" />
+                                <img src="{{ asset('frontend/images/project/vehicle-detail-page.webp') }}" alt="Blog" />
                             </div>
                         </div>
                         <div class="col-lg-7 col-md-6">
@@ -115,12 +115,12 @@
                         <div class="row">
                             <div class="col-lg-6 col-md-6">
                                 <div class="sevice-image">
-                                    <img src="{{ asset('/frontend/images/about/about-3.webp') }}" alt="Image" />
+                                    <img src="{{ asset('frontend/images/about/about-3.webp') }}" alt="Image" />
                                 </div>
                             </div>
                             <div class="col-lg-6 col-md-6">
                                 <div class="sevice-image">
-                                    <img src="{{ asset('/frontend/images/about/about-3.webp') }}" alt="Image" />
+                                    <img src="{{ asset('frontend/images/about/about-3.webp') }}" alt="Image" />
                                 </div>
                             </div>
                         </div>

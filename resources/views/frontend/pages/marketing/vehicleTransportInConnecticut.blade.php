@@ -291,7 +291,7 @@
                     <div class="tj-icon-box">
                         <div class="ab-text d-flex align-items-center">
                             <div class="ab-icon"><img loading="lazy"
-                                    src="{{ asset('/frontend/images/icon/winner.svg') }}" fetchpriority="high"
+                                    src="{{ asset('frontend/images/icon/winner.svg') }}" fetchpriority="high"
                                     alt="Icon"></div>
                             <div class="ab-title">
                                 <h5 class="title">Our Values</h5>

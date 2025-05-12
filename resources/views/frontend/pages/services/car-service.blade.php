@@ -448,7 +448,7 @@
             color: #062e39;
         }
     </style>
-    <section class="breadcrumb-wrapper" data-bg-image="{{ asset('/frontend/images/banner/all-cover-banner.webp') }}">
+    <section class="breadcrumb-wrapper" data-bg-image="{{ asset('frontend/images/banner/all-cover-banner.webp') }}">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -749,7 +749,7 @@
                     data-sal="slide-left" data-sal-duration="800">
                     <div class="mt-4 rounded ">
                         <div class="image-box">
-                            <img class="rounded" src="{{ asset('/frontend/images/project/car-transport.webp') }}"
+                            <img class="rounded" src="{{ asset('frontend/images/project/car-transport.webp') }}"
                                 alt="Image">
                             <div class="overlay">
                                 <a href="{{ route('form.vehicle.car') }}">
@@ -813,7 +813,7 @@
                     data-sal="slide-left" data-sal-duration="800">
                     <div class="mt-4 rounded ">
                         <div class="image-box">
-                            <img class="rounded" src="{{ asset('/frontend/images/project/tuxpi.com.1724264978.webp') }}"
+                            <img class="rounded" src="{{ asset('frontend/images/project/tuxpi.com.1724264978.webp') }}"
                                 alt="Image">
                             <div class="overlay">
                                 <a href="{{ route('form.vehicle.car') }}">
@@ -858,7 +858,7 @@
                     data-sal="slide-left" data-sal-duration="800">
                     <div class="mt-4 rounded ">
                         <div class="image-box">
-                            <img class="rounded" src="{{ asset('/frontend/images/project/car-transport.webp') }}"
+                            <img class="rounded" src="{{ asset('frontend/images/project/car-transport.webp') }}"
                                 alt="Image">
                             <div class="overlay">
                                 <a href="{{ route('form.vehicle.car') }}">
@@ -916,7 +916,7 @@
                     data-sal="slide-left" data-sal-duration="800">
                     <div class="mt-4 rounded ">
                         <div class="image-box">
-                            <img class="rounded" src="{{ asset('/frontend/images/project/tuxpi.com.1724264978.webp') }}"
+                            <img class="rounded" src="{{ asset('frontend/images/project/tuxpi.com.1724264978.webp') }}"
                                 alt="Image">
                             <div class="overlay">
                                 <a href="{{ route('form.vehicle.car') }}">
@@ -984,7 +984,7 @@
                     data-sal="slide-left" data-sal-duration="800">
                     <div class="mt-4 rounded ">
                         <div class="image-box">
-                            <img class="rounded" src="{{ asset('/frontend/images/project/car-transport.webp') }}"
+                            <img class="rounded" src="{{ asset('frontend/images/project/car-transport.webp') }}"
                                 alt="Image">
                             <div class="overlay">
                                 <a href="{{ route('form.vehicle.car') }}">
@@ -1002,7 +1002,7 @@
                     data-sal="slide-left" data-sal-duration="800">
                     <div class="mt-4 rounded ">
                         <div class="image-box">
-                            <img class="rounded" src="{{ asset('/frontend/images/project/tuxpi.com.1724264978.webp') }}"
+                            <img class="rounded" src="{{ asset('frontend/images/project/tuxpi.com.1724264978.webp') }}"
                                 alt="Image">
                             <div class="overlay">
                                 <a href="{{ route('form.vehicle.car') }}">
@@ -1064,7 +1064,7 @@
                     data-sal="slide-left" data-sal-duration="800">
                     <div class="mt-4 rounded ">
                         <div class="image-box">
-                            <img class="rounded" src="{{ asset('/frontend/images/project/open vs enclosed.webp') }}"
+                            <img class="rounded" src="{{ asset('frontend/images/project/open vs enclosed.webp') }}"
                                 alt="Image">
                             <div class="overlay">
                                 <a href="{{ route('form.vehicle.car') }}">

@@ -15,7 +15,7 @@
                                 <div class="tj-testimonial-item">
                                     <div class="testimonial-rating d-flex justify-content-between">
                                         <div class="testimoniasl-image">
-                                            <img loading="lazy" src="{{ asset('/frontend/images/icon/comment.svg') }}" alt="Icon" />
+                                            <img loading="lazy" src="{{ asset('frontend/images/icon/comment.svg') }}" alt="Icon" />
                                         </div>
                                         <div class="rating-icon">
                                             <ul class="list-gap">
@@ -39,30 +39,30 @@
                                             </div>
                                             <div class="testimonial-comment ">
                                                 {{-- @if ($review->site_name == 'BBB')
-                                                    <img src="{{ asset('/frontend/images/testimonial/bbb.png') }}"
+                                                    <img src="{{ asset('frontend/images/testimonial/bbb.png') }}"
                                                         alt="Image" style="width: 70px; height: 30px;" />
                                                 @elseif ($review->site_name == 'Google')
-                                                    <img src="{{ asset('/frontend/images/testimonial/google.png') }}"
+                                                    <img src="{{ asset('frontend/images/testimonial/google.png') }}"
                                                         alt="Image" style="width: 70px; height: 30px;" />
                                                 @else
-                                                    <img src="{{ asset('/frontend/images/testimonial/transport.png') }}"
+                                                    <img src="{{ asset('frontend/images/testimonial/transport.png') }}"
                                                         alt="Image" style="width: 70px; height: 30px;" />
                                                 @endif --}}
                                                 @if ($review->profile_name == 'BBB')
                                                     <img class="float-end"
-                                                        src="{{ asset('/frontend/images/testimonial/bbb.png') }}" width="60%"
+                                                        src="{{ asset('frontend/images/testimonial/bbb.png') }}" width="60%"
                                                         height="100%" alt="BBB" loading="lazy"/>
                                                 @elseif ($review->profile_name == 'Google')
                                                     <img class="float-end"
-                                                        src="{{ asset('/frontend/images/testimonial/google.png') }}"
+                                                        src="{{ asset('frontend/images/testimonial/google.png') }}"
                                                         width="100%" height="100%" alt="Google" loading="lazy"/>
                                                 @elseif($review->profile_name == 'Transport Reviews')
                                                     <img class="float-end"
-                                                        src="{{ asset('/frontend/images/testimonial/transport.png') }}"
+                                                        src="{{ asset('frontend/images/testimonial/transport.png') }}"
                                                         width="90%" height="100%" alt="Transport Reviews" loading="lazy"/>
                                                 @elseif($review->profile_name == 'Trust Pilot')
                                                     <img class="float-end"
-                                                        src="{{ asset('/frontend/images/testimonial/turst.png') }}"
+                                                        src="{{ asset('frontend/images/testimonial/turst.png') }}"
                                                         width="100%" height="100%" alt="Trust Pilot" loading="lazy"/>
                                                 @endif
                                             </div>

@@ -326,8 +326,8 @@
                         <div class="tj-icon-box">
                             <div class="ab-text d-flex align-items-center">
                                 <div class="ab-icon">
-                                    <img src="{{ asset('/frontend/images/icon/winner.svg') }}" alt="Icon" />
-                                    <!-- <img src="{{ asset('/frontend/images/icon/global.svg') }}" alt="Icon" /> -->
+                                    <img src="{{ asset('frontend/images/icon/winner.svg') }}" alt="Icon" />
+                                    <!-- <img src="{{ asset('frontend/images/icon/global.svg') }}" alt="Icon" /> -->
                                 </div>
                                 <div class="ab-title">
                                     <h5 class="title">Our Values</h5>
@@ -342,7 +342,7 @@
                             <div class="ab-text d-flex align-items-center">
                                 <div class="ab-icon">
                                     <i class="fa-light fa-bell-concierge fa-2xl" style="color: #8fc445;"></i>
-                                    <!-- <img src="{{ asset('/frontend/images/icon/winner.svg') }}" alt="Icon" /> -->
+                                    <!-- <img src="{{ asset('frontend/images/icon/winner.svg') }}" alt="Icon" /> -->
                                 </div>
                                 <div class="ab-title">
                                     <h5 class="title">Scope of Services</h5>
@@ -356,7 +356,7 @@
                             <div class="ab-text d-flex align-items-center">
                                 <div class="ab-icon">
                                     <i class="fa-light fa-shield-heart fa-2xl" style="color: #8fc445;"></i>
-                                    <!-- <img src="{{ asset('/frontend/images/icon/winner.svg') }}" alt="Icon" /> -->
+                                    <!-- <img src="{{ asset('frontend/images/icon/winner.svg') }}" alt="Icon" /> -->
                                 </div>
                                 <div class="ab-title">
                                     <h5 class="title">Safety Is Our Priority</h5>
@@ -372,7 +372,7 @@
                             <div class="ab-text d-flex align-items-center">
                                 <div class="ab-icon">
                                     <i class="fa-light fa-handshake fa-2xl" style="color: #8fc445;"></i>
-                                    <!-- <img src="{{ asset('/frontend/images/icon/winner.svg') }}" alt="Icon" /> -->
+                                    <!-- <img src="{{ asset('frontend/images/icon/winner.svg') }}" alt="Icon" /> -->
                                 </div>
                                 <div class="ab-title">
                                     <h5 class="title">Skilful & Devoted Staff</h5>
@@ -403,7 +403,7 @@
                         </div>
                         <img class="group-1 p-z-idex"
                             src="{{ asset('/frontend/images/about/what-makes-us-Heavy2.webp') }}" alt="Image" />
-                        <img class="group-shape" src="{{ asset('/frontend/images/about/ab-shape.png') }}"
+                        <img class="group-shape" src="{{ asset('frontend/images/about/ab-shape.png') }}"
                             alt="Image" />
                     </div>
                 </div>
@@ -534,7 +534,7 @@
                 <div class="col-lg-12">
                     <div class="video-wrapper text-center">
                         <div class="video-thumbnail" onclick="playVideo()">
-                            <img src="{{ asset('/frontend/images/banner/tn.jpg') }}" alt="Video Thumbnail" />
+                            <img src="{{ asset('frontend/images/banner/tn.jpg') }}" alt="Video Thumbnail" />
                             <div class="play-button">
                                 <i class="fa fa-play-circle"></i>
                             </div>
@@ -566,7 +566,7 @@
                 <div class="col-lg-6" data-sal="slide-left" data-sal-duration="800">
                     <div class="tj-faq-left-content">
                         <div class="faq-image">
-                            <img src="{{ asset('/frontend/images/slider/FAQ.webp') }}" alt="Image" />
+                            <img src="{{ asset('frontend/images/slider/FAQ.webp') }}" alt="Image" />
                         </div>
                         {{-- <div class="faq-content">
                             <div class="faq-icon">

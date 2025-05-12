@@ -26,7 +26,7 @@
     <!-- Sidebar - Brand -->
     <a class="sidebar-brand d-flex align-items-center justify-content-center" href="{{ route('admin.index') }}">
         <div class="sidebar-brand-text mx-3">
-            <img src="{{ asset('/frontend/images/logo/logo-white.png') }}" style="width:100%;" alt="">
+            <img src="{{ asset('frontend/images/logo/logo-white.png') }}" style="width:100%;" alt="">
             <sup></sup>
         </div>
     </a>

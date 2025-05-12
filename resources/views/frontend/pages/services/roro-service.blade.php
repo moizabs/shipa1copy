@@ -329,7 +329,7 @@
                 data-sal="slide-left" data-sal-duration="800">
                 <div class="mt-4 rounded">
                     <div class="image-box">
-                        <img class="rounded img-fluid" src="{{ asset('/frontend/images/project/roro-1.webp') }}"
+                        <img class="rounded img-fluid" src="{{ asset('frontend/images/project/roro-1.webp') }}"
                             alt="Image">
                     </div>
                 </div>
@@ -342,7 +342,7 @@
                 data-sal="slide-left" data-sal-duration="800">
                 <div class="mt-4 rounded">
                     <div class="image-box">
-                        <img class="rounded img-fluid" src="{{ asset('/frontend/images/project/roro-2.webp') }}"
+                        <img class="rounded img-fluid" src="{{ asset('frontend/images/project/roro-2.webp') }}"
                             alt="Image">
                     </div>
                 </div>
@@ -450,7 +450,7 @@
                 data-sal="slide-left" data-sal-duration="800">
                 <div class="mt-4 rounded">
                     <div class="image-box">
-                        <img class="rounded img-fluid" src="{{ asset('/frontend/images/project/roro-3.webp') }}"
+                        <img class="rounded img-fluid" src="{{ asset('frontend/images/project/roro-3.webp') }}"
                             alt="Image">
                     </div>
                 </div>
@@ -463,7 +463,7 @@
                 data-sal="slide-left" data-sal-duration="800">
                 <div class="mt-4 rounded">
                     <div class="image-box">
-                        <img class="rounded img-fluid" src="{{ asset('/frontend/images/project/roro-4.webp') }}"
+                        <img class="rounded img-fluid" src="{{ asset('frontend/images/project/roro-4.webp') }}"
                             alt="Image">
                     </div>
                 </div>
@@ -683,7 +683,7 @@
             <div class="col-lg-6 sal-animate" data-sal="slide-left" data-sal-duration="800">
                 <div class="tj-faq-left-content">
                     <div class="faq-image">
-                        <img src="{{ asset('/frontend/images/slider/FAQ.webp') }}" alt="Image">
+                        <img src="{{ asset('frontend/images/slider/FAQ.webp') }}" alt="Image">
                     </div>
                 </div>
             </div>

@@ -13,7 +13,7 @@ header("Access-Control-Allow-Methods: GET, POST");
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="{{ asset('/frontend/style.css') }}?id=4">
+    <link rel="stylesheet" href="{{ asset('/public/frontend/style.css') }}?id=4">
     <!-- End CSS -->
 
     <style>

@@ -50,7 +50,7 @@
     <link rel=preload href=https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css onload='this.onload=null,this.rel="stylesheet"'>
     <link rel=preload href=https://unpkg.com/swiper/swiper-bundle.min.css onload='this.onload=null,this.rel="stylesheet"'>
     <link rel=preload href=https://cdn.jsdelivr.net/npm/@coreui/coreui@5.0.2/dist/css/coreui.min.css integrity=sha384-39e9UaGkm/+yp6spIsVfzcs3j7ac7G2cg0hzmDvtG11pT1d7YMnOC26w4wMPhzsL crossorigin=anonymous onload='this.onload=null,this.rel="stylesheet"'>
-    <link rel="icon" href="{{ asset('/frontend/images/logo/favicon.webp') }}" type="image/webp">
+    <link rel="icon" href="{{ asset('frontend/images/logo/favicon.webp') }}" type="image/webp">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="preload" href="{{ asset('/frontend/css/bootstrap.min.css') }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <link rel="preload" href="{{ asset('/frontend/css/style.css') }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
@@ -66,8 +66,8 @@
     <link rel="stylesheet" href="{{ asset('/frontend/css/icons.css') }}" media="print" onload="this.onload=null;this.removeAttribute('media');">
     <link rel="stylesheet" href="{{ asset('/frontend/css/odometer.min.css') }}" media="print" onload="this.onload=null;this.removeAttribute('media');">
     <link rel="stylesheet" href="{{ asset('/frontend/css/nice-select.css') }}" media="print" onload="this.onload=null;this.removeAttribute('media');">
-    <link rel="stylesheet" href="{{ asset('/frontend/css/animate.css') }}" media="print" onload="this.onload=null;this.removeAttribute('media');">
-    <link rel="stylesheet" href="{{ asset('/frontend/css/responsive.css') }}" media="print" onload="this.onload=null;this.removeAttribute('media');">
+    <link rel="stylesheet" href="{{ asset('public/frontend/css/animate.css') }}" media="print" onload="this.onload=null;this.removeAttribute('media');">
+    <link rel="stylesheet" href="{{ asset('public/frontend/css/responsive.css') }}" media="print" onload="this.onload=null;this.removeAttribute('media');">
 
     <!-- Minified & Combined CSS (Optional for performance) -->
     {{-- <link rel="stylesheet" href="{{ asset('/frontend/css/all.min.css') }}"> --}}
@@ -83,8 +83,8 @@
     <link rel="stylesheet" href="{{ asset('/frontend/css/odometer.min.css') }}" media="print" onload="this.media='all'">
     <link rel="stylesheet" href="{{ asset('/frontend/css/nice-select.css') }}" media="print" onload="this.media='all'">
     <link rel="stylesheet" href="{{ asset('/frontend/css/animate.css') }}" media="print" onload="this.media='all'">
-    <link rel="stylesheet" href="{{ asset('/frontend/css/style.css') }}" media="print" onload="this.media='all'">
-    <link rel="stylesheet" href="{{ asset('/frontend/css/responsive.css') }}" media="print" onload="this.media='all'"> --}}
+    <link rel="stylesheet" href="{{ asset('/public/frontend/css/style.css') }}" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="{{ asset('/public/frontend/css/responsive.css') }}" media="print" onload="this.media='all'"> --}}
     <meta name=csrf-token content="{{ csrf_token() }}">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@coreui/coreui@5.0.2/dist/css/coreui.min.css">
     <link rel=preload href=https://code.jquery.com/jquery-3.6.0.min.js as=script>

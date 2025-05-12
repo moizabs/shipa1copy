@@ -83,7 +83,7 @@
         background-image: url('{{ asset('/frontend/images/service/Bike.webp') }}');
     }
     .custom-card.heavy-equip-card:hover .card-body {
-        background-image: url('{{ asset('/frontend/images/slider/home-slider-2.webp') }}');
+        background-image: url('{{ asset('frontend/images/slider/home-slider-2.webp') }}');
     }
     .custom-card.atv-utv-card:hover .card-body {
         background-image: url('{{ asset('img/atv.webp') }}');

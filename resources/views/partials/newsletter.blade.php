@@ -3,10 +3,10 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="subscribe-content-box d-flex align-items-center justify-content-between"
-                    data-bg-image="{{ asset('/frontend/images/banner/subscribe.png') }}">
+                    data-bg-image="{{ asset('frontend/images/banner/subscribe.png') }}">
                     <div class="subscribe-content d-flex align-items-center">
                         <div class="mail-icon">
-                            <img loading="lazy" src="{{ asset('/frontend/images/icon/email.svg') }}" alt="Icon" />
+                            <img loading="lazy" src="{{ asset('frontend/images/icon/email.svg') }}" alt="Icon" />
                         </div>
                         <div class="subscribe-title">
                             <h3 class="title">Subscribe Our Newsletter</h3>

@@ -72,19 +72,19 @@
                                     <div>
                                         @if ($site_review->profile_name == 'BBB')
                                             <img
-                                                src="{{ asset('/frontend/images/testimonial/bbb.png') }}" width="100%"
+                                                src="{{ asset('frontend/images/testimonial/bbb.png') }}" width="100%"
                                                 height="100%" alt="BBB" loading="lazy"/>
                                         @elseif ($site_review->profile_name == 'Google')
                                             <img
-                                                src="{{ asset('/frontend/images/testimonial/google.png') }}"
+                                                src="{{ asset('frontend/images/testimonial/google.png') }}"
                                                 width="75%" height="100%" alt="Google" loading="lazy"/>
                                         @elseif($site_review->profile_name == 'Transport Reviews')
                                             <img
-                                                src="{{ asset('/frontend/images/testimonial/transport.png') }}"
+                                                src="{{ asset('frontend/images/testimonial/transport.png') }}"
                                                 width="100%" height="100%" alt="Transport Reviews" loading="lazy"/>
                                         @elseif($site_review->profile_name == 'Trust Pilot')
                                             <img
-                                                src="{{ asset('/frontend/images/testimonial/turst.png') }}"
+                                                src="{{ asset('frontend/images/testimonial/turst.png') }}"
                                                 width="100%" height="100%" alt="Trust Pilot" loading="lazy"/>
                                         @endif
                                     </div>

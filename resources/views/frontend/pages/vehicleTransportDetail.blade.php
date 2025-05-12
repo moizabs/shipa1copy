@@ -299,7 +299,7 @@
                     <div class="tj-icon-box">
                         <div class="ab-text d-flex align-items-center">
                             <div class="ab-icon">
-                            <img src="{{ asset('/frontend/images/icon/winner.svg') }}" alt="Icon" />
+                            <img src="{{ asset('frontend/images/icon/winner.svg') }}" alt="Icon" />
                             </div>
                             <div class="ab-title">
                                 <h5 class="title">Our Values</h5>
@@ -370,7 +370,7 @@
                     </div>
                     <img class="group-1 p-z-idex"
                         src="{{ asset('/frontend/images/about/new--design.webp') }}" alt="Image" />
-                    <img class="group-shape" src="{{ asset('/frontend/images/about/ab-shape.png') }}"
+                    <img class="group-shape" src="{{ asset('frontend/images/about/ab-shape.png') }}"
                         alt="Image" />
                 </div>
             </div>
@@ -475,7 +475,7 @@
             <div class="col-lg-6" data-sal="slide-left" data-sal-duration="800">
                 <div class="tj-faq-left-content">
                     <div class="faq-image">
-                        <img src="{{ asset('/frontend/images/slider/FAQ.webp') }}" alt="Image" />
+                        <img src="{{ asset('frontend/images/slider/FAQ.webp') }}" alt="Image" />
                     </div>
                 </div>
             </div>

@@ -433,37 +433,28 @@
                         <h3 class="sal-animate" data-sal="slide-left" data-sal-duration="800">Boat Transport Quote in Minutes - Shipping of all Watercrafts</h3>
                         <p class="desc">
                             Your collaboration with ShipA1 won’t involve selective options regarding boat transportation. We load/unload every type of watercraft nationwide. Including these shared in their respectable categories:
-                        </p>
-                        <div class="row">
-                            <div class="col-md-4">
-                                <h6>Utility & Work Boats</h6>
-                                <ul>
-                                <li>Commercial boats</li>
-                                <li>Fishing boats</li>
-                                <li>Tugboats </li>
-                            </ul>
-                            </div>
-                           
-                             <div class="col-md-4">
-                                 <h6>Personal & Speedy Boats</h6>
-                                 <ul>
-                                     <li>Jet Skis</li>
-                                     <li>Motorboats</li>
-                                     <li>Catamarans</li>
-                                 </ul>
-                             </div>
-                             <div class="col-md-4">
-                                 <h6>Luxury & Customized Boats</h6>
-                                 <ul>
-                                     <li>Yachts </li>
-                                     <li>Sailboats </li>
-                                     <li>Pontoon Boats </li>
-                                 </ul>
-                             </div>
-                        </div>
+                        <h5>Utility & Work Boats</h5>
+                            <ul>
+                            <li>Commercial boats</li>
+                            <li>Fishing boats</li>
+                            <li>Tugboats </li>
+                        </ul>
                         Ship A1 offers these shipping modes to ensure your boat is transported and delivered on time
                         with proper
                         safety measures!
+                        </p>
+                        <h5>Personal & Speedy Boats</h5>
+                        <ul>
+                            <li>Jet Skis</li>
+                            <li>Motorboats</li>
+                            <li>Catamarans</li>
+                        </ul>
+                        <h5>Luxury & Customized Boats</h5>
+                        <ul>
+                            <li>Yachts </li>
+                            <li>Sailboats </li>
+                            <li>Pontoon Boats </li>
+                        </ul>
                     </div>
                 </div>
             </div>

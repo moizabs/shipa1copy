@@ -236,7 +236,7 @@
         padding-left: 10px !important;
     }
 </style>
-<section class="breadcrumb-wrapper" data-bg-image="{{ asset('/frontend/images/banner/all-cover-banner.webp') }}">
+<section class="breadcrumb-wrapper" data-bg-image="{{ asset('frontend/images/banner/all-cover-banner.webp') }}">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
