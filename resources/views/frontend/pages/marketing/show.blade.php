@@ -278,10 +278,10 @@
                         </div>
                     </div>
                     <div class="image-box"><img class="p-z-idex aspect-ratio aspect-ratio-3x2 img-fluid"
-                            src="{{ asset('/frontend/images/slider/gif-img.webp') }}" fetchpriority="high"
+                            src="{{ asset('frontend/images/slider/gif-img.webp') }}" fetchpriority="high"
                             loading="lazy" alt="Image"></div><img
                         class="group-1 p-z-idex aspect-ratio aspect-ratio-3x2 img-fluid"
-                        src="{{ asset('/frontend/images/about/about-3.webp') }}" fetchpriority="high" loading="lazy"
+                        src="{{ asset('frontend/images/about/about-3.webp') }}" fetchpriority="high" loading="lazy"
                         alt="Image" width="1200" height="800">
                 </div>
             </div>

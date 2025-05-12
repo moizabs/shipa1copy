@@ -20,3 +20,5 @@ yarn-error.log
 /public/quoteForm
 sitemap.html
 sitemap.xml
+.htaccess
+/public/.htaccess
