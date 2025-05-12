@@ -385,12 +385,12 @@ services near you! We ensure safe, fast, and affordable auto transport services 
                 <li>
                     <div class="service-item">
                         <div class="tj-service-icon">
-                            <div class="service-icon"><i class="fa-solid {{ $service['icon'] }} fa-xs"></i></div>
+                            <div class="service-icon"><i class="fa-light {{ $service['icon'] }} fa-xs"></i></div>
                             <div class="sub-title"><span>{!! nl2br(e($service['title'])) !!}</span></div>
                         </div>
                         <div class="service-arrow">
                             <a href="{{ route($service['route']) }}" title="{{ $service['title'] }}">
-                                <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+                                <i class="fa-light fa-arrow-right" aria-hidden="true"></i>
                             </a>
                         </div>
                     </div>
