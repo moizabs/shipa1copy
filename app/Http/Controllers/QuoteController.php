@@ -325,7 +325,7 @@ class QuoteController extends Controller
         // dd($data->toArray(), $price);
 
         try {
-            $response2 = Http::post('https://roadya.shawntransport.com/api/v2/website-quote', $post_array)->json();
+            $response2 = Http::post('https://roadya.shipa1.com/api/v2/website-quote', $post_array)->json();
             $response1 = Http::post('https://washington.shawntransport.com/api/v2/website-quote', $post_array)->json();
         
             if (

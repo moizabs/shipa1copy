@@ -527,7 +527,7 @@ header("Access-Control-Allow-Methods: GET, POST");
             $("#typingIndicator").show();
 
             $.ajax({
-                url: "{{ url('chat') }}",
+                url: "{{ url('chat2') }}",
                 method: 'POST',
                 headers: {
                     'X-CSRF-TOKEN': "{{csrf_token()}}"

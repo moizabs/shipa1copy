@@ -31,6 +31,7 @@ Route::get('chat_dashboard', [ChatController::class, 'index'])->name('chat.dashb
 Route::get('iframe', [ChatController::class, 'iframe'])->name('chat.iframe');
 
 Route::post('chat', [ChatController::class, 'chat'])->name('chat.post');
+Route::post('chat2', [ChatController::class, 'chat'])->name('chat.post2');
 Route::get('chat_history', [ChatController::class, 'chat_history'])->name('chat.chat_history');
 Route::get('show_history', [ChatController::class, 'show_history'])->name('chat.show_history');
 Route::get('ChatUpdateRead', [ChatController::class, 'ChatUpdateRead'])->name('chat.ChatUpdateRead');
