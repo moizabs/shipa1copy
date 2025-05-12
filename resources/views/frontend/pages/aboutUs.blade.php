@@ -25,7 +25,7 @@
         color: white; 
     }
 </style>
-<section class="breadcrumb-wrapper" data-bg-image="{{ asset('frontend/images/banner/all-cover-banner.webp') }}">
+<section class="breadcrumb-wrapper" data-bg-image="{{ asset('/frontend/images/banner/all-cover-banner.webp') }}">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
@@ -84,7 +84,7 @@
                     <div class="tj-icon-box">
                         <div class="ab-text d-flex align-items-center">
                             <div class="ab-icon">
-                            <img src="{{ asset('frontend/images/icon/winner.svg') }}" alt="Icon" />
+                            <img src="{{ asset('/frontend/images/icon/winner.svg') }}" alt="Icon" />
                             </div>
                             <div class="ab-title">
                                 <h5 class="title">Our Values</h5>
@@ -150,19 +150,19 @@
                         </div>
                     </div>
                     <div class="image-box">
-                        <img class="p-z-idex" src="{{ asset('frontend/images/about/resize 410-630.jpg') }}"
+                        <img class="p-z-idex" src="{{ asset('/frontend/images/about/resize 410-630.jpg') }}"
                             alt="Image" />
                     </div>
                     <img class="group-1 p-z-idex"
-                        src="{{ asset('frontend/images/about/kuch-be-rak-dy-is-ka-nam.webp') }}" alt="Image" />
-                    <img class="group-shape" src="{{ asset('frontend/images/about/ab-shape.png') }}" alt="Image" />
+                        src="{{ asset('/frontend/images/about/kuch-be-rak-dy-is-ka-nam.webp') }}" alt="Image" />
+                    <img class="group-shape" src="{{ asset('/frontend/images/about/ab-shape.png') }}" alt="Image" />
                 </div>
             </div>
         </div>
     </div>
 </section>
 <section class="tj-cta-section icon-animate">
-    <div class="cta-inner" data-bg-image="{{ asset('frontend/images/cta/cta-auto-aucation.webp') }}"></div>
+    <div class="cta-inner" data-bg-image="{{ asset('/frontend/images/cta/cta-auto-aucation.webp') }}"></div>
     <div class="container">
         <div class="row">
             <div class="col-lg-8 offset-lg-2">
@@ -205,7 +205,7 @@
             <div class="col-lg-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="100">
                 <a href="{{ route('vehicleTransportDetail') }}" class="service-link">
                     <div class="tj-service-item"
-                        data-bg-image="{{ asset('frontend/images/service/CAR-CARD.webp') }}">
+                        data-bg-image="{{ asset('/frontend/images/service/CAR-CARD.webp') }}">
                         <div class="icon-box">
                             <i class="fa-light fa-car-side fa-2xs"></i>
                         </div>
@@ -225,7 +225,7 @@
             <div class="col-lg-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="200">
                 <a href="{{ route('heavy-transport-detail') }}" class="service-link">
                     <div class="tj-service-item"
-                        data-bg-image="{{ asset('frontend/images/service/HEAVY-CARD.webp') }}">
+                        data-bg-image="{{ asset('/frontend/images/service/HEAVY-CARD.webp') }}">
                         <div class="icon-box">
                             <i class="fa-light fa-tractor fa-2xs"></i>
                         </div>
@@ -245,7 +245,7 @@
             <div class="col-lg-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="300">
                 <a href="{{ route('freighttransport-detail') }}" class="service-link">
                     <div class="tj-service-item"
-                        data-bg-image="{{ asset('frontend/images/service/FREIGHT-CARD.webp') }}">
+                        data-bg-image="{{ asset('/frontend/images/service/FREIGHT-CARD.webp') }}">
                         <div class="icon-box">
                             <i class="fa-light fa-truck fa-2xs"></i>
                         </div>

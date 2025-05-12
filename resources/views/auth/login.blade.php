@@ -191,7 +191,7 @@
             </div>
         </div>
         <div class="right">
-            <img src="{{ asset('frontend/images/logo/logo-white.png') }}" alt="Delivery illustration">
+            <img src="{{ asset('/frontend/images/logo/logo-white.png') }}" alt="Delivery illustration">
             <div class="social-links">
                 <a href="https://www.facebook.com/shipa1autotransport" target="_blank" title="Facebook">
                     <i class="fab fa-facebook-f"></i>

@@ -46,7 +46,7 @@
     <div class=row>
     <div class="col-xl-4 col-lg-3 col-md-6 col-sm-6">
     <div class="footer-widget footer1_col_1 footer-content-info">
-    <a href="{{ route('welcome') }}"> <img src="{{ asset('frontend/images/logo/logo-white-2.webp') }}" loading=lazy alt=Logo></a>
+    <a href="{{ route('welcome') }}"> <img src="{{ asset('/frontend/images/logo/logo-white-2.webp') }}" loading=lazy alt=Logo></a>
     <p>
     Ship A1 Transport is one of the top logistic and shipping companies, with a vast variety of shipping methods, quality services, and a well-equipped staff.
     </p>
@@ -180,15 +180,15 @@
     <div class="widget-contact d-flex" style=position:relative;right:19px>
     <div class=contact-list>
     <a href=https://www.bbb.org/us/md/hunt-valley/profile/trucking-transportation-brokers/ship-a1-llc-0011-90287002/customer-reviews target=_blank title="Google Reviews">
-    <img loading=lazy src="{{ asset('frontend/images/project/test-BBB (1).webp') }}" alt=Image loading=lazy style=width:191px>
+    <img loading=lazy src="{{ asset('/frontend/images/project/test-BBB (1).webp') }}" alt=Image loading=lazy style=width:191px>
     </a>
     </div>
     <div class=contact-list>
     <a href="https://www.google.com/search?q=shipa1&rlz=1C1GCEU_enPK1086PK1086&oq=shipa1+&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgYIARBFGDsyBggCEEUYPDIGCAMQRRg8MgYIBBBFGDwyBggFEEUYQTIGCAYQRRhBMgYIBxBFGEHSAQg2MzYwajBqN6gCALACAA&sourceid=chrome&ie=UTF-8" target=_blank title=Trustpilot>
-    <img loading=lazy src="{{ asset('frontend/images/project/test-BBB (2).webp') }}" alt=Image loading=lazy style=position:relative;width:102px;bottom:4px>
+    <img loading=lazy src="{{ asset('/frontend/images/project/test-BBB (2).webp') }}" alt=Image loading=lazy style=position:relative;width:102px;bottom:4px>
     </a>
     <a href=https://www.trustpilot.com/review/shipa1.com target=_blank title=Trustpilot>
-    <img loading=lazy src="{{ asset('frontend/images/project/test-BBB (3).webp') }}" alt=Image loading=lazy style=height:100px;width:100px;position:relative;bottom:58px>
+    <img loading=lazy src="{{ asset('/frontend/images/project/test-BBB (3).webp') }}" alt=Image loading=lazy style=height:100px;width:100px;position:relative;bottom:58px>
     </a>
     </div>
     </div>

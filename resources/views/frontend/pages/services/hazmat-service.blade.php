@@ -174,7 +174,7 @@
             opacity: 0.9;
         }
     </style>
-    <section class="breadcrumb-wrapper" data-bg-image="{{ asset('frontend/images/banner/all-cover-banner.webp') }}">
+    <section class="breadcrumb-wrapper" data-bg-image="{{ asset('/frontend/images/banner/all-cover-banner.webp') }}">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -222,7 +222,7 @@
                 <div class="col-lg-4 sal-animate" data-sal="slide-left" data-sal-duration="800">
                     <div class="mt-4 rounded">
                         <div class="image-box">
-                            <img class="rounded" src="{{ asset('frontend/images/project/OLD/hazmat-service2.webp') }}"
+                            <img class="rounded" src="{{ asset('/frontend/images/project/OLD/hazmat-service2.webp') }}"
                                 alt="Image">
                         </div>
                     </div>
@@ -232,7 +232,7 @@
                 <div class="col-lg-4 sal-animate" data-sal="slide-left" data-sal-duration="800">
                     <div class="mt-4 rounded">
                         <div class="image-box">
-                            <img class="rounded" src="{{ asset('frontend/images/project/OLD/hazmat-service4.webp') }}"
+                            <img class="rounded" src="{{ asset('/frontend/images/project/OLD/hazmat-service4.webp') }}"
                                 alt="Image">
                         </div>
                     </div>
@@ -474,7 +474,7 @@
                 <div class="col-lg-6" data-sal="slide-left" data-sal-duration="800">
                     <div class="tj-faq-left-content">
                         <div class="faq-image">
-                            <img src="{{ asset('frontend/images/slider/FAQ.webp') }}" alt="Image" />
+                            <img src="{{ asset('/frontend/images/slider/FAQ.webp') }}" alt="Image" />
                         </div>
                     </div>
                 </div>

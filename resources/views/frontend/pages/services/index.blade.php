@@ -89,7 +89,7 @@
         }
     }
 </style>
-<section class="breadcrumb-wrapper" data-bg-image="{{ asset('frontend/images/banner/all-cover-banner.webp') }}">
+<section class="breadcrumb-wrapper" data-bg-image="{{ asset('/frontend/images/banner/all-cover-banner.webp') }}">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
@@ -125,7 +125,7 @@
             <div class="col-lg-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="300">
                 <div class="service-item-three">
                     <div class="service-image">
-                        <img loading="lazy" src="{{ asset('frontend/images/slider/car-transports.webp') }}" alt="Image" />
+                        <img loading="lazy" src="{{ asset('/frontend/images/slider/car-transports.webp') }}" alt="Image" />
                     </div>
                     <div class="overlay">
                         <div class="row justify-content-center align-items-center">
@@ -154,7 +154,7 @@
             <div class="col-lg-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="300">
                 <div class="service-item-three">
                     <div class="service-image">
-                        <img loading="lazy" src="{{ asset('frontend/images/service/Bike.webp') }}" alt="Image" />
+                        <img loading="lazy" src="{{ asset('/frontend/images/service/Bike.webp') }}" alt="Image" />
                     </div>
                     <div class="overlay">
                         <div class="row justify-content-center align-items-center">
@@ -183,7 +183,7 @@
             <div class="col-lg-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="300">
                 <div class="service-item-three">
                     <div class="service-image">
-                        <img loading="lazy" src="{{ asset('frontend/images/service/ATV.webp') }}" alt="Image" />
+                        <img loading="lazy" src="{{ asset('/frontend/images/service/ATV.webp') }}" alt="Image" />
                     </div>
                     <div class="overlay">
                         <div class="row justify-content-center align-items-center">
@@ -214,7 +214,7 @@
             <div class="col-lg-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="300">
                 <div class="service-item-three">
                     <div class="service-image">
-                        <img loading="lazy" src="{{ asset('frontend/images/service/Golf.webp') }}" alt="Image" />
+                        <img loading="lazy" src="{{ asset('/frontend/images/service/Golf.webp') }}" alt="Image" />
                     </div>
                     <div class="overlay">
                         <div class="row justify-content-center align-items-center">
@@ -262,7 +262,7 @@
             <div class="col-lg-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="300">
                 <div class="service-item-three">
                     <div class="service-image">
-                        <img loading="lazy" src="{{ asset('frontend/images/service/Construction.webp') }}" alt="Image" />
+                        <img loading="lazy" src="{{ asset('/frontend/images/service/Construction.webp') }}" alt="Image" />
                     </div>
                     <div class="overlay">
                         <div class="row justify-content-center align-items-center">
@@ -288,7 +288,7 @@
             <div class="col-lg-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="300">
                 <div class="service-item-three">
                     <div class="service-image">
-                        <img loading="lazy" src="{{ asset('frontend/images/service/Commercial.webp') }}" alt="Image" />
+                        <img loading="lazy" src="{{ asset('/frontend/images/service/Commercial.webp') }}" alt="Image" />
                     </div>
                     <div class="overlay">
                         <div class="row justify-content-center align-items-center">
@@ -312,7 +312,7 @@
             <div class="col-lg-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="300">
                 <div class="service-item-three">
                     <div class="service-image">
-                        <img loading="lazy" src="{{ asset('frontend/images/service/Excavator.webp') }}" alt="Image" />
+                        <img loading="lazy" src="{{ asset('/frontend/images/service/Excavator.webp') }}" alt="Image" />
                     </div>
                     <div class="overlay">
                         <div class="row justify-content-center align-items-center">
@@ -336,7 +336,7 @@
             <div class="col-lg-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="300">
                 <div class="service-item-three">
                     <div class="service-image">
-                        <img loading="lazy" src="{{ asset('frontend/images/service/Farm.webp') }}" alt="Image" />
+                        <img loading="lazy" src="{{ asset('/frontend/images/service/Farm.webp') }}" alt="Image" />
                     </div>
                     <div class="overlay">
                         <div class="row justify-content-center align-items-center">
@@ -362,7 +362,7 @@
             <div class="col-lg-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="300">
                 <div class="service-item-three">
                     <div class="service-image">
-                        <img loading="lazy" src="{{ asset('frontend/images/service/Heavy.webp') }}" alt="Image" />
+                        <img loading="lazy" src="{{ asset('/frontend/images/service/Heavy.webp') }}" alt="Image" />
                     </div>
                     <div class="overlay">
                         <div class="row justify-content-center align-items-center">
@@ -386,7 +386,7 @@
             <div class="col-lg-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="300">
                 <div class="service-item-three">
                     <div class="service-image">
-                        <img loading="lazy" src="{{ asset('frontend/images/service/RV.webp') }}" alt="Image" />
+                        <img loading="lazy" src="{{ asset('/frontend/images/service/RV.webp') }}" alt="Image" />
                     </div>
                     <div class="overlay">
                         <div class="row justify-content-center align-items-center">
@@ -561,7 +561,7 @@
             <div class="col-lg-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="100">
                 <a href="{{ route('vehicleTransportDetail') }}" class="service-link text-decoration-none">
                     <div class="tj-service-item"
-                        data-bg-image="{{ asset('frontend/images/service/CAR-CARD.webp') }}">
+                        data-bg-image="{{ asset('/frontend/images/service/CAR-CARD.webp') }}">
                         <div class="icon-box">
                             <i class="fa-light fa-car-side fa-2xs"></i>
                         </div>
@@ -581,7 +581,7 @@
             <div class="col-lg-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="200">
                 <a href="{{ route('heavy-transport-detail') }}" class="service-link text-decoration-none">
                     <div class="tj-service-item"
-                        data-bg-image="{{ asset('frontend/images/service/HEAVY-CARD.webp') }}">
+                        data-bg-image="{{ asset('/frontend/images/service/HEAVY-CARD.webp') }}">
                         <div class="icon-box">
                             <i class="fa-light fa-tractor fa-2xs"></i>
                         </div>
@@ -601,7 +601,7 @@
             <div class="col-lg-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="300">
                 <a href="{{ route('freighttransport-detail') }}" class="service-link text-decoration-none">
                     <div class="tj-service-item"
-                        data-bg-image="{{ asset('frontend/images/service/FREIGHT-CARD.webp') }}">
+                        data-bg-image="{{ asset('/frontend/images/service/FREIGHT-CARD.webp') }}">
                         <div class="icon-box">
                             <i class="fa-light fa-truck fa-2xs"></i>
                         </div>

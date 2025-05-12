@@ -186,7 +186,7 @@
             <div class="col-lg-4 col-md-12 order-sm-1 order-md-2 order-2 d-flex align-items-center justify-content-center sal-animate" data-sal="slide-left" data-sal-duration="800">
                 <div class="mt-4 rounded">
                 <div class="image-box">
-                    <img class="rounded" src="{{ asset('frontend/images/project/2a image for heavy equipment auction transport (1) (1).webp') }}" alt="Image">
+                    <img class="rounded" src="{{ asset('/frontend/images/project/2a image for heavy equipment auction transport (1) (1).webp') }}" alt="Image">
                 </div>
                 </div>
             </div>
@@ -332,7 +332,7 @@
         <div class="col-lg-4 col-md-12 order-sm-1 order-md-2 order-2 d-flex align-items-center justify-content-center sal-animate" data-sal="slide-left" data-sal-duration="800">
             <div class="mt-4 rounded">
             <div class="image-box">
-                <img class="rounded" src="{{ asset('frontend/images/project/2b image for heavy equipment auction transport (1).webp') }}" alt="Image">
+                <img class="rounded" src="{{ asset('/frontend/images/project/2b image for heavy equipment auction transport (1).webp') }}" alt="Image">
             </div>
             </div>
         </div>
@@ -378,7 +378,7 @@
     </div>
 </section>
 <section class="tj-cta-section icon-animate">
-    <div class="cta-inner" data-bg-image="{{ asset('frontend/images/cta/Efficient-trans-Heavy.webp') }}"></div>
+    <div class="cta-inner" data-bg-image="{{ asset('/frontend/images/cta/Efficient-trans-Heavy.webp') }}"></div>
     <div class="container">
         <div class="row">
             <div class="col-lg-8 offset-lg-2">
@@ -485,7 +485,7 @@
             <div class="col-lg-6 sal-animate" data-sal="slide-left" data-sal-duration="800">
                 <div class="tj-faq-left-content">
                     <div class="faq-image">
-                        <img src="{{ asset('frontend/images/slider/FAQ.webp') }}" alt="Image">
+                        <img src="{{ asset('/frontend/images/slider/FAQ.webp') }}" alt="Image">
                     </div>
                 </div>
             </div>

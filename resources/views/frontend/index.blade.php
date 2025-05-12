@@ -7,7 +7,7 @@ services near you! We ensure safe, fast, and affordable auto transport services 
 @endsection
 
 <head>
-    <link rel="preload" as="image" href="{{ asset('frontend/images/banner/home-underline.webp') }}" type="image/webp">
+    <link rel="preload" as="image" href="{{ asset('/frontend/images/banner/home-underline.webp') }}" type="image/webp">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="preload" as="image" href="/frontend/images/slider/fright-banner-home.webp" />
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -322,7 +322,7 @@ services near you! We ensure safe, fast, and affordable auto transport services 
     <div class="animation-preloader"></div>
 </div>
 <section class="tj-slider-section">
-    <div class="slider_shape"><img src="{{ asset('frontend/images/banner/home-underline.webp') }}"
+    <div class="slider_shape"><img src="{{ asset('/frontend/images/banner/home-underline.webp') }}"
             class="home-underline" fetchpriority="high" alt="Image" width="1200" height="150" loading="lazy"
             decoding="async"></div>
     <div class="swiper sc-slider-1" data-autoplay="5000">
@@ -330,19 +330,19 @@ services near you! We ensure safe, fast, and affordable auto transport services 
             @php
                 $slides = [
                     [
-                        'image' => 'frontend/images/slider/DSF.webp',
+                        'image' => '/frontend/images/slider/DSF.webp',
                         'title' => 'Top-Rated Auto Transport Company in All Over USA – Safe, Fast & Affordable',
                         'desc' =>
                             'ShipA1 has pledged to provide all-in-one auto transport solutions to all its customers and seeks your trust in return of our services.',
                     ],
                     [
-                        'image' => 'frontend/images/slider/home-slider-2.webp',
+                        'image' => '/frontend/images/slider/home-slider-2.webp',
                         'title' => 'Top-Rated Auto Transport Company in All Over USA – Safe, Fast & Affordable',
                         'desc' =>
                             'ShipA1 has pledged to provide all-in-one Heavy Equipment transportation solutions to all its customers and seeks your trust in return of our services.',
                     ],
                     [
-                        'image' => 'frontend/images/slider/freight-banner-home.webp',
+                        'image' => '/frontend/images/slider/freight-banner-home.webp',
                         'title' => 'Top-Rated Auto Transport Company in All Over USA – Safe, Fast & Affordable',
                         'desc' =>
                             'ShipA1 has pledged to provide all-in-one Freight Shipping solutions to all its customers and seeks your trust in return of our services.',
@@ -435,7 +435,7 @@ services near you! We ensure safe, fast, and affordable auto transport services 
                     <div class="tj-icon-box">
                         <div class="ab-text d-flex align-items-center">
                             <div class="ab-icon">
-                                <img loading="lazy" src="{{ asset('frontend/images/icon/winner.svg') }}"
+                                <img loading="lazy" src="{{ asset('/frontend/images/icon/winner.svg') }}"
                                     fetchpriority="high" alt="Icon" width="40" height="40" loading="lazy"
                                     decoding="async">
                             </div>
@@ -502,18 +502,18 @@ services near you! We ensure safe, fast, and affordable auto transport services 
                         </div>
                     </div>
                     {{-- <div class="image-box"><img class="p-z-idex aspect-ratio aspect-ratio-3x2 img-fluid"
-                                src="{{ asset('frontend/images/about/WMUD-Home.webp') }}" fetchpriority="high"
+                                src="{{ asset('/frontend/images/about/WMUD-Home.webp') }}" fetchpriority="high"
                                 loading="lazy" alt="Image"></div><img
                             class="group-1 p-z-idex aspect-ratio aspect-ratio-3x2 img-fluid"
-                            src="{{ asset('frontend/images/about/about-3.webp') }}" fetchpriority="high" loading="lazy"
+                            src="{{ asset('/frontend/images/about/about-3.webp') }}" fetchpriority="high" loading="lazy"
                             alt="Image" width="1200" height="800"> --}}
                     <div class="image-box">
                         <img class="p-z-idex aspect-ratio aspect-ratio-3x2 img-fluid"
-                            src="{{ asset('frontend/images/about/WMUD-Home.webp') }}" fetchpriority="high"
+                            src="{{ asset('/frontend/images/about/WMUD-Home.webp') }}" fetchpriority="high"
                             loading="lazy" alt="Image" width="1200" height="800" decoding="async">
                     </div>
                     <img class="group-1 p-z-idex aspect-ratio aspect-ratio-3x2 img-fluid"
-                        src="{{ asset('frontend/images/about/about-3.webp') }}" fetchpriority="high" alt="Image"
+                        src="{{ asset('/frontend/images/about/about-3.webp') }}" fetchpriority="high" alt="Image"
                         width="1200" height="800" loading="lazy" decoding="async">
                 </div>
             </div>
@@ -681,7 +681,7 @@ services near you! We ensure safe, fast, and affordable auto transport services 
             @foreach ($services as $index => $service)
                 @php
                     $serviceRoute = route($service['route']);
-                    $imgSrc = asset('frontend/images/' . $service['img']);
+                    $imgSrc = asset('/frontend/images/' . $service['img']);
                     $fetchPriority = $index === 0 ? 'high' : 'low';
                 @endphp
     
@@ -788,7 +788,7 @@ services near you! We ensure safe, fast, and affordable auto transport services 
         @foreach ($services as $index => $service)
             @php
                 $serviceRoute = route($service['route']);
-                $imgSrc = asset('frontend/images/' . $service['img']);
+                $imgSrc = asset('/frontend/images/' . $service['img']);
                 $fetchPriority = $index === 0 ? 'high' : 'low';
             @endphp
 
@@ -817,7 +817,7 @@ services near you! We ensure safe, fast, and affordable auto transport services 
         {{-- @foreach ($services as $index => $service)
                 @php
                     $serviceRoute = route($service['route'] ?? '');
-                    $imgSrc = isset($service['img']) ? asset('frontend/images/' . $service['img']) : asset('frontend/images/default.webp');
+                    $imgSrc = isset($service['img']) ? asset('/frontend/images/' . $service['img']) : asset('/frontend/images/default.webp');
                     $fetchPriority = $index === 0 ? 'high' : 'low';
 
                     // Define default dimensions
@@ -1029,7 +1029,7 @@ services near you! We ensure safe, fast, and affordable auto transport services 
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3105.167331138309!2d-76.66251388426676!3d39.496062943506464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c81261c3eae243%3A0x81e995e93023e64a!2s201%20International%20Cir%20STE%20230%2C%20Hunt%20Valley%2C%20MD%2021030%2C%20USA!5e0!3m2!1sen!2s!4v1649863458559!5m2!1sen!2s"
                 title="Google Maps location of [your specific location or purpose]" fetchpriority="high" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"></iframe></div>
-        <div class="tj-map-tabs" data-bg-image="{{ asset('frontend/images/banner/form-shape2.png') }}">
+        <div class="tj-map-tabs" data-bg-image="{{ asset('/frontend/images/banner/form-shape2.png') }}">
             <div class="accordion" id="accordionExample">
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="headingOne"><button class="accordion-button" type="button"

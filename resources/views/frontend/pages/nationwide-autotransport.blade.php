@@ -86,7 +86,7 @@
                             <div class="card-2 mb-3">
                                 <div class="row g-0">
                                     <div class="col-sm-6 d-flex align-items-center justify-content-center">
-                                    <img src="{{ asset('frontend/images/slider/Car-Transport-on-Enclosed-trailer.webp') }}" class="img-fluid rounded-start" style="height: 100%; background-size: cover; background-position: center;" alt="...">
+                                    <img src="{{ asset('/frontend/images/slider/Car-Transport-on-Enclosed-trailer.webp') }}" class="img-fluid rounded-start" style="height: 100%; background-size: cover; background-position: center;" alt="...">
                                     </div>
                                     <div class="col-sm-6 d-flex align-items-center justify-content-center">
                                     <div class="card-body tj-section-heading mb-0">
@@ -114,7 +114,7 @@
                             <div class="card-2 mb-3">
                                 <div class="row g-0">
                                     <div class="col-sm-6 d-flex align-items-center justify-content-center">
-                                    <img src="{{ asset('frontend/images/slider/Car-Transportation-1212.webp') }}" class="img-fluid rounded-start" style="height: 100%; background-size: cover; background-position: center;" alt="...">
+                                    <img src="{{ asset('/frontend/images/slider/Car-Transportation-1212.webp') }}" class="img-fluid rounded-start" style="height: 100%; background-size: cover; background-position: center;" alt="...">
                                     </div>
                                     <div class="col-sm-6 d-flex align-items-center justify-content-center">
                                     <div class="card-body tj-section-heading mb-0">
@@ -155,7 +155,7 @@
                                     </div>
                                     </div>
                                     <div class="col-sm-6 d-flex align-items-center justify-content-center">
-                                        <img src="{{ asset('frontend/images/slider/Dropdeck Trailer.webp') }}" class="img-fluid rounded-start" style="height: 100%; background-size: cover; background-position: center;" alt="...">
+                                        <img src="{{ asset('/frontend/images/slider/Dropdeck Trailer.webp') }}" class="img-fluid rounded-start" style="height: 100%; background-size: cover; background-position: center;" alt="...">
                                     </div>
                                 </div>
                             </div>
@@ -181,7 +181,7 @@
                                     </div>
                                     </div>
                                     <div class="col-sm-6 d-flex align-items-center justify-content-center">
-                                        <img src="{{ asset('frontend/images/slider/Semi-Truck-with-Flatbed-Trailer.webp') }}" class="img-fluid rounded-start" style="height: 100%; background-size: cover; background-position: center;" alt="...">
+                                        <img src="{{ asset('/frontend/images/slider/Semi-Truck-with-Flatbed-Trailer.webp') }}" class="img-fluid rounded-start" style="height: 100%; background-size: cover; background-position: center;" alt="...">
                                     </div>
                                 </div>
                             </div>
@@ -424,11 +424,11 @@
             <div class="col-lg-4 sal-animate" data-sal="slide-left" data-sal-duration="800">
                 <div class="about-group-image2 d-flex flex-wrap align-items-start flex-column mt-4">
                     <div class="image-box">
-                        <img class="p-z-idex" src="{{ asset('frontend/images/project/vehicle-detail-page.webp') }}"
+                        <img class="p-z-idex" src="{{ asset('/frontend/images/project/vehicle-detail-page.webp') }}"
                             alt="Image">
                     </div>
                     <img class="group-1 p-z-idex"
-                        src="{{ asset('frontend/images/project/vehicle-detail-page.webp') }}" alt="Image">
+                        src="{{ asset('/frontend/images/project/vehicle-detail-page.webp') }}" alt="Image">
                 </div>
             </div>
         </div>
@@ -449,7 +449,7 @@
             <div class="col-lg-6 sal-animate" data-sal="slide-left" data-sal-duration="800">
                 <div class="tj-faq-left-content">
                     <div class="faq-image">
-                        <img src="{{ asset('frontend/images/slider/FAQ.webp') }}" alt="Image">
+                        <img src="{{ asset('/frontend/images/slider/FAQ.webp') }}" alt="Image">
                     </div>
                 </div>
             </div>

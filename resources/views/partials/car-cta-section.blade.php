@@ -1,5 +1,5 @@
 <section class="tj-cta-section icon-animate">
-    <div class="cta-inner" data-bg-image="{{ asset('frontend/images/cta/abcabc.webp') }}"></div>
+    <div class="cta-inner" data-bg-image="{{ asset('/frontend/images/cta/abcabc.webp') }}"></div>
     <div class="container">
         <div class="row">
             <div class="col-lg-8 offset-lg-2">

@@ -448,7 +448,7 @@
             color: #062e39;
         }
     </style>
-    <section class="breadcrumb-wrapper" data-bg-image="{{ asset('frontend/images/banner/all-cover-banner.webp') }}">
+    <section class="breadcrumb-wrapper" data-bg-image="{{ asset('/frontend/images/banner/all-cover-banner.webp') }}">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -502,7 +502,7 @@
             <div class="row">
                 <div class="col-lg-7">
                     <div class="image-container">
-                        <img class="img-fluid" src="{{ asset('frontend/images/project/CAR-SERVICE-MAIN.webp') }}"
+                        <img class="img-fluid" src="{{ asset('/frontend/images/project/CAR-SERVICE-MAIN.webp') }}"
                             loading="lazy" alt="Motorcyle Transport">
                     </div>
                     <br>
@@ -749,7 +749,7 @@
                     data-sal="slide-left" data-sal-duration="800">
                     <div class="mt-4 rounded ">
                         <div class="image-box">
-                            <img class="rounded" src="{{ asset('frontend/images/project/car-transport.webp') }}"
+                            <img class="rounded" src="{{ asset('/frontend/images/project/car-transport.webp') }}"
                                 alt="Image">
                             <div class="overlay">
                                 <a href="{{ route('form.vehicle.car') }}">
@@ -813,7 +813,7 @@
                     data-sal="slide-left" data-sal-duration="800">
                     <div class="mt-4 rounded ">
                         <div class="image-box">
-                            <img class="rounded" src="{{ asset('frontend/images/project/tuxpi.com.1724264978.webp') }}"
+                            <img class="rounded" src="{{ asset('/frontend/images/project/tuxpi.com.1724264978.webp') }}"
                                 alt="Image">
                             <div class="overlay">
                                 <a href="{{ route('form.vehicle.car') }}">
@@ -858,7 +858,7 @@
                     data-sal="slide-left" data-sal-duration="800">
                     <div class="mt-4 rounded ">
                         <div class="image-box">
-                            <img class="rounded" src="{{ asset('frontend/images/project/car-transport.webp') }}"
+                            <img class="rounded" src="{{ asset('/frontend/images/project/car-transport.webp') }}"
                                 alt="Image">
                             <div class="overlay">
                                 <a href="{{ route('form.vehicle.car') }}">
@@ -916,7 +916,7 @@
                     data-sal="slide-left" data-sal-duration="800">
                     <div class="mt-4 rounded ">
                         <div class="image-box">
-                            <img class="rounded" src="{{ asset('frontend/images/project/tuxpi.com.1724264978.webp') }}"
+                            <img class="rounded" src="{{ asset('/frontend/images/project/tuxpi.com.1724264978.webp') }}"
                                 alt="Image">
                             <div class="overlay">
                                 <a href="{{ route('form.vehicle.car') }}">
@@ -984,7 +984,7 @@
                     data-sal="slide-left" data-sal-duration="800">
                     <div class="mt-4 rounded ">
                         <div class="image-box">
-                            <img class="rounded" src="{{ asset('frontend/images/project/car-transport.webp') }}"
+                            <img class="rounded" src="{{ asset('/frontend/images/project/car-transport.webp') }}"
                                 alt="Image">
                             <div class="overlay">
                                 <a href="{{ route('form.vehicle.car') }}">
@@ -1002,7 +1002,7 @@
                     data-sal="slide-left" data-sal-duration="800">
                     <div class="mt-4 rounded ">
                         <div class="image-box">
-                            <img class="rounded" src="{{ asset('frontend/images/project/tuxpi.com.1724264978.webp') }}"
+                            <img class="rounded" src="{{ asset('/frontend/images/project/tuxpi.com.1724264978.webp') }}"
                                 alt="Image">
                             <div class="overlay">
                                 <a href="{{ route('form.vehicle.car') }}">
@@ -1064,7 +1064,7 @@
                     data-sal="slide-left" data-sal-duration="800">
                     <div class="mt-4 rounded ">
                         <div class="image-box">
-                            <img class="rounded" src="{{ asset('frontend/images/project/open vs enclosed.webp') }}"
+                            <img class="rounded" src="{{ asset('/frontend/images/project/open vs enclosed.webp') }}"
                                 alt="Image">
                             <div class="overlay">
                                 <a href="{{ route('form.vehicle.car') }}">
@@ -1094,7 +1094,7 @@
                                 <div class="card-2 mb-3">
                                     <div class="row g-0">
                                         <div class="col-sm-6 d-flex align-items-center justify-content-center">
-                                            <img src="{{ asset('frontend/images/slider/Car-Transport-on-Enclosed-trailer.webp') }}"
+                                            <img src="{{ asset('/frontend/images/slider/Car-Transport-on-Enclosed-trailer.webp') }}"
                                                 class="img-fluid rounded-start"
                                                 style="height: 100%; background-size: cover; background-position: center;"
                                                 alt="...">
@@ -1123,7 +1123,7 @@
                                 <div class="card-2 mb-3">
                                     <div class="row g-0">
                                         <div class="col-sm-6 d-flex align-items-center justify-content-center">
-                                            <img src="{{ asset('frontend/images/slider/Car-Transportation-1212.webp') }}"
+                                            <img src="{{ asset('/frontend/images/slider/Car-Transportation-1212.webp') }}"
                                                 class="img-fluid rounded-start"
                                                 style="height: 100%; background-size: cover; background-position: center;"
                                                 alt="...">
@@ -1165,7 +1165,7 @@
                                             </div>
                                         </div>
                                         <div class="col-sm-6 d-flex align-items-center justify-content-center">
-                                            <img src="{{ asset('frontend/images/slider/Dropdeck Trailer.webp') }}"
+                                            <img src="{{ asset('/frontend/images/slider/Dropdeck Trailer.webp') }}"
                                                 class="img-fluid rounded-start"
                                                 style="height: 100%; background-size: cover; background-position: center;"
                                                 alt="...">
@@ -1194,7 +1194,7 @@
                                             </div>
                                         </div>
                                         <div class="col-sm-6 d-flex align-items-center justify-content-center">
-                                            <img src="{{ asset('frontend/images/slider/Semi-Truck-with-Flatbed-Trailer.webp') }}"
+                                            <img src="{{ asset('/frontend/images/slider/Semi-Truck-with-Flatbed-Trailer.webp') }}"
                                                 class="img-fluid rounded-start"
                                                 style="height: 100%; background-size: cover; background-position: center;"
                                                 alt="...">

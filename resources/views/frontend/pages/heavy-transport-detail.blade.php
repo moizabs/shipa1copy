@@ -275,7 +275,7 @@
             <div class="row">
                 <div class="col-lg-6 sal-animate" data-sal="slide-right" data-sal-duration="800">
                     <div class="about_image text-center">
-                        <img src="{{ asset('frontend/images/project/Heavy Transportation 1 image.webp') }}" alt="Image">
+                        <img src="{{ asset('/frontend/images/project/Heavy Transportation 1 image.webp') }}" alt="Image">
                     </div>
                 </div>
                 <div class="col-lg-6 sal-animate" data-sal="slide-left" data-sal-duration="800">
@@ -326,8 +326,8 @@
                         <div class="tj-icon-box">
                             <div class="ab-text d-flex align-items-center">
                                 <div class="ab-icon">
-                                    <img src="{{ asset('frontend/images/icon/winner.svg') }}" alt="Icon" />
-                                    <!-- <img src="{{ asset('frontend/images/icon/global.svg') }}" alt="Icon" /> -->
+                                    <img src="{{ asset('/frontend/images/icon/winner.svg') }}" alt="Icon" />
+                                    <!-- <img src="{{ asset('/frontend/images/icon/global.svg') }}" alt="Icon" /> -->
                                 </div>
                                 <div class="ab-title">
                                     <h5 class="title">Our Values</h5>
@@ -342,7 +342,7 @@
                             <div class="ab-text d-flex align-items-center">
                                 <div class="ab-icon">
                                     <i class="fa-light fa-bell-concierge fa-2xl" style="color: #8fc445;"></i>
-                                    <!-- <img src="{{ asset('frontend/images/icon/winner.svg') }}" alt="Icon" /> -->
+                                    <!-- <img src="{{ asset('/frontend/images/icon/winner.svg') }}" alt="Icon" /> -->
                                 </div>
                                 <div class="ab-title">
                                     <h5 class="title">Scope of Services</h5>
@@ -356,7 +356,7 @@
                             <div class="ab-text d-flex align-items-center">
                                 <div class="ab-icon">
                                     <i class="fa-light fa-shield-heart fa-2xl" style="color: #8fc445;"></i>
-                                    <!-- <img src="{{ asset('frontend/images/icon/winner.svg') }}" alt="Icon" /> -->
+                                    <!-- <img src="{{ asset('/frontend/images/icon/winner.svg') }}" alt="Icon" /> -->
                                 </div>
                                 <div class="ab-title">
                                     <h5 class="title">Safety Is Our Priority</h5>
@@ -372,7 +372,7 @@
                             <div class="ab-text d-flex align-items-center">
                                 <div class="ab-icon">
                                     <i class="fa-light fa-handshake fa-2xl" style="color: #8fc445;"></i>
-                                    <!-- <img src="{{ asset('frontend/images/icon/winner.svg') }}" alt="Icon" /> -->
+                                    <!-- <img src="{{ asset('/frontend/images/icon/winner.svg') }}" alt="Icon" /> -->
                                 </div>
                                 <div class="ab-title">
                                     <h5 class="title">Skilful & Devoted Staff</h5>
@@ -398,12 +398,12 @@
                             </div>
                         </div>
                         <div class="image-box">
-                            <img class="p-z-idex" src="{{ asset('frontend/images/about/what-makes-us-Heavy1.webp') }}"
+                            <img class="p-z-idex" src="{{ asset('/frontend/images/about/what-makes-us-Heavy1.webp') }}"
                                 alt="Image" />
                         </div>
                         <img class="group-1 p-z-idex"
-                            src="{{ asset('frontend/images/about/what-makes-us-Heavy2.webp') }}" alt="Image" />
-                        <img class="group-shape" src="{{ asset('frontend/images/about/ab-shape.png') }}"
+                            src="{{ asset('/frontend/images/about/what-makes-us-Heavy2.webp') }}" alt="Image" />
+                        <img class="group-shape" src="{{ asset('/frontend/images/about/ab-shape.png') }}"
                             alt="Image" />
                     </div>
                 </div>
@@ -411,7 +411,7 @@
         </div>
     </section>
     <section class="tj-cta-section icon-animate">
-        <div class="cta-inner" data-bg-image="{{ asset('frontend/images/cta/Efficient-trans-Heavy.webp') }}"></div>
+        <div class="cta-inner" data-bg-image="{{ asset('/frontend/images/cta/Efficient-trans-Heavy.webp') }}"></div>
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 offset-lg-2">
@@ -455,7 +455,7 @@
     <section class="tj-project-section">
         <div class="tj-project-slider owl-carousel" aria-label="Loading indicator for carousel content">
             <div class="tj-project-item">
-                <img src="{{ asset('frontend/images/project/PYT-Heavy.webp') }}" alt="Image" />
+                <img src="{{ asset('/frontend/images/project/PYT-Heavy.webp') }}" alt="Image" />
                 <div class="arrow-icon">
                     <a href="{{ route('frontend.pages.services.heavy-service') }}" > <i
                             class="fa-light fa-arrow-right"></i></a>
@@ -467,7 +467,7 @@
                 </div>
             </div>
             <div class="tj-project-item">
-                <img src="{{ asset('frontend/images/project/RORO-Slider (1)--.webp') }}" alt="Image" />
+                <img src="{{ asset('/frontend/images/project/RORO-Slider (1)--.webp') }}" alt="Image" />
                 <div class="arrow-icon">
                     <a href="{{ route('frontend.pages.services.roro-service') }}" > <i
                             class="fa-light fa-arrow-right"></i></a>
@@ -479,7 +479,7 @@
                 </div>
             </div>
             <div class="tj-project-item">
-                <img src="{{ asset('frontend/images/project/PYT-Construction.webp') }}" alt="Image" />
+                <img src="{{ asset('/frontend/images/project/PYT-Construction.webp') }}" alt="Image" />
                 <div class="arrow-icon">
                     <a href="{{ route('frontend.pages.services.construction-service') }}" > <i
                             class="fa-light fa-arrow-right"></i></a>
@@ -491,7 +491,7 @@
                 </div>
             </div>
             <div class="tj-project-item">
-                <img src="{{ asset('frontend/images/project/PYT-Farm.webp') }}" alt="Image" />
+                <img src="{{ asset('/frontend/images/project/PYT-Farm.webp') }}" alt="Image" />
                 <div class="arrow-icon">
                     <a href="{{ route('frontend.pages.services.farm-service') }}" > <i
                             class="fa-light fa-arrow-right"></i></a>
@@ -503,7 +503,7 @@
                 </div>
             </div>
             <div class="tj-project-item">
-                <img src="{{ asset('frontend/images/project/PYT-Excavator.webp') }}" alt="Image" />
+                <img src="{{ asset('/frontend/images/project/PYT-Excavator.webp') }}" alt="Image" />
                 <div class="arrow-icon">
                     <a href="{{ route('frontend.pages.services.excavator-service') }}" > <i
                             class="fa-light fa-arrow-right"></i></a>
@@ -515,7 +515,7 @@
                 </div>
             </div>
             <div class="tj-project-item">
-                <img src="{{ asset('frontend/images/project/PYT-Commercial.webp') }}" alt="Image" />
+                <img src="{{ asset('/frontend/images/project/PYT-Commercial.webp') }}" alt="Image" />
                 <div class="arrow-icon">
                     <a href="{{ route('frontend.pages.services.commercial-service') }}" > <i
                             class="fa-light fa-arrow-right"></i></a>
@@ -534,7 +534,7 @@
                 <div class="col-lg-12">
                     <div class="video-wrapper text-center">
                         <div class="video-thumbnail" onclick="playVideo()">
-                            <img src="{{ asset('frontend/images/banner/tn.jpg') }}" alt="Video Thumbnail" />
+                            <img src="{{ asset('/frontend/images/banner/tn.jpg') }}" alt="Video Thumbnail" />
                             <div class="play-button">
                                 <i class="fa fa-play-circle"></i>
                             </div>
@@ -566,7 +566,7 @@
                 <div class="col-lg-6" data-sal="slide-left" data-sal-duration="800">
                     <div class="tj-faq-left-content">
                         <div class="faq-image">
-                            <img src="{{ asset('frontend/images/slider/FAQ.webp') }}" alt="Image" />
+                            <img src="{{ asset('/frontend/images/slider/FAQ.webp') }}" alt="Image" />
                         </div>
                         {{-- <div class="faq-content">
                             <div class="faq-icon">

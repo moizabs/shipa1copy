@@ -100,7 +100,7 @@
             }
         }
     </style>
-    <section class="breadcrumb-wrapper" data-bg-image="{{ asset('frontend/images/banner/all-cover-banner.webp') }}">
+    <section class="breadcrumb-wrapper" data-bg-image="{{ asset('/frontend/images/banner/all-cover-banner.webp') }}">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -305,7 +305,7 @@
                 <div class="col-lg-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="300">
                     <div class="service-item-three">
                         <div class="service-image">
-                            <img loading="lazy" src="{{ asset('frontend/images/slider/car-transports.webp') }}"
+                            <img loading="lazy" src="{{ asset('/frontend/images/slider/car-transports.webp') }}"
                                 alt="Vehicle Transportation in Florida" />
                         </div>
                         <div class="overlay">
@@ -334,7 +334,7 @@
                 <div class="col-lg-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="300">
                     <div class="service-item-three">
                         <div class="service-image">
-                            <img loading="lazy" src="{{ asset('frontend/images/slider/car-transports.webp') }}"
+                            <img loading="lazy" src="{{ asset('/frontend/images/slider/car-transports.webp') }}"
                                 alt="Vehicle Transportation in Washington" />
                         </div>
                         <div class="overlay">
@@ -363,7 +363,7 @@
                 <div class="col-lg-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="300">
                     <div class="service-item-three">
                         <div class="service-image">
-                            <img loading="lazy" src="{{ asset('frontend/images/slider/car-transports.webp') }}"
+                            <img loading="lazy" src="{{ asset('/frontend/images/slider/car-transports.webp') }}"
                                 alt="Vehicle Transportation in Maryland" />
                         </div>
                         <div class="overlay">
@@ -394,7 +394,7 @@
                 <div class="col-lg-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="300">
                     <div class="service-item-three">
                         <div class="service-image">
-                            <img loading="lazy" src="{{ asset('frontend/images/slider/car-transports.webp') }}"
+                            <img loading="lazy" src="{{ asset('/frontend/images/slider/car-transports.webp') }}"
                                 alt="Vehicle Transportation in Illinois" />
                         </div>
                         <div class="overlay">
@@ -423,7 +423,7 @@
                 <div class="col-lg-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="300">
                     <div class="service-item-three">
                         <div class="service-image">
-                            <img loading="lazy" src="{{ asset('frontend/images/slider/car-transports.webp') }}"
+                            <img loading="lazy" src="{{ asset('/frontend/images/slider/car-transports.webp') }}"
                                 alt="Vehicle Transportation in Michigan" />
                         </div>
                         <div class="overlay">
@@ -452,7 +452,7 @@
                 <div class="col-lg-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="300">
                     <div class="service-item-three">
                         <div class="service-image">
-                            <img loading="lazy" src="{{ asset('frontend/images/slider/car-transports.webp') }}"
+                            <img loading="lazy" src="{{ asset('/frontend/images/slider/car-transports.webp') }}"
                                 alt="Vehicle Transportation in Virginia" />
                         </div>
                         <div class="overlay">
@@ -483,7 +483,7 @@
                 <div class="col-lg-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="300">
                     <div class="service-item-three">
                         <div class="service-image">
-                            <img loading="lazy" src="{{ asset('frontend/images/slider/car-transports.webp') }}"
+                            <img loading="lazy" src="{{ asset('/frontend/images/slider/car-transports.webp') }}"
                                 alt="Vehicle Transportation in North Carolina" />
                         </div>
                         <div class="overlay">
@@ -512,7 +512,7 @@
                 <div class="col-lg-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="300">
                     <div class="service-item-three">
                         <div class="service-image">
-                            <img loading="lazy" src="{{ asset('frontend/images/slider/car-transports.webp') }}"
+                            <img loading="lazy" src="{{ asset('/frontend/images/slider/car-transports.webp') }}"
                                 alt="Vehicle Transportation in Texas" />
                         </div>
                         <div class="overlay">
@@ -541,7 +541,7 @@
                 <div class="col-lg-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="300">
                     <div class="service-item-three">
                         <div class="service-image">
-                            <img loading="lazy" src="{{ asset('frontend/images/slider/car-transports.webp') }}"
+                            <img loading="lazy" src="{{ asset('/frontend/images/slider/car-transports.webp') }}"
                                 alt="Vehicle Transportation in Indiana" />
                         </div>
                         <div class="overlay">
@@ -572,7 +572,7 @@
                 <div class="col-lg-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="300">
                     <div class="service-item-three">
                         <div class="service-image">
-                            <img loading="lazy" src="{{ asset('frontend/images/slider/car-transports.webp') }}"
+                            <img loading="lazy" src="{{ asset('/frontend/images/slider/car-transports.webp') }}"
                                 alt="Vehicle Transportation in Colorado" />
                         </div>
                         <div class="overlay">
@@ -601,7 +601,7 @@
                 <div class="col-lg-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="300">
                     <div class="service-item-three">
                         <div class="service-image">
-                            <img loading="lazy" src="{{ asset('frontend/images/slider/car-transports.webp') }}"
+                            <img loading="lazy" src="{{ asset('/frontend/images/slider/car-transports.webp') }}"
                                 alt="Vehicle Transportation in California" />
                         </div>
                         <div class="overlay">
@@ -630,7 +630,7 @@
                 <div class="col-lg-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="300">
                     <div class="service-item-three">
                         <div class="service-image">
-                            <img loading="lazy" src="{{ asset('frontend/images/slider/car-transports.webp') }}"
+                            <img loading="lazy" src="{{ asset('/frontend/images/slider/car-transports.webp') }}"
                                 alt="Vehicle Transportation in Arizona" />
                         </div>
                         <div class="overlay">
@@ -661,7 +661,7 @@
                 <div class="col-lg-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="300">
                     <div class="service-item-three">
                         <div class="service-image">
-                            <img loading="lazy" src="{{ asset('frontend/images/slider/car-transports.webp') }}"
+                            <img loading="lazy" src="{{ asset('/frontend/images/slider/car-transports.webp') }}"
                                 alt="Vehicle Transportation in New York" />
                         </div>
                         <div class="overlay">
@@ -690,7 +690,7 @@
                 <div class="col-lg-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="300">
                     <div class="service-item-three">
                         <div class="service-image">
-                            <img loading="lazy" src="{{ asset('frontend/images/slider/car-transports.webp') }}"
+                            <img loading="lazy" src="{{ asset('/frontend/images/slider/car-transports.webp') }}"
                                 alt="Vehicle Transportation in Hampshire" />
                         </div>
                         <div class="overlay">
@@ -818,7 +818,7 @@
                 <div class="col-lg-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="100">
                     <a href="{{ route('vehicleTransportDetail') }}" class="service-link text-decoration-none">
                         <div class="tj-service-item"
-                            data-bg-image="{{ asset('frontend/images/service/CAR-CARD.webp') }}">
+                            data-bg-image="{{ asset('/frontend/images/service/CAR-CARD.webp') }}">
                             <div class="icon-box">
                                 <i class="fa-light fa-car-side fa-2xs"></i>
                             </div>
@@ -840,7 +840,7 @@
                 <div class="col-lg-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="200">
                     <a href="{{ route('heavy-transport-detail') }}" class="service-link text-decoration-none">
                         <div class="tj-service-item"
-                            data-bg-image="{{ asset('frontend/images/service/HEAVY-CARD.webp') }}">
+                            data-bg-image="{{ asset('/frontend/images/service/HEAVY-CARD.webp') }}">
                             <div class="icon-box">
                                 <i class="fa-light fa-tractor fa-2xs"></i>
                             </div>
@@ -862,7 +862,7 @@
                 <div class="col-lg-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="300">
                     <a href="{{ route('freighttransport-detail') }}" class="service-link text-decoration-none">
                         <div class="tj-service-item"
-                            data-bg-image="{{ asset('frontend/images/service/FREIGHT-CARD.webp') }}">
+                            data-bg-image="{{ asset('/frontend/images/service/FREIGHT-CARD.webp') }}">
                             <div class="icon-box">
                                 <i class="fa-light fa-truck fa-2xs"></i>
                             </div>

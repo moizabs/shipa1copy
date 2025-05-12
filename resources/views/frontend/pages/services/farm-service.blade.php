@@ -284,7 +284,7 @@
             <div class="col-lg-4 col-md-12 order-sm-1 order-md-2 order-2 d-flex align-items-center justify-content-center sal-animate" data-sal="slide-left" data-sal-duration="800">
                 <div class="mt-4 rounded">
                     <div class="image-box">
-                        <img class="rounded" src="{{ asset('frontend/images/project/4c-image-for-Farm-transport.webp') }}"
+                        <img class="rounded" src="{{ asset('/frontend/images/project/4c-image-for-Farm-transport.webp') }}"
                             alt="Image">
                     </div>
                 </div>
@@ -296,7 +296,7 @@
             <div class="col-lg-4 col-md-12 order-sm-1 order-md-1 order-2 d-flex align-items-center justify-content-center sal-animate" data-sal="slide-left" data-sal-duration="800">
                 <div class="mt-4 rounded">
                     <div class="image-box">
-                        <img class="rounded" src="{{ asset('frontend/images/project/4d-image-for-Farm-transport.webp') }}"
+                        <img class="rounded" src="{{ asset('/frontend/images/project/4d-image-for-Farm-transport.webp') }}"
                             alt="Image">
                     </div>
                 </div>
@@ -350,7 +350,7 @@
             <div class="col-lg-4 col-md-12 order-sm-1 order-md-2 order-2 d-flex align-items-center justify-content-center sal-animate" data-sal="slide-left" data-sal-duration="800">
                 <div class="mt-4 rounded">
                     <div class="image-box">
-                        <img class="rounded" src="{{ asset('frontend/images/project/4a image for Farm transport.webp') }}"
+                        <img class="rounded" src="{{ asset('/frontend/images/project/4a image for Farm transport.webp') }}"
                             alt="Image">
                     </div>
                 </div>
@@ -362,7 +362,7 @@
             <div class="col-lg-4 col-md-12 order-sm-1 order-md-1 order-2 d-flex align-items-center justify-content-center sal-animate" data-sal="slide-left" data-sal-duration="800">
                 <div class="mt-4 rounded">
                     <div class="image-box">
-                        <img class="rounded" src="{{ asset('frontend/images/project/4a image for Farm transport (1).webp') }}"
+                        <img class="rounded" src="{{ asset('/frontend/images/project/4a image for Farm transport (1).webp') }}"
                             alt="Image">
                     </div>
                 </div>
@@ -479,7 +479,7 @@
                                     </div>
                                     </div>
                                     <div class="col-sm-6 d-flex align-items-center justify-content-center">
-                                        <img src="{{ asset('frontend/images/slider/Farm Low Boy trailer.webp') }}" class="img-fluid rounded-start" style="height: 100%; background-size: cover; background-position: center;" alt="...">
+                                        <img src="{{ asset('/frontend/images/slider/Farm Low Boy trailer.webp') }}" class="img-fluid rounded-start" style="height: 100%; background-size: cover; background-position: center;" alt="...">
                                     </div>
                                 </div>
                             </div>
@@ -492,7 +492,7 @@
                             <div class="card-2 mb-3">
                                 <div class="row g-0">
                                     <div class="col-sm-6 d-flex align-items-center justify-content-center">
-                                    <img src="{{ asset('frontend/images/slider/Farm tilt deck trailer.webp') }}" class="img-fluid rounded-start" style="height: 100%; background-size: cover; background-position: center;" alt="...">
+                                    <img src="{{ asset('/frontend/images/slider/Farm tilt deck trailer.webp') }}" class="img-fluid rounded-start" style="height: 100%; background-size: cover; background-position: center;" alt="...">
                                     </div>
                                     <div class="col-sm-6 d-flex align-items-center justify-content-center">
                                     <div class="card-body tj-section-heading mb-0">
@@ -529,7 +529,7 @@
                                     </div>
                                     </div>
                                     <div class="col-sm-6 d-flex align-items-center justify-content-center">
-                                        <img src="{{ asset('frontend/images/slider/Farm enclosed trailer.webp') }}" class="img-fluid rounded-start" style="height: 100%; background-size: cover; background-position: center;" alt="...">
+                                        <img src="{{ asset('/frontend/images/slider/Farm enclosed trailer.webp') }}" class="img-fluid rounded-start" style="height: 100%; background-size: cover; background-position: center;" alt="...">
                                     </div>
                                 </div>
                             </div>
@@ -587,7 +587,7 @@
             <div class="col-lg-6" data-sal="slide-left" data-sal-duration="800">
                 <div class="tj-faq-left-content">
                     <div class="faq-image">
-                        <img src="{{ asset('frontend/images/slider/FAQ.webp') }}" alt="Image" />
+                        <img src="{{ asset('/frontend/images/slider/FAQ.webp') }}" alt="Image" />
                     </div>
                 </div>
             </div>

@@ -178,7 +178,7 @@
             <div class="col-lg-4 col-md-12 order-sm-1 order-md-2 order-2 d-flex align-items-center justify-content-center sal-animate" data-sal="slide-left" data-sal-duration="800">
                 <div class="mt-4 rounded">
                     <div class="image-box">
-                        <img class="rounded" src="{{ asset('frontend/images/slider/1-content.webp') }}"
+                        <img class="rounded" src="{{ asset('/frontend/images/slider/1-content.webp') }}"
                             alt="Image">
                     </div>
                 </div>
@@ -192,7 +192,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="image-container">
-                    <img class="img-fluid" src="{{ asset('frontend/images/project/azxsazxs.png') }}"
+                    <img class="img-fluid" src="{{ asset('/frontend/images/project/azxsazxs.png') }}"
                         loading="lazy" alt="Motorcyle Transport">
                 </div>
             </div>
@@ -238,7 +238,7 @@
                     <div class="tj-icon-box">
                         <div class="ab-text d-flex align-items-center">
                             <div class="ab-icon"><img loading="lazy"
-                                    src="{{ asset('frontend/images/icon/winner.svg') }}" fetchpriority="high"
+                                    src="{{ asset('/frontend/images/icon/winner.svg') }}" fetchpriority="high"
                                     alt="Icon"></div>
                             <div class="ab-title">
                                 <h5 class="title">Our Values</h5>
@@ -282,10 +282,10 @@
                         </div>
                     </div>
                     <div class="image-box"><img class="p-z-idex aspect-ratio aspect-ratio-3x2 img-fluid"
-                            src="{{ asset('frontend/images/slider/gif-img.webp') }}" fetchpriority="high"
+                            src="{{ asset('/frontend/images/slider/gif-img.webp') }}" fetchpriority="high"
                             loading="lazy" alt="Image"></div><img
                         class="group-1 p-z-idex aspect-ratio aspect-ratio-3x2 img-fluid"
-                        src="{{ asset('frontend/images/about/about-3.webp') }}" fetchpriority="high" loading="lazy"
+                        src="{{ asset('/frontend/images/about/about-3.webp') }}" fetchpriority="high" loading="lazy"
                         alt="Image" width="1200" height="800">
                 </div>
             </div>
