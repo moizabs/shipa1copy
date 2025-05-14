@@ -416,8 +416,7 @@ class RedirectMiddleware
             'roro-shipping-in-united-states' => 'transport-services/roro',
             'tracking' => 'order_tracking',
             'auto_auction' => 'auction-transport/car',
-            
-
+            'quote/motorcycle/?type=aVIvSVNNcHhLUnVPN2xqL29JeXFpQT09' => 'instant-quote/motorcycle' ,
 
         ];
 

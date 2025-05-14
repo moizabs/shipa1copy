@@ -6,6 +6,9 @@
 @section('meta_description')
 {{ $blog->meta_description }}
 @endsection
+@section('canonical')
+    <link rel="canonical" href="{{ url()->current() }}">
+@endsection
 @section('content')
     <style>
         font {

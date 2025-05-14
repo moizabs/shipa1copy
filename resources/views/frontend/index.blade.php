@@ -6,7 +6,7 @@ services near you! We ensure safe, fast, and affordable auto transport services 
     <link rel="canonical" href="{{ url()->current() }}">
 @endsection
 
-<head>
+
     <link rel="preload" as="image" href="{{ asset('/frontend/images/banner/home-underline.webp') }}" type="image/webp">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="preload" as="image" href="/frontend/images/slider/fright-banner-home.webp" />
@@ -14,67 +14,125 @@ services near you! We ensure safe, fast, and affordable auto transport services 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script type="application/ld+json">
-        {
-        "@context": "https://schema.org",
-        "@type": "LocalBusiness",
-        "name": "ShipA1",
-        "description": "ShipA1 is a trusted auto transport and logistics company offering nationwide vehicle shipping services with reliability, speed, and safety.",
-        "image": "https://shipa1.com/frontend/images/logo/LOGO NEW-2.webp",
-        "@id": "https://www.shipa1.com ",
-        "url": "https://www.shipa1.com/ ",
-        "telephone": "(844) 474-4721",
-        "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "201 International Cir STE 230",
-        "addressLocality": "Hunt Valley",
-        "addressRegion": "MD",
-        "postalCode": "21030",
-        "addressCountry": "US"
-        },
-        "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": 39.4960629,
-        "longitude": -76.6603247
-        },
-        "openingHoursSpecification": [
-        {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": [
-        "Monday",
-        "Tuesday",
-        "Wednesday",
-        "Thursday",
-        "Friday",
-        "Saturday"
-        ],
-        "opens": "08:00",
-        "closes": "19:00"
-        }
-        ],
-        "priceRange": "$$",
-        "areaServed": {
-        "@type": "Country",
-        "name": "United States"
-        },
-        
-        "foundingDate": "2020",
-        "serviceType": [
-        "Auto Transport",
-        "Vehicle Shipping",
-        "Car Carrier Services",
-        "Door-to-Door Transport",
-        "Open and Enclosed Transport",
-        "Logistics and Freight Coordination"
-        ],
-        "sameAs": [
-        "https://www.facebook.com/shipa1autotransport ",
-        "https://www.instagram.com/shipa1_transport ",
-        "https://www.youtube.com/@shipA1autotransport ",
-        "https://www.linkedin.com/in/shipa1-transport"
-        ]
-        }
-        </script>
-</head>
+{
+  "@context": "https://schema.org",  
+  "@type": "Organization",
+  "@id": "https://www.shipa1.com/#organization",
+  "name": "ShipA1",
+  "url": "https://www.shipa1.com/",
+  "logo": "https://shipa1.com/frontend/images/logo/LOGO%20NEW-2.webp",
+  "foundingDate": "2020",
+  "sameAs": [
+    "https://www.facebook.com/shipa1autotransport",
+    "https://www.instagram.com/shipa1_transport",
+    "https://www.youtube.com/@shipA1autotransport",
+    "https://www.linkedin.com/in/shipa1-transport"
+  ]
+}
+</script>
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "@id": "https://www.shipa1.com/#localbusiness",
+  "name": "ShipA1",
+  "description": "ShipA1 is a trusted auto transport and logistics company offering nationwide vehicle shipping services with reliability, speed, and safety.",
+  "url": "https://www.shipa1.com/",
+  "telephone": "(844) 474-4721",
+  "priceRange": "$$",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "201 International Cir STE 230",
+    "addressLocality": "Hunt Valley",
+    "addressRegion": "MD",
+    "postalCode": "21030",
+    "addressCountry": {
+      "@type": "Country",
+      "name": "US"
+    }
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 39.4960629,
+    "longitude": -76.6603247
+  },
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "https://schema.org/Monday",
+      "https://schema.org/Tuesday",
+      "https://schema.org/Wednesday",
+      "https://schema.org/Thursday",
+      "https://schema.org/Friday",
+      "https://schema.org/Saturday"
+    ],
+    "opens": "08:00",
+    "closes": "19:00"
+  },
+  "areaServed": {
+    "@type": "Country",
+    "name": "United States"
+  },
+  "parentOrganization": {
+    "@type": "Organization",
+    "@id": "https://www.shipa1.com/#organization",
+    "name": "ShipA1",
+    "url": "https://www.shipa1.com/"
+  }
+}
+</script>
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How is ShipA1 the trusted automobile transport agency in the USA?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Simply put, we offer qualified carriers, benefits to customers with door-to-door vehicle shipping, and back automobiles with one hundred percent insurance support."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does ShipA1 offer the cheapest car shipping services in the USA?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "ShipA1 never aims to trap its existing and potential customers by highlighting offering cheap car shipping services. Our customized car transport service plans come under budget-friendly ranges."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much time does it take to hire the best car shipping agency near me?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Locating and hiring a car shipping agency depends on your digital exploration and selected car transport partner. However, at ShipA1, you get quotes and order booking confirmation within minutes."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I identify a reliable and trusted vehicle shipping partner?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "As per our experienced shipping team, clients should explore the digital presence, read online reviews, and ask for licensed verification to identify their top-picked freight."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How can I get fast automobile transport services right now?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Connect with ShipA1 and click on “Get a Quote”. By following a simple order booking process, you can get your automobile shipping consignment started."
+      }
+    }
+  ]
+}
+</script>
+
+
+
+
 <style>
     body {
         font-family: Arial, sans-serif;

@@ -1,6 +1,6 @@
-<head>
+
     <link rel="preload" as="image" href="{{ asset('/frontend/images/logo/LOGO NEW-2.webp') }}" type="image/webp">
-</head>
+
 <style>
     .active {
         color: #8fc445 !important;

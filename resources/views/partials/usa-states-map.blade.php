@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Interactive Map</title>
@@ -38,9 +38,7 @@
             opacity: 1;
         }
     </style>
-</head>
 
-<body>
     <div id="tooltip" class="tooltip"></div>
     <div class="map-container text-center py-5">
         <h4 style="color: #8fc445;">ShipA1’s Competitive Edge & Unstoppable Service from New York to California</h4>
@@ -53,7 +51,7 @@
     </div>
 
     <script>
-        const svgPath = "{{ asset('public/frontend/images/about/usa-labels-boxes.svg') }}";
+        const svgPath = "{{ asset('/public/frontend/images/about/usa-labels-boxes.svg') }}";
 
         document.addEventListener("DOMContentLoaded", function () {
             fetch(svgPath)
@@ -156,6 +154,6 @@
             }
         }
     </script>
-</body>
+
 
 </html>

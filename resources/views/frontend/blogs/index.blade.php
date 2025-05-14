@@ -1,6 +1,9 @@
 @extends('frontend.layouts.app')
 @section('title', 'Blog')
 @section('meta_description', 'Discover insightful articles, expert tips on auto shipping and transportation at SHIPA1 Blog. Stay informed and enhance your knowledge.')
+@section('canonical')
+    <link rel="canonical" href="{{ url()->current() }}">
+@endsection
 @section('content')
     <style>
         font {
