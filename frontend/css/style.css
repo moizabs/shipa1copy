@@ -22,18 +22,10 @@ a {
 :root {
   --tj-ff-title: "DM Sans", sans-serif;
   --tj-ff-body: "Poppins", sans-serif;
-  --tj-primary-color: #8fc445;
-  --tj-primary-color2: #189bda;
-  --tj-primary-color3: #8f3c23;
-  --tj-secondary-color: #062e39;
-  --tj-body-color: #7c858c;
   --tj-white-color: #ffffff;
   --tj-dark-color: #181818;
   --tj-dark-color2: #f6f6f6;
-  --tj-gray-color: #747474;
-  --tj-gray-color2: #c5c5c5;
   --tj-gray-color3: #ddd;
-  --tj-gray-color4: #e0e0e0;
   --tj-gray-color5: #e1e1e1;
   --tj-gray-color6: #d9d9d9;
   --tj-gray-color7: #787878;
@@ -41,6 +33,14 @@ a {
   --tj-gray-color10: #d3d3d3;
   --tj-gray-color11: #f4f4f4;
   --tj-gray-color12: #f9f9f9;
+  --tj-secondary-color: #004056;
+  --tj-gray-color: #595959;
+  --tj-gray-color2: #a0a0a0;
+  --tj-gray-color4: #d0d0d0;
+  --tj-primary-color: #6a9c2f;
+  --tj-primary-color2: #0077b6;
+  --tj-primary-color3: #7a2918;
+  --tj-body-color: #5a6268;
 }
 body,
 html {
@@ -394,6 +394,7 @@ textarea:focus {
 .tj-team-item:hover .team-content .title-link,
 .tj-testimonial-item .testimonial-content .testimonial-auother .sub-title {
   color: var(--tj-primary-color);
+  text-decoration: none;
 }
 .header-content-right .header-social-icon .social-list li a .icon-youtube {
   font-size: 10px;
@@ -1331,7 +1332,6 @@ div .tj-service-icon-box2 ul li .service-item {
   height: 155%;
   top: -30%;
   left: 0;
-  background: url("/images/banner/banner-shape.webp") center left no-repeat;
   z-index: 2;
 }
 .tj-slider-section .swiper-slide-active .banner-shape {
@@ -3060,10 +3060,11 @@ div .tj-service-icon-box2 ul li .service-item::before {
   background: var(--tj-secondary-color);
   border: 1px solid var(--tj-primary-color);
   border-radius: 12px;
-  padding: 25px 35px;
-  margin-right: 20px;
+  padding: 35px 5px;
   transition: 0.4s;
-  margin-bottom: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   max-width: 200px;
   width: 100%;
 }
@@ -3076,7 +3077,9 @@ div .tj-service-icon-box2 ul li .service-item::before {
 .tj-choose-us-section-service-car,
 .tj-choose-us-section-service-car-2,
 .tj-choose-us-section-service-commercial,
-.tj-choose-us-section-service-construction,
+.tj-choose-us-section-service-construction-1,
+.tj-choose-us-section-service-construction-2,
+.tj-choose-us-section-service-construction-dynamic,
 .tj-choose-us-section-service-excavator,
 .tj-choose-us-section-service-farm,
 .tj-choose-us-section-service-golfcart,
@@ -3125,6 +3128,9 @@ div .tj-service-icon-box2 ul li .service-item::before {
 .tj-choose-us-section-service-car-2::before,
 .tj-choose-us-section-service-car::before,
 .tj-choose-us-section-service-commercial::before,
+.tj-choose-us-section-service-construction-1::before,
+.tj-choose-us-section-service-construction-2::before,
+.tj-choose-us-section-service-construction-dynamic::before,
 .tj-choose-us-section-service-construction::before,
 .tj-choose-us-section-service-excavator::before,
 .tj-choose-us-section-service-farm::before,
@@ -3133,6 +3139,7 @@ div .tj-service-icon-box2 ul li .service-item::before {
 .tj-choose-us-section-service-reefer::before,
 .tj-choose-us-section-service-roro::before,
 .tj-choose-us-section-service-rv::before,
+.tj-choose-us-section-service-construction-dynamic,
 .tj-testimonial-section-two::before {
   background: rgba(6, 46, 57, 0.7);
   width: 100%;
@@ -3164,6 +3171,7 @@ div .tj-service-icon-box2 ul li .service-item::before {
   background-attachment: fixed;
 }
 .tj-choose-us-section-service-RV-4,
+.tj-choose-us-section-service-moiz,
 .tj-choose-us-section-service-atv-utv-2,
 .tj-choose-us-section-service-bike-6,
 .tj-choose-us-section-service-cars-2,
@@ -3245,7 +3253,17 @@ div .tj-service-icon-box2 ul li .service-item::before {
   background-attachment: fixed;
 }
 .tj-choose-us-section-service-construction {
-  background-image: url("../../img/1-banner-for-construction-equipment-_2_.webp");
+  background-image: url("/img/NY1.jpg");
+  position: relative;
+  background-attachment: fixed;
+}
+.tj-choose-us-section-service-construction-1 {
+  background-image: url("/img/CT1.jpg");
+  position: relative;
+  background-attachment: fixed;
+}
+.tj-choose-us-section-service-construction-2 {
+  background-image: url("/img/NH1.jpg");
   position: relative;
   background-attachment: fixed;
 }
@@ -3960,7 +3978,7 @@ div .tj-service-icon-box2 ul li .service-item::before {
 .team-item-three .tj-project-content .title-link {
   background: var(--tj-white-color);
   color: var(--tj-secondary-color);
-  font-size: 24px;
+  /* font-size: 24px; */
   transition: 0.4s;
   height: 70px;
   line-height: 70px;
@@ -4285,7 +4303,7 @@ div .tj-service-icon-box2 ul li .service-item::before {
 }
 .custom-testimonial-section,
 .tj-testimonial-section {
-  padding-bottom: 90px;
+  padding-bottom: 60px;
 }
 .custom-testimonial-section .custom-testimonial-slider,
 .tj-testimonial-section .tj-testimonial-slider {
@@ -4705,8 +4723,7 @@ div .tj-service-icon-box2 ul li .service-item::before {
   position: relative;
   overflow: hidden;
 }
-.page-details-wrapper .tj-blog-item-three .active-text a,
-.page-details-wrapper .tj-blog-item-three .active-text span {
+.page-details-wrapper .tj-blog-item-three .active-text a{
   border-radius: 2px;
   font-size: 18px;
   font-weight: 500;
@@ -4714,7 +4731,7 @@ div .tj-service-icon-box2 ul li .service-item::before {
   background: var(--tj-primary-color);
   transition: 0.4s;
   font-family: var(--tj-ff-title);
-  
+  /* padding: 0px 50px; */
 }
 .tj-blog-item-three .tj-blog-image img {
   transition: 0.4s;
@@ -4757,7 +4774,7 @@ div .tj-service-icon-box2 ul li .service-item::before {
 .page-details-wrapper .tj-blog-item-three {
   border-radius: 20px;
   position: relative;
-  margin-bottom: 45px;
+  margin-bottom: 40%;
 }
 .page-details-wrapper .tj-blog-item-three .blog-content-area {
   box-shadow: none;
@@ -4765,16 +4782,18 @@ div .tj-service-icon-box2 ul li .service-item::before {
 }
 .page-details-wrapper .tj-blog-item-three .active-text {
   position: absolute;
-  right: 20px;
-  top: 20px;
+  /* left: -1px; */
+  bottom: -0.7%;
 }
 .page-details-wrapper .tj-blog-item-three .active-text a {
-  padding: 10px 30px;
+  padding: 10px 60px;
 }
 .page-details-wrapper .tj-blog-item-three .tj-content-box {
   border-radius: 0 0 20px 20px;
-  border: 1px solid;
+  border:1px solid #ccc;
+  border-top: none;
   padding: 0 30px;
+  width: 100%;
 }
 .page-details-wrapper .tj-blog-item-three .tj-content-box .read-more {
   border-top: 1px solid rgba(169, 169, 169, 0.2);
@@ -4988,7 +5007,7 @@ div .tj-service-icon-box2 ul li .service-item::before {
   padding: 20px;
 }
 .details-sidebar-inner .tj-sidebar-widget {
-  border: 1px solid;
+  /* border: 1px solid; */
   background: var(--tj-gray-color11);
   border-radius: 20px;
   padding: 25px 30px;
@@ -5028,6 +5047,7 @@ div .tj-service-icon-box2 ul li .service-item::before {
 }
 .details-sidebar-inner .sidebar-post .tj-post-content .tj-auother-img img {
   max-width: 100px;
+  border-radius: 10px;
 }
 .details-sidebar-inner .sidebar-post .details-meta {
   margin-bottom: 5px;
@@ -7534,4 +7554,8 @@ body .modal-backdrop {
     font-size: 18px;
     padding: 15px 20px;
   }
+}
+.iti__arrow,
+.iti__country-list {
+  display: none !important;
 }
