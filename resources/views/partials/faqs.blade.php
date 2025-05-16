@@ -3,7 +3,6 @@
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>FAQ Section</title>
 <style>
     .side-container {
         display: flex;

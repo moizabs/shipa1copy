@@ -373,7 +373,7 @@ services near you! We ensure safe, fast, and affordable auto transport services 
     }
 
     .services-bg {
-        background-image: url({{ asset('img/1430_x_863_Nebraska%281%29.jpg') }} )
+        background-image: url({{ asset('public/img/1430_x_863_Nebraska%281%29.jpg') }} )
     }
 </style>
 <div id="preloader" class="preloader">

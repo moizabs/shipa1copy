@@ -134,9 +134,9 @@
     <li>
     <a href="{{ route('order.form') }}">Order Form</a>
     </li>
-    <li>
+    {{-- <li>
     <a href="{{ route('blogs.trailer.truck') }}">Trailers & Trucks</a>
-    </li>
+    </li> --}}
     <li>
     <a href="{{ route('order.tracking') }}">Track Order </a>
     </li>

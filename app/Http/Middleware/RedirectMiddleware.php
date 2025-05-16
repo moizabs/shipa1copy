@@ -353,6 +353,9 @@ class RedirectMiddleware
 
 
             //   404 URLS
+            'public/order-form/storeCard' => 'order-form',
+            'public/order-form/store' => 'order-form',
+            'public/order/tracking' => 'order_tracking',
             'services/construction-equipment-shipping' => 'transport-services/construction-equipment',
             'vehicle-shipping-scam' => 'blog/avoid-vehicle-shipping-scams',
             'illinois-auto-transport-shipping-to-or-from-illinois' => 'blog/illinois-auto-transport--shipping-to-or-from-illinois',
