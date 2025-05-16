@@ -265,7 +265,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="breadcrumb-content">
-                    <h1 class="breadcrumb-title text-center">Best UTV Transport Company in USA– Trust Ship A1 for Your ATV/UTV Transportation Needs!</h1>
+                    <h1 class="breadcrumb-title fs-2 text-center">Best UTV Transport Company in USA– Trust Ship A1 for Your ATV/UTV Transportation Needs!</h1>
                     <div class="breadcrumb-link">
                         <span>
                             <a href="{{ route('welcome') }}">
@@ -291,7 +291,7 @@
                 </div>
                     <br>
                 <div class="text-container text-left">
-                    <h3>Convenient ATV/UTV Transport Service</h3>
+                    <h2 class="fs-3">Convenient ATV/UTV Transport Service</h2>
                     <p>ShipA1 is not just the top or best ATV/UTV transport company; it’s the trusted and proven all-terrain vehicle and utility task vehicle shipping agency. Taking care of side-by-side hauling, convenience, packaging, and security, we offer the suitable ATV/UTV shipping options all over the USA.
                        <p>A simple quote changes your delayed all-terrain vehicle and utility task vehicle transport into just-arriving delivery. ShipA1 is ready for urgent quotes for your ATV or UTV orders. Connect with us today. </p>
                         <br>

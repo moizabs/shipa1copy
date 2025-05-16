@@ -302,7 +302,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="breadcrumb-content">
-                        <h1 class="breadcrumb-title text-center ">Ship Your Golf Cart Safely in All Over USA with Trusted Golf
+                        <h1 class="breadcrumb-title fs-2 text-center ">Ship Your Golf Cart Safely in All Over USA with Trusted Golf
                             Cart Shipping Company</h1>
                         <div class="breadcrumb-link">
                             <span>

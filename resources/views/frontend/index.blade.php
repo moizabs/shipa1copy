@@ -416,7 +416,7 @@ services near you! We ensure safe, fast, and affordable auto transport services 
                             @else
                                 <h2 class="slider-title fs-2">{{ $slide['title'] }}</h2>
                             @endif
-                            <div class="slider-desc">{{ $slide['desc'] }}</div>
+                            <h2 class="slider-desc  fs-6">{{ $slide['desc'] }}</h2>
                             <div class="tj-theme-button">
                                 <a class="tj-transparent-btn ms-4 mt-4" href="{{ route('quote.form.combine') }}">
                                     Get Quote <i class="flaticon-right-1"></i>
@@ -462,8 +462,8 @@ services near you! We ensure safe, fast, and affordable auto transport services 
     <div class="container mt-5">
         <div class="row">
             <div class="col-lg-12 tj-section-heading mt-5">
-                <h4 class="text-center"><span class="sub-title active-shape">Your One-Stop Agency for Complete Auto
-                        Shipping Services</h4>
+                <h3 class="text-center"><span class="sub-title active-shape">Your One-Stop Agency for Complete Auto
+                        Shipping Services</h3>
                 <p class="text-center">
                     In the hunt for the best auto transport services in the USA? Ever heard about ShipA1’s qualified,
                     expert team? Connect with the shipping industry legend, offering speedy city-to-city,
@@ -485,7 +485,7 @@ services near you! We ensure safe, fast, and affordable auto transport services 
                 <div class="about-content-one">
                     <div class="tj-section-heading"><span class="sub-title active-shape">A1 Transportation
                             Company</span>
-                        <h2 class="title fs-4">How Are We Trusted & Unstopable?</h2>
+                        <h4 class="title fs-4">How Are We Trusted & Unstopable?</h4>
                         <p class="desc"> It took us a decade to rule the industry and to be known as a reliable and
                             top-notch hub
                             of auto transport services in the USA. As we believe in:</p>
@@ -498,7 +498,7 @@ services near you! We ensure safe, fast, and affordable auto transport services 
                                     decoding="async">
                             </div>
                             <div class="ab-title">
-                                <h3 class="title fs-5 font-weight-bold">Following Client-First Policy</h3>
+                                <h4 class="title fs-5 font-weight-bold">Following Client-First Policy</h4>
                             </div>
                         </div>
                         <p class="desc">We listen to what you demand. The team is always ready to suggest under-budget
@@ -511,7 +511,7 @@ services near you! We ensure safe, fast, and affordable auto transport services 
                             <div class="ab-icon"><i class="fa-light fa-bell-concierge fa-2xl iconsss"></i>
                             </div>
                             <div class="ab-title">
-                                <h3 class="title fs-5 font-weight-bold">Providing Skillful Expert</h3>
+                                <h4 class="title fs-5 font-weight-bold">Providing Skillful Expert</h4>
                             </div>
                         </div>
                         <p class="desc">The staff is qualified enough to handle everything from your and our side.
@@ -525,7 +525,7 @@ services near you! We ensure safe, fast, and affordable auto transport services 
                             <div class="ab-icon"><i class="fa-light fa-shield-heart fa-2xl iconsss"></i>
                             </div>
                             <div class="ab-title">
-                                <h3 class="title fs-5 font-weight-bold">Offering Security & Efficiency</h3>
+                                <h4 class="title fs-5 font-weight-bold">Offering Security & Efficiency</h4>
                             </div>
                         </div>
                         <p class="desc">Enclosed and fully secured trailers are lined up to load your luxurious
@@ -539,7 +539,7 @@ services near you! We ensure safe, fast, and affordable auto transport services 
                             <div class="ab-icon"><i class="fa-light fa-handshake fa-2xl iconsss"></i>
                             </div>
                             <div class="ab-title">
-                                <h3 class="title fs-5 font-weight-bold">Be Sustained as Qualified</h3>
+                                <h4 class="title fs-5 font-weight-bold">Be Sustained as Qualified</h4>
                             </div>
                         </div>
                         <p class="desc">Experts don’t need paid promotions to be highlighted at the top. ShipA1, your
@@ -586,7 +586,7 @@ services near you! We ensure safe, fast, and affordable auto transport services 
     <div class="container">
         <div class="row">
             <div class="tj-section-heading text-center"><span class="sub-title active-shape">Working Process</span>
-                <h2 class="">Here Is How ShipA1, A Complete Automobile Shipping Agency Works </h2>
+                <h4 class="">Here Is How ShipA1, A Complete Automobile Shipping Agency Works </h4>
             </div>
             <div class="row">
                 <div class="col-lg-12">
@@ -597,7 +597,7 @@ services near you! We ensure safe, fast, and affordable auto transport services 
                                     class="number">01.</span>
                             </div>
                             <div class="step-content">
-                                <h6 class="title fs-4">Offer Customized Quote</h6>
+                                <h4 class="title fs-4">Offer Customized Quote</h4>
                             </div>
                         </div>
                         <div class="tj-step-item text-center">
@@ -606,7 +606,7 @@ services near you! We ensure safe, fast, and affordable auto transport services 
                                     class="number">02.</span>
                             </div>
                             <div class="step-content">
-                                <h6 class="title fs-4">Schedule an Instant Shipment</h6>
+                                <h4 class="title fs-4">Schedule an Instant Shipment</h4>
                             </div>
                         </div>
                         <div class="tj-step-item text-center">
@@ -615,7 +615,7 @@ services near you! We ensure safe, fast, and affordable auto transport services 
                                     class="number">03.</span>
                             </div>
                             <div class="step-content">
-                                <h6 class="title fs-4">Early Pickup & Fast Delivery </h6>
+                                <h4 class="title fs-4">Early Pickup & Fast Delivery </h4>
                             </div>
                         </div>
                         <div class="tj-step-item text-center">
@@ -624,7 +624,7 @@ services near you! We ensure safe, fast, and affordable auto transport services 
                                     class="number">04.</span>
                             </div>
                             <div class="step-content">
-                                <h6 class="title fs-4">Shipment Delivery</h6>
+                                <h4 class="title fs-4">Shipment Delivery</h4>
                             </div>
                             <div class="stp-arrow"><i class="fa-regular fa-arrow-right"></i></div>
                         </div>
@@ -716,7 +716,7 @@ services near you! We ensure safe, fast, and affordable auto transport services 
     <div class="container">
         <div class="tj-section-heading text-center">
             <span class="sub-title active-shape">Our Services</span>
-            <h4 class="title">Pick Your Transport Type</h4>
+            <h3 class="title">Pick Your Transport Type</h3>
         </div>
     </div>
 </section>
@@ -926,7 +926,7 @@ services near you! We ensure safe, fast, and affordable auto transport services 
                     business platform.
                 </p> --}}
             <div class="pt-5 service-m">
-                <h2 class="text-center ">ShipA1’s Conquered B2B Marketplace</h2>
+                <h3 class="text-center ">ShipA1’s Conquered B2B Marketplace</h3>
                 <div class="service-section-parent gap-3 ">
                     <div class="services-section ">
                         <span>

@@ -140,10 +140,10 @@
                     <div class="tj-section-heading">
                         <span class="sub-title active-shape2">Specialized Service</span>
                         <h1 class="title fs-2">Best Auto Auction Shipping Services in USA – Your Vehicle, Delivered with Care </h1>
-                        <p class="desc-2 text-white">
+                        <h2 class="desc-2 fs-6 text-white">
                             Ship A1 specializes in providing all types of vehicles for auto
                             auction services tailored to your needs and specifications!
-                        </p>
+                        </h2>
                     </div>
                 </div>
             </div>

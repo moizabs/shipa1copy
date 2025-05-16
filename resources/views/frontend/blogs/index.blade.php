@@ -114,13 +114,13 @@
                                 <div class="tj-content-box" style="position:absolute; top:96%; ">
                                     <div class="blog-content-area ">
                                         <div class="blog-header">
-                                            <h3>
+                                            <h2>
                                                 <a class="title-link fs-4  pt-3"
                                                     @if ($blog->type == 'old') href="{{ route('blog.details.noSlug', $blog->slug_name) }}" @else
                                                     href="{{ route('blog.details', $blog->slug_name) }}" @endif>
                                                     {{ $blog->post_name }}
                                                 </a>
-                                            </h3>
+                                            </h2>
                                         </div>
                                         <div class="blog-meta">
                                         </div>

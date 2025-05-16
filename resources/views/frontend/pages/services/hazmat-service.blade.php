@@ -179,7 +179,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="breadcrumb-content">
-                        <h1 class="breadcrumb-title text-center">Hazmat Transportation Services in USA You Can Trust - Get
+                        <h1 class="breadcrumb-title fs-2 text-center">Hazmat Transportation Services in USA You Can Trust - Get
                             Quote Now!</h1>
                         <div class="breadcrumb-link">
                             <span>
@@ -204,7 +204,7 @@
                 <div class="col-lg-8 sal-animate " data-sal="slide-left" data-sal-duration="800">
                     <div class="about-content-one">
                         <div class="tj-section-heading">
-                            <span class="sub-title active-shape">Safe Handling and Storage of Hazardous Materials</span>
+                            <h2 class="sub-title active-shape">Safe Handling and Storage of Hazardous Materials</h2>
                             <p class="desc">
                                 It's essential to label all hazardous materials with the appropriate
                                 Hazmat symbols. Different symbols correspond to each category, so ensure

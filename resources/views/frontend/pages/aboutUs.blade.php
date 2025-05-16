@@ -52,7 +52,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="tj-section-heading text-center">
-                    <span class="sub-title active-shape">Ship A1 Transport</span>
+                    <h2><span class="sub-title active-shape">Ship A1 Transport</span></h2>
                     <p>
                     Ship A1 Transport is one of the top logistic and shipping companies, with a vast variety of 
                     shipping methods, quality services, and a well-equipped staff we are proficient in transporting 

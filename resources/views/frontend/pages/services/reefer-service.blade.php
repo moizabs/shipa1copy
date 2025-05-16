@@ -145,7 +145,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="breadcrumb-content">
-                    <h1 class="breadcrumb-title text-center">Best Reefer Shipping Solutions You Can Rely On – Cold Chain Experts in USA</h1>
+                    <h1 class="breadcrumb-title fs-2 text-center">Best Reefer Shipping Solutions You Can Rely On – Cold Chain Experts in USA</h1>
                     <div class="breadcrumb-link">
                         <span>
                             <a href="{{ route('welcome') }}">
@@ -169,7 +169,7 @@
             <div class="col-lg-8 col-md-12 order-sm-2 order-md-1 order-1 d-flex align-items-center justify-content-center sal-animate pt-4 mt-4" data-sal="slide-left" data-sal-duration="800">
                 <div class="about-content-one">
                     <div class="tj-section-heading">
-                        <span class="sub-title active-shape">The World of Reefer Shipping</span>
+                       <h2><span class="sub-title active-shape">The World of Reefer Shipping</span></h2>
                         <p class="desc">Reefer refers to refrigerated ships and shipping containers specifically designed to
                              transport goods that are sensitive to temperature fluctuations. From fruits and vegetables to meat,
                               fish, and dairy products, these vessels and containers play a crucial role in maintaining the quality

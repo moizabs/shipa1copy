@@ -281,10 +281,10 @@
                             <span class="sub-title active-shape2">SERVICES</span>
                             <h1 class="title fs-2">Nationwide RV Transportation Services in USA – Trusted & Professional
                             </h1>
-                            <p class="desc-2">
+                            <h2 class="desc-2 fs-6">
                                 ShipA1 has pledged to provide all-in-one auto transport solutions to all its
                                 customers and seeks your trust in return of our services.
-                            </p>
+                            </h2>
                         </div>
                     </div>
                 </div>

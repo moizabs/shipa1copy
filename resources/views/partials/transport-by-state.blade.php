@@ -10,7 +10,7 @@
         transform: scale(1.1);
     }
 
-    h1 {
+    h1 , .mmm {
         font-family: Arial, sans-serif;
         color: var(--tj-secondary-color);
         text-align: center;
@@ -132,7 +132,7 @@
     }
 </style>
 <div class="container container-2">
-    <h1>Car Transport to or from 49 Other States</h1>
+    <h2 class="mmm">Car Transport to or from 49 Other States</h2>
     <div class="row">
         @foreach ($transports as $row)
             <div class="col-md-4">

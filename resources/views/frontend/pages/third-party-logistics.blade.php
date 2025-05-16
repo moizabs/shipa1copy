@@ -140,9 +140,9 @@
                     <div class="tj-section-heading">
                         <span class="sub-title active-shape2">Specialized Service</span>
                         <h1 class="title fs-2">Best Freight Auction Transport Services in All Over USA – Safe & Affordable</h1>
-                        <p class="desc-2 text-white">
+                        <h6 class="desc-2 fs-6 text-white">
                             Ship A1 Transport provides specialized freight logistics tailored to various industries, emphasizing safety, cost reduction, and real-time tracking to fulfill all business requirements.
-                        </p>
+                        </h6>
                     </div>
                 </div>
             </div>

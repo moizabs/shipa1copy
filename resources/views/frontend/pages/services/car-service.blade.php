@@ -453,7 +453,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="breadcrumb-content">
-                        <h1 class="breadcrumb-title text-center">Affordable Car Transportation Services from State to State
+                        <h1 class="breadcrumb-title fs-2 text-center">Affordable Car Transportation Services from State to State
                             in The USA – Fast & Secure Shipping</h1>
                         <div class="breadcrumb-link">
                             <span>
@@ -475,7 +475,7 @@
         <div class="container">
             <div class="row full-width mt-4 ms-1">
                 <div class="col-12 mt-5">
-                    <h4 class=" text-center">We Are Acclaimed for Swift & Secure Car Transport Services in the USA </h4>
+                    <h2 class="fs-4 text-center">We Are Acclaimed for Swift & Secure Car Transport Services in the USA </h2>
                     <p class=" text-center">
                         Do you need fast and affordable car transport services in the USA right away? Guess what? We have
                         some amazing plans
