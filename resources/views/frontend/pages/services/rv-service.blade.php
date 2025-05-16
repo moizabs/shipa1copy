@@ -6,39 +6,42 @@
     <link rel="canonical" href="{{ url()->current() }}">
 @endsection
 <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "LocalBusiness",
-      "name": "ShipA1",
-      "url": "https://www.shipa1.com/transport-services/rv",
-      "image": "https://www.shipa1.com/frontend/images/project/4a%20image%20for%20RV-Transport.webp",
-      "telephone": "(844) 474-4721",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "201 International Cir STE 230",
-        "addressLocality": "Hunt Valley",
-        "addressRegion": "MD",
-        "postalCode": "21030",
-        "addressCountry": "US"
-      },
-      "department": {
-        "@type": "Service",
-        "name": "RV Transport Service",
-        "serviceType": "Heavy Equipment Transport",
-        "description": "Searching for RV transportation services in USA? Ship A1 is a Top RV transporter in USA. We offer cost-effective, damage-free, and nationwide RV transportation solutions. Get a free quote today!",
-        "areaServed": {
-          "@type": "Country",
-          "name": "United States"
-        }
-      },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": 4.9,
-        "reviewCount": 2545,
-        "bestRating": 5,
-        "worstRating": 1
-      }
+   {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "RV Transportation Service",
+  "description": "ShipA1 offers trusted, nationwide RV and heavy equipment transportation across the USA, ensuring timely delivery and professional service. With competitive pricing, advanced trailers, and a proven track record, we cater to all your shipping needs from New York to California.",
+  "provider": {
+    "@type": "Organization",
+    "name": "ShipA1",
+    "url": "https://www.shipa1.com/transport-services/rv",
+    "logo": "https://www.shipa1.com/frontend/images/logo/LOGO%20NEW-2.webp",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+1 (844) 474-4721",
+      "email": "shawntransport@shipa1.com",
+      "contactType": "Customer Support",
+      "areaServed": "US",
+      "availableLanguage": "English"
     }
+  },
+  "serviceType": "RV Transportation Service",
+  "areaServed": {
+    "@type": "Place",
+    "name": "USA"
+  },
+  "offers": {
+    "@type": "AggregateOffer",
+    "url": "https://www.shipa1.com/transport-services/rv",
+    "priceCurrency": "USD",
+    "lowPrice": 199
+  },
+  "sameAs": [
+    "https://www.facebook.com/shipa1",
+    "https://www.shipa1.com"
+  ]
+}
+
     </script>
     
 @section('content')

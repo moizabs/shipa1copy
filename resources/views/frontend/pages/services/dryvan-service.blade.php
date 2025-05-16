@@ -5,6 +5,43 @@
 <link rel="canonical" href="{{ url()->current() }}">
 @endsection
 @section('content')
+<script type="application/ld+json">
+    {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Dry Van Transportation Services",
+  "description": "Ship A1 offers top-rated dry van transportation services, providing versatile, cost-effective, and secure freight shipping solutions. With same-day shipping, expedited freight, and high-value cargo protection, we ensure reliable delivery for all your goods.",
+  "provider": {
+    "@type": "Organization",
+    "name": "ShipA1",
+    "url": "https://www.shipa1.com/transport-services/dry-van",
+    "logo": "https://www.shipa1.com/frontend/images/logo/LOGO%20NEW-2.webp",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+1 (844) 474-4721",
+      "email": "shawntransport@shipa1.com",
+      "contactType": "Customer Support",
+      "areaServed": "US",
+      "availableLanguage": "English"
+    }
+  },
+  "serviceType": "Dry Van Transportation Service",
+  "areaServed": {
+    "@type": "Place",
+    "name": "USA"
+  },
+  "offers": {
+    "@type": "AggregateOffer",
+    "url": "https://www.shipa1.com/transport-services/dry-van",
+    "priceCurrency": "USD",
+    "lowPrice": 199
+  },
+  "sameAs": [
+    "https://www.facebook.com/shipa1",
+    "https://www.shipa1.com"
+  ]
+}
+</script>
 <style>
     .full-width {
         width: 100%;

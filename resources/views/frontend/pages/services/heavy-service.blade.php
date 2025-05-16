@@ -7,38 +7,41 @@
 @endsection
 <script type="application/ld+json">
     {
-      "@context": "https://schema.org",
-      "@type": "LocalBusiness",
-      "name": "ShipA1",
-      "url": "https://www.shipa1.com/transport-services/heavy-equipment",
-      "image": "https://www.shipa1.com/frontend/images/project/3a-image-for-excavator-transport.webp",
-      "telephone": "(844) 474-4721",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "201 International Cir STE 230",
-        "addressLocality": "Hunt Valley",
-        "addressRegion": "MD",
-        "postalCode": "21030",
-        "addressCountry": "US"
-      },
-      "department": {
-        "@type": "Service",
-        "name": "Heavy Equipment Transport Service",
-        "serviceType": "Heavy Equipment Transport",
-        "description": "Need a heavy equipment transporter? Ship A1 specializes in secure and professional heavy equipment shipping across the USA. Contact us now!",
-        "areaServed": {
-          "@type": "Country",
-          "name": "United States"
-        }
-      },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": 4.9,
-        "reviewCount": 814,
-        "bestRating": 5,
-        "worstRating": 1
-      }
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Heavy Equipment Shipping Services",
+  "description": "ShipA1 offers trusted, efficient heavy equipment shipping across the USA, specializing in agricultural, construction, and mining machinery. With a decade of experience, competitive pricing, and advanced trailers, we ensure timely, reliable transport from New York to California.",
+  "provider": {
+    "@type": "Organization",
+    "name": "ShipA1",
+    "url": "https://www.shipa1.com/transport-services/heavy-equipment",
+    "logo": "https://www.shipa1.com/frontend/images/logo/LOGO%20NEW-2.webp",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+1 (844) 474-4721",
+      "email": "shawntransport@shipa1.com",
+      "contactType": "Customer Support",
+      "areaServed": "US",
+      "availableLanguage": "English"
     }
+  },
+  "serviceType": "Heavy Equipment Transportation Service",
+  "areaServed": {
+    "@type": "Place",
+    "name": "USA"
+  },
+  "offers": {
+    "@type": "AggregateOffer",
+    "url": "https://www.shipa1.com/transport-services/heavy-equipment",
+    "priceCurrency": "USD",
+    "lowPrice": 199
+  },
+  "sameAs": [
+    "https://www.facebook.com/shipa1",
+    "https://www.shipa1.com"
+  ]
+}
+
     </script>
     
 @section('content')

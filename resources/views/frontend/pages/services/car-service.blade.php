@@ -10,38 +10,43 @@
 @section('content')
 <script type="application/ld+json">
     {
-    @context ": "Schema.org - Schema.org ",
-    @type ": "Product",
-    "name": "Car Transport",
-    "image": "https://www.shipa1.com/frontend/images/project/CAR-SERVICE-MAIN.webp",
-    "description": "Get affordable and top-rated car transport services in allover USA with Ship A1. Whether you need local or state-to-state car transport services, Ship A1 offers cheap car shipping services with top-rated service quality.",
-    "brand": {
-    @type ": "Brand",
-    "name": "Ship A1"
-    },
-    "aggregateRating": {
-    @type ": "AggregateRating",
-    "ratingValue": "4.8",
-    "bestRating": "5",
-    "worstRating": "1",
-    "ratingCount": "4897",
-    "reviewCount": "1"
-    },
-    "review": {
-    @type ": "Review",
-    "name": "Google Reviews",
-    "reviewBody": "googles' most trust car shipping services provider in USA.",
-    "reviewRating": {
-    @type ": "Rating",
-    "ratingValue": "4.8",
-    "bestRating": "5",
-    "worstRating": "1"
-    },
-    "datePublished": "2024-04-11",
-    "author": {"@type ": "Person", "name": "Google"}
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Car Transport Service",
+  "description": "ShipA1 offers fast, secure, and nationwide car transport services across the USA with multiple trailer options. Customers enjoy door-to-door delivery, real-time tracking, and full insurance coverage.",
+  "provider": {
+    "@type": "Organization",
+    "name": "ShipA1",
+    "url": "https://www.shipa1.com/transport-services/car",
+    "logo": "https://www.shipa1.com/frontend/images/logo/LOGO%20NEW-2.webp",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+1 (844) 474-4721",
+      "email": "shawntransport@shipa1.com",
+      "contactType": "Customer Support",
+      "areaServed": "US",
+      "availableLanguage": "English"
     }
-    }
-    </script>    
+  },
+  "serviceType": "Car Transportation Service",
+  "areaServed": {
+    "@type": "Place",
+    "name": "USA"
+  },
+  "offers": {
+    "@type": "AggregateOffer",
+    "url": "https://www.shipa1.com/transport-services/car",
+    "priceCurrency": "USD",
+    "eligibleRegion": {
+      "@type": "Place",
+      "name": "USA"
+    },
+    "lowPrice": 199
+  },
+  "sameAs": "https://www.facebook.com/shipa1"
+}
+
+</script>
     <style>
         .side-container{
            display: flex;

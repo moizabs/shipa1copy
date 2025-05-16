@@ -7,40 +7,44 @@
     <link rel="canonical" href="{{ url()->current() }}">
 @endsection
 <script type="application/ld+json">
-    {
-    "@context": "https://schema.org/",
-    "@type": "Product",
-    "name": "Motorcycle Transport Services",
-    "image": "https://www.shipa1.com/frontend/images/slider/Single-Motorcycle-on-Closed-Trailer.webp",
-    "description": "
-    Looking for a top motorcycle shipping services? Ship A1 offers safe, reliable, and affordable bike transportation services across the USA. Get a free quote now!",
-    "brand": {
-    "@type": "Brand",
-    "name": "Ship A1"
-    },
-    "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.8",
-    "bestRating": "5",
-    "worstRating": "1",
-    "ratingCount": "5789",
-    "reviewCount": "1"
-    },
-    "review": {
-    "@type": "Review",
-    "name": "Google Reviews",
-    "reviewBody": "googles' most trusted motorcycle shipping services provider in USA.",
-    "reviewRating": {
-    "@type": "Rating",
-    "ratingValue": "4.8",
-    "bestRating": "5",
-    "worstRating": "1"
-    },
-    "datePublished": "2025-04-11",
-    "author": {"@type": "Person", "name": "Google"}
+   {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Motorcycle Transportation Service",
+  "description": "ShipA1 offers affordable, secure, and timely motorcycle transport with no hidden fees—backed by 16 years of trusted experience across all 50 states. Customers enjoy door-to-door delivery, real-time tracking, and full insurance coverage.",
+  "provider": {
+    "@type": "Organization",
+    "name": "ShipA1",
+    "url": "https://www.shipa1.com/transport-services/motorcycle",
+    "logo": "https://www.shipa1.com/frontend/images/logo/LOGO%20NEW-2.webp",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+1 (844) 474-4721",
+      "email": "shawntransport@shipa1.com",
+      "contactType": "Customer Support",
+      "areaServed": "US",
+      "availableLanguage": "English"
     }
-    }
-    </script>
+  },
+  "serviceType": "Motorcycle Transportation Service",
+  "areaServed": {
+    "@type": "Place",
+    "name": "USA"
+  },
+  "offers": {
+    "@type": "AggregateOffer",
+    "url": "https://www.shipa1.com/transport-services/motorcycle",
+    "priceCurrency": "USD",
+    "eligibleRegion": {
+      "@type": "Place",
+      "name": "USA"
+    },
+    "lowPrice": 199
+  },
+  "sameAs": "https://www.facebook.com/shipa1"
+}
+
+</script>
 @section('content')
  
     <style>

@@ -5,6 +5,44 @@
 <link rel="canonical" href="{{ url()->current() }}">
 @endsection
 @section('content')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Heavy Equipment from Auctions Services",
+  "description": "Ship A1 offers reliable, affordable heavy equipment transport from auctions, ensuring safe and timely delivery with customizable solutions and 24/7 support. With expert handling, real-time tracking, and full insurance, we make shipping seamless and stress-free.",
+  "provider": {
+    "@type": "Organization",
+    "name": "ShipA1",
+    "url": "https://www.shipa1.com/auction-transport/heavy-equipment",
+    "logo": "https://www.shipa1.com/frontend/images/logo/LOGO%20NEW-2.webp",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+1 (844) 474-4721",
+      "email": "shawntransport@shipa1.com",
+      "contactType": "Customer Support",
+      "areaServed": "US",
+      "availableLanguage": "English"
+    }
+  },
+  "serviceType": "Heavy Equipment from Auctions Services",
+  "areaServed": {
+    "@type": "Place",
+    "name": "USA"
+  },
+  "offers": {
+    "@type": "AggregateOffer",
+    "url": "https://www.shipa1.com/auction-transport/heavy-equipment",
+    "priceCurrency": "USD",
+    "lowPrice": 199
+  },
+  "sameAs": [
+    "https://www.shipa1.com",
+    "https://www.facebook.com/shipa1"
+  ]
+}
+
+</script>
 <style>
     .why-box {
     border-radius: 12px;

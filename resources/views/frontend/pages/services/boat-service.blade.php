@@ -6,39 +6,42 @@
 <link rel="canonical" href="{{ url()->current() }}">
 @endsection
 <script type="application/ld+json">
-    {
-    @context": "https://schema.org ",
-    @type": "LocalBusiness",
+   {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Boat Transportation Service",
+  "description": "ShipA1 offers reliable, nationwide boat transport services across the USA, handling all watercraft types with advanced trailers and real-time tracking. With over 16 years of experience, our expert team ensures secure, budget-friendly shipping with excellent customer service.",
+  "provider": {
+    "@type": "Organization",
     "name": "ShipA1",
-    "url": "https://www.shipa1.com/transport-services/boat ",
-    "image": "https://www.shipa1.com/frontend/images/project/4b images for boat transport.webp",
-    "telephone": "(844) 474-4721",
-    "address": {
-    @type": "PostalAddress",
-    "streetAddress": "201 International Cir STE 230",
-    "addressLocality": "Hunt Valley",
-    "addressRegion": "MD",
-    "postalCode": "21030",
-    "addressCountry": "US"
+    "url": "https://www.shipa1.com/transport-services/boat",
+    "logo": "https://www.shipa1.com/frontend/images/logo/LOGO%20NEW-2.webp",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+1 (844) 474-4721",
+      "email": "shawntransport@shipa1.com",
+      "contactType": "Customer Support",
+      "areaServed": "US",
+      "availableLanguage": "English"
+    }
+  },
+  "serviceType": "Boat Transportation Service",
+  "areaServed": {
+    "@type": "Place",
+    "name": "USA"
+  },
+  "offers": {
+    "@type": "AggregateOffer",
+    "url": "https://www.shipa1.com/transport-services/boat",
+    "priceCurrency": "USD",
+    "eligibleRegion": {
+      "@type": "Place",
+      "name": "USA"
     },
-    "department": {
-    @type": "Service",
-    "name": "Boat Shipping Service",
-    "serviceType": "Heavy Equipment Transport",
-    "description": "Looking for boat transporters in USA? Ship A1 is one of the top boat transport companies, Get a free boat transportation cost today!",
-    "areaServed": {
-    @type": "Country",
-    "name": "United States"
-    }
-    },
-    "aggregateRating": {
-    @type": "AggregateRating",
-    "ratingValue": 4.9,
-    "reviewCount": 983,
-    "bestRating": 5,
-    "worstRating": 1
-    }
-    }
+    "lowPrice": 199
+  },
+  "sameAs": "https://www.facebook.com/shipa1"
+}
     </script>
 @section('content')
 <style>

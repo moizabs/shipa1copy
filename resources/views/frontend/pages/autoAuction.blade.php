@@ -5,6 +5,43 @@
 <link rel="canonical" href="{{ url()->current() }}">
 @endsection
 @section('content')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Auto Auction Shipping Services",
+  "description": "Ship A1 offers premier auto auction shipping services across the USA, ensuring safe, affordable, and convenient vehicle transport tailored to your needs. With 24/7 customer support, full insurance, and trusted nationwide delivery, we make auto shipping seamless and reliable.",
+  "provider": {
+    "@type": "Organization",
+    "name": "ShipA1",
+    "url": "https://www.shipa1.com/auction-transport/car",
+    "logo": "https://www.shipa1.com/frontend/images/logo/LOGO%20NEW-2.webp",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+1 (844) 474-4721",
+      "email": "shawntransport@shipa1.com",
+      "contactType": "Customer Support",
+      "areaServed": "US",
+      "availableLanguage": "English"
+    }
+  },
+  "serviceType": "Auto Auction Shipping Services",
+  "areaServed": {
+    "@type": "Place",
+    "name": "USA"
+  },
+  "offers": {
+    "@type": "AggregateOffer",
+    "url": "https://www.shipa1.com/auction-transport/car",
+    "priceCurrency": "USD",
+    "lowPrice": 199
+  },
+  "sameAs": [
+    "https://www.shipa1.com"
+  ]
+}
+
+</script>
 <style>
     .why-box {
     border-radius: 12px;

@@ -5,39 +5,43 @@
 <link rel="canonical" href="{{ url()->current() }}">
 @endsection
 <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "LocalBusiness",
-      "name": "ShipA1",
-      "url": "https://www.shipa1.com/transport-services/atv-utv",
-      "image": "https://www.shipa1.com/frontend/images/project/tuxpi.coo.webp",
-      "telephone": "(844) 474-4721",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "201 International Cir STE 230",
-        "addressLocality": "Hunt Valley",
-        "addressRegion": "MD",
-        "postalCode": "21030",
-        "addressCountry": "US"
-      },
-      "department": {
-        "@type": "Service",
-        "name": "ATV/UTV Shipping Service",
-        "serviceType": "Vehicle Transport",
-        "description": "Looking for ATV/UTV transportation? Ship A1 is the best ATV/UTV transport company in USA, providing safe and affordable nationwide shipping. Get a free quote now!",
-        "areaServed": {
-          "@type": "Country",
-          "name": "United States"
-        }
-      },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": 4.9,
-        "reviewCount": 2683,
-        "bestRating": 5,
-        "worstRating": 1
-      }
+   {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "UTV Transportation Service",
+  "description": "ShipA1 offers trusted, convenient ATV/UTV transport across the USA with secure, affordable options. Get a quick quote for timely delivery with experienced carriers and advanced trailers. Customers enjoy door-to-door delivery, real-time tracking, and full insurance coverage.",
+  "provider": {
+    "@type": "Organization",
+    "name": "ShipA1",
+    "url": "https://www.shipa1.com/transport-services/motorcycle",
+    "logo": "https://www.shipa1.com/frontend/images/logo/LOGO%20NEW-2.webp",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+1 (844) 474-4721",
+      "email": "shawntransport@shipa1.com",
+      "contactType": "Customer Support",
+      "areaServed": "US",
+      "availableLanguage": "English"
     }
+  },
+  "serviceType": "UTV Transportation Service",
+  "areaServed": {
+    "@type": "Place",
+    "name": "USA"
+  },
+  "offers": {
+    "@type": "AggregateOffer",
+    "url": "https://www.shipa1.com/transport-services/atv-utv",
+    "priceCurrency": "USD",
+    "eligibleRegion": {
+      "@type": "Place",
+      "name": "USA"
+    },
+    "lowPrice": 199
+  },
+  "sameAs": "https://www.facebook.com/shipa1"
+}
+
     </script>
 @section('content')
 

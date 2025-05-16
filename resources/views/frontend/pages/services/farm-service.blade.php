@@ -6,38 +6,41 @@
 @endsection
 <script type="application/ld+json">
     {
-      "@context": "https://schema.org",
-      "@type": "LocalBusiness",
-      "name": "ShipA1",
-      "url": "https://www.shipa1.com/transport-services/farm-equipment",
-      "image": "https://www.shipa1.com/frontend/images/project/4c-image-for-Farm-transport.webp",
-      "telephone": "(844) 474-4721",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "201 International Cir STE 230",
-        "addressLocality": "Hunt Valley",
-        "addressRegion": "MD",
-        "postalCode": "21030",
-        "addressCountry": "US"
-      },
-      "department": {
-        "@type": "Service",
-        "name": "Farm Equipment Transport Service",
-        "serviceType": "Heavy Equipment Transport",
-        "description": "Need farm tractor transport services? Ship A1 ensures safe, secure, and on-time delivery of tractors and farming equipment nationwide.",
-        "areaServed": {
-          "@type": "Country",
-          "name": "United States"
-        }
-      },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": 4.9,
-        "reviewCount": 745,
-        "bestRating": 5,
-        "worstRating": 1
-      }
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Farm Equipment Transport Services",
+  "description": "ShipA1 offers reliable, fast, and safe farm equipment transportation across the USA, using advanced trailers for all types of agricultural machinery. With over 15 years of experience, we provide door-to-door service, competitive rates, and 24/7 tracking, backed by 100% insurance coverage.",
+  "provider": {
+    "@type": "Organization",
+    "name": "ShipA1",
+    "url": "https://www.shipa1.com/transport-services/farm-equipment",
+    "logo": "https://www.shipa1.com/frontend/images/logo/LOGO%20NEW-2.webp",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+1 (844) 474-4721",
+      "email": "shawntransport@shipa1.com",
+      "contactType": "Customer Support",
+      "areaServed": "US",
+      "availableLanguage": "English"
     }
+  },
+  "serviceType": "Farm Equipment Transportation Service",
+  "areaServed": {
+    "@type": "Place",
+    "name": "USA"
+  },
+  "offers": {
+    "@type": "AggregateOffer",
+    "url": "https://www.shipa1.com/transport-services/farm-equipment",
+    "priceCurrency": "USD",
+    "lowPrice": 199
+  },
+  "sameAs": [
+    "https://www.facebook.com/shipa1",
+    "https://www.shipa1.com"
+  ]
+}
+
     </script>
     
 @section('content')
