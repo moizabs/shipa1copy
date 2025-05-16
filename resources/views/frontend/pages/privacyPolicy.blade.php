@@ -193,7 +193,9 @@
                 <p>We might disclose your data to service providers such as drivers, shipping companies, and
                     payment processors as they will ensure your services are being delivered timely and
                     efficiently. To comply with legal requirements, and defend our rights, or the rights of
-                    others, we might also disclose your information to law enforcement or other third parties.
+                    others, we might also disclose your information to law enforcement privacy policy stating "no mobile information
+                    will be shared with third parties/ affiliates for marketing/ promotional purposes. All other categories exclude text messaging originator 
+                    opt-in data and consent; this information will not be shared with third parties. "
                 </p>
                 <h5 class="title">Your Privacy Rights</h5>
                 <p>We value your privacy rights and are committed to helping you exercise them. You retain the
