@@ -497,7 +497,7 @@
     </div>
 </section>
 @include('partials.cta-section')
-<section class="tj-faq-section tj-faq-page pt-5">
+{{-- <section class="tj-faq-section tj-faq-page pt-5">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
@@ -570,7 +570,29 @@
             </div>
         </div>
     </div>
-</section>
+</section> --}}
+@php
+    $faqs = [
+        [
+            'question' => 'How is an auto auction transport different from regular vehicle shipping?',
+            'answer' => 'There are no major differences. In an auto auction transport, you can load the cars directly from the auction and have them delivered to the shared location in the USA.',
+        ],
+        [
+            'question' => 'Can I transfer my auction car to another state in the USA?',
+            'answer' => 'ShipA1 is available for the transport of your auctioned or purchased car in all fifty states of the USA.',
+        ],
+        [
+            'question' => 'Is auto auction transport costly?',
+            'answer' => 'Not exactly, auto auction transport costs are similar to regular shipping of vehicles. As charges depend on the selected trailers for transport. ',
+        ],
+        [
+            'question' => 'Do auction companies also offer direct vehicle transport? ',
+            'answer' => 'Yes, most of the auction companies collaborate with transformation brokers. ShipA1 is also associated with well-known auto auction companies.',
+        ],
+    ];
+@endphp
+
+<x-faq :faqs="$faqs" />
 @include('partials.blog-slider')
 @endsection
 @section('extraScript')

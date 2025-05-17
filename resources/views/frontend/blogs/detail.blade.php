@@ -104,7 +104,7 @@
                                 <div class="blog-meta">
                                 </div>
                             </div>
-                            <p style="color: rgb(136, 136, 136)">
+                            <p>
                                 {!! $blog->post_description !!}
                             </p>
                         </div>

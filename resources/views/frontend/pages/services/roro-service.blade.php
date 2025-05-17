@@ -707,7 +707,7 @@
         </div>
     </div>
 </section>
-<section class="tj-faq-section tj-faq-page">
+{{-- <section class="tj-faq-section tj-faq-page">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
@@ -780,7 +780,28 @@
             </div>
         </div>
     </div>
-</section>
+</section> --}}
+@php
+    $faqs = [
+        [
+            'question' => 'Does RoRo shipping take months for delivery?',
+            'answer' => 'Not exactly, for shipping within Europe, the average RoRo delivery time is between 7 to 14 days.',
+        ],
+        [
+            'question' => 'Which is better, RoRo shipping or container transport?',
+            'answer' => 'Both have different specifications. Containers are more secure for logistics cargo with a more protective roof. However, RoRo is for bulk vehicles, not for other materials.',
+        ],
+        [
+            'question' => 'Can I transport personal belongings in a mass vehicle RoRo? ',
+            'answer' => 'During RoRo transportation, it is advised to remove all personal belongings from the automobiles. ',
+        ],
+        [
+            'question' => 'Can I transport multiple types of vehicles in RoRo shipping ',
+            'answer' => 'Yes! RoRo transport companies like ShipA1 do load multiple types of vehicles (cars, trucks, and trailers) at once.',
+        ],
+    ];
+@endphp
+<x-faq :faqs="$faqs" />
 <section class="why-choose-us-slider">
     <div class="container">
         <div class="tj-section-heading text-center">

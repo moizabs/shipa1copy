@@ -1003,7 +1003,7 @@ services near you! We ensure safe, fast, and affordable auto transport services 
     <div class="container my-5">
         <div class="row">
             <div class="col-12 col-lg-5 d-flex justify-content-center align-items-center">
-                <img class="shadow-lg img-fluid"
+                <img class="img-fluid"
                     src="{{ asset('public/frontend/images/about/post-2.jpg') }}" alt="450x500"
                     loading="lazy" decoding="async">
             </div>
@@ -1079,9 +1079,34 @@ services near you! We ensure safe, fast, and affordable auto transport services 
     </div>
 </section>
 @include('partials.usa-states-map')
-@include('partials.faqs')
+{{-- @include('partials.faqs') --}}
 
+@php
+    $faqs = [
+        [
+            'question' => 'How is ShipA1 the trusted automobile transport agency in the USA?',
+            'answer' => 'Simply put, we offer qualified carriers, benefits to customers with door-to-door vehicle shipping, and back automobiles with one hundred percent insurance support.',
+        ],
+        [
+            'question' => 'Does ShipA1 offer the cheapest car shipping services in the USA?',
+            'answer' => 'ShipA1 never aims to trap its existing and potential customers by highlighting offering cheap car shipping services. Our customized car transport service plans come under budget-friendly ranges.',
+        ],
+        [
+            'question' => 'How much time does it take to hire the best car shipping agency near me?',
+            'answer' => 'Locating and hiring a car shipping agency depends on your digital exploration and selected car transport partner. However, at ShipA1, you get quotes and order booking confirmation within minutes.',
+        ],
+        [
+            'question' => 'How do I identify a reliable and trusted vehicle shipping partner?',
+            'answer' => 'As per our experienced shipping team, clients should explore the digital presence, read online reviews, and ask for licensed verification to identify their top-picked freight.',
+        ],
+        [
+            'question' => 'How can I get fast automobile transport services right now?',
+            'answer' => 'Connect with ShipA1 and click on “Get a Quote”. By following a simple order booking process, you can get your automobile shipping consignment started.',
+        ],
+    ];
+@endphp
 
+<x-faq :faqs="$faqs" />
 {{-- <section class="tj-map-section">
         <div class="google-map"><iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3105.167331138309!2d-76.66251388426676!3d39.496062943506464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c81261c3eae243%3A0x81e995e93023e64a!2s201%20International%20Cir%20STE%20230%2C%20Hunt%20Valley%2C%20MD%2021030%2C%20USA!5e0!3m2!1sen!2s!4v1649863458559!5m2!1sen!2s"

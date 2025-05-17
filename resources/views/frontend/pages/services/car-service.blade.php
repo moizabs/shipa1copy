@@ -1348,7 +1348,7 @@
     </section> --}}
     @include('partials.usa-states-map')
     {{-- @include('partials.faqs') --}}
-    <div class="container">
+    {{-- <div class="container">
         <div class="row p-5">
            <div class="side-container col-12 col-lg-5 ">
                 <div>
@@ -1399,7 +1399,33 @@
             </div>
            </div>
         </div>
-    </div>
+    </div> --}}
+    @php
+    $faqs = [
+        [
+            'question' => 'Does ShipA1 offer the fastest car transport services near me? ',
+            'answer' => 'ShipA1’s team is operational across all states of the US. It allows us to be ready for each coming car shipping order. We believe in quick and customer-friendly transport assistance.',
+        ],
+        [
+            'question' => 'How does ShipA1 offer the most secure car transport service?',
+            'answer' => 'All our shippers, carriers, brokers, and consignees are certified and experienced for this regular job of car shipping. They are qualified experts, taking care of each consignment with proper care and attention.',
+        ],
+        [
+            'question' => 'How to get cheap car shipping services from ShipA1',
+            'answer' => 'Simply, go for city-to-city, open car transportation service. Or just reach out to our professional customer support team, share the requirements/budget, and get a suitable quote.',
+        ],
+        [
+            'question' => 'How much time does it take for city-to-city car transport in the USA?',
+            'answer' => 'Every freight and logistics agency has its own delivery plans. At ShipA1, our carriers and drivers mostly take two days (on average) to drop off cars at the shared destinations.',
+        ],
+        [
+            'question' => 'How much does a state-to-state car shipping service cost?',
+            'answer' => 'The cost of car shipping in the USA depends on the load, distance, type of service, and your selected transport agency. However, if the days are concerned then at ShipA1, it takes five to seven days for a state-to-state car transport delivery.',
+        ],
+    ];
+@endphp
+
+<x-faq :faqs="$faqs" />
     {{-- <section class="why-choose-us-slider">
         <div class="container">
             <div class="tj-section-heading text-center">

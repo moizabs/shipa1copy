@@ -523,7 +523,7 @@
         </div>
     </div>
 </section>
-<section class="tj-faq-section tj-faq-page pt-5">
+{{-- <section class="tj-faq-section tj-faq-page pt-5">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
@@ -596,7 +596,29 @@
             </div>
         </div>
     </div>
-</section>
+</section> --}}
+@php
+    $faqs = [
+        [
+            'question' => 'What does freight auction transport simply mean?',
+            'answer' => 'After the bidding process for the freight logistics, the shippers and transport agencies load their haulers and complete consignments as per the contracted deadline and costs.',
+        ],
+        [
+            'question' => 'What is the difference between auto auction transport and freight auction transport?',
+            'answer' => ' In an auto auction transport, buyers hire shipping companies for vehicle transport. On the other hand, in a freight auction transport, it’s the shippers who bid for the logistics shipping, pitching their speed, expertise, and efficiency.',
+        ],
+        [
+            'question' => 'Is freight auction transport costly as compared to open vehicle shipping?',
+            'answer' => 'Each freight and logistics transport service has its own charges. The costs also depend on the distance, selected hauler, and vehicle delivery type.',
+        ],
+        [
+            'question' => 'Do auction companies also need freight transport services? ',
+            'answer' => 'Yes, in the USA, almost every auction company has its third-party shipping agencies like ShipA1. For a quick transport of the logistics, they hire agencies to pick up and drop off before or after the auction event.',
+        ],
+    ];
+@endphp
+<x-faq :faqs="$faqs" />
+
 @include('partials.cta-section')
 @include('partials.blog-slider')
 @endsection

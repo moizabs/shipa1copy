@@ -177,11 +177,11 @@
                 <div class="choose-us-content-1">
                     <div class="tj-section-heading">
                         <span class="sub-title active-shape2">Specialized Service</span>
-                        <h2 class="title">Ship Your Heavy Equipment from Auctions with Confidence & Ease</h2>
-                        <p class="desc-2 text-white">
+                        <h1 class="title fs-2">Ship Your Heavy Equipment from Auctions with Confidence & Ease</h1>
+                        <h2 class="desc-2 text-white fs-6">
                             Ship A1 specializes in providing all types of Equipment for Heavy
                             auction transport services tailored to your needs and specifications!
-                        </p>
+                        </h2>
                     </div>
                 </div>
             </div>
@@ -509,7 +509,7 @@
     </div>
 </section>
 @include('partials.cta-section')
-<section class="tj-faq-section tj-faq-page pt-5">
+{{-- <section class="tj-faq-section tj-faq-page pt-5">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
@@ -582,7 +582,29 @@
             </div>
         </div>
     </div>
-</section>
+</section> --}}
+@php
+    $faqs = [
+        [
+            'question' => 'Why do I need a transport agency for auctioning heavy Equipment? ',
+            'answer' => 'To load and drop off heavy equipment safely and rapidly, it’s important to have your own heavy-duty vehicle and materials shipping partner. This is the most secure option in the USA, ',
+        ],
+        [
+            'question' => 'Are auctioned heavy equipment transport services available in California?',
+            'answer' => ' Yes, famous transport agencies such as ShipA1 offer their heavy equipment auction shipping services in all fifty states of the USA, including California.',
+        ],
+        [
+            'question' => 'What happens if an auctioned vehicle is damaged between transport?',
+            'answer' => 'It’s rare to face such scenarios. However, for such unfortunate and unintentional events, shipping agencies offer insurance coverage to save the clients from losses.',
+        ],
+        [
+            'question' => 'Can I transport heavy-duty vehicles to a remote location in the USA?',
+            'answer' => 'Yes, ShipA1 books an instant quote for the transformation of your purchased heavy-duty vehicles to remote and rural locations without permit delays.',
+        ],
+    ];
+@endphp
+<x-faq :faqs="$faqs" />
+
 @include('partials.blog-slider')
 @endsection
 @section('extraScript')
