@@ -1004,7 +1004,7 @@ services near you! We ensure safe, fast, and affordable auto transport services 
         <div class="row">
             <div class="col-12 col-lg-5 d-flex justify-content-center align-items-center">
                 <img class="shadow-lg img-fluid"
-                    src="{{ asset('public/frontend/images/about/450x500WestVirginia.jpg') }}" alt="450x500"
+                    src="{{ asset('public/frontend/images/about/post-2.jpg') }}" alt="450x500"
                     loading="lazy" decoding="async">
             </div>
 
