@@ -5,6 +5,45 @@
 <link rel="canonical" href="{{ url()->current() }}">
 @endsection
 <script type="application/ld+json">
+    {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "UTV Transportation Service",
+  "description": "ShipA1 offers trusted, convenient ATV/UTV transport across the USA with secure, affordable options. Get a quick quote for timely delivery with experienced carriers and advanced trailers. Customers enjoy door-to-door delivery, real-time tracking, and full insurance coverage.",
+  "provider": {
+    "@type": "Organization",
+    "name": "ShipA1",
+    "url": "https://www.shipa1.com/transport-services/motorcycle",
+    "logo": "https://www.shipa1.com/frontend/images/logo/LOGO%20NEW-2.webp",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+1 (844) 474-4721",
+      "email": "shawntransport@shipa1.com",
+      "contactType": "Customer Support",
+      "areaServed": "US",
+      "availableLanguage": "English"
+    }
+  },
+  "serviceType": "UTV Transportation Service",
+  "areaServed": {
+    "@type": "Place",
+    "name": "USA"
+  },
+  "offers": {
+    "@type": "AggregateOffer",
+    "url": "https://www.shipa1.com/transport-services/atv-utv",
+    "priceCurrency": "USD",
+    "eligibleRegion": {
+      "@type": "Place",
+      "name": "USA"
+    },
+    "lowPrice": 199
+  },
+  "sameAs": "https://www.facebook.com/shipa1"
+}
+
+</script>
+<script type="application/ld+json">
   {
   "@context": "https://schema.org",
   "@type": "FAQPage",

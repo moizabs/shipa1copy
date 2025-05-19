@@ -5,6 +5,7 @@ Disallow: /search/
 Disallow: /admin/
 Disallow: /login/
 Disallow: /register/
+Disallow: /public/
 
 User-agent: Googlebot
 Allow: /services/
