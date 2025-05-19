@@ -7,43 +7,41 @@
 @endsection
 @section('content')
 <script type="application/ld+json">
-    {
+{
   "@context": "https://schema.org",
-  "@type": "Service",
-  "name": "RoRo Shipping Service",
-  "description": "ShipA1 offers safe, affordable, and efficient RORO shipping for vehicles worldwide, with seamless customs handling and reliable service. Trusted by customers, we provide fast, convenient transport with attractive rates and discounts.",
-  "provider": {
-    "@type": "Organization",
-    "name": "ShipA1",
-    "url": "https://www.shipa1.com/transport-services/roro",
-    "logo": "https://www.shipa1.com/frontend/images/logo/LOGO%20NEW-2.webp",
-    "contactPoint": {
-      "@type": "ContactPoint",
-      "telephone": "+1 (844) 474-4721",
-      "email": "shawntransport@shipa1.com",
-      "contactType": "Customer Support",
-      "areaServed": "US",
-      "availableLanguage": "English"
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "Does RoRo shipping take months for delivery?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Not exactly, for shipping within Europe, the average RoRo delivery time is between 7 to 14 days."
     }
-  },
-  "serviceType": "RoRo Shipping Service",
-  "areaServed": {
-    "@type": "Place",
-    "name": "USA"
-  },
-  "offers": {
-    "@type": "AggregateOffer",
-    "url": "https://www.shipa1.com/transport-services/roro",
-    "priceCurrency": "USD",
-    "lowPrice": 199
-  },
-  "sameAs": [
-    "https://www.facebook.com/shipa1",
-    "https://www.shipa1.com"
-  ]
+  },{
+    "@type": "Question",
+    "name": "Which is better, RoRo shipping or container transport?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Both have different specifications. Containers are more secure for logistics cargo with a more protective roof. However, RoRo is for bulk vehicles, not for other materials."
+    }
+  },{
+    "@type": "Question",
+    "name": "Can I transport personal belongings in a mass vehicle RoRo?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "During RoRo transportation, it is advised to remove all personal belongings from the automobiles."
+    }
+  },{
+    "@type": "Question",
+    "name": "Can I transport multiple types of vehicles in RoRo shipping",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes! RoRo transport companies like ShipA1 do load multiple types of vehicles (cars, trucks, and trailers) at once."
+    }
+  }]
 }
-
 </script>
+
 <Style>
     .title-2 {
         color: #8fc445;

@@ -8,38 +8,39 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Service",
-  "name": "Auto Auction Shipping Services",
-  "description": "Ship A1 offers premier auto auction shipping services across the USA, ensuring safe, affordable, and convenient vehicle transport tailored to your needs. With 24/7 customer support, full insurance, and trusted nationwide delivery, we make auto shipping seamless and reliable.",
-  "provider": {
-    "@type": "Organization",
-    "name": "ShipA1",
-    "url": "https://www.shipa1.com/auction-transport/car",
-    "logo": "https://www.shipa1.com/frontend/images/logo/LOGO%20NEW-2.webp",
-    "contactPoint": {
-      "@type": "ContactPoint",
-      "telephone": "+1 (844) 474-4721",
-      "email": "shawntransport@shipa1.com",
-      "contactType": "Customer Support",
-      "areaServed": "US",
-      "availableLanguage": "English"
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "How is an auto auction transport different from regular vehicle shipping?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "There are no major differences. In an auto auction transport, you can load the cars directly from the auction and have them delivered to the shared location in the USA."
     }
-  },
-  "serviceType": "Auto Auction Shipping Services",
-  "areaServed": {
-    "@type": "Place",
-    "name": "USA"
-  },
-  "offers": {
-    "@type": "AggregateOffer",
-    "url": "https://www.shipa1.com/auction-transport/car",
-    "priceCurrency": "USD",
-    "lowPrice": 199
-  },
-  "sameAs": [
-    "https://www.shipa1.com"
-  ]
+  },{
+    "@type": "Question",
+    "name": "Can I transfer my auction car to another state in the USA?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "ShipA1 is available for the transport of your auctioned or purchased car in all fifty states of the USA."
+    }
+  },{
+    "@type": "Question",
+    "name": "Is auto auction transport costly?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Not exactly, auto auction transport costs are similar to regular shipping of vehicles. As charges depend on the selected trailers for transport."
+    }
+  },{
+    "@type": "Question",
+    "name": "Do auction companies also offer direct vehicle transport?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, most of the auction companies collaborate with transformation brokers. ShipA1 is also associated with well-known auto auction companies."
+    }
+  }]
 }
+</script>
+
 
 </script>
 <style>

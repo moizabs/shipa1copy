@@ -5,44 +5,48 @@
 <link rel="canonical" href="{{ url()->current() }}">
 @endsection
 <script type="application/ld+json">
-   {
+{
   "@context": "https://schema.org",
-  "@type": "Service",
-  "name": "Commercial Truck Shipping Services",
-  "description": "ShipA1 offers reliable, secure, and affordable commercial truck shipping across all 50 states, backed by expert carriers and high-tech trailers. With over 16 years of experience, we ensure timely delivery, transparent pricing, and hassle-free permit handling for your heavy-duty transport needs.",
-  "provider": {
-    "@type": "Organization",
-    "name": "ShipA1",
-    "url": "https://www.shipa1.com/transport-services/commercial-truck",
-    "logo": "https://www.shipa1.com/frontend/images/logo/LOGO%20NEW-2.webp",
-    "contactPoint": {
-      "@type": "ContactPoint",
-      "telephone": "+1 (844) 474-4721",
-      "email": "shawntransport@shipa1.com",
-      "contactType": "Customer Support",
-      "areaServed": "US",
-      "availableLanguage": "English"
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "What is the best way to transport commercial trucks in the USA?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Towing or driving your commercial truck does have its disadvantages. That’s why, always go for an expert shipping agency that has experience in regular truck hauling in the USA."
     }
-  },
-  "serviceType": "Commercial Truck Shipping Services",
-  "areaServed": {
-    "@type": "Place",
-    "name": "USA"
-  },
-  "offers": {
-    "@type": "AggregateOffer",
-    "url": "https://www.shipa1.com/transport-services/commercial-truck",
-    "priceCurrency": "USD",
-    "eligibleRegion": {
-      "@type": "Place",
-      "name": "USA"
-    },
-    "lowPrice": 199
-  },
-  "sameAs": "https://www.facebook.com/shipa1"
+  },{
+    "@type": "Question",
+    "name": "Is a legal permit important for commercial truck shipping?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "It all depends on your vehicle or truck type. For commercial trucks and logistics, you will be asked to have a permit during crossing state lines."
+    }
+  },{
+    "@type": "Question",
+    "name": "Will I have to pay upfront for commercial truck transportation?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "It all depends on your shipping service provider. Transport agencies such as ShipA1 offer customized deals including no upfront payment."
+    }
+  },{
+    "@type": "Question",
+    "name": "Are commercial truck shipping brokers trustworthy?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, in general. However, commercial truck dealers and car owners are advised to do a background check of their service providers before hiring them for state-to-state transport."
+    }
+  },{
+    "@type": "Question",
+    "name": "Can I drive a commercial truck in the USA?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes! However, it is highly advised to have verified documents and a transportation permit by yourself. As in the USA, each state follows strict regulations regarding heavy-duty trucks and vehicles."
+    }
+  }]
 }
+</script>
 
-    </script>
 @section('content')
 <Style>
     .title-2 {
@@ -599,58 +603,32 @@
     </div>
 </section>
 @include('partials.usa-states-map')
-<div class="container">
-    <div class="row p-5">
-       <div class="side-container col-12 col-lg-5 ">
-            <div>
-                <h2>Frequently <span>Asked Questions</span> </h2>
-                <hr class="w-50">
-                <p>Have a look at answers to trending customer queries about our vehicle shipping services.</p>
-                    <a class="text-decoration-none  btnfaq" href="{{ route('faq') }}">Get Detailed Shipping Answer</a>
-            </div>
-       </div>
+@php
+    $faqs = [
+        [
+            'question' => 'What is the best way to transport commercial trucks in the USA?',
+            'answer' => 'Towing or driving your commercial truck does have its disadvantages. That’s why, always go for an expert shipping agency that has experience in regular truck hauling in the USA.',
+        ],
+        [
+            'question' => 'Is a legal permit important for commercial truck shipping?',
+            'answer' => 'It all depends on your vehicle or truck type. For commercial trucks and logistics, you will be asked to have a permit during crossing state lines.',
+        ],
+        [
+            'question' => 'Will I have to pay upfront for commercial truck transportation?',
+            'answer' => 'It all depends on your shipping service provider. Transport agencies such as ShipA1 offer customized deals including no upfront payment.',
+        ],
+        [
+            'question' => 'Are commercial truck shipping brokers trustworthy?',
+            'answer' => 'Yes, in general. However, commercial truck dealers and car owners are advised to do a background check of their service providers before hiring them for state-to-state transport.',
+        ],
+        [
+            'question' => 'Can I drive a commercial truck in the USA?',
+            'answer' => 'Yes! However, it is highly advised to have verified documents and a transportation permit by yourself. As in the USA, each state follows strict regulations regarding heavy-duty trucks and vehicles.',
+        ],
+    ];
+@endphp
 
-       <div class="col-12 col-lg-7">
-        <div class="faq-container">
-            <div class="faq">
-                <button class="faq-toggle">Are commercial truck shipping brokers trusted? <span>+</span></button>
-                <div class="faq-content">
-                    <p>Yes, in general. However, commercial truck dealers and car owners are advised to do a background check of their service providers before hiring them for state-to-state transport.</p>
-                </div>
-            </div>
-        
-            <div class="faq">
-                <button class="faq-toggle">What is the best way to transport commercial trucks in the USA?  <span>+</span></button>
-                <div class="faq-content">
-                    <p>Towing or driving your commercial truck does have its disadvantages. That’s why, always go for an expert shipping agency that has experience in regular truck hauling in the USA. </p>
-                </div>
-            </div>
-        
-            <div class="faq">
-                <button class="faq-toggle">Can we drive through commercial trucks in the USA?<span>+</span></button>
-                <div class="faq-content">
-                    <p>Yes! However, it is highly advised to have verified documents and a transportation permit by yourself. As in the USA, each state follows strict regulations regarding heavy-duty trucks and vehicles.</p>
-                </div>
-            </div>
-            
-            <div class="faq">
-                <button class="faq-toggle">Will I have to pay upfront for commercial truck transportation?<span>+</span></button>
-                <div class="faq-content">
-                    <p>It all depends on your shipping service provider. Transport agencies such as ShipA1 offer customized deals including no upfront payment.</p>
-                </div>
-            </div>
-        
-            <div class="faq">
-                <button class="faq-toggle">Is a legal permit important for commercial truck shipping?<span>+</span></button>
-                <div class="faq-content">
-                    <p>It all depends on your vehicle or truck type. For commercial trucks and logistics, you will be asked to have a permit during crossing state lines.</p>
-                </div>
-            </div>
-        
-        </div>
-       </div>
-    </div>
-</div>
+<x-faq :faqs="$faqs" />
 {{-- <section class="why-choose-us-slider">
     <div class="container">
         <div class="tj-section-heading text-center">

@@ -6,43 +6,48 @@
     <link rel="canonical" href="{{ url()->current() }}">
 @endsection
 <script type="application/ld+json">
-    {
+{
   "@context": "https://schema.org",
-  "@type": "Service",
-  "name": "Heavy Equipment Shipping Services",
-  "description": "ShipA1 offers trusted, efficient heavy equipment shipping across the USA, specializing in agricultural, construction, and mining machinery. With a decade of experience, competitive pricing, and advanced trailers, we ensure timely, reliable transport from New York to California.",
-  "provider": {
-    "@type": "Organization",
-    "name": "ShipA1",
-    "url": "https://www.shipa1.com/transport-services/heavy-equipment",
-    "logo": "https://www.shipa1.com/frontend/images/logo/LOGO%20NEW-2.webp",
-    "contactPoint": {
-      "@type": "ContactPoint",
-      "telephone": "+1 (844) 474-4721",
-      "email": "shawntransport@shipa1.com",
-      "contactType": "Customer Support",
-      "areaServed": "US",
-      "availableLanguage": "English"
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "How much does it cost to ship heavy machinery?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The costs of heavy machinery depend on the size, distance, trailer type, and extra protection features offered by your shipping agency."
     }
-  },
-  "serviceType": "Heavy Equipment Transportation Service",
-  "areaServed": {
-    "@type": "Place",
-    "name": "USA"
-  },
-  "offers": {
-    "@type": "AggregateOffer",
-    "url": "https://www.shipa1.com/transport-services/heavy-equipment",
-    "priceCurrency": "USD",
-    "lowPrice": 199
-  },
-  "sameAs": [
-    "https://www.facebook.com/shipa1",
-    "https://www.shipa1.com"
-  ]
+  },{
+    "@type": "Question",
+    "name": "Can I book a heavy equipment transporter right now?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Leading and most trusted shipping agencies such as ShipA1 allow you to book a quote within minutes on their official websites. It just takes simple equipment information form-filling, trailer selection, and order confirmation to get the shipping started."
+    }
+  },{
+    "@type": "Question",
+    "name": "What type of trailer is best for heavy equipment transport?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The selection of trailers depends on your heavy equipment load. Otherwise, drop deck and RGN trailers are best for self-propelled hauling vehicles."
+    }
+  },{
+    "@type": "Question",
+    "name": "What does heavy equipment transportation insurance cover?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Heavy equipment transportation insurance is the security coverage benefit offered by shipping agencies to their clients as an assurance and maintenance proof for transporting goods."
+    }
+  },{
+    "@type": "Question",
+    "name": "How can I get early permits for transporting oversized equipment?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "For early permits and fast oversized equipment shipping, you will have to collaborate with experienced transport agencies such as ShipA1."
+    }
+  }]
 }
+</script>
 
-    </script>
     
 @section('content')
     <Style>
@@ -662,70 +667,32 @@
     </div>
 </section> --}}
     @include('partials.usa-states-map')
-    <div class="container">
-        <div class="row p-5">
-            <div class="side-container col-12 col-lg-5 ">
-                <div>
-                    <h2>Frequently <span>Asked Questions</span> </h2>
-                    <hr class="w-50">
-                    <p>Have a look at answers to trending customer queries about our vehicle shipping services.</p>
-                    <a class="text-decoration-none  btnfaq" href="{{ route('faq') }}">Get Detailed Shipping Answer</a>
-                </div>
-            </div>
+  @php
+    $faqs = [
+        [
+            'question' => 'How much does it cost to ship heavy machinery?',
+            'answer' => 'The costs of heavy machinery depend on the size, distance, trailer type, and extra protection features offered by your shipping agency.',
+        ],
+        [
+            'question' => 'Can I book a heavy equipment transporter right now?',
+            'answer' => 'Leading and most trusted shipping agencies such as ShipA1 allow you to book a quote within minutes on their official websites. It just takes simple equipment information form-filling, trailer selection, and order confirmation to get the shipping started.',
+        ],
+        [
+            'question' => 'What type of trailer is best for heavy equipment transport?',
+            'answer' => 'The selection of trailers depends on your heavy equipment load. Otherwise, drop deck and RGN trailers are best for self-propelled hauling vehicles.',
+        ],
+        [
+            'question' => 'What does heavy equipment transportation insurance cover?',
+            'answer' => 'Heavy equipment transportation insurance is the security coverage benefit offered by shipping agencies to their clients as an assurance and maintenance proof for transporting goods.',
+        ],
+        [
+            'question' => 'How can I get early permits for transporting oversized equipment?',
+            'answer' => 'For early permits and fast oversized equipment shipping, you will have to collaborate with experienced transport agencies such as ShipA1.',
+        ],
+    ];
+@endphp
 
-            <div class="col-12 col-lg-7">
-                <div class="faq-container">
-                    <div class="faq">
-                        <button class="faq-toggle">Which is the best trailer type for heavy equipment transport?
-                            <span>+</span></button>
-                        <div class="faq-content">
-                            <p>The selection of trailers depends on your heavy equipment load. Otherwise, drop deck and RGN
-                                trailers are best for self-propelled hauling vehicles. </p>
-                        </div>
-                    </div>
-
-                    <div class="faq">
-                        <button class="faq-toggle">Is heavy machinery shipping costly? <span>+</span></button>
-                        <div class="faq-content">
-                            <p>The costs of heavy machinery depend on the size, distance, trailer type, and extra protection
-                                features offered by your shipping agency.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq">
-                        <button class="faq-toggle">How to get early permits for oversized equipment?
-                            <span>+</span></button>
-                        <div class="faq-content">
-                            <p>For early permits and fast oversized equipment shipping, you will have to collaborate with
-                                experienced transport agencies such as ShipA1. </p>
-                        </div>
-                    </div>
-
-                    <div class="faq">
-                        <button class="faq-toggle">What is heavy equipment transportation insurance?<span>+</span></button>
-                        <div class="faq-content">
-                            <p>Heavy equipment transportation insurance is the security coverage benefit offered by shipping
-                                agencies to their clients as an assurance and maintenance proof for transporting goods.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq">
-                        <button class="faq-toggle">Can I hire a heavy equipment transporter right
-                            now?<span>+</span></button>
-                        <div class="faq-content">
-                            <p>Leading and most trusted shipping agencies such as ShipA1 allow you to book a quote within
-                                minutes on their official websites. It just takes simple equipment information form-filling,
-                                trailer selection, and order confirmation to get the shipping started.</p>
-                        </div>
-                    </div>
-
-
-
-
-                </div>
-            </div>
-        </div>
-    </div>
+<x-faq :faqs="$faqs" />
     
     {{-- <section class="why-choose-us-slider">
     <div class="container">

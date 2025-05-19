@@ -5,43 +5,48 @@
 <link rel="canonical" href="{{ url()->current() }}">
 @endsection
 <script type="application/ld+json">
-  {
+{
   "@context": "https://schema.org",
-  "@type": "Service",
-  "name": "Excavator Transportation Services",
-  "description": "Reliable, cost-effective excavator shipping with expert handling and custom solutions. Trust ShipA1 for safe, timely delivery tailored to your needs.",
-  "provider": {
-    "@type": "Organization",
-    "name": "ShipA1",
-    "url": "https://www.shipa1.com/transport-services/excavator",
-    "logo": "https://www.shipa1.com/frontend/images/logo/LOGO%20NEW-2.webp",
-    "contactPoint": {
-      "@type": "ContactPoint",
-      "telephone": "+1 (844) 474-4721",
-      "email": "shawntransport@shipa1.com",
-      "contactType": "Customer Support",
-      "areaServed": "US",
-      "availableLanguage": "English"
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "Is my heavy equipment insured during transport?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Not only you will get the insurance coverage. The carrier company will provide you with insurance up to a whopping upto $1 million. As soon as you get in touch with the driver you will get the documents which are related to your insurance."
     }
-  },
-  "serviceType": "Excavator Transportation Services",
-  "areaServed": {
-    "@type": "Place",
-    "name": "USA"
-  },
-  "offers": {
-    "@type": "AggregateOffer",
-    "url": "https://www.shipa1.com/transport-services/excavator",
-    "priceCurrency": "USD",
-    "eligibleRegion": {
-      "@type": "Place",
-      "name": "USA"
-    },
-    "lowPrice": 199
-  },
-  "sameAs": "https://www.facebook.com/shipa1"
+  },{
+    "@type": "Question",
+    "name": "Do you transport all types of heavy equipment?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, Ship A1 offers a variety of heavy equipment services specially tailored to your needs, whether it’s a forklift, excavator, trailer, crane, etc. we are here to assist you with a 100% guarantee of quality, safety, and flexible rates for your route."
+    }
+  },{
+    "@type": "Question",
+    "name": "How long does it take to transport heavy equipment?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Shipping time depends on the equipment type, distance, weather, and road conditions. For faster delivery, choose our expedited shipping option, which is the quickest service offered by Ship A1, though it costs more"
+    }
+  },{
+    "@type": "Question",
+    "name": "Do you provide loading and unloading services for heavy equipment?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "ShipA1 can connect you with qualified heavy equipment loading and unloading service providers in your area. We can advise on the best approach based on your specific equipment and needs."
+    }
+  },{
+    "@type": "Question",
+    "name": "Can I drive a commercial truck in the USA?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes! However, it is highly advised to have verified documents and a transportation permit by yourself. As in the USA, each state follows strict regulations regarding heavy-duty trucks and vehicles."
+    }
+  }]
 }
-    </script>
+</script>
+
     
 @section('content')
 <Style>
@@ -505,109 +510,28 @@
         </div>
     </div>
 </section>
-<section class="tj-faq-section tj-faq-page pt-5">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="tj-section-heading text-center">
-                    <span class="sub-title active-shape"> How It’s Work</span>
-                    <h2 class="title">Frequently Asked Questions</h2>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-6" data-sal="slide-left" data-sal-duration="800">
-                <div class="tj-faq-left-content">
-                    <div class="faq-image">
-                        <img src="{{ asset('frontend/images/slider/FAQ.webp') }}" alt="Image" />
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6" data-sal="slide-right" data-sal-duration="800">
-                <div class="tj-faq-area">
-                    <div class="accordion" id="accordionExample">
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingOne">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    Do you transport all kinds of heavy equipment?
-                                </button>
-                            </h2>
-                            <div id="collapseOne" class="accordion-collapse collapse show"
-                                aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <strong>Yes, Ship A1 offers a variety of heavy equipment services specially tailored
-                                        to your needs, whether it’s a
-                                        forklift, excavator, trailer, crane, etc. we are here to assist you with a 100%
-                                        guarantee of quality, safety,
-                                        and flexible rates for your route.</strong>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingTwo">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    How much time will it take to ship my heavy equipment?
-                                </button>
-                            </h2>
-                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <strong>It all depends on the type of equipment you are planning on shipping, other
-                                        than that our estimated
-                                        delivery time also varies on the distance, weather conditions as well and road
-                                        conditions. However, if
-                                        you want your heavy equipment to be delivered urgently then we would suggest you
-                                        opt for expedited
-                                        shipping as it’s the fastest shipping service provided by Ship A1, while it is a
-                                        bit pricey it would ensure
-                                        your equipment reaches you in your desired timeframe.</strong>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingThree">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseThree" aria-expanded="false"
-                                    aria-controls="collapseThree">
-                                    Can you arrange for the loading and unloading of my equipment?
-                                </button>
-                            </h2>
-                            <div id="collapseThree" class="accordion-collapse collapse"
-                                aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <strong>ShipA1 can connect you with qualified heavy equipment loading and unloading
-                                        service providers in your
-                                        area. We can advise on the best approach based on your specific equipment and
-                                        needs.</strong>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingFour">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseFour" aria-expanded="false"
-                                    aria-controls="collapseFour">
-                                    Are your equipment insured?
-                                </button>
-                            </h2>
-                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    Not only you will get the insurance coverage. The carrier company will provide you
-                                    with insurance up to a whopping upto $1 million. As soon as you get in touch with
-                                    the driver you will get the documents which are related to your insurance.
-                                </div>
-                            </div>
-                        </div>
+@php
+    $faqs = [
+        [
+            'question' => 'Is my heavy equipment insured during transport?',
+            'answer' => 'Not only you will get the insurance coverage. The carrier company will provide you with insurance up to a whopping upto $1 million. As soon as you get in touch with the driver you will get the documents which are related to your insurance.',
+        ],
+        [
+            'question' => 'Do you transport all types of heavy equipment?',
+            'answer' => 'Yes, Ship A1 offers a variety of heavy equipment services specially tailored to your needs, whether it’s a forklift, excavator, trailer, crane, etc. we are here to assist you with a 100% guarantee of quality, safety, and flexible rates for your route.',
+        ],
+        [
+            'question' => 'How long does it take to transport heavy equipment?',
+            'answer' => 'Shipping time depends on the equipment type, distance, weather, and road conditions. For faster delivery, choose our expedited shipping option, which is the quickest service offered by Ship A1, though it costs more',
+        ],
+        [
+            'question' => 'Do you provide loading and unloading services for heavy equipment?',
+            'answer' => 'ShipA1 can connect you with qualified heavy equipment loading and unloading service providers in your area. We can advise on the best approach based on your specific equipment and needs.',
+        ],
+    ];
+@endphp
 
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+<x-faq :faqs="$faqs" />
 <section class="why-choose-us-slider">
     <div class="container">
         <div class="tj-section-heading text-center">

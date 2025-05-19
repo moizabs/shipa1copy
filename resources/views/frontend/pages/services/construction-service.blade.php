@@ -5,44 +5,41 @@
 <link rel="canonical" href="{{ url()->current() }}">
 @endsection
 <script type="application/ld+json">
-    {
+{
   "@context": "https://schema.org",
-  "@type": "Service",
-  "name": "Construction Equipment Transportation Service",
-  "description": "ShipA1 offers reliable, secure nationwide construction equipment shipping with expert service and advanced trailers. Get fast quotes, 24/7 support, and customized transport solutions for cranes, bulldozers, and more.",
-  "provider": {
-    "@type": "Organization",
-    "name": "ShipA1",
-    "url": "https://www.shipa1.com/transport-services/construction-equipment",
-    "logo": "https://www.shipa1.com/frontend/images/logo/LOGO%20NEW-2.webp",
-    "contactPoint": {
-      "@type": "ContactPoint",
-      "telephone": "+1 (844) 474-4721",
-      "email": "shawntransport@shipa1.com",
-      "contactType": "Customer Support",
-      "areaServed": "US",
-      "availableLanguage": "English"
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "What is the average cost of construction equipment shipping in the USA?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "There are no fixed average costs for construction heavy loads. Fares go up and down every month. In the USA, charges depend on distance, shipping type, and trailer selection."
     }
-  },
-  "serviceType": "Construction Equipment Transportation Service",
-  "areaServed": {
-    "@type": "Place",
-    "name": "USA"
-  },
-  "offers": {
-    "@type": "AggregateOffer",
-    "url": "https://www.shipa1.com/transport-services/construction-equipment",
-    "priceCurrency": "USD",
-    "eligibleRegion": {
-      "@type": "Place",
-      "name": "USA"
-    },
-    "lowPrice": 199
-  },
-  "sameAs": "https://www.facebook.com/shipa1"
+  },{
+    "@type": "Question",
+    "name": "Is insurance included for construction equipment transport?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, Leading shipping agencies such as ShipA1 back their clients with strong insurance coverage for the transporting of heavy-weight equipment in the USA."
+    }
+  },{
+    "@type": "Question",
+    "name": "How long does construction equipment transportation usually take?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Construction equipment shipping takes the same time as it takes for other freight logistics and vehicle transportation."
+    }
+  },{
+    "@type": "Question",
+    "name": "What trailer types are best for transporting construction equipment?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The step deck trailer is the ideal trailer type that gives extra space for more large machinery. However, the flatbed is the most considered hauler in the USA for such heavy loads."
+    }
+  }]
 }
+</script>
 
-    </script>
 @section('content')
 <Style>
     .title-2 {
@@ -578,58 +575,28 @@
 </section>
 
 @include('partials.usa-states-map')
-<div class="container">
-    <div class="row p-5">
-       <div class="side-container col-12 col-lg-5 ">
-            <div>
-                <h2>Frequently <span>Asked Questions</span> </h2>
-                <hr class="w-50">
-                <p>Have a look at answers to trending customer queries about our vehicle shipping services.</p>
-                    <a class="text-decoration-none  btnfaq" href="{{ route('faq') }}">Get Detailed Shipping Answer</a>
-            </div>
-       </div>
+@php
+    $faqs = [
+        [
+            'question' => 'What is the average cost of construction equipment shipping in the USA?',
+            'answer' => 'There are no fixed average costs for construction heavy loads. Fares go up and down every month. In the USA, charges depend on distance, shipping type, and trailer selection.',
+        ],
+        [
+            'question' => 'Is insurance included for construction equipment transport?',
+            'answer' => 'Yes, Leading shipping agencies such as ShipA1 back their clients with strong insurance coverage for the transporting of heavy-weight equipment in the USA.',
+        ],
+        [
+            'question' => 'How long does construction equipment transportation usually take?',
+            'answer' => 'Construction equipment shipping takes the same time as it takes for other freight logistics and vehicle transportation.',
+        ],
+        [
+            'question' => 'What trailer types are best for transporting construction equipment?',
+            'answer' => 'The step deck trailer is the ideal trailer type that gives extra space for more large machinery. However, the flatbed is the most considered hauler in the USA for such heavy loads.',
+        ],
+    ];
+@endphp
 
-       <div class="col-12 col-lg-7">
-        <div class="faq-container">
-            <div class="faq">
-                <button class="faq-toggle">Is construction equipment transportation time-consuming?<span>+</span></button>
-                <div class="faq-content">
-                    <p>No, construction equipment shipping takes the same time as it takes for other freight logistics and vehicle transportation. </p>
-                </div>
-            </div>
-        
-            <div class="faq">
-                <button class="faq-toggle">Do industrial generators and compressors come in heavy equipment? <span>+</span></button>
-                <div class="faq-content">
-                    <p>Yes, industrial generators and compressors come in heavy-duty construction equipment that can be transported in bulk through gooseneck trailers. </p>
-                </div>
-            </div>
-        
-            <div class="faq">
-                <button class="faq-toggle">What is the average cost of construction equipment shipping in the USA? <span>+</span></button>
-                <div class="faq-content">
-                    <p>There are no fixed average costs for construction heavy loads. Fares go up and down every month. In the USA, charges depend on distance, shipping type, and trailer selection.</p>
-                </div>
-            </div>
-            
-            <div class="faq">
-                <button class="faq-toggle">Which is the most convenient trailer type for construction equipment transport?<span>+</span></button>
-                <div class="faq-content">
-                    <p>The step deck trailer is the ideal trailer type that gives extra space for more large machinery. However, the flatbed is the most considered hauler in the USA for such heavy loads.</p>
-                </div>
-            </div>
-        
-            <div class="faq">
-                <button class="faq-toggle">Does construction equipment have insurance support? <span>+</span></button>
-                <div class="faq-content">
-                    <p>Yes, Leading shipping agencies such as ShipA1 back their clients with strong insurance coverage for the transporting of heavy-weight equipment in the USA. </p>
-                </div>
-            </div>
-        
-        </div>
-       </div>
-    </div>
-</div>
+<x-faq :faqs="$faqs" />
 {{-- <section class="why-choose-us-slider">
     <div class="container">
         <div class="tj-section-heading text-center">

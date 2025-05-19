@@ -6,43 +6,49 @@
 <link rel="canonical" href="{{ url()->current() }}">
 @endsection
 <script type="application/ld+json">
-   {
+{
   "@context": "https://schema.org",
-  "@type": "Service",
-  "name": "Boat Transportation Service",
-  "description": "ShipA1 offers reliable, nationwide boat transport services across the USA, handling all watercraft types with advanced trailers and real-time tracking. With over 16 years of experience, our expert team ensures secure, budget-friendly shipping with excellent customer service.",
-  "provider": {
-    "@type": "Organization",
-    "name": "ShipA1",
-    "url": "https://www.shipa1.com/transport-services/boat",
-    "logo": "https://www.shipa1.com/frontend/images/logo/LOGO%20NEW-2.webp",
-    "contactPoint": {
-      "@type": "ContactPoint",
-      "telephone": "+1 (844) 474-4721",
-      "email": "shawntransport@shipa1.com",
-      "contactType": "Customer Support",
-      "areaServed": "US",
-      "availableLanguage": "English"
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "How do I prepare my boat for transport?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Firstly, clean your boat, get broken parts fixed, pack the whole watercraft, remove all personal belongings, and get the paperwork/documentation ready."
     }
-  },
-  "serviceType": "Boat Transportation Service",
-  "areaServed": {
-    "@type": "Place",
-    "name": "USA"
-  },
-  "offers": {
-    "@type": "AggregateOffer",
-    "url": "https://www.shipa1.com/transport-services/boat",
-    "priceCurrency": "USD",
-    "eligibleRegion": {
-      "@type": "Place",
-      "name": "USA"
-    },
-    "lowPrice": 199
-  },
-  "sameAs": "https://www.facebook.com/shipa1"
+  },{
+    "@type": "Question",
+    "name": "What is the average cost of boat transport in the USA?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The boat shipping cost depends on various factors. Like size, distance, and your chosen transport partner. Otherwise, you can learn about the average price through ShipA1’s digital cost calculator."
+    }
+  },{
+    "@type": "Question",
+    "name": "How many days does it take to transport a boat?-",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "As an average for city-to-city transport, it usually takes two to three days. Similarly, for longer, state-to-state boat delivery, you will have to wait for around five to seven days."
+    }
+  },{
+    "@type": "Question",
+    "name": "Is boat transportation safe with professional companies?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Charges for golf car transport depend on the distance, the market’s average costs, and your selected service provider. For easy shipping under cost-efficient rates, choose none other than ShipA1.
+Yes, boat shipping is safe in the USA when you hire a partner who is trusted and offers an experienced and trained team, taking care of every on-road challenge."
+    }
+  },{
+    "@type": "Question",
+    "name": "How can I find trusted boat transport companies?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Search around for top-noted brands, read online available reviews about them, check verifications, and confirm if they offer boat damage insurance. Plus, learn about the average prices as well before the final go."
+    }
+  }]
 }
-    </script>
+</script>
+
 @section('content')
 <style>
     .full-width {
@@ -665,60 +671,32 @@
     </div>
 </section>
 @include('partials.usa-states-map')
-<section>
-    <div class="container">
-        <div class="row p-5">
-           <div class="side-container col-12 col-lg-5 ">
-                <div>
-                    <h2>Frequently <span>Asked Questions</span> </h2>
-                    <hr class="w-50">
-                    <p>Have a look at answers to trending customer queries about our vehicle shipping services.</p>
-                        <a class="text-decoration-none  btnfaq" href="{{ route('faq') }}">Get Detailed Shipping Answer</a>
-                </div>
-           </div>
-    
-           <div class="col-12 col-lg-7">
-            <div class="faq-container">
-                <div class="faq">
-                    <button class="faq-toggle">How should I prepare my boat for transport? <span>+</span></button>
-                    <div class="faq-content">
-                        <p>Firstly, clean your boat, get broken parts fixed, pack the whole watercraft, remove all personal belongings, and get the paperwork/documentation ready.</p>
-                    </div>
-                </div>
-            
-                <div class="faq">
-                    <button class="faq-toggle">What is the average boat transport cost? <span>+</span></button>
-                    <div class="faq-content">
-                        <p>The boat shipping cost depends on various factors. Like size, distance, and your chosen transport partner. Otherwise, you can learn about the average price through ShipA1’s digital cost calculator. </p>
-                    </div>
-                </div>
-            
-                <div class="faq">
-                    <button class="faq-toggle">How many days does it take to transport a boat?<span>+</span></button>
-                    <div class="faq-content">
-                        <p>As an average for city-to-city transport, it usually takes two to three days. Similarly, for longer, state-to-state boat delivery, you will have to wait for around five to seven days. </p>
-                    </div>
-                </div>
-                
-                <div class="faq">
-                    <button class="faq-toggle">Is boat transportation safe?<span>+</span></button>
-                    <div class="faq-content">
-                        <p>Yes, boat shipping is safe in the USA when you hire a partner who is trusted and offers an experienced and trained team, taking care of every on-road challenge.</p>
-                    </div>
-                </div>
-            
-                <div class="faq">
-                    <button class="faq-toggle">How to find trusted boat transport companies?<span>+</span></button>
-                    <div class="faq-content">
-                        <p>Search around for top-noted brands, read online available reviews about them, check verifications, and confirm if they offer boat damage insurance. Plus, learn about the average prices as well before the final go. </p>
-                    </div>
-                </div>
-            
-            </div>
-           </div>
-        </div>
-    </div>
-</section>
+@php
+    $faqs = [
+        [
+            'question' => 'How do I prepare my boat for transport?',
+            'answer' => 'Firstly, clean your boat, get broken parts fixed, pack the whole watercraft, remove all personal belongings, and get the paperwork/documentation ready.',
+        ],
+        [
+            'question' => 'What is the average cost of boat transport in the USA?',
+            'answer' => 'The boat shipping cost depends on various factors. Like size, distance, and your chosen transport partner. Otherwise, you can learn about the average price through ShipA1’s digital cost calculator.',
+        ],
+        [
+            'question' => 'How many days does it take to transport a boat?',
+            'answer' => 'As an average for city-to-city transport, it usually takes two to three days. Similarly, for longer, state-to-state boat delivery, you will have to wait for around five to seven days.',
+        ],
+        [
+            'question' => 'Is boat transportation safe with professional companies?',
+            'answer' => 'Yes, boat shipping is safe in the USA when you hire a partner who is trusted and offers an experienced and trained team, taking care of every on-road challenge.',
+        ],
+        [
+            'question' => 'How can I find trusted boat transport companies?',
+            'answer' => 'Search around for top-noted brands, read online available reviews about them, check verifications, and confirm if they offer boat damage insurance. Plus, learn about the average prices as well before the final go.',
+        ],
+    ];
+@endphp
+
+<x-faq :faqs="$faqs" />
 
 @include('partials.blog-slider')
 

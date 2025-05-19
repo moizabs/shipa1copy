@@ -7,43 +7,34 @@
 @endsection
 @section('content')
 <script type="application/ld+json">
-    {
+{
   "@context": "https://schema.org",
-  "@type": "Service",
-  "name": "Hazmat Transportation Service",
-  "description": "ShipA1 Transport provides trusted Hazmat transportation services across the USA, ensuring safe and compliant handling of hazardous materials. With rigorous training and adherence to strict regulations, we guarantee reliable delivery while prioritizing safety and environmental protection.",
-  "provider": {
-    "@type": "Organization",
-    "name": "ShipA1",
-    "url": "https://www.shipa1.com/transport-services/hazmat",
-    "logo": "https://www.shipa1.com/frontend/images/logo/LOGO%20NEW-2.webp",
-    "contactPoint": {
-      "@type": "ContactPoint",
-      "telephone": "+1 (844) 474-4721",
-      "email": "shawntransport@shipa1.com",
-      "contactType": "Customer Support",
-      "areaServed": "US",
-      "availableLanguage": "English"
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "What types of hazardous materials can ShipA1 transport?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Chemicals, flammable liquids, gases, explosives, radio-activity, and toxic substances."
     }
-  },
-  "serviceType": "Hazmat Transportation Service",
-  "areaServed": {
-    "@type": "Place",
-    "name": "USA"
-  },
-  "offers": {
-    "@type": "AggregateOffer",
-    "url": "https://www.shipa1.com/transport-services/hazmat",
-    "priceCurrency": "USD",
-    "lowPrice": 199
-  },
-  "sameAs": [
-    "https://www.facebook.com/shipa1",
-    "https://www.shipa1.com"
-  ]
+  },{
+    "@type": "Question",
+    "name": "What safety measures are followed during hazardous materials transport?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Proper labeling and packaging, appropriate containers, secure loading, frequent vehicle inspections, and trained drivers."
+    }
+  },{
+    "@type": "Question",
+    "name": "How is the cost of hazardous materials transport calculated?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Factors that may influence the cost include the type and amount of hazmat transportation, the distance it will cover, protective measures, special instruments/equipment that might be required, and adding insurance on top of everything. Please call us for an accurate quote 1(844) 474-4721."
+    }
+  }]
 }
-
 </script>
+
     <style>
         .full-width {
             width: 100%;
@@ -498,81 +489,24 @@
             </div>
         </div>
     </section>
-    <section class="tj-faq-section tj-faq-page">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="tj-section-heading text-center">
-                        <span class="sub-title active-shape"> How It’s Work</span>
-                        <h2 class="title">Frequently Asked Questions</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-6" data-sal="slide-left" data-sal-duration="800">
-                    <div class="tj-faq-left-content">
-                        <div class="faq-image">
-                            <img src="{{ asset('frontend/images/slider/FAQ.webp') }}" alt="Image" />
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6" data-sal="slide-right" data-sal-duration="800">
-                    <div class="tj-faq-area">
-                        <div class="accordion" id="accordionExample">
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingOne">
-                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                        What kind of hazardous goods can be transported?
-                                    </button>
-                                </h2>
-                                <div id="collapseOne" class="accordion-collapse collapse show"
-                                    aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        <strong>Chemicals, flammable liquids, gases, explosives, radio-activity, and toxic
-                                            substances.</strong>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingTwo">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                        What are the basic safety measures in hazmat transportation?
-                                    </button>
-                                </h2>
-                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                                    data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        <strong>Proper labeling and packaging, appropriate containers, secure loading,
-                                            frequent vehicle inspections, and trained drivers.</strong>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingThree">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapseThree" aria-expanded="false"
-                                        aria-controls="collapseThree">
-                                        How will hazmat transport cost be determined?
-                                    </button>
-                                </h2>
-                                <div id="collapseThree" class="accordion-collapse collapse"
-                                    aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        <strong>Factors that may influence the cost include the type and amount of hazmat
-                                            transportation, the distance it will cover, protective measures, special
-                                            instruments/equipment that might be required, and adding insurance on top of
-                                            everything. Please call us for an accurate quote 1(844) 474-4721.</strong>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    @php
+    $faqs = [
+        [
+            'question' => 'What types of hazardous materials can ShipA1 transport?',
+            'answer' => 'Chemicals, flammable liquids, gases, explosives, radio-activity, and toxic substances.',
+        ],
+        [
+            'question' => 'What safety measures are followed during hazardous materials transport?',
+            'answer' => 'Proper labeling and packaging, appropriate containers, secure loading, frequent vehicle inspections, and trained drivers.',
+        ],
+        [
+            'question' => 'How is the cost of hazardous materials transport calculated?',
+            'answer' => 'Factors that may influence the cost include the type and amount of hazmat transportation, the distance it will cover, protective measures, special instruments/equipment that might be required, and adding insurance on top of everything. Please call us for an accurate quote 1(844) 474-4721.',
+        ],
+    ];
+@endphp
+
+<x-faq :faqs="$faqs" />
     <section class="why-choose-us-slider">
         <div class="container">
             <div class="tj-section-heading text-center">

@@ -5,43 +5,48 @@
 <link rel="canonical" href="{{ url()->current() }}">
 @endsection
 <script type="application/ld+json">
-    {
+{
   "@context": "https://schema.org",
-  "@type": "Service",
-  "name": "Farm Equipment Transport Services",
-  "description": "ShipA1 offers reliable, fast, and safe farm equipment transportation across the USA, using advanced trailers for all types of agricultural machinery. With over 15 years of experience, we provide door-to-door service, competitive rates, and 24/7 tracking, backed by 100% insurance coverage.",
-  "provider": {
-    "@type": "Organization",
-    "name": "ShipA1",
-    "url": "https://www.shipa1.com/transport-services/farm-equipment",
-    "logo": "https://www.shipa1.com/frontend/images/logo/LOGO%20NEW-2.webp",
-    "contactPoint": {
-      "@type": "ContactPoint",
-      "telephone": "+1 (844) 474-4721",
-      "email": "shawntransport@shipa1.com",
-      "contactType": "Customer Support",
-      "areaServed": "US",
-      "availableLanguage": "English"
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "How can I quickly book farming equipment transport services?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Instant order booking agencies such as ShipA1 allow shippers to get transportation quotes in minutes. It just takes to click to get instant quote, fill out the form with basic info, select the trailer type, and submit the request."
     }
-  },
-  "serviceType": "Farm Equipment Transportation Service",
-  "areaServed": {
-    "@type": "Place",
-    "name": "USA"
-  },
-  "offers": {
-    "@type": "AggregateOffer",
-    "url": "https://www.shipa1.com/transport-services/farm-equipment",
-    "priceCurrency": "USD",
-    "lowPrice": 199
-  },
-  "sameAs": [
-    "https://www.facebook.com/shipa1",
-    "https://www.shipa1.com"
-  ]
+  },{
+    "@type": "Question",
+    "name": "Can I transport my tractor within a city in the USA?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, this within-the-city moving comes in an intercity transportation model. It charges less than city-to-city and state-to-state shipping."
+    }
+  },{
+    "@type": "Question",
+    "name": "Who is responsible for loading and unloading agricultural machinery during transport?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "It’s the trained carriers and drivers who pick up/drop off the agricultural tools and equipment for every type of freight service. They carefully transport the heavy loads following guided fleet safety compliance sheets."
+    }
+  },{
+    "@type": "Question",
+    "name": "Do I need a shipping broker to transport farming equipment?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, in state-to-state transportation, dealers and heavy load owners have to reach out to experienced shipping brokers like ShipA1 for a secured and legally following fleet."
+    }
+  },{
+    "@type": "Question",
+    "name": "Can I ship personal items along with my farming equipment?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "As per the transportation guidance, shippers are advised to remove personal belongings from the transporting vehicles due to safety hazards. However, it depends on the obtained shipping package and transportation type."
+    }
+  }]
 }
+</script>
 
-    </script>
     
 @section('content')
 <Style>
@@ -678,60 +683,32 @@
         </div>
     </div>
 </section> --}}
-<div class="container">
-    <div class="row p-5">
-       <div class="side-container col-12 col-lg-5 ">
-            <div>
-                <h2>Frequently <span>Asked Questions</span> </h2>
-                <hr class="w-50">
-                <p>Have a look at answers to trending customer queries about our vehicle shipping services.</p>
-                    <a class="text-decoration-none  btnfaq" href="{{ route('faq') }}">Get Detailed Shipping Answer</a>
-            </div>
-       </div>
+@php
+    $faqs = [
+        [
+            'question' => 'How can I quickly book farming equipment transport services?',
+            'answer' => 'Instant order booking agencies such as ShipA1 allow shippers to get transportation quotes in minutes. It just takes to click to get instant quote, fill out the form with basic info, select the trailer type, and submit the request.',
+        ],
+        [
+            'question' => 'Can I transport my tractor within a city in the USA?',
+            'answer' => 'Yes, this within-the-city moving comes in an intercity transportation model. It charges less than city-to-city and state-to-state shipping.',
+        ],
+        [
+            'question' => 'Who is responsible for loading and unloading agricultural machinery during transport?',
+            'answer' => 'It’s the trained carriers and drivers who pick up/drop off the agricultural tools and equipment for every type of freight service. They carefully transport the heavy loads following guided fleet safety compliance sheets.',
+        ],
+        [
+            'question' => 'Do I need a shipping broker to transport farming equipment?',
+            'answer' => 'Yes, in state-to-state transportation, dealers and heavy load owners have to reach out to experienced shipping brokers like ShipA1 for a secured and legally following fleet.',
+        ],
+        [
+            'question' => 'Can I ship personal items along with my farming equipment?',
+            'answer' => 'As per the transportation guidance, shippers are advised to remove personal belongings from the transporting vehicles due to safety hazards. However, it depends on the obtained shipping package and transportation type.',
+        ],
+    ];
+@endphp
 
-       <div class="col-12 col-lg-7">
-        <div class="faq-container">
-            <div class="faq">
-                <button class="faq-toggle">Can I transport my tractor within the city in the USA?<span>+</span></button>
-                <div class="faq-content">
-                    <p>Yes, this within-the-city moving comes in an intercity transportation model. It charges less than city-to-city and state-to-state shipping.</p>
-                </div>
-            </div>
-        
-            <div class="faq">
-                <button class="faq-toggle">Who loads and unloads agricultural machinery in city-to-city shipping? <span>+</span></button>
-                <div class="faq-content">
-                    <p>It’s the trained carriers and drivers who pick up/drop off the agricultural tools and equipment for every type of freight service. They carefully transport the heavy loads following guided fleet safety compliance sheets.  </p>
-                </div>
-            </div>
-        
-            <div class="faq">
-                <button class="faq-toggle">Do I need a broker for farming tools transportation?<span>+</span></button>
-                <div class="faq-content">
-                    <p>Yes, in state-to-state transportation, dealers and heavy load owners have to reach out to experienced shipping brokers like ShipA1 for a secured and legally following fleet.</p>
-                </div>
-            </div>
-            
-        
-            <div class="faq">
-                <button class="faq-toggle">Can we transport personal belongings along with farm equipment?<span>+</span></button>
-                <div class="faq-content">
-                    <p>As per the transportation guidance, shippers are advised to remove personal belongings from the transporting vehicles due to safety hazards. However, it depends on the obtained shipping package and transportation type.</p>
-                </div>
-            </div>
-        
-            <div class="faq">
-                <button class="faq-toggle">How to book instant farming equipment transportation services? 
-                    <span>+</span></button>
-                <div class="faq-content">
-                    <p>Instant order booking agencies such as ShipA1 allow shippers to get transportation quotes in minutes. It just takes to click to get instant quote, fill out the form with basic info, select the trailer type, and submit the request. </p>
-                </div>
-            </div>
-        
-        </div>
-       </div>
-    </div>
-</div>
+<x-faq :faqs="$faqs" />
 <section class="why-choose-us-slider">
     <div class="container">
         <div class="tj-section-heading text-center">

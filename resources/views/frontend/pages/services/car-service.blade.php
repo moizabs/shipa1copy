@@ -11,40 +11,51 @@
 <script type="application/ld+json">
     {
   "@context": "https://schema.org",
-  "@type": "Service",
-  "name": "Car Transport Service",
-  "description": "ShipA1 offers fast, secure, and nationwide car transport services across the USA with multiple trailer options. Customers enjoy door-to-door delivery, real-time tracking, and full insurance coverage.",
-  "provider": {
-    "@type": "Organization",
-    "name": "ShipA1",
-    "url": "https://www.shipa1.com/transport-services/car",
-    "logo": "https://www.shipa1.com/frontend/images/logo/LOGO%20NEW-2.webp",
-    "contactPoint": {
-      "@type": "ContactPoint",
-      "telephone": "+1 (844) 474-4721",
-      "email": "shawntransport@shipa1.com",
-      "contactType": "Customer Support",
-      "areaServed": "US",
-      "availableLanguage": "English"
-    }
-  },
-  "serviceType": "Car Transportation Service",
-  "areaServed": {
-    "@type": "Place",
-    "name": "USA"
-  },
-  "offers": {
-    "@type": "AggregateOffer",
-    "url": "https://www.shipa1.com/transport-services/car",
-    "priceCurrency": "USD",
-    "eligibleRegion": {
-      "@type": "Place",
-      "name": "USA"
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Does ShipA1 provide fast car transport services in major U.S. cities?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "ShipA1’s team is operational across all states of the US. It allows us to be ready for each coming car shipping order. We believe in quick and customer-friendly transport assistance."
+      }
     },
-    "lowPrice": 199
-  },
-  "sameAs": "https://www.facebook.com/shipa1"
+    {
+      "@type": "Question",
+      "name": "How does ShipA1 ensure secure car transport services?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "All our shippers, carriers, brokers, and consignees are certified and experienced for this regular job of car shipping. They are qualified experts, taking care of each consignment with proper care and attention."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How can I get affordable car shipping services from ShipA1?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Simply, go for city-to-city, open car transportation service. Or just reach out to our professional customer support team, share the requirements/budget, and get a suitable quote."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does ShipA1 take to drop off cars at shared destinations?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "At ShipA1, our carriers and drivers mostly take two days on average to drop off cars at the shared destinations."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the average cost of state-to-state car shipping in the USA?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The cost of car shipping in the USA depends on the load, distance, type of service, and your selected transport agency. At ShipA1, state-to-state deliveries typically take five to seven days."
+      }
+    }
+  ]
 }
+
 
 </script>
     <style>
@@ -1403,15 +1414,15 @@
     @php
     $faqs = [
         [
-            'question' => 'Does ShipA1 offer the fastest car transport services near me? ',
+            'question' => 'Does ShipA1 provide fast car transport services in major U.S. cities? ',
             'answer' => 'ShipA1’s team is operational across all states of the US. It allows us to be ready for each coming car shipping order. We believe in quick and customer-friendly transport assistance.',
         ],
         [
-            'question' => 'How does ShipA1 offer the most secure car transport service?',
+            'question' => 'How does ShipA1 ensure secure car transport services?',
             'answer' => 'All our shippers, carriers, brokers, and consignees are certified and experienced for this regular job of car shipping. They are qualified experts, taking care of each consignment with proper care and attention.',
         ],
         [
-            'question' => 'How to get cheap car shipping services from ShipA1',
+            'question' => 'How can I get affordable car shipping services from ShipA1?',
             'answer' => 'Simply, go for city-to-city, open car transportation service. Or just reach out to our professional customer support team, share the requirements/budget, and get a suitable quote.',
         ],
         [
@@ -1419,7 +1430,7 @@
             'answer' => 'Every freight and logistics agency has its own delivery plans. At ShipA1, our carriers and drivers mostly take two days (on average) to drop off cars at the shared destinations.',
         ],
         [
-            'question' => 'How much does a state-to-state car shipping service cost?',
+            'question' => 'What is the average cost of state-to-state car shipping in the USA?',
             'answer' => 'The cost of car shipping in the USA depends on the load, distance, type of service, and your selected transport agency. However, if the days are concerned then at ShipA1, it takes five to seven days for a state-to-state car transport delivery.',
         ],
     ];

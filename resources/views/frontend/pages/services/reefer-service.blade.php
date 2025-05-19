@@ -5,44 +5,35 @@
 <link rel="canonical" href="{{ url()->current() }}">
 @endsection
 @section('content')
-<script  type="application/ld+json">
-    {
+<script type="application/ld+json">
+{
   "@context": "https://schema.org",
-  "@type": "Service",
-  "name": "Reefer Shipping Service",
-  "description": "ShipA1 Transport offers reliable reefer shipping and cold chain logistics, ensuring temperature-sensitive goods like fresh produce and pharmaceuticals arrive in perfect condition. With advanced refrigeration technology, real-time tracking, and 24/7 support, we provide end-to-end solutions for businesses across the USA.",
-  "provider": {
-    "@type": "Organization",
-    "name": "ShipA1",
-    "url": "https://www.shipa1.com/transport-services/reefer",
-    "logo": "https://www.shipa1.com/frontend/images/logo/LOGO%20NEW-2.webp",
-    "contactPoint": {
-      "@type": "ContactPoint",
-      "telephone": "+1 (844) 474-4721",
-      "email": "shawntransport@shipa1.com",
-      "contactType": "Customer Support",
-      "areaServed": "US",
-      "availableLanguage": "English"
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "What types of products can be shipped using reefer services?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Fresh produce, dairy, frozen foods, and pharmaceuticals."
     }
-  },
-  "serviceType": "Reefer Shipping Service",
-  "areaServed": {
-    "@type": "Place",
-    "name": "USA"
-  },
-  "offers": {
-    "@type": "AggregateOffer",
-    "url": "https://www.shipa1.com/transport-services/reefer",
-    "priceCurrency": "USD",
-    "lowPrice": 199
-  },
-  "sameAs": [
-    "https://www.facebook.com/shipa1",
-    "https://www.shipa1.com"
-  ]
+  },{
+    "@type": "Question",
+    "name": "How is temperature controlled in reefer shipments?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Reefer containers feature leading-edge systems that allow constant monitoring and recording of the temperature, with real-time alerts of any deviation, including remote ones. Protocols include pre-cooling of containers, good packaging practices, container maintenance, security features, and temperature log review practices."
+    }
+  },{
+    "@type": "Question",
+    "name": "How does ShipA1 ensure product safety and quality during reefer transport?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "This includes pre-cooled containers, proper packaging, regular maintenance, security features, and temperature log review."
+    }
+  }]
 }
-
 </script>
+
 <style>
     .full-width {
         width: 100%;
@@ -553,77 +544,24 @@
         </div>
     </div>
 </section>
-<section class="tj-faq-section tj-faq-page">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="tj-section-heading text-center">
-                    <span class="sub-title active-shape"> How It’s Work</span>
-                    <h2 class="title">Frequently Asked Questions</h2>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-6" data-sal="slide-left" data-sal-duration="800">
-                <div class="tj-faq-left-content">
-                    <div class="faq-image">
-                        <img src="{{ asset('frontend/images/slider/FAQ.webp') }}" alt="Image" />
-                    </div> 
-                </div>
-            </div>
-            <div class="col-lg-6" data-sal="slide-right" data-sal-duration="800">
-                <div class="tj-faq-area">
-                    <div class="accordion" id="accordionExample">
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingOne">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    Which products can be shipped by reefer service?
-                                </button>
-                            </h2>
-                            <div id="collapseOne" class="accordion-collapse collapse show"
-                                aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <strong>Fresh produce, dairy, frozen foods, and pharmaceuticals.</strong>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingTwo">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    How is the temperature managed during shipment?
-                                </button>
-                            </h2>
-                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <strong>Reefer containers feature leading-edge systems that allow constant monitoring and recording of the temperature, with real-time alerts of any deviation, including remote ones.
-                                    Protocols include pre-cooling of containers, good packaging practices, container maintenance, security features, and temperature log review practices.</strong>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingThree">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseThree" aria-expanded="false"
-                                    aria-controls="collapseThree">
-                                    How will safety and quality in shipment be guaranteed?
-                                </button>
-                            </h2>
-                            <div id="collapseThree" class="accordion-collapse collapse"
-                                aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <strong>This includes pre-cooled containers, proper packaging, regular maintenance, security features, and temperature log review.</strong>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+@php
+    $faqs = [
+        [
+            'question' => 'What types of products can be shipped using reefer services?',
+            'answer' => 'Fresh produce, dairy, frozen foods, and pharmaceuticals.',
+        ],
+        [
+            'question' => 'How is temperature controlled in reefer shipments?',
+            'answer' => 'Reefer containers feature leading-edge systems that allow constant monitoring and recording of the temperature, with real-time alerts of any deviation, including remote ones. Protocols include pre-cooling of containers, good packaging practices, container maintenance, security features, and temperature log review practices.',
+        ],
+        [
+            'question' => 'How does ShipA1 ensure product safety and quality during reefer transport?',
+            'answer' => 'This includes pre-cooled containers, proper packaging, regular maintenance, security features, and temperature log review.',
+        ],
+         ];
+@endphp
+
+<x-faq :faqs="$faqs" />
 @include('partials.blog-slider')
 @endsection
 @section('extraScript') 

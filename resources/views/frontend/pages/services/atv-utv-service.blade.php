@@ -5,42 +5,53 @@
 <link rel="canonical" href="{{ url()->current() }}">
 @endsection
 <script type="application/ld+json">
-   {
+  {
   "@context": "https://schema.org",
-  "@type": "Service",
-  "name": "UTV Transportation Service",
-  "description": "ShipA1 offers trusted, convenient ATV/UTV transport across the USA with secure, affordable options. Get a quick quote for timely delivery with experienced carriers and advanced trailers. Customers enjoy door-to-door delivery, real-time tracking, and full insurance coverage.",
-  "provider": {
-    "@type": "Organization",
-    "name": "ShipA1",
-    "url": "https://www.shipa1.com/transport-services/motorcycle",
-    "logo": "https://www.shipa1.com/frontend/images/logo/LOGO%20NEW-2.webp",
-    "contactPoint": {
-      "@type": "ContactPoint",
-      "telephone": "+1 (844) 474-4721",
-      "email": "shawntransport@shipa1.com",
-      "contactType": "Customer Support",
-      "areaServed": "US",
-      "availableLanguage": "English"
-    }
-  },
-  "serviceType": "UTV Transportation Service",
-  "areaServed": {
-    "@type": "Place",
-    "name": "USA"
-  },
-  "offers": {
-    "@type": "AggregateOffer",
-    "url": "https://www.shipa1.com/transport-services/atv-utv",
-    "priceCurrency": "USD",
-    "eligibleRegion": {
-      "@type": "Place",
-      "name": "USA"
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Is ShipA1 available for ATV/UTV transportation in my city?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, we are active all over the USA. Our team covers all commercial and remote locations of all fifty states."
+      }
     },
-    "lowPrice": 199
-  },
-  "sameAs": "https://www.facebook.com/shipa1"
+    {
+      "@type": "Question",
+      "name": "Can I ship my ATV and UTV at the same time with ShipA1?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, with custom ATV/UTV transportation options you can choose a multi‑vehicle trailer type."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How secure are ShipA1’s ATV/UTV transport services?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our drivers and carriers are native and experienced. We also make sure to secure your selected trailers before starting on‑route journeys."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does ShipA1 transport ATVs and UTVs in the USA?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "After pickup and loading, we deliver shipments through state‑to‑state and city‑to‑city routes, finishing with door‑to‑door submission."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does single‑vehicle UTV transport cost?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Charges depend on distance, UTV type, and location. Contact our customer support team for the most cost‑efficient options."
+      }
+    }
+  ]
 }
+
 
     </script>
 @section('content')
@@ -936,58 +947,32 @@
         </div>
     </div>
 </section> --}}
-<div class="container">
-    <div class="row p-5">
-       <div class="side-container col-12 col-lg-5 ">
-            <div>
-                <h2>Frequently <span>Asked Questions</span> </h2>
-                <hr class="w-50">
-                <p>Have a look at answers to trending customer queries about our vehicle shipping services.</p>
-                    <a class="text-decoration-none  btnfaq" href="{{ route('faq') }}">Get Detailed Shipping Answer</a>
-            </div>
-       </div>
+@php
+    $faqs = [
+        [
+            'question' => 'Is ShipA1 available for ATV/UTV transportation in my city?',
+            'answer' => 'Yes, we are active all over the USA. Our team covers all commercial and remote locations of all fifty states here.',
+        ],
+        [
+            'question' => 'Can I ship my ATV and UTV at the same time with ShipA1?',
+            'answer' => 'Why not, with custom ATV/UTV transportation options you can choose a multi-vehicle trailer type.',
+        ],
+        [
+            'question' => 'How secure are ShipA1’s ATV/UTV transport services?',
+            'answer' => 'Our drivers and carriers are native and experienced. We also make sure to secure your selected trailers before you go towards on-route journeys.',
+        ],
+        [
+            'question' => 'How does ShipA1 transport ATVs and UTVs in the USA?',
+            'answer' => 'In simple terms, after the pickup and loading of your ATVs/UTVs, our team delivers the shipment through state-to-state, and city-to-city transport methods, ending the on-road journeys with door-to-door submission.',
+        ],
+        [
+            'question' => 'How much does single-vehicle UTV transport cost?',
+            'answer' => 'Charges for your UTV transport depend on distance, UTV type, and location. You are requested to connect with our customer support team for better cost-efficient options.',
+        ],
+    ];
+@endphp
 
-       <div class="col-12 col-lg-7">
-        <div class="faq-container">
-            <div class="faq">
-                <button class="faq-toggle">Is ShipA1 available in my city for ATV/UTV transportation?<span>+</span></button>
-                <div class="faq-content">
-                    <p>Yes, we are active all over the USA. Our team covers all commercial and remote locations of all fifty states here.</p>
-                </div>
-            </div>
-        
-            <div class="faq">
-                <button class="faq-toggle">Can I ship my ATV and UTV at the same time? <span>+</span></button>
-                <div class="faq-content">
-                    <p>Why not, with custom ATV/UTV transportation options you can choose a multi-vehicle trailer type. <a href="{{ route('contactUs') }}">Contact us now.</a></p>
-                </div>
-            </div>
-        
-            <div class="faq">
-                <button class="faq-toggle">How Secure ShipA1’s ATV/UTV Transport Services Are?<span>+</span></button>
-                <div class="faq-content">
-                    <p>Our drivers and carriers are native and experienced. We also make sure to secure your selected trailers before you go towards on-route journeys.</p>
-                </div>
-            </div>
-            
-            <div class="faq">
-                <button class="faq-toggle">How do you transport ATVs/UTVs in the USA? <span>+</span></button>
-                <div class="faq-content">
-                    <p>In simple terms, after the pickup and loading of your ATVs/UTVs, our team delivers the shipment through state-to-state, and city-to-city transport methods, ending the on-road journeys with door-to-door submission.</p>
-                </div>
-            </div>
-        
-            <div class="faq">
-                <button class="faq-toggle">How much for single-vehicle UTV transport? <span>+</span></button>
-                <div class="faq-content">
-                    <p>Charges for your UTV transport depend on distance, UTV type, and location. You are requested to connect with our customer support team for better cost-efficient options.</p>
-                </div>
-            </div>
-        
-        </div>
-       </div>
-    </div>
-</div>
+<x-faq :faqs="$faqs" />
     @include('partials.blog-slider')
 @endsection
 @section('extraScript')

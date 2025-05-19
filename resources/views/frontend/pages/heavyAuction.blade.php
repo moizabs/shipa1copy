@@ -8,41 +8,39 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Service",
-  "name": "Heavy Equipment from Auctions Services",
-  "description": "Ship A1 offers reliable, affordable heavy equipment transport from auctions, ensuring safe and timely delivery with customizable solutions and 24/7 support. With expert handling, real-time tracking, and full insurance, we make shipping seamless and stress-free.",
-  "provider": {
-    "@type": "Organization",
-    "name": "ShipA1",
-    "url": "https://www.shipa1.com/auction-transport/heavy-equipment",
-    "logo": "https://www.shipa1.com/frontend/images/logo/LOGO%20NEW-2.webp",
-    "contactPoint": {
-      "@type": "ContactPoint",
-      "telephone": "+1 (844) 474-4721",
-      "email": "shawntransport@shipa1.com",
-      "contactType": "Customer Support",
-      "areaServed": "US",
-      "availableLanguage": "English"
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "Why do I need a transport agency for auctioning heavy Equipment?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "To load and drop off heavy equipment safely and rapidly, it’s important to have your own heavy-duty vehicle and materials shipping partner. This is the most secure option in the USA,"
     }
-  },
-  "serviceType": "Heavy Equipment from Auctions Services",
-  "areaServed": {
-    "@type": "Place",
-    "name": "USA"
-  },
-  "offers": {
-    "@type": "AggregateOffer",
-    "url": "https://www.shipa1.com/auction-transport/heavy-equipment",
-    "priceCurrency": "USD",
-    "lowPrice": 199
-  },
-  "sameAs": [
-    "https://www.shipa1.com",
-    "https://www.facebook.com/shipa1"
-  ]
+  },{
+    "@type": "Question",
+    "name": "Are auctioned heavy equipment transport services available in California?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, famous transport agencies such as ShipA1 offer their heavy equipment auction shipping services in all fifty states of the USA, including California."
+    }
+  },{
+    "@type": "Question",
+    "name": "What happens if an auctioned vehicle is damaged between transport?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "It’s rare to face such scenarios. However, for such unfortunate and unintentional events, shipping agencies offer insurance coverage to save the clients from losses."
+    }
+  },{
+    "@type": "Question",
+    "name": "Can I transport heavy-duty vehicles to a remote location in the USA?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, ShipA1 books an instant quote for the transformation of your purchased heavy-duty vehicles to remote and rural locations without permit delays."
+    }
+  }]
 }
-
 </script>
+
 <style>
     .why-box {
     border-radius: 12px;

@@ -7,41 +7,51 @@
     <link rel="canonical" href="{{ url()->current() }}">
 @endsection
 <script type="application/ld+json">
-   {
+  {
   "@context": "https://schema.org",
-  "@type": "Service",
-  "name": "Motorcycle Transportation Service",
-  "description": "ShipA1 offers affordable, secure, and timely motorcycle transport with no hidden fees—backed by 16 years of trusted experience across all 50 states. Customers enjoy door-to-door delivery, real-time tracking, and full insurance coverage.",
-  "provider": {
-    "@type": "Organization",
-    "name": "ShipA1",
-    "url": "https://www.shipa1.com/transport-services/motorcycle",
-    "logo": "https://www.shipa1.com/frontend/images/logo/LOGO%20NEW-2.webp",
-    "contactPoint": {
-      "@type": "ContactPoint",
-      "telephone": "+1 (844) 474-4721",
-      "email": "shawntransport@shipa1.com",
-      "contactType": "Customer Support",
-      "areaServed": "US",
-      "availableLanguage": "English"
-    }
-  },
-  "serviceType": "Motorcycle Transportation Service",
-  "areaServed": {
-    "@type": "Place",
-    "name": "USA"
-  },
-  "offers": {
-    "@type": "AggregateOffer",
-    "url": "https://www.shipa1.com/transport-services/motorcycle",
-    "priceCurrency": "USD",
-    "eligibleRegion": {
-      "@type": "Place",
-      "name": "USA"
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Does ShipA1 offer bike shipping services in New York and California?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, we are active in all fifty states of the USA for car, bike, freight, and heavy transport."
+      }
     },
-    "lowPrice": 199
-  },
-  "sameAs": "https://www.facebook.com/shipa1"
+    {
+      "@type": "Question",
+      "name": "Can ShipA1 ship my sports or cruiser bike across the USA or internationally?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We are open for transportation of every type of bike. Choose the trailer type and share needed info (year, make, and model) about your bike."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is ShipA1 one of the most affordable bike shipping services?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We do not just offer the most convenient bike shipping offer; our expert team also serves with the best trailer security and monitoring in each transport service all across the USA."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What do I need for safe bike transport service in the USA?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You’ll need an ID, title of ownership, bike documentation, insurance, and BOL to ensure safe motorcycle transport."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How quickly can I book a bike shipping service with ShipA1?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It only takes a few minutes. Click on ‘Get a Quote,’ select the service, and fill out a short online form."
+      }
+    }
+  ]
 }
 
 </script>
@@ -1120,67 +1130,32 @@
     </section> --}}
     <br>
     @include('partials.usa-states-map')
-    <div class="container">
-        <div class="row p-5">
-            <div class="side-container col-12 col-lg-5 ">
-                <div>
-                    <h2>Frequently <span>Asked Questions</span> </h2>
-                    <hr class="w-50">
-                    <p>Have a look at answers to trending customer queries about our vehicle shipping services.</p>
-                    <a class="text-decoration-none  btnfaq" href="{{ route('faq') }}">Get Detailed Shipping Answer</a>
-                </div>
-            </div>
+   @php
+    $faqs = [
+        [
+            'question' => 'Does ShipA1 offer bike shipping services in New York and California?',
+            'answer' => 'Yes, we are active in all fifty states of the USA for car, bike, freight, and heavy transport.',
+        ],
+        [
+            'question' => 'Can ShipA1 ship my sports or cruiser bike across the USA or internationally?',
+            'answer' => 'We are open for transportation of every type of bike. Choose the trailer type and share needed info (year, make, and year) about your bike.',
+        ],
+        [
+            'question' => 'Is ShipA1 one of the most affordable bike shipping services?',
+            'answer' => 'We do not just offer the most convenient bike shipping offer; our expert team also serves with the best trailer security and monitoring in each transport service all across the USA.',
+        ],
+        [
+            'question' => 'What do I need for safe bike transport service in the USA?',
+            'answer' => 'Not much just ID, title of ownership, bike documentation, insurance, and BOL. These shared requirements allow you for safe motorcycle transport.',
+        ],
+        [
+            'question' => 'How quickly can I book a bike shipping service with ShipA1?',
+            'answer' => 'It just takes a few minutes of yours. Click on  Get a Quote , select the service, and fill out a short online form.',
+        ],
+    ];
+@endphp
 
-            <div class="col-12 col-lg-7">
-                <div class="faq-container">
-                    <div class="faq">
-                        <button class="faq-toggle">Is ShipA1 available in New York & California?<span>+</span></button>
-                        <div class="faq-content">
-                            <p>Yes, we are active in all fifty states of the USA for car, bike, freight, and heavy
-                                transport. </p>
-                        </div>
-                    </div>
-
-                    <div class="faq">
-                        <button class="faq-toggle">Can you transport my sports and cruiser bikes to the USA?
-                            <span>+</span></button>
-                        <div class="faq-content">
-                            <p>We are open for transportation of every type of bike. Choose the trailer type and share
-                                needed info (year, make, and year) about your bike.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq">
-                        <button class="faq-toggle">Does ShipA1 have the cheapest bike shipping service?
-                            <span>+</span></button>
-                        <div class="faq-content">
-                            <p>We do not just offer the most convenient bike shipping offer; our expert team also serves
-                                with the best trailer security and monitoring in each transport service all across the USA.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="faq">
-                        <button class="faq-toggle">What do I need for safe bike transport service in the USA?
-                            <span>+</span></button>
-                        <div class="faq-content">
-                            <p>Not much just ID, title of ownership, bike documentation, insurance, and BOL. These shared
-                                requirements allow you for safe motorcycle transport.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq">
-                        <button class="faq-toggle">Can I get a bike shipping service right now?<span>+</span></button>
-                        <div class="faq-content">
-                            <p>Yes, and it just takes a few minutes of yours. Click on < Get a Quote>, select the service,
-                                    and fill out a short online form.</p>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </div>
+<x-faq :faqs="$faqs" />
     @include('partials.blog-slider')
 @endsection
 @section('extraScript')

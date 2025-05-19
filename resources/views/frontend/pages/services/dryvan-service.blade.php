@@ -6,42 +6,48 @@
 @endsection
 @section('content')
 <script type="application/ld+json">
-    {
+{
   "@context": "https://schema.org",
-  "@type": "Service",
-  "name": "Dry Van Transportation Services",
-  "description": "Ship A1 offers top-rated dry van transportation services, providing versatile, cost-effective, and secure freight shipping solutions. With same-day shipping, expedited freight, and high-value cargo protection, we ensure reliable delivery for all your goods.",
-  "provider": {
-    "@type": "Organization",
-    "name": "ShipA1",
-    "url": "https://www.shipa1.com/transport-services/dry-van",
-    "logo": "https://www.shipa1.com/frontend/images/logo/LOGO%20NEW-2.webp",
-    "contactPoint": {
-      "@type": "ContactPoint",
-      "telephone": "+1 (844) 474-4721",
-      "email": "shawntransport@shipa1.com",
-      "contactType": "Customer Support",
-      "areaServed": "US",
-      "availableLanguage": "English"
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "How do I prepare my vehicle for transport?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "We'll provide detailed instructions, but you'll need to remove personal belongings, as well as make sure to follow guidelines or instructions based on the chosen transport method."
     }
-  },
-  "serviceType": "Dry Van Transportation Service",
-  "areaServed": {
-    "@type": "Place",
-    "name": "USA"
-  },
-  "offers": {
-    "@type": "AggregateOffer",
-    "url": "https://www.shipa1.com/transport-services/dry-van",
-    "priceCurrency": "USD",
-    "lowPrice": 199
-  },
-  "sameAs": [
-    "https://www.facebook.com/shipa1",
-    "https://www.shipa1.com"
-  ]
+  },{
+    "@type": "Question",
+    "name": "How long does it take to ship my freight?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "It all depends on the potential route planning as well as the distance. However, Ship A1 will provide an estimated timeframe during the quote process and keep you updated throughout the entire journey."
+    }
+  },{
+    "@type": "Question",
+    "name": "What is the FTL freight shipping process?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The process is quite easy, if your shipment is large enough to take up enough space it will be a full truckload and it shall be transported in a separate truck all by itself, if your shipment does not take the entire space, it will be transported along with other shipments and this mode is called Partial Truckload."
+    }
+  },{
+    "@type": "Question",
+    "name": "What types of freight does ShipA1 transport?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Ship A1 handles a wide quantity and range of freight including LTL and FTL transporting services, as well as ensuring the safety of your vehicles and peace of mind."
+    }
+  },{
+    "@type": "Question",
+    "name": "",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": ""
+    }
+  }]
 }
 </script>
+
 <style>
     .full-width {
         width: 100%;
@@ -564,91 +570,28 @@
         </div>
     </div>
 </section>
-<section class="tj-faq-section tj-faq-page pt-5">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="tj-section-heading text-center">
-                    <span class="sub-title active-shape"> How It’s Work</span>
-                    <h2 class="title">Frequently Asked Questions</h2>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-6" data-sal="slide-left" data-sal-duration="800">
-                <div class="tj-faq-left-content">
-                    <div class="faq-image">
-                        <img src="{{ asset('frontend/images/slider/FAQ.webp') }}" alt="Image" />
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6" data-sal="slide-right" data-sal-duration="800">
-                <div class="tj-faq-area">
-                <div class="accordion" id="accordionExample">
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingOne">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    How many types of freight do you transport?
-                                </button>
-                            </h2>
-                            <div id="collapseOne" class="accordion-collapse collapse show"
-                                aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <strong>Ship A1 handles a wide quantity and range of freight including LTL and FTL transporting services, as well as ensuring the safety of your vehicles and peace of mind.</strong>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingTwo">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    What’s the shipping process of freight in FTL?
-                                </button>
-                            </h2>
-                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <strong>The process is quite easy, if your shipment is large enough to take up enough space it will be a full truckload and it shall be transported in a separate truck all by itself, if your shipment does not take the entire space, it will be transported along with other shipments and this mode is called Partial Truckload.</strong>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingThree">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseThree" aria-expanded="false"
-                                    aria-controls="collapseThree">
-                                    How much time will it take to ship my freight?
-                                </button>
-                            </h2>
-                            <div id="collapseThree" class="accordion-collapse collapse"
-                                aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <strong>It all depends on the potential route planning as well as the distance. However, Ship A1 will provide an estimated timeframe during the quote process and keep you updated throughout the entire journey.</strong>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingFour">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseFour" aria-expanded="false"
-                                    aria-controls="collapseFour">
-                                    How do I prepare my vehicle for transport?
-                                </button>
-                            </h2>
-                            <div id="collapseFour" class="accordion-collapse collapse"
-                                aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <strong>We'll provide detailed instructions, but you'll need to remove personal belongings, as well as make sure to follow guidelines or instructions based on the chosen transport method.</strong>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+@php
+    $faqs = [
+        [
+            'question' => 'How do I prepare my vehicle for transport?',
+            'answer' => 'We'll provide detailed instructions, but you'll need to remove personal belongings, as well as make sure to follow guidelines or instructions based on the chosen transport method.',
+        ],
+        [
+            'question' => 'How long does it take to ship my freight?',
+            'answer' => 'It all depends on the potential route planning as well as the distance. However, Ship A1 will provide an estimated timeframe during the quote process and keep you updated throughout the entire journey.',
+        ],
+        [
+            'question' => 'What is the FTL freight shipping process?',
+            'answer' => 'The process is quite easy, if your shipment is large enough to take up enough space it will be a full truckload and it shall be transported in a separate truck all by itself, if your shipment does not take the entire space, it will be transported along with other shipments and this mode is called Partial Truckload.',
+        ],
+        [
+            'question' => 'What types of freight does ShipA1 transport?',
+            'answer' => 'Ship A1 handles a wide quantity and range of freight including LTL and FTL transporting services, as well as ensuring the safety of your vehicles and peace of mind.',
+        ],
+    ];
+@endphp
+
+<x-faq :faqs="$faqs" />
 <section class="tj-choose-us-section-dryvan mb-4">
     <div class="container">
         <div class="row">

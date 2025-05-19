@@ -420,6 +420,9 @@ class RedirectMiddleware
             'tracking' => 'order_tracking',
             'auto_auction' => 'auction-transport/car',
             'quote/motorcycle/?type=aVIvSVNNcHhLUnVPN2xqL29JeXFpQT09' => 'instant-quote/motorcycle' ,
+            'exotic-car-shipping-in-florida' => ' blog/exotic-car-shipping-in-florida',
+            'answering-questions-on-shipping-a-non-running-vehicle' => 'blog/answering-questions-about-shipping-a-non-running-vehicle',
+            'blog/how-to-ship-a-car-to-another-state1' => 'blog/how-to-ship-a-car-to-another-state'
 
         ];
 

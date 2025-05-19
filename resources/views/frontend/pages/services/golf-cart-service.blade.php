@@ -6,44 +6,48 @@
     <link rel="canonical" href="{{ url()->current() }}">
 @endsection
 <script type="application/ld+json">
-    {
+{
   "@context": "https://schema.org",
-  "@type": "Service",
-  "name": "Golf Cart Transportation Service",
-  "description": "ShipA1 Transport offers trusted, nationwide golf cart shipping with 16 years of experience, ensuring safe delivery of standard and luxury carts. With advanced trailers, transparent pricing, and 24/7 support, we provide secure, cost-efficient transport for all golf cart types.",
-  "provider": {
-    "@type": "Organization",
-    "name": "ShipA1",
-    "url": "https://www.shipa1.com/transport-services/golf-cart",
-    "logo": "https://www.shipa1.com/frontend/images/logo/LOGO%20NEW-2.webp",
-    "contactPoint": {
-      "@type": "ContactPoint",
-      "telephone": "+1 (844) 474-4721",
-      "email": "shawntransport@shipa1.com",
-      "contactType": "Customer Support",
-      "areaServed": "US",
-      "availableLanguage": "English"
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "What makes ShipA1 a reliable golf cart shipping company?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The vehicle transport market is increasing every passing day. Therefore, always go for the licensed, certified, experienced, and strong vehicle insurance offering shipping agency."
     }
-  },
-  "serviceType": "Golf Cart Transportation Service",
-  "areaServed": {
-    "@type": "Place",
-    "name": "USA"
-  },
-  "offers": {
-    "@type": "AggregateOffer",
-    "url": "https://www.shipa1.com/transport-services/golf-cart",
-    "priceCurrency": "USD",
-    "eligibleRegion": {
-      "@type": "Place",
-      "name": "USA"
-    },
-    "lowPrice": 199
-  },
-  "sameAs": "https://www.facebook.com/shipa1"
+  },{
+    "@type": "Question",
+    "name": "How can I book fast golf cart transport services?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Connect with remotely available shipping agencies like ShipA1. We get you a quote in minutes and deliver your golf cart consignment in a couple of days."
+    }
+  },{
+    "@type": "Question",
+    "name": "Can I get golf cart shipping delivered in one day with ShipA1?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Every vehicle shipping company has its own on-road delivery submission dates. Give a call to ShipA1, share your urgent demands, and get the services as per your requirements."
+    }
+  },{
+    "@type": "Question",
+    "name": "How much does golf cart shipping typically cost in the USA?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Charges for golf car transport depend on the distance, the market’s average costs, and your selected service provider. For easy shipping under cost-efficient rates, choose none other than ShipA1."
+    }
+  },{
+    "@type": "Question",
+    "name": "Does ShipA1 offer customized golf cart shipping options?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "At ShipA1, it’s easy to get customized golf cart shipping in the USA. Just fill in a short form of customized options and book the delivery in minutes."
+    }
+  }]
 }
+</script>
 
-    </script>
 @section('content')
     <style>
         .side-container {
@@ -1010,59 +1014,32 @@
         </div>
     </div>
 </section> --}}
-    <div class="container">
-        <div class="row p-5">
-            <div class="side-container col-12 col-lg-5 ">
-                <div>
-                    <h2>Frequently <span>Asked Questions</span> </h2>
-                    <hr class="w-50">
-                    <p>Have a look at answers to trending customer queries about our vehicle shipping services.</p>
-                    <a class="text-decoration-none  btnfaq" href="{{ route('faq') }}">Get Detailed Shipping Answer</a>
-                </div>
-            </div>
+    @php
+    $faqs = [
+        [
+            'question' => 'What makes ShipA1 a reliable golf cart shipping company?',
+            'answer' => 'The vehicle transport market is increasing every passing day. Therefore, always go for the licensed, certified, experienced, and strong vehicle insurance offering shipping agency.',
+        ],
+        [
+            'question' => 'How can I book fast golf cart transport services?',
+            'answer' => 'Connect with remotely available shipping agencies like ShipA1. We get you a quote in minutes and deliver your golf cart consignment in a couple of days.',
+        ],
+        [
+            'question' => 'Can I get golf cart shipping delivered in one day with ShipA1?',
+            'answer' => 'Every vehicle shipping company has its own on-road delivery submission dates. <a href="https://www.shipa1.com" target="_blank">Give a call to ShipA1</a>, share your urgent demands, and get the services as per your requirements.',
+        ],
+        [
+            'question' => 'How much does golf cart shipping typically cost in the USA?',
+            'answer' => 'Charges for golf car transport depend on the distance, the market’s average costs, and your selected service provider. For easy shipping under cost-efficient rates, choose none other than ShipA1.',
+        ],
+        [
+            'question' => 'Does ShipA1 offer customized golf cart shipping options?',
+            'answer' => 'At ShipA1, it’s easy to get customized golf cart shipping in the USA. Just fill in a short form of customized options and book the delivery in minutes.',
+        ],
+    ];
+@endphp
 
-            <div class="col-12 col-lg-7">
-                <div class="faq-container">
-                    <div class="faq">
-                        <button class="faq-toggle">Who is the best among all golf cart shipping companies? 
-                            <span>+</span></button>
-                        <div class="faq-content">
-                            <p>The vehicle transport market is increasing every passing day. Therefore, always go for the licensed, certified, experienced, and strong vehicle insurance offering shipping agency.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq">
-                        <button class="faq-toggle">How to book fast golf cart transport services? <span>+</span></button>
-                        <div class="faq-content">
-                            <p>Connect with remotely available shipping agencies like ShipA1. We get you a quote in minutes and deliver your golf cart consignment in a couple of days. </a></p>
-                        </div>
-                    </div>
-
-                    <div class="faq">
-                        <button class="faq-toggle">Can I get golf cart shipping delivered in one day?<span>+</span></button>
-                        <div class="faq-content">
-                            <p>Every vehicle shipping company has its own on-road delivery submission dates. <a href="tel:+1(844)474-4721">Give a call to ShipA1,</a>  share your urgent demands, and get the services as per your requirements.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq">
-                        <button class="faq-toggle">Is golf car shipping costly in the USA? <span>+</span></button>
-                        <div class="faq-content">
-                            <p>Charges for golf car transport depend on the distance, the market’s average costs, and your selected service provider. For easy shipping under cost-efficient rates, choose none other than ShipA1. </p>
-                        </div>
-                    </div>
-
-                    <div class="faq">
-                        <button class="faq-toggle">How can I get custom golf cart transport services?<span>+</span></button>
-                        <div class="faq-content">
-                            <p>At ShipA1, it’s easy to get customized golf cart shipping in the USA. Just fill in a short form of customized options and book the delivery in minutes.</p>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </div>
+<x-faq :faqs="$faqs" />
     @include('partials.blog-slider')
 @endsection
 @section('extraScript')

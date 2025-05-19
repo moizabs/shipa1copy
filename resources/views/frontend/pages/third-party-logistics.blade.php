@@ -8,41 +8,39 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Service",
-  "name": "Freight Auction Transport Services",
-  "description": "Ship A1 Transport offers safe, affordable freight logistics across the USA, tailored to diverse industries with real-time tracking and cost-effective solutions. With a focus on on-time delivery and 24/7 support, we streamline your shipping needs for seamless operations.",
-  "provider": {
-    "@type": "Organization",
-    "name": "ShipA1",
-    "url": "https://www.shipa1.com/auction-transport/freight",
-    "logo": "https://www.shipa1.com/frontend/images/logo/LOGO%20NEW-2.webp",
-    "contactPoint": {
-      "@type": "ContactPoint",
-      "telephone": "+1 (844) 474-4721",
-      "email": "shawntransport@shipa1.com",
-      "contactType": "Customer Support",
-      "areaServed": "US",
-      "availableLanguage": "English"
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "What does freight auction transport simply mean?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "After the bidding process for the freight logistics, the shippers and transport agencies load their haulers and complete consignments as per the contracted deadline and costs."
     }
-  },
-  "serviceType": "Freight Auction Transport Services",
-  "areaServed": {
-    "@type": "Place",
-    "name": "USA"
-  },
-  "offers": {
-    "@type": "AggregateOffer",
-    "url": "https://www.shipa1.com/auction-transport/freight",
-    "priceCurrency": "USD",
-    "lowPrice": 199
-  },
-  "sameAs": [
-    "https://www.shipa1.com",
-    "https://www.facebook.com/shipa1"
-  ]
+  },{
+    "@type": "Question",
+    "name": "What is the difference between auto auction transport and freight auction transport?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "In an auto auction transport, buyers hire shipping companies for vehicle transport. On the other hand, in a freight auction transport, it’s the shippers who bid for the logistics shipping, pitching their speed, expertise, and efficiency."
+    }
+  },{
+    "@type": "Question",
+    "name": "Is freight auction transport costly as compared to open vehicle shipping?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Each freight and logistics transport service has its own charges. The costs also depend on the distance, selected hauler, and vehicle delivery type."
+    }
+  },{
+    "@type": "Question",
+    "name": "Do auction companies also need freight transport services?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, in the USA, almost every auction company has its third-party shipping agencies like ShipA1. For a quick transport of the logistics, they hire agencies to pick up and drop off before or after the auction event."
+    }
+  }]
 }
-
 </script>
+
 <style>
     .why-box {
     border-radius: 12px;
