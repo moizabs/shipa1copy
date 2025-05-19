@@ -6,6 +6,44 @@
 @endsection
 @section('content')
 <script type="application/ld+json">
+    {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Reefer Shipping Service",
+  "description": "ShipA1 Transport offers reliable reefer shipping and cold chain logistics, ensuring temperature-sensitive goods like fresh produce and pharmaceuticals arrive in perfect condition. With advanced refrigeration technology, real-time tracking, and 24/7 support, we provide end-to-end solutions for businesses across the USA.",
+  "provider": {
+    "@type": "Organization",
+    "name": "ShipA1",
+    "url": "https://www.shipa1.com/transport-services/reefer",
+    "logo": "https://www.shipa1.com/frontend/images/logo/LOGO%20NEW-2.webp",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+1 (844) 474-4721",
+      "email": "shawntransport@shipa1.com",
+      "contactType": "Customer Support",
+      "areaServed": "US",
+      "availableLanguage": "English"
+    }
+  },
+  "serviceType": "Reefer Shipping Service",
+  "areaServed": {
+    "@type": "Place",
+    "name": "USA"
+  },
+  "offers": {
+    "@type": "AggregateOffer",
+    "url": "https://www.shipa1.com/transport-services/reefer",
+    "priceCurrency": "USD",
+    "lowPrice": 199
+  },
+  "sameAs": [
+    "https://www.facebook.com/shipa1",
+    "https://www.shipa1.com"
+  ]
+}
+
+</script>
+<script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "FAQPage",

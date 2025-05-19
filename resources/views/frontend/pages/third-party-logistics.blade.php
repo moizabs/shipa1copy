@@ -6,6 +6,44 @@
 @endsection
 @section('content')
 <script type="application/ld+json">
+    {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Freight Auction Transport Services",
+  "description": "Ship A1 Transport offers safe, affordable freight logistics across the USA, tailored to diverse industries with real-time tracking and cost-effective solutions. With a focus on on-time delivery and 24/7 support, we streamline your shipping needs for seamless operations.",
+  "provider": {
+    "@type": "Organization",
+    "name": "ShipA1",
+    "url": "https://www.shipa1.com/auction-transport/freight",
+    "logo": "https://www.shipa1.com/frontend/images/logo/LOGO%20NEW-2.webp",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+1 (844) 474-4721",
+      "email": "shawntransport@shipa1.com",
+      "contactType": "Customer Support",
+      "areaServed": "US",
+      "availableLanguage": "English"
+    }
+  },
+  "serviceType": "Freight Auction Transport Services",
+  "areaServed": {
+    "@type": "Place",
+    "name": "USA"
+  },
+  "offers": {
+    "@type": "AggregateOffer",
+    "url": "https://www.shipa1.com/auction-transport/freight",
+    "priceCurrency": "USD",
+    "lowPrice": 199
+  },
+  "sameAs": [
+    "https://www.shipa1.com",
+    "https://www.facebook.com/shipa1"
+  ]
+}
+
+</script>
+<script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "FAQPage",
