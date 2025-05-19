@@ -18,7 +18,5 @@ yarn-error.log
 /.idea
 /.vscode
 /public/quoteForm
-sitemap.html
-sitemap.xml
 .htaccess
 /public/.htaccess
