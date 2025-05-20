@@ -322,7 +322,7 @@
                     <div class="tj-section-heading">
                         <h3 class="sal-animate" data-sal="slide-left" data-sal-duration="800">Quick Farm Equipment Transport Services by ShipA1 </h3>
                         <p class="desc">
-                            Your farm equipment is the agricultural machinery that is mostly required in the USA’s rural areas, remote locations, and other grounding corps fields. These farmland vehicles, diggers, and forklifts are not comfortable to carry - you need better support for their hauling. That’s why ShipA1 is here to bring the <a href="{{ route('frontend.forms.farm_transport') }}">best transportation services</a>  for you in farm equipment. Trust the sixteen years of experience in the market for speedy farm machinery lifting.
+                            Your farm equipment is the agricultural machinery that is mostly required in the USA’s rural areas, remote locations, and other grounding corps fields. These farmland vehicles, diggers, and forklifts are not comfortable to carry - you need better support for their hauling. That’s why ShipA1 is here to bring the <a class="alllinks" href="{{ route('frontend.forms.farm_transport') }}">best transportation services</a>  for you in farm equipment. Trust the sixteen years of experience in the market for speedy farm machinery lifting.
                             </p>
                     </div>
                 </div>

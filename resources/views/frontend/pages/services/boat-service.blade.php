@@ -345,7 +345,7 @@ Yes, boat shipping is safe in the USA when you hire a partner who is trusted and
         <div class="row full-width ps-4 pt-4">
             <div class="col-12 custom-style">
                 <h4 class=" text-center">Hiring ShipA1 for Boat Shipping - Simple, Fast, & Efficient</h4>
-                <p class=" text-center">Offering speedy <a href="{{ route('services') }}">transport services</a> is not our primary goal. As one of the best boat transporters across the USA, with more than fifteen years of experience, our continuous elite legacy motivates us to serve with what’s best for you. Connect with us anytime; the team is ready to book your order and collaborate on your most satisfying boat transport experience in the USA.  </p>
+                <p class=" text-center">Offering speedy <a class="alllinks" href="{{ route('services') }}">transport services</a> is not our primary goal. As one of the best boat transporters across the USA, with more than fifteen years of experience, our continuous elite legacy motivates us to serve with what’s best for you. Connect with us anytime; the team is ready to book your order and collaborate on your most satisfying boat transport experience in the USA.  </p>
                 <div class="tj-theme-button  text-center mt-2">
                     <a class="tj-transparent-btn" href="{{ route('form.vehicle.boat') }}" >
                         Get Quote

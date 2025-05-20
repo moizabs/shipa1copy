@@ -6458,6 +6458,13 @@ div .tj-service-icon-box2 ul li .service-item::before {
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
+.alllinks{
+  color: #004056;
+}
+.alllinks:hover{
+  transition: 2000;
+  color: #6a9c2f;
+}
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .search_wrapper .search_top {
     margin-bottom: 50px;

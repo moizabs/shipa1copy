@@ -976,7 +976,7 @@ services near you! We ensure safe, fast, and affordable auto transport services 
                     <br />
                     <h5 class="font-weight-bold">1. Request a Quote</h5>
                     <p>Learn about our services through our official website and request an instant customized plan by
-                        clicking on <a href="{{ route('quote.form.combine') }}">“Get a Quote”.</a>
+                        clicking on <a href="{{ route('quote.form.combine') }}" class="alllinks">“Get a Quote”.</a>
                     </p>
                     <br />
                     <h5 class="font-weight-bold">2. Get Options & Booking Confirmation</h5>

@@ -35,7 +35,7 @@
                                             <i class="fa-regular fa-calendar"></i> 
                                             {{ \Carbon\Carbon::parse($blog->created_at)->format('d M') }}
                                         </span>
-                                        <a class="ms-3" href="{{ $blogUrl }}" aria-label="Learn more about vehicle transportation Blog" title="Vehicle Transportation Blog">
+                                        <a class="ms-3 alllinks" href="{{ $blogUrl }}" aria-label="Learn more about vehicle transportation Blog" title="Vehicle Transportation Blog">
                                             Read More <i class="fa-regular fa-arrow-right"></i>
                                         </a>
                                     </div>

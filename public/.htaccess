@@ -51,7 +51,7 @@
 
     # Set caching headers for static files
     <FilesMatch "\.(jpg|jpeg|png|gif|svg|js|css|pdf|txt|html|xml|woff|woff2|ttf|eot|otf|json)$">
-        Header set Cache-Control "max-age=31536000, public"
+        Header set Cache-Control "max-age=31536000"
     </FilesMatch>
 
     # Add security headers

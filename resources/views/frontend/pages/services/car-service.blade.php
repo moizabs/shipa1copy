@@ -538,7 +538,7 @@
                         friendly negotiation;
                         otherwise, our active customer support team is here to suggest the best open, enclosed, flatbed, and
                         drop-dreck
-                        <a href="{{ route('services') }}"> transportation options </a>. Just say the magical words “I need
+                        <a href="{{ route('services') }}" class="alllinks"> transportation options </a>. Just say the magical words “I need
                         ShipA1’s expert carriers for car transport
                         services near me” and witness the magic of speedy and reliable vehicle transportation support.
                     </p>
@@ -1281,14 +1281,14 @@
                         <div><i class="fa-solid fa-file-shield"></i></div>
                     </div>
                     <h5>Budget Friendly Quotes</h5>
-                    <p>All car shipping costs and fares are designed as per your custom demands. <a href="{{ route('contactUs') }}">Contact us</a>  and get your personalized quote today.</p>
+                    <p>All car shipping costs and fares are designed as per your custom demands. <a href="{{ route('contactUs') }}" class="alllinks">Contact us</a>  and get your personalized quote today.</p>
                 </div>
                 <div class="top-notch-childs2  ">
                     <div>
                         <div><i class="fa-solid fa-people-arrows"></i></div>
                     </div>
                     <h5>All-in-One Services</h5>
-                    <p>There is a list of features and trailer types for your car, freight cargo, and <a href="{{ route('frontend.pages.services.heavy-service') }}">heavy transportation</a>  needs. shipA1 is an omni-shipping service offering platform.</p>
+                    <p>There is a list of features and trailer types for your car, freight cargo, and <a href="{{ route('frontend.pages.services.heavy-service') }} "  class="alllinks">heavy transportation</a>  needs. shipA1 is an omni-shipping service offering platform.</p>
                 </div>
                 <div class="top-notch-childs2  ">
                     <div>

@@ -441,7 +441,7 @@
                     <div class="tj-section-heading">
                         <span class="sub-title active-shape">Early Booking</span>
                         <p class="desc">
-                            There are no peak season limitations here in ShipA1. You can book a <a href="{{ route('commercial.truck.transport') }}"> customized quote for commercial truck shipping</a> within a few minutes. 
+                            There are no peak season limitations here in ShipA1. You can book a <a class="alllinks" href="{{ route('commercial.truck.transport') }}"> customized quote for commercial truck shipping</a> within a few minutes. 
                         </p>
                     </div>
                 </div>
@@ -503,7 +503,7 @@
                     <h3 class="sal-animate" 
                     data-sal="slide-left" data-sal-duration="800">We Dominate the Market with Unmatched Heavy Duty Truck Transport</h3>
                         <p class="desc">
-                            ShipA1 is the <a href="{{ route('welcome') }}">trusted transportation company</a>  of B2B enterprises, serving them with market-dominating heavy-duty shipping packages. <br>
+                            ShipA1 is the <a class="alllinks" href="{{ route('welcome') }}">trusted transportation company</a>  of B2B enterprises, serving them with market-dominating heavy-duty shipping packages. <br>
                             Our online quote booking platforms managed by a skilled customer support team give an edge to our shipping agency in the USA. It has been more than sixteen years, and we have been admired for the professionalism shown by our local carriers (available all across the USA). </p>
                     </div>
                 </div>

@@ -358,7 +358,7 @@
                                 Equipment Shipping in the USA</h3>
                             <p class="desc">
                                 We know that you want to end your web-maze-search to find the <a
-                                    href="{{ route('welcome') }}">best transport agency</a> for heavy equipment in the USA.
+                                    href="{{ route('welcome') }}" class="alllinks">best transport agency</a> for heavy equipment in the USA.
                                 ShipA1 is nothing, just a trusted, verified, and a decade of experience offering a shipping
                                 agency that gets the heavy machinery and equipment done in no time. From New York to
                                 California, we cover all states. Our brand comes within the most profitable, sustainable,

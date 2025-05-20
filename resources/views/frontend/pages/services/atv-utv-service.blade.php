@@ -579,7 +579,7 @@
                 <div class="slide text-center">
                     <i class="fas fa-truck icon-hover-shake" style="font-size: 50px;"></i>
                     <h3 class="slide-title">Budget-Friendly Prices</h3>
-                    <p class="slide-text">Utilize a free digital average <a href="{{ route('quote.form.combine') }}">shipping cost calculator</a> . We shape your ATV/UTV transport journey effortlessly.</p>
+                    <p class="slide-text">Utilize a free digital average <a class="alllinks" href="{{ route('quote.form.combine') }}">shipping cost calculator</a> . We shape your ATV/UTV transport journey effortlessly.</p>
                 </div>
             </div>
             <div class="col-md-4 col-lg-4 mb-4">
@@ -618,7 +618,7 @@
                              data-sal-duration="800">Single-Person ATV Transport</h3>
                             <p class="desc">
                                 The trend of ATV rides in the remote locations of California, New Jersey, Nevada, and Alabama is not new. You need your all-terrain vehicles (sports, utility, and farm) around your backyard. Or maybe there should be a luxurious collection of modern quad bikes at your farmhouses in Taxes, Iowa, and Missouri.<br>
-                                ATV rides are fun. You can make their shipping more relaxing by collaborating with our team: ready and available in your city or state in the USA. So, not just in New York, Alaska, Maryland, and Virginia, we are active all over the United States of America. Say yes to convenient and <a href="{{ route('services') }}">trusted side-by-side hauling services</a>.
+                                ATV rides are fun. You can make their shipping more relaxing by collaborating with our team: ready and available in your city or state in the USA. So, not just in New York, Alaska, Maryland, and Virginia, we are active all over the United States of America. Say yes to convenient and <a class="alllinks" href="{{ route('services') }}">trusted side-by-side hauling services</a>.
                                 </p>
                         </div>
                         

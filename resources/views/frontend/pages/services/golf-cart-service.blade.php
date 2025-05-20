@@ -378,7 +378,7 @@
                     <br>
                     <div class="text-container text-left">
                         <h3>Globally Indorsed Golf Cart Transportation</h3>
-                        <p>Your small vehicle transport - golf cart hauling delivery is in safe hands. If our <a href="{{ route('services') }}"> speedy
+                        <p>Your small vehicle transport - golf cart hauling delivery is in safe hands. If our <a class="alllinks" href="{{ route('services') }}"> speedy
                             shipping services</a> and on-road uninterrupted communication are not enough then trust our sixteen
                             years of experience in this business. Yes, your custom and luxury club cars demand proper
                             packaging, enclosed trailer support, and additional monitoring updates. We understand your green

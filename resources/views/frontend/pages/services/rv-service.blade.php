@@ -361,7 +361,7 @@
                             <h3 class="sal-animate" data-sal="slide-left" data-sal-duration="800">Nothing, Just Speedy Heavy
                                 Equipment Shipping in the USA </h3>
                             <p class="desc">
-                                We know that you want to end your web-maze-search to find the <a href="">best
+                                We know that you want to end your web-maze-search to find the <a class="alllinks" href="">best
                                     transport agency</a> for heavy equipment in the USA. ShipA1 is nothing, just a trusted,
                                 verified, and a decade of experience offering a shipping agency that gets the heavy
                                 machinery and equipment done in no time. From New York to California, we cover all states.
@@ -489,7 +489,7 @@
                         <div class="tj-section-heading">
                             <h3 class="sal-animate" data-sal="slide-left" data-sal-duration="800">Proven Record of 1000+ Heavy Equipment Shipping Orders 
                             </h3>
-                            <p class="desc">The network is spread all across the USA. You just have to come on board and share your requirements. We are here to deliver safely equipment loading and carefully maintained trailer cargo, leading to your drop-off location. ShipA1 is currently on the voyage to become the household name for vehicle dealers, freight logistics partners, and construction agencies. Be the ideal member of our elite clients' group by booking an instant <a href="">heavy equipment shipping quote </a>right now!
+                            <p class="desc">The network is spread all across the USA. You just have to come on board and share your requirements. We are here to deliver safely equipment loading and carefully maintained trailer cargo, leading to your drop-off location. ShipA1 is currently on the voyage to become the household name for vehicle dealers, freight logistics partners, and construction agencies. Be the ideal member of our elite clients' group by booking an instant <a href="" class="alllinks">heavy equipment shipping quote </a>right now!
                             </p>
                         </div>
                     </div>

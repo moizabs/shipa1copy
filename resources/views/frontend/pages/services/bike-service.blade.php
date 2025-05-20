@@ -757,7 +757,7 @@
                     <h3>Your Native Companion for Fully Secured Bike Shipping Service</h3>
                     <p>
                         Others start by listing the price tags and additional charges for their shipping solutions of
-                        <a href="{{ route('services') }}">transport services</a> . Our agency is different or unique. We
+                        <a class="alllinks" href="{{ route('services') }}">transport services</a> . Our agency is different or unique. We
                         understand what you demand and intend from
                         a leading motorcycle shipping partner. The team knows that you need the best plus convenient bike
                         transport service package, city-to-city delivery within a couple of days, and a proper two-wheeler
@@ -768,7 +768,7 @@
                     <h5>Best from Our Bike Transport Service</h5>
                     <ul>
                         <li>Custom plan for each transport order.</li>
-                        <li><a href="{{ route('frontend.pages.services.bike-service') }}">Quick bike quote</a> response.
+                        <li><a class="alllinks" href="{{ route('frontend.pages.services.bike-service') }}">Quick bike quote</a> response.
                         </li>
                         <li>Professional consultation about bike shipping</li>
                         <li>No additional costs for extra protection.</li>
