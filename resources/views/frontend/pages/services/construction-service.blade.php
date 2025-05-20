@@ -277,8 +277,8 @@
         }
 </Style>
 <section class="tj-choose-us-section-service-construction">
-    <div class="container mt-4">
-        <div class="row mt-4">
+    <div class="container mt-4 py-5">
+        <div class="row " style="padding-top: 100px;">
             <div class="col-lg-6 sal-animate mt-4" data-sal="slide-left" data-sal-duration="800">
                 <div class="choose-us-content-1">
                     <div class="tj-section-heading">

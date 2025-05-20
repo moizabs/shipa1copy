@@ -611,7 +611,7 @@
     $faqs = [
         [
             'question' => 'How do I prepare my vehicle for transport?',
-            'answer' => 'We'll provide detailed instructions, but you'll need to remove personal belongings, as well as make sure to follow guidelines or instructions based on the chosen transport method.',
+            'answer' => 'Well provide detailed instructions, but you ll need to remove personal belongings, as well as make sure to follow guidelines or instructions based on the chosen transport method.',
         ],
         [
             'question' => 'How long does it take to ship my freight?',
@@ -626,6 +626,7 @@
             'answer' => 'Ship A1 handles a wide quantity and range of freight including LTL and FTL transporting services, as well as ensuring the safety of your vehicles and peace of mind.',
         ],
     ];
+
 @endphp
 
 <x-faq :faqs="$faqs" />
