@@ -1,5 +1,5 @@
 @extends('frontend.layouts.app')
-@section('title', 'Get Best Boat Transportation & Shipping Services in All Over USA | Ship A1')
+@section('title', 'Secured, Trusted Boat Shipping Services in USA')
 @section('meta_description',
 'Looking for boat transporters in USA? Ship A1 is one of the top boat transport companies, Get a free boat transportation cost today!')
 @section('canonical')

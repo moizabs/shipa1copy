@@ -1,5 +1,5 @@
 @extends('frontend.layouts.app')
-@section('title', 'Top-Rated Farm Equipment Transport In the USA – Ship A1')
+@section('title', 'Get an Instant Quote for Your Farm Equipment Transport')
 @section('meta_description', 'Need farm tractor transport services? Ship A1 ensures safe, secure, and on-time delivery of tractors and farming equipment nationwide.')
 @section('canonical')
 <link rel="canonical" href="{{ url()->current() }}">

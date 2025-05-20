@@ -1,5 +1,5 @@
 @extends('frontend.layouts.app')
-@section('title', 'Get Top Construction Equipment Shipping Services in USA | Safe & Secure Transportation')
+@section('title', 'ShipA1 - Fast Construction Equipment Shipping in USA')
 @section('meta_description', 'Ship A1 specializes in construction equipment shipping, ensuring safe handling and fast shipping across the USA. Contact us today!')
 @section('canonical')
 <link rel="canonical" href="{{ url()->current() }}">

@@ -1,5 +1,5 @@
 @extends('frontend.layouts.app')
-@section('title', 'Trusted & Affordable Freight Auction Transport Service in USA | Get a Free Quote!')
+@section('title', 'Freight Auction Transport Services in USA - Get a Quote')
 @section('meta_description', 'Get expert freight auction shipping with fully insured transport, competitive pricing, and reliable service. Request a free quote today!')
 @section('canonical')
 <link rel="canonical" href="{{ url()->current() }}">

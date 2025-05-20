@@ -1,5 +1,5 @@
 @extends('frontend.layouts.app')
-@section('title', 'Get Instant Heavy Equipment Shipping Quote | Fast & Transparent Pricing')
+@section('title', 'Heavy Equipment Shipping - Instant Quote Cost Calculator')
 @section('meta_description',
 'Need to transport heavy equipment? Use our tool to get a heavy equipment shipping quote in seconds. Reliable, affordable, and nationwide transport solutions!')
 @section('canonical')

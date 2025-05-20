@@ -1,7 +1,7 @@
 @extends('frontend.layouts.app')
-@section('title', 'Trusted Hazmat Transportation Company in USA – Safe & Compliant Services')
-@section('meta_description', 'Get hazmat shipping services in All-over USA! Choose Ship A1 for hazmat transportation
-    companies that prioritize safety, compliance, and efficient hazardous material shipping.')
+@section('title', 'Hire Trained &amp; Trusted team for Hazmat Transportation')
+@section('meta_description', 'Hazmat product shipping is not a typical transport delivery. You need ShipA1’s expertly trained
+team here. Get a quote today and hire the best men in.')
 @section('canonical')
     <link rel="canonical" href="{{ url()->current() }}">
 @endsection

@@ -1,5 +1,5 @@
 @extends('frontend.layouts.app')
-@section('title', 'Get Trusted Commercial Truck Shipping Services Nationwide | Ship A1')
+@section('title', 'Your Trust Our Best Commercial Truck Shipping Services')
 @section('meta_description', 'Looking for commercial truck transport companies? Ship A1 offers safe, reliable, and affordable commercial truck transport across the USA.')
 @section('canonical')
 <link rel="canonical" href="{{ url()->current() }}">

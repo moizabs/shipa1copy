@@ -1,5 +1,5 @@
 @extends('frontend.layouts.app')
-@section('title', 'Get Construction Equipment Transport Cost – Calculate Your Price Now')
+@section('title', 'Calculate the Cost of Construction Equipment Transport')
 @section('meta_description', 'Get an instant construction equipment shipping quote with our easy-to-use calculator. Fast, accurate, and hassle-free pricing!')
 @section('canonical')
 <link rel="canonical" href="{{ url()->current() }}">

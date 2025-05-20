@@ -1,5 +1,5 @@
 @extends('frontend.layouts.app')
-@section('title', 'Find the Instant Shipping Cost with Our Auto Transport Quote Calculator | Fast & Free!')
+@section('title', 'Digital Auto Shipping Cost Calculator for Instant Quotes')
 @section('meta_description',
 'Wondering how much it costs to ship a car? Our free auto transport quote calculator gives you an instant estimate with no obligation.')
 @section('canonical')

@@ -1,6 +1,7 @@
 @extends('frontend.layouts.app')
-@section('title', 'Affordable & Best ATV/UTV Transportation Services in USA | Ship A1')
-@section('meta_description', 'Looking for ATV/UTV transportation? Ship A1 is the best ATV/UTV transport company in USA, providing safe and affordable nationwide shipping. Get a free quote now!')
+@section('title', 'ShipA1 - Top ATV/UTV Transportation Services in USA.')
+@section('meta_description', 'Your search for the best ATV/UTV transportation should end here! Connect with ShipA1 and get
+instant, customized quotes today with extra charges.')
 @section('canonical')
 <link rel="canonical" href="{{ url()->current() }}">
 @endsection

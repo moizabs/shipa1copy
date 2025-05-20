@@ -1,5 +1,5 @@
 @extends('frontend.layouts.app')
-@section('title', 'Find Out Your Golf Cart Shipping Cost – Instant Quote Available')
+@section('title', 'Calculate the Cost of Golf Cart Shipping in USA')
 @section('meta_description', 'Enter your details into our golf cart transport cost calculator for a fast, no-obligation quote. Safe & affordable shipping!')
 @section('canonical')
 <link rel="canonical" href="{{ url()->current() }}">

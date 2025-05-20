@@ -1,5 +1,5 @@
 @extends('frontend.layouts.app')
-@section('title', 'Get Excavator Transport Services in USA – Fast & Secure Nationwide Shipping')
+@section('title', 'Nationwide Excavator Transport Services in USA')
 @section('meta_description', 'Looking for professional excavator transport services in the USA? We ensure secure, on-time shipping with expert handling. Contact us now!')
 @section('canonical')
 <link rel="canonical" href="{{ url()->current() }}">

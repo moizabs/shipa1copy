@@ -1,7 +1,7 @@
 @extends('frontend.layouts.app')
 @section('title')
     {{-- {{ $blog->meta_title }} --}}
-    {{ $blog->meta_title ? $blog->meta_title : 'Opps Title is Not Availabe' }}
+    {{ $blog->meta_title ? $blog->meta_title : 'Understand Auto Transport Types with ShipA1' }}
 @endsection
 @section('meta_description')
     {{ $blog->meta_description }}

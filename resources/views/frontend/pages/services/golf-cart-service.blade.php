@@ -1,5 +1,5 @@
 @extends('frontend.layouts.app')
-@section('title', 'Get Affordable Golf Cart Transport & Shipping Services in USA | Get Free Quote!')
+@section('title', 'Timely &amp; Affordable Golf Cart Transport Services in USA')
 @section('meta_description', 'Ship A1 is best among all golf cart shipping companies in USA, offering cost-effective and
     damage-free golf cart transport service nationwide')
 @section('canonical')

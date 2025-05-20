@@ -1,5 +1,5 @@
 @extends('frontend.layouts.app')
-@section('title', 'Get Accurate Motorcycle Shipping Calculator – Get Your Quote Now!')
+@section('title', 'Calculate the Cost of Motorcycle Shipping in USA')
 @section('meta_description', 'Find out your motorcycle transportation cost with our easy-to-use calculator. Fast, affordable, and hassle-free shipping estimates!')
 @section('canonical')
 <link rel="canonical" href="{{ url()->current() }}">

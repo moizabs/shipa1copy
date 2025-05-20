@@ -1,7 +1,7 @@
-@extends('frontend.layouts.app') @section('title', 'Best & Top-Rated Auto Transport Company in USA | Fast & Affordable ')
+@extends('frontend.layouts.app') @section('title', 'Your Trusted, Top-Rated Auto Transport Agency in USA')
 @section('meta_description',
-    'Looking for the best vehicle transport company? Choose Ship A1 for best vehicle transport
-services near you! We ensure safe, fast, and affordable auto transport services nationwide.') @section('content')
+    'Looking for the best vehicle transport company? ShipA1 is here for all-in-one shipping services
+in the USA. Time to partner with an expert agency.') @section('content')
 @section('canonical')
     <link rel="canonical" href="{{ url()->current() }}">
 @endsection

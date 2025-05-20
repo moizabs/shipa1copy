@@ -1,5 +1,5 @@
 @extends('frontend.layouts.app')
-@section('title', 'Instant Reefer Trucking Cost Calculator – Free & Accurate')
+@section('title', 'Your Chain Logistics (Reefer) Experts at Hand')
 @section('meta_description',
     'Looking for the best reefer transport rates? Get a fast and accurate shipping quote with our calculator.')
 @section('canonical')

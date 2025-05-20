@@ -1,6 +1,7 @@
 @extends('frontend.layouts.app')
 @section('title', 'Top Reefer Shipping Services in USA – Cold Chain Logistics Experts')
-@section('meta_description', 'Book best reefer shipping services in USA with Ship A1! Our cold chain logistics services ensure the safe and efficient transportation of perishable and temperature-sensitive cargo nationwide.')
+@section('meta_description', 'Bring on your temperature-sensitive materials. Get safe and efficient transportation by ShipA1. The most
+secure cold chain logistics is guaranteed.')
 @section('canonical')
 <link rel="canonical" href="{{ url()->current() }}">
 @endsection

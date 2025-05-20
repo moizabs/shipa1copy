@@ -1,4 +1,7 @@
 @extends('frontend.layouts.app')
+@section('title', 'Visit, connect, &amp; Book Your Transport Service Today')
+@section('meta_description', 'ShipA1 makes each transport journey easy, secure, and well-monitored. Connect with us, learn about services, and
+book a quote today.')
 @section('canonical')
 <link rel="canonical" href="{{ url()->current() }}">
 @endsection

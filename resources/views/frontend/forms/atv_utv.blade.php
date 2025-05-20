@@ -2,7 +2,7 @@
 @section('canonical')
 <link rel="canonical" href="{{ url()->current() }}">
 @endsection
-@section('title', 'Find the Best ATV & UTV Transport Rates – Get a Free Quote')
+@section('title', 'Get an Instant Quote for Enclosed &amp; Open Car Shipping')
 @section('meta_description',
     'Need to ship an ATV or UTV? Get an instant ATV/UTV shipping quote and book hassle-free transport with trusted carriers. ')
 @section('content')

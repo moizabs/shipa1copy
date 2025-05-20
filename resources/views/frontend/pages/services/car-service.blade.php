@@ -1,9 +1,8 @@
 @extends('frontend.layouts.app')
-@section('title', 'Best Car Transport Service for State-to-State Shipping in All Over USA | Get Free Quote!')
+@section('title', 'ShipA1 - Fast State-to-State Car Shipping in USA')
 @section('meta_description',
-    'Get affordable and top-rated car transport services in allover USA with Ship A1. Whether
-    you need local or state-to-state car transport services, Ship A1 offers cheap car shipping services with top-rated
-    service quality.')
+    'Take advantage of ShipA1’s all-in-one delivery types and customized shipping services. Hire us
+and transport your auto vehicles all over the USA.')
 @section('canonical')
     <link rel="canonical" href="{{ url()->current() }}">
 @endsection

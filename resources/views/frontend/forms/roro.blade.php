@@ -1,5 +1,5 @@
 @extends('frontend.layouts.app')
-@section('title', 'Instant RoRo Shipping Quotes Calculator – Find the Best Rates')
+@section('title', 'Digital RoRo Shipping Cost Calculator for Instant Quotes')
 @section('meta_description',
 'Need affordable roll-on/roll-off transport Quotes? Use our RoRo shipping calculator to get an instant price estimate with no hidden fees!')
 @section('canonical')
