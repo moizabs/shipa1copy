@@ -1,5 +1,5 @@
 @extends('frontend.layouts.app')
-@section('title', 'Professional Heavy Equipment Transportation In USA – Get Free Shipping Quote!')
+@section('title', ' Your Expert Team for Heavy Equipment Transportation')
 @section('meta_description', 'You think heavy equipment transport is expensive? Utilize our digital cost calculator to learn
 about average prices and get an instant quote today.')
 @section('canonical')

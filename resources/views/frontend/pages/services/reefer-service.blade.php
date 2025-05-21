@@ -1,5 +1,5 @@
 @extends('frontend.layouts.app')
-@section('title', 'Top Reefer Shipping Services in USA – Cold Chain Logistics Experts')
+@section('title', 'Your Chain Logistics (Reefer) Experts at Hand')
 @section('meta_description', 'Bring on your temperature-sensitive materials. Get safe and efficient transportation by ShipA1. The most
 secure cold chain logistics is guaranteed.')
 @section('canonical')

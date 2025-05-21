@@ -1,5 +1,5 @@
 @extends('frontend.layouts.app')
-@section('title', 'Instant RV Shipping Quote Calculator – Find the Best Transport Rates')
+@section('title', 'Digital RV Shipping Cost Calculator for Instant Quotes')
 @section('meta_description', 'Get an instant RV transport cost calculator quote! Fast, transparent pricing for hassle-free RV shipping.')
 @section('canonical')
 <link rel="canonical" href="{{ url()->current() }}">

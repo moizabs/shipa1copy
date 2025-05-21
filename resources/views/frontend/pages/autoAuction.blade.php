@@ -1,5 +1,5 @@
 @extends('frontend.layouts.app')
-@section('title', 'Book Professional Car Auction Shipping Services in USA | Top Auction Transport Company | Ship A1 ')
+@section('title', 'Top Auto Auction Transport Company - Book a Quote Today ')
 @section('meta_description', 'Need an affordable auction car shipping service? Hire ShipA1’s expert team for secure and
 trusted car auction transport services in the USA.')
 @section('canonical')

@@ -1,5 +1,5 @@
 @extends('frontend.layouts.app')
-@section('title', 'Get an Instant Enclosed & Open Car Shipping Quote Online | Fast & Accurate')
+@section('title', ' Get an Instant Quote for Enclosed & Open Car Shipping')
 @section('meta_description', 'Get a free open & enclosed car transport quote for high-value vehicles. Safe, insured, and handled with expert care. Get Quote Now!')
 @section('canonical')
 <link rel="canonical" href="{{ url()->current() }}">

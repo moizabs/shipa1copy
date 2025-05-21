@@ -1,5 +1,5 @@
 @extends('frontend.layouts.app')
-@section('title', 'ShipA1 Auto Transport Quotes | Best Vehicle Shipping Service in USA')
+@section('title', 'Hire ShipA1 for Speedy Vehicle Shipping Service in USA')
 @section('meta_description', 'Get car shipping services in USA, scratchless vehicle transport service along with huge
     discount offers and FREE auto shipping quotes nationwide.')
     @section('canonical')

@@ -166,7 +166,6 @@
                                        can
                                        reply STOP to opt-out of further messaging.
                                    </div>
-
                                 </div>
                             </div>
                             

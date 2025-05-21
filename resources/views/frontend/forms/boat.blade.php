@@ -1,5 +1,5 @@
 @extends('frontend.layouts.app')
-@section('title', 'Instant Boat Shipping Cost Calculator – Fast & Accurate Pricing')
+@section('title', 'Digital Boat Shipping Cost Calculator for Instant Quotes')
 @section('meta_description',
 'Wondering how much it costs to ship a boat? Our boat transport cost calculator provides instant and accurate pricing.')
 @section('canonical')
