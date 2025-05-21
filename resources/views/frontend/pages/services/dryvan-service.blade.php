@@ -74,13 +74,6 @@
       "@type": "Answer",
       "text": "Ship A1 handles a wide quantity and range of freight including LTL and FTL transporting services, as well as ensuring the safety of your vehicles and peace of mind."
     }
-  },{
-    "@type": "Question",
-    "name": "",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": ""
-    }
   }]
 }
 </script>
