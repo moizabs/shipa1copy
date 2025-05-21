@@ -1,5 +1,5 @@
 @extends('frontend.layouts.app')
-@section('title', 'Digital RV Shipping Cost Calculator for Instant Quotes')
+@section('title', 'Nationwide RV Transport Services')
 @section('meta_description', 'Your class a, b, c RVs need the secured and trusted hands. It’s time to choose the expert RV transporter in
 USA. Hire ShipA1 today.')
 @section('canonical')
