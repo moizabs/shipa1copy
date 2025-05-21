@@ -1,6 +1,7 @@
 @extends('dashboard.admin.layouts.app')
 
 @section('content')
+
     <div class="container">
 
         <div class="card o-hidden border-0 shadow-lg my-5">
@@ -112,4 +113,14 @@
         </div>
 
     </div>
+    <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            $('.summernote').summernote({
+                height: 250,
+            });
+        });
+    </script>
 @endsection
