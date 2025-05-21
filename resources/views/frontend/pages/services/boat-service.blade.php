@@ -515,7 +515,7 @@ Yes, boat shipping is safe in the USA when you hire a partner who is trusted and
     <div class="container why-box">
         <div class="row services">
             <div class="col-12">
-                <h1 class="services-h1">Easy Boat Preparation & Documentation Process</h1>
+                <h4 class="services-h1 fs-2">Easy Boat Preparation & Documentation Process</h4>
             </div>
             <div class="col-12 col-md-4 mb-4">
                 <div class="card- h-100">
