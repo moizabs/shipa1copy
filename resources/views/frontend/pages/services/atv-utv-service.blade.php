@@ -320,7 +320,8 @@ instant, customized quotes today with extra charges.')
         <div class="row">
             <div class="col-lg-12">
                 <div class="breadcrumb-content">
-                    <h1 class="breadcrumb-title fs-2 text-center">Best UTV Transport Company in USA– Trust Ship A1 for Your ATV/UTV Transportation Needs!</h1>
+                    <h1 class="breadcrumb-title ml-4 fs-2 w-75">Best UTV Transport Company in USA– Trust Ship A1 for Your ATV/UTV Transportation Needs!</h1>
+                    <h2 class="breadcrumb-title ml-4 fs-6 w-75 mb-5">Your sports, utility, and touring ATV/UTV need advanced trailers. Hire ShipA1’s expert crew for secure ATV/UTV transport service. </h2>
                     <div class="breadcrumb-link">
                         <span>
                             <a href="{{ route('welcome') }}">

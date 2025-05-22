@@ -349,8 +349,11 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="breadcrumb-content">
-                        <h1 class="breadcrumb-title fs-2 text-center ">Ship Your Golf Cart Safely in All Over USA with Trusted Golf
+                        <h1 class="breadcrumb-title ml-4 fs-2 w-75 ">Ship Your Golf Cart Safely in All Over USA with Trusted Golf
                             Cart Shipping Company</h1>
+                        <h2 class="breadcrumb-title ml-4 fs-6 w-75 mb-5">
+                            Partner with ShipA1 and get early pickup and timely delivery of your utility buggies. Ready for speedy gold car transport service? 
+                        </h2>
                         <div class="breadcrumb-link">
                             <span>
                                 <a href="{{ route('welcome') }}">

@@ -500,8 +500,11 @@ the USA. Connect with ShipA1 today.')
             <div class="row">
                 <div class="col-lg-12">
                     <div class="breadcrumb-content">
-                        <h1 class="breadcrumb-title text-center">Looking for Reliable Bike Transport? Ship A1 Has You
+                        <h1 class="breadcrumb-title  ml-4 fs-2 w-75">Looking for Reliable Bike Transport? Ship A1 Has You
                             Covered!</h1>
+                        <h2 class="breadcrumb-title ml-4 fs-6 w-75 mb-5">
+                            ShipA1, the fastest motorcycle transport service provider got your back for timely delivery, without on-road delays. Get a quote today!
+                        </h2>
                         <div class="breadcrumb-link">
                             <span>
                                 <a href="{{ route('welcome') }}">

@@ -246,8 +246,9 @@ team here. Get a quote today and hire the best men in.')
             <div class="row">
                 <div class="col-lg-12">
                     <div class="breadcrumb-content">
-                        <h1 class="breadcrumb-title fs-2 text-center">Hazmat Transportation Services in USA You Can Trust - Get
+                        <h1 class="breadcrumb-title ml-4 fs-2 w-75">Hazmat Transportation Services in USA You Can Trust - Get
                             Quote Now!</h1>
+                        <h2 class="breadcrumb-title ml-4 fs-6 w-75 mb-5">Government urges: only partner with a certified hazmat transportation company in the USA Therefore, connect with ShipA1 today!</h2>
                         <div class="breadcrumb-link">
                             <span>
                                 <a href="{{ route('welcome') }}">

@@ -68,12 +68,13 @@
 
 
         <!-- DataTales Example -->
-        <div class="card shadow mb-4">
+        {{-- <div class="card shadow mb-4">
             <div class="card-header py-3">
-                {{-- <h6 class="m-0 font-weight-bold text-primary">All Blogs</h6> --}}
                 <a href="{{ route('blogs.create') }}" class="m-0 btn btn-primary btn-icon">
                     <i class="fas fa-pencil-alt"></i> Add Blog
                 </a>
+
+                <input class="form-control" type="text" name="search-blogs" placeholder="Search Blogs"/>
             </div>
 
             <div class="card-body">
@@ -138,7 +139,67 @@
                 </div>
             </div>
 
-        </div>
+        </div> --}}
 
+
+
+        <div class="card shadow mb-4">
+    <div class="card-header py-3 d-flex justify-content-between align-items-center">
+        <a href="{{ route('blogs.create') }}" class="m-0 btn btn-primary btn-icon">
+            <i class="fas fa-pencil-alt"></i> Add Blog
+        </a>
+
+        <input class="form-control w-25 " type="text" name="search-blogs" id="search-blogs" placeholder="Search Blogs"/>
     </div>
+
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th nowrap><i class="fas fa-user"></i> Name</th>
+                        <th nowrap><i class="fas fa-align-left"></i> Description</th>
+                        <th nowrap><i class="fas fa-list"></i> Category</th>
+                        <th nowrap><i class="fas fa-eye"></i> Preview</th>
+                        <th nowrap><i class="fas fa-image"></i> Image</th>
+                        <th nowrap><i class="fas fa-toggle-on"></i> Status</th>
+                        <th nowrap><i class="fas fa-cogs"></i> Actions</th>
+                    </tr>
+                </thead>
+                <tbody id="blogs-table-body">
+                    @include('dashboard.admin.blogs.blogs_rows', ['blogs' => $blogs])
+                </tbody>
+            </table>
+            <div class="mt-5" id="pagination-links">
+                {{ $blogs->links('pagination.simple-number') }}
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+
+<script>
+$(document).ready(function() {
+    $('#search-blogs').on('keyup', function() {
+        let query = $(this).val();
+        
+        if(query.length > 2 || query.length === 0) {
+            $.ajax({
+                url: "{{ route('blogs.search') }}",
+                type: "GET",
+                data: {'search': query},
+                success: function(data) {
+                    $('#blogs-table-body').html(data.rows);
+                    $('#pagination-links').html(data.pagination);
+                },
+                error: function(xhr) {
+                    console.log(xhr.responseText);
+                }
+            });
+        }
+    });
+});
+</script>
+
 @endsection

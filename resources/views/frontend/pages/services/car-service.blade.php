@@ -507,8 +507,12 @@ and transport your auto vehicles all over the USA.')
             <div class="row">
                 <div class="col-lg-12">
                     <div class="breadcrumb-content">
-                        <h1 class="breadcrumb-title fs-2 text-center">Affordable Car Transportation Services from State to State
+                        <h1 class="breadcrumb-title ml-4 fs-2 w-75 ">Affordable Car Transportation Services from State to State
                             in The USA – Fast & Secure Shipping</h1>
+                        <h2 class="breadcrumb-title ml-4 fs-6 w-75 mb-5">
+                          Need low cost car shipping services in USA? Stop your search. Hire ShipA1 for reliable cross country and state to state car transport.
+                        </h2>
+                        
                         <div class="breadcrumb-link">
                             <span>
                                 <a href="{{ route('welcome') }}">

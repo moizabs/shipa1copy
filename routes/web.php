@@ -157,6 +157,7 @@ Route::middleware('admin')->prefix('admin')->group(function () {
         Route::get('/edit/{id}', [BlogController::class, 'edit'])->name('blogs.edit');
         Route::put('/update/{id}', [BlogController::class, 'update'])->name('blogs.update');
         Route::delete('/destroy/{blog}', [BlogController::class, 'destroy'])->name('blogs.destroy');
+        Route::get('/blogs/search', [BlogController::class, 'search'])->name('blogs.search');
     });
     Route::resource('marketing', MarketingController::class);
     Route::prefix('navbar')->group(function () {

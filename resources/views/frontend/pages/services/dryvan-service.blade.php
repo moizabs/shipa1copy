@@ -134,7 +134,8 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="breadcrumb-content">
-                    <h1 class="breadcrumb-title text-center">Top-Rated Dry Van Transportation Services – Contact Ship A1 Today!</h1>
+                    <h1 class="breadcrumb-title ml-4 fs-2 w-75">Top-Rated Dry Van Transportation Services – Contact Ship A1 Today!</h1>
+                   <h2 class="breadcrumb-title ml-4 fs-6 w-75 mb-5">Enclosed trailers are monitored by a qualified team of ShipA1. Our dry van transport service comes with 24/7 active tracking.</h2>
                     <div class="breadcrumb-link">
                         <span>
                             <a href="{{ route('welcome') }}">

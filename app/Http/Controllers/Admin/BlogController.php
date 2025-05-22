@@ -9,12 +9,41 @@ use Illuminate\Support\Str;
 
 class BlogController extends Controller
 {
+    // public function index()
+    // {
+    //     // $blogs = Blog::all();
+    //     $blogs = Blog::orderBy('id', 'DESC')->paginate(20);
+    //     return view('dashboard.admin.blogs.index', compact('blogs'));
+    // }
+
+
     public function index()
     {
-        // $blogs = Blog::all();
         $blogs = Blog::orderBy('id', 'DESC')->paginate(20);
         return view('dashboard.admin.blogs.index', compact('blogs'));
     }
+
+    public function search(Request $request)
+{
+    $search = $request->input('search');
+    
+    $blogs = Blog::query()
+        ->where(function($query) use ($search) {
+            $query->where('post_name', 'LIKE', "%{$search}%")
+                  ->orWhere('post_short_description', 'LIKE', "%{$search}%")
+                  ->orwhere('slug_name', 'LIKE', "%{$search}%");
+        })
+        ->orderBy('id', 'DESC')
+        ->paginate(20);
+        
+    $rows = view('dashboard.admin.blogs.blogs_rows', compact('blogs'))->render();
+    $pagination = $blogs->links('pagination.simple-number')->render();
+    
+    return response()->json([
+        'rows' => $rows,
+        'pagination' => $pagination
+    ]);
+}
 
     public function create()
     {
