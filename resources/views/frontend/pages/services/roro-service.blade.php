@@ -203,8 +203,7 @@
                         <span class="sub-title active-shape2">SERVICES</span>
                         <h1 class="title fs-2">Safe, Cost-Effective & Efficient RoRo Shipping – Contact Ship A1 Today!</h1>
                         <h2 class="desc-2 fs-6">
-                            ShipA1 has pledged to provide all-in-one auto transport solutions to all its
-                            customers and seeks your trust in return of our services.
+                           ShipA1 is your trusted RoRo shipping company. Learn about the average RoRo prices on our digital cost calculator and get a quote today!
                         </h2>
                     </div>
                 </div>

@@ -59,7 +59,7 @@
                             loading=lazy alt=Logo></a>
                     <p>
                         Ship A1 Transport is one of the top logistic and shipping companies, with a vast variety of
-                        shipping methods, quality services, and a well-equipped staff. moiz
+                        shipping methods, quality services, and a well-equipped staff.
                     </p>
                     <div class="row mt-3">
                         <div class=col-lg-12>

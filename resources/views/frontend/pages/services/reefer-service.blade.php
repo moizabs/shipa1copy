@@ -213,7 +213,8 @@ secure cold chain logistics is guaranteed.')
         <div class="row">
             <div class="col-lg-12">
                 <div class="breadcrumb-content">
-                    <h1 class="breadcrumb-title fs-2 text-center">Best Reefer Shipping Solutions You Can Rely On – Cold Chain Experts in USA</h1>
+                    <h1 class="breadcrumb-title ml-4 fs-2 w-75 ">Best Reefer Shipping Solutions You Can Rely On – Cold Chain Experts in USA</h1>
+                    <h2 class="breadcrumb-title ml-4 fs-6 w-75 mb-5" >Get an instant quote for your refrigerated freight shipping. ShipA1 welcomes you to handpick an advanced trailer and book the delivery.</h2>
                     <div class="breadcrumb-link">
                         <span>
                             <a href="{{ route('welcome') }}">
