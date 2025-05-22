@@ -7,13 +7,13 @@ in the USA. Time to partner with an expert agency.') @section('content')
 @endsection
 
 
-    <link rel="preload" as="image" href="{{ asset('/frontend/images/banner/home-underline.webp') }}" type="image/webp">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="preload" as="image" href="/frontend/images/slider/fright-banner-home.webp" />
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script type="application/ld+json">
+<link rel="preload" as="image" href="{{ asset('/frontend/images/banner/home-underline.webp') }}" type="image/webp">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="preload" as="image" href="/frontend/images/slider/fright-banner-home.webp" />
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script type="application/ld+json">
 {
   "@context": "https://schema.org",  
   "@type": "Organization",
@@ -30,7 +30,7 @@ in the USA. Time to partner with an expert agency.') @section('content')
   ]
 }
 </script>
-    <script type="application/ld+json">
+<script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
@@ -81,7 +81,7 @@ in the USA. Time to partner with an expert agency.') @section('content')
   }
 }
 </script>
-    <script type="application/ld+json">
+<script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "FAQPage",
@@ -375,6 +375,28 @@ in the USA. Time to partner with an expert agency.') @section('content')
     .services-bg {
         background-image: url({{ asset('public/img/1430_x_863_Nebraska%281%29.jpg') }} )
     }
+
+    .firstorthird {
+        background-color: #f5f7fa;
+        color: black;
+        transition: 1s;
+    }
+
+    .secondorforth {
+        background-color: #e2e6ec;
+        color: black;
+        transition: 1s;
+    }
+
+    .firstorthird:hover {
+        background-color: #062e39;
+        color: white;
+    }
+
+    .secondorforth:hover {
+        background-color: #062e39;
+        color: white;
+    }
 </style>
 <div id="preloader" class="preloader">
     <div class="animation-preloader"></div>
@@ -411,11 +433,12 @@ in the USA. Time to partner with an expert agency.') @section('content')
                 <div class="swiper-slide slide-bg" style="background-image: url('{{ asset($slide['image']) }}');">
                     <div class="container">
                         <div class="slider-content p-z-idex">
-                            @if ($index == 0)
+                            <h1 class="slider-title fs-2">{{ $slide['title'] }}</h1>
+                            {{-- @if ($index == 0)
                                 <h1 class="slider-title fs-2">{{ $slide['title'] }}</h1>
                             @else
                                 <h2 class="slider-title fs-2">{{ $slide['title'] }}</h2>
-                            @endif
+                            @endif --}}
                             <h2 class="slider-desc  fs-6">{{ $slide['desc'] }}</h2>
                             <div class="tj-theme-button">
                                 <a class="tj-transparent-btn ms-4 mt-4" href="{{ route('quote.form.combine') }}">
@@ -444,7 +467,9 @@ in the USA. Time to partner with an expert agency.') @section('content')
                     <div class="service-item">
                         <div class="tj-service-icon">
                             <div class="service-icon"><i class="fa-light {{ $service['icon'] }} fa-xs"></i></div>
-                            <div class="sub-title"><span>{!! nl2br(e($service['title'])) !!}</span></div>
+                            <div class="sub-title"><span>
+                                    <h3>{!! nl2br(e($service['title'])) !!}</h3>
+                                </span></div>
                         </div>
                         <div class="service-arrow">
                             <a href="{{ route($service['route']) }}" title="{{ $service['title'] }}">
@@ -483,9 +508,11 @@ in the USA. Time to partner with an expert agency.') @section('content')
         <div class="row">
             <div class="col-lg-6" data-sal="slide-left" data-sal-duration="800">
                 <div class="about-content-one">
-                    <div class="tj-section-heading"><span class="sub-title active-shape">A1 Transportation
-                            Company</span>
-                        <h4 class="title fs-4">How Are We Trusted & Unstopable?</h4>
+                    <div class="tj-section-heading"><span class="sub-title active-shape">
+                            <h3>A1 Transportation
+                                Company</h3>
+                        </span>
+                        <h3 class="title fs-4">How Are We Trusted & Unstopable?</h3>
                         <p class="desc"> It took us a decade to rule the industry and to be known as a reliable and
                             top-notch hub
                             of auto transport services in the USA. As we believe in:</p>
@@ -585,8 +612,10 @@ in the USA. Time to partner with an expert agency.') @section('content')
 <section class="tj-step-section">
     <div class="container">
         <div class="row">
-            <div class="tj-section-heading text-center"><span class="sub-title active-shape">Working Process</span>
-                <h4 class="">Here Is How ShipA1, A Complete Automobile Shipping Agency Works </h4>
+            <div class="tj-section-heading text-center"><span class="sub-title active-shape">
+                    <h3>Working Process</h3>
+                </span>
+                <h3 class="">Here Is How ShipA1, A Complete Automobile Shipping Agency Works </h3>
             </div>
             <div class="row">
                 <div class="col-lg-12">
@@ -639,7 +668,8 @@ in the USA. Time to partner with an expert agency.') @section('content')
     <div class="container mt-5">
         <div class="row">
             <div class="tj-section-heading text-center"><span class="sub-title active-shape">
-                    Transport Services Modes</span>
+                    <h3>Transport Services Modes</h3>
+                </span>
             </div>
         </div>
         <div class="row">
@@ -712,17 +742,17 @@ in the USA. Time to partner with an expert agency.') @section('content')
     
 </div> --}}
 
-<section class="tj-team-section">
-    <div class="container">
-        <div class="tj-section-heading text-center">
-            <span class="sub-title active-shape">Our Services</span>
-            <h3 class="title">Pick Your Transport Type</h3>
+<section class="">
+    <div class="row">
+        <div class="tj-section-heading text-center"><span class="sub-title active-shape">
+                <h3>Our Services</h3>
+            </span>
         </div>
     </div>
 </section>
-<section class="tj-project-section">
-    <div class="tj-project-slider owl-carousel">
-        {{-- @php
+{{-- <section class="tj-project-section">
+    <div class="tj-project-slider owl-carousel"> --}}
+{{-- @php
                 $services = [
                     ['route' => 'frontend.pages.services.car-service', 'img' => 'project/9.webp', 'title' => 'Car Shipping Service', 'label' => 'CAR'],
                     ['route' => 'frontend.pages.services.bike-service', 'img' => 'project/PYT-Bike.webp', 'title' => 'Motorcycle Shipping Service', 'label' => 'Motorcycle'],
@@ -759,7 +789,9 @@ in the USA. Time to partner with an expert agency.') @section('content')
                     </a>
                 </div>
             @endforeach --}}
-        @php
+
+{{-- services section start --}}
+{{-- @php
             $services = [
                 [
                     'route' => 'frontend.pages.services.car-service',
@@ -871,8 +903,14 @@ in the USA. Time to partner with an expert agency.') @section('content')
                     </div>
                 </a>
             </div>
-        @endforeach
-        {{-- @foreach ($services as $index => $service)
+        @endforeach --}}
+{{-- services section end --}}
+
+
+
+
+
+{{-- @foreach ($services as $index => $service)
                 @php
                     $serviceRoute = route($service['route'] ?? '');
                     $imgSrc = isset($service['img']) ? asset('/frontend/images/' . $service['img']) : asset('/frontend/images/default.webp');
@@ -914,8 +952,50 @@ in the USA. Time to partner with an expert agency.') @section('content')
                     </a>
                 </div>
             @endforeach --}}
+
+
+
+
+{{-- </div>
+</section> --}}
+
+<section>
+    <div class="container">
+
+        <div class="row mx-5">
+            <div class="firstorthird rounded col-md-3 px-3 py-4">
+                <h3 class="pb-4">Car Shipping</h3>
+                <p class="pt-4">Say the name of your auto transport type and let us handle everything. ShipA1 is here
+                    for you, offering low cost car shipping with a door-to-door delivery benefit. Bring your luxury or
+                    used cars and handpick your open or enclosed trailers in no time. </p>
+            </div>
+            <div class="secondorforth rounded col-md-3 px-3 py-4">
+                <h3 class="pb-4">Motorcycle Shipping</h3>
+                <p class="pt-4">ShipA1 should be your first choice if you are looking for an expert transport agency
+                    to move your collection of brand-new or vintage bikes. Don’t worry about the safe loading and
+                    on-road security, as we offer door-to-door motorcycle shipping all over the USA.</p>
+            </div>
+            <div class="firstorthird rounded col-md-3 px-3 py-4">
+                <h3 class="pb-4">Heavy Equipment Transport</h3>
+                <p class="pt-2">We are experienced and certified heavy equipment movers in the USA and beyond. The
+                    team is ready to serve you with quick city-to-city, state-to-state, and cross-country transport
+                    services in all fifty states of the USA.</p>
+            </div>
+            <div class="secondorforth rounded col-md-3 px-3 py-4">
+                <h3 class="pb-4">Freight Forwarding</h3>
+                <p class="pt-4">ShipA1 covers the top three categories of freight logistics transportation (Reefer,
+                    Dry Van, and Hazmat). Completing city-to-city delivery in 48 hours and state-to-state consignment
+                    within 7 days makes us one of the best freight shipping platforms in the USA.</p>
+            </div>
+        </div>
+        <div class="tj-theme-button my-3 text-center">
+            <a class="tj-transparent-btn" href="{{ route('services') }}">
+                View All<i class="flaticon-right-1"></i>
+            </a>
+        </div>
     </div>
 </section>
+
 <section class="tj-choose-us-section-service-moiz my-5 services-bg">
     <div class="container why-box">
         <div class="row services">
@@ -930,33 +1010,33 @@ in the USA. Time to partner with an expert agency.') @section('content')
                 <div class="service-section-parent gap-3 ">
                     <div class="services-section ">
                         <span>
-                            <h6 class="text-center font-weight-bold">Auto Dealerships</h6>
+                            <h4 class="text-center fs-6 font-weight-bold">Auto Dealerships</h4>
                             <p class="text-center">Continuous collaboration opportunities for auto sales businesses.
                             </p>
                         </span>
                     </div>
                     <div class="services-section ">
                         <span>
-                            <h6 class="text-center font-weight-bold">Auto Auctions</h6>
+                            <h4 class="text-center fs-6 font-weight-bold">Auto Auctions</h4>
                             <p class="text-center">Expedited shipping for vehicles destined for auctions.</p>
                         </span>
                     </div>
                     <div class="services-section ">
                         <span>
-                            <h6 class="text-center font-weight-bold">Company Vehicle Fleets</h6>
+                            <h4 class="text-center fs-6 font-weight-bold">Company Vehicle Fleets</h4>
                             <p class="text-center">Corporate firms are also our special B2B clients for car shipping.
                             </p>
                         </span>
                     </div>
                     <div class="services-section ">
                         <span>
-                            <h6 class="text-center font-weight-bold">Rental Car Companies</h6>
+                            <h4 class="text-center fs-6 font-weight-bold">Rental Car Companies</h4>
                             <p class="text-center">We are all set every day for rental car agencies.</p>
                         </span>
                     </div>
                     <div class="services-section ">
                         <span>
-                            <h6 class="text-center font-weight-bold">Manufacturing Hubs</h6>
+                            <h4 class="text-center fs-6 font-weight-bold">Manufacturing Hubs</h4>
                             <p class="text-center">Fast and fully secure shipping for your manufacturing vehicles.</p>
                         </span>
                     </div>
@@ -974,19 +1054,19 @@ in the USA. Time to partner with an expert agency.') @section('content')
                     <p>ShipA1 is a 24/7 active remotely available automobile shipping agency. Follow the process to
                         book your vehicle transport consignment hassle-free.</p>
                     <br />
-                    <h5 class="font-weight-bold">1. Request a Quote</h5>
+                    <h4 class="font-weight-bold">1. Request a Quote</h4>
                     <p>Learn about our services through our official website and request an instant customized plan by
                         clicking on <a href="{{ route('quote.form.combine') }}" class="alllinks">“Get a Quote”.</a>
                     </p>
                     <br />
-                    <h5 class="font-weight-bold">2. Get Options & Booking Confirmation</h5>
+                    <h4 class="font-weight-bold">2. Get Options & Booking Confirmation</h4>
                     <p>
                         Choose your automobile shipping plan and obtain booking confirmation by following a simple order
                         booking
                         process.
                     </p>
                     <br />
-                    <h5 class="font-weight-bold">3. Wait for Speedy Shipping Delivery</h5>
+                    <h4 class="font-weight-bold">3. Wait for Speedy Shipping Delivery</h4>
                     <p>
                         That’s it; you are done here. Wait for the foremost and safe drop-off of your vehicle shipment
                         delivery.
@@ -1003,8 +1083,7 @@ in the USA. Time to partner with an expert agency.') @section('content')
     <div class="container my-5">
         <div class="row">
             <div class="col-12 col-lg-5 d-flex justify-content-center align-items-center">
-                <img class="img-fluid"
-                    src="{{ asset('public/frontend/images/about/post-2.jpg') }}" alt="450x500"
+                <img class="img-fluid" src="{{ asset('public/frontend/images/about/post-2.jpg') }}" alt="450x500"
                     loading="lazy" decoding="async">
             </div>
 
@@ -1015,20 +1094,20 @@ in the USA. Time to partner with an expert agency.') @section('content')
                         shippers, carriers, and consignees and
                         allow them to serve you with the best vehicle shipping service perks.</p>
                     <br />
-                    <h5 class="font-weight-bold">No More On-Road Snags</h5>
+                    <h4 class="font-weight-bold">No More On-Road Snags</h4>
                     <p>Fuel stops, vehicle maintenance and unpredictable weather are no longer on-route challenges for
                         ShipA1. Hire us and get uninterrupted
                         vehicle shipping experience.
                     </p>
                     <br />
-                    <h5 class="font-weight-bold">We Handle All Legal Compliance</h5>
+                    <h4 class="font-weight-bold">We Handle All Legal Compliance</h4>
                     <p>
                         Cargo detentions are never new in the USA. ShipA1’s carriers and drivers are qualified enough to
                         get through
                         each regulatory checkpoint and vehicle inspection station.
                     </p>
                     <br />
-                    <h5 class="font-weight-bold">Only Specialized Expert Carriers</h5>
+                    <h4 class="font-weight-bold">Only Specialized Expert Carriers</h4>
                     <p>
                         ShipA1 works for your exceptional service satisfaction. That’s why our assigned carrier
                         companions are trained to follow professional friendly gestures throughout car shipping
@@ -1085,23 +1164,28 @@ in the USA. Time to partner with an expert agency.') @section('content')
     $faqs = [
         [
             'question' => 'How is ShipA1 the trusted automobile transport agency in the USA?',
-            'answer' => 'Simply put, we offer qualified carriers, benefits to customers with door-to-door vehicle shipping, and back automobiles with one hundred percent insurance support.',
+            'answer' =>
+                'Simply put, we offer qualified carriers, benefits to customers with door-to-door vehicle shipping, and back automobiles with one hundred percent insurance support.',
         ],
         [
             'question' => 'Does ShipA1 offer the cheapest car shipping services in the USA?',
-            'answer' => 'ShipA1 never aims to trap its existing and potential customers by highlighting offering cheap car shipping services. Our customized car transport service plans come under budget-friendly ranges.',
+            'answer' =>
+                'ShipA1 never aims to trap its existing and potential customers by highlighting offering cheap car shipping services. Our customized car transport service plans come under budget-friendly ranges.',
         ],
         [
             'question' => 'How much time does it take to hire the best car shipping agency near me?',
-            'answer' => 'Locating and hiring a car shipping agency depends on your digital exploration and selected car transport partner. However, at ShipA1, you get quotes and order booking confirmation within minutes.',
+            'answer' =>
+                'Locating and hiring a car shipping agency depends on your digital exploration and selected car transport partner. However, at ShipA1, you get quotes and order booking confirmation within minutes.',
         ],
         [
             'question' => 'How do I identify a reliable and trusted vehicle shipping partner?',
-            'answer' => 'As per our experienced shipping team, clients should explore the digital presence, read online reviews, and ask for licensed verification to identify their top-picked freight.',
+            'answer' =>
+                'As per our experienced shipping team, clients should explore the digital presence, read online reviews, and ask for licensed verification to identify their top-picked freight.',
         ],
         [
             'question' => 'How can I get fast automobile transport services right now?',
-            'answer' => 'Connect with ShipA1 and click on “Get a Quote”. By following a simple order booking process, you can get your automobile shipping consignment started.',
+            'answer' =>
+                'Connect with ShipA1 and click on “Get a Quote”. By following a simple order booking process, you can get your automobile shipping consignment started.',
         ],
     ];
 @endphp

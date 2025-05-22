@@ -60,7 +60,7 @@
         padding: 20px;
     }
 
-    .side-container div h2 {
+    .side-container div h3 {
         color: #062e39;
     }
 
@@ -68,7 +68,7 @@
         color: #062e39;
     }
 
-    .side-container div h2 span {
+    .side-container div h3 span {
         color: #8fc445;
         font-weight: 700;
     }
@@ -152,7 +152,7 @@
     <div class="row p-2">
         <div class="side-container col-12 col-lg-5 ">
             <div>
-                <h2>Frequently <span>Asked Questions</span> </h2>
+                <h3 class="fs-2">Frequently <span>Asked Questions</span></h3>
                 <hr class="w-50">
                 <p>Have a look at answers to trending customer queries about our vehicle shipping services.</p>
                 <a class="text-decoration-none  btnfaq" href="{{ route('faq') }}">Get Detailed Shipping Answer</a>
