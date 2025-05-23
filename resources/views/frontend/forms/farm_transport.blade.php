@@ -1,5 +1,5 @@
 @extends('frontend.layouts.app')
-@section('title', 'Find the Best Rates for Farm Equipment Transport | Fast & Reliable')
+@section('title', 'Get an Instant Quote For Your Farm Equipment Transport')
 @section('meta_description', 'Get a fast & free farm equipment transport quote today! Trusted shipping solutions at affordable rates.')
 @section('canonical')
 <link rel="canonical" href="{{ url()->current() }}">

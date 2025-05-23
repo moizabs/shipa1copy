@@ -1,7 +1,7 @@
 @extends('frontend.layouts.app')
 @section('title', 'Heavy Equipment Shipping - Instant Quote Cost Calculator')
 @section('meta_description',
-'Need to transport heavy equipment? Use our tool to get a heavy equipment shipping quote in seconds. Reliable, affordable, and nationwide transport solutions!')
+'You think heavy equipment transport is expensive? Utilize our digital cost calculator to learn about average prices and get an instant quote today.')
 @section('canonical')
 <link rel="canonical" href="{{ url()->current() }}">
 @endsection

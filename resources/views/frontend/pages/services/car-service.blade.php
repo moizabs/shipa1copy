@@ -2,12 +2,12 @@
 @section('title', 'ShipA1 - Fast State-to-State Car Shipping in USA')
 @section('meta_description',
     'Take advantage of ShipA1’s all-in-one delivery types and customized shipping services. Hire us
-and transport your auto vehicles all over the USA.')
+    and transport your auto vehicles all over the USA.')
 @section('canonical')
     <link rel="canonical" href="{{ url()->current() }}">
 @endsection
 @section('content')
-<script type="application/ld+json">
+    <script type="application/ld+json">
     {
   "@context": "https://schema.org",
   "@type": "Service",
@@ -46,7 +46,7 @@ and transport your auto vehicles all over the USA.')
 }
 
 </script>
-<script type="application/ld+json">
+    <script type="application/ld+json">
     {
   "@context": "https://schema.org",
   "@type": "FAQPage",
@@ -97,58 +97,68 @@ and transport your auto vehicles all over the USA.')
 
 </script>
     <style>
-        .side-container{
-           display: flex;
-           justify-content: center;
-           align-items: center;
-           margin: 50px auto;
-           padding:20px;
+        .side-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 50px auto;
+            padding: 20px;
         }
-        .side-container div h2{
+
+        .side-container div h2 {
             color: #062e39;
         }
+
         .side-container div p {
             color: #062e39;
         }
-        .side-container div h2 span{
+
+        .side-container div h2 span {
             color: #8fc445;
             font-weight: 700;
         }
-        .side-container div hr{
+
+        .side-container div hr {
             color: #8fc445;
-            height: 8px;    
-            opacity: 1; 
+            height: 8px;
+            opacity: 1;
             /* border-radius: 5px; */
             border-top-left-radius: 50px;
             border-bottom-right-radius: 50px;
         }
-        .btnfaq{
+
+        .btnfaq {
             border: none;
             border-radius: 5px;
             background-color: #8fc445;
             color: white;
-            padding: 6px ;
+            padding: 6px;
             transition: 1s;
         }
-        .btnfaq:hover{
+
+        .btnfaq:hover {
             background-color: #062e39;
             color: white;
         }
+
         .faq-container {
             max-width: 700px;
             margin: 50px auto;
             background: #fff;
-            padding:20px;
+            padding: 20px;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
+
         .faq-container h2 {
             text-align: center;
             color: #8fc445;
         }
+
         .faq {
             border-bottom: 1px solid #ddd;
         }
+
         .faq button {
             width: 100%;
             background: none;
@@ -164,9 +174,11 @@ and transport your auto vehicles all over the USA.')
             justify-content: space-between;
             align-items: center;
         }
+
         .faq button:hover {
             background: #f1f1f1;
         }
+
         .faq-content {
             display: none;
             padding: 15px;
@@ -174,10 +186,12 @@ and transport your auto vehicles all over the USA.')
             background: #f9f9f9;
             border-radius: 5px;
         }
+
         .open-faq {
             background: #d22;
             color: white;
         }
+
         .custom-hover-flip {
             position: relative;
             display: inline-block;
@@ -411,12 +425,13 @@ and transport your auto vehicles all over the USA.')
 
         @media only screen and (max-width: 1000px) {
             .top-notch-parent {
-                grid-template-columns: auto auto ;
+                grid-template-columns: auto auto;
             }
         }
+
         @media only screen and (max-width: 560px) {
             .top-notch-parent {
-                grid-template-columns: auto ;
+                grid-template-columns: auto;
             }
         }
 
@@ -427,11 +442,13 @@ and transport your auto vehicles all over the USA.')
             padding: 50px 10px;
             text-align: center;
         }
-        .top-notch-childs:hover{
-            transition: 2s; 
-            border: 1px solid #062e39 ; 
+
+        .top-notch-childs:hover {
+            transition: 2s;
+            border: 1px solid #062e39;
 
         }
+
         .top-notch-childs div {
             display: flex;
             justify-content: center;
@@ -464,12 +481,13 @@ and transport your auto vehicles all over the USA.')
 
         @media only screen and (max-width: 1000px) {
             .top-notch-parent2 {
-                grid-template-columns: auto auto ;
+                grid-template-columns: auto auto;
             }
         }
+
         @media only screen and (max-width: 560px) {
             .top-notch-parent2 {
-                grid-template-columns: auto ;
+                grid-template-columns: auto;
             }
         }
 
@@ -481,7 +499,7 @@ and transport your auto vehicles all over the USA.')
             text-align: center;
         }
 
-       
+
 
         .top-notch-childs2 div {
             display: flex;
@@ -507,12 +525,14 @@ and transport your auto vehicles all over the USA.')
             <div class="row">
                 <div class="col-lg-12">
                     <div class="breadcrumb-content">
-                        <h1 class="breadcrumb-title ml-4 fs-2 w-75 ">Affordable Car Transportation Services from State to State
+                        <h1 class="breadcrumb-title ml-4 fs-2 w-75 ">Affordable Car Transportation Services from State to
+                            State
                             in The USA – Fast & Secure Shipping</h1>
                         <h2 class="breadcrumb-title ml-4 fs-6 w-75 mb-5">
-                          Need low cost car shipping services in USA? Stop your search. Hire ShipA1 for reliable cross country and state to state car transport.
+                            Need low cost car shipping services in USA? Stop your search. Hire ShipA1 for reliable cross
+                            country and state to state car transport.
                         </h2>
-                        
+
                         <div class="breadcrumb-link">
                             <span>
                                 <a href="{{ route('welcome') }}">
@@ -529,7 +549,7 @@ and transport your auto vehicles all over the USA.')
             </div>
         </div>
     </section>
-    <section>
+    {{-- <section>
         <div class="container">
             <div class="row full-width mt-4 ms-1">
                 <div class="col-12 mt-5">
@@ -545,55 +565,83 @@ and transport your auto vehicles all over the USA.')
                         ShipA1’s expert carriers for car transport
                         services near me” and witness the magic of speedy and reliable vehicle transportation support.
                     </p>
-                    {{-- <div class="tj-theme-button  text-center mt-2">
-                        <a class="tj-transparent-btn" href="{{ route('form.vehicle.car') }}">
-                            Get Quote
-                            <i class="flaticon-right-1"></i>
-                        </a>
-                    </div> --}}
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
     <section class="tj-blog-standard pb-0 pt-4">
-        <div class="container">
+        <div class="container my-5">
             <div class="row">
-                <div class="col-lg-7">
-                    <div class="image-container">
-                        <img class="img-fluid" src="{{ asset('/frontend/images/project/CAR-SERVICE-MAIN.webp') }}"
-                            loading="lazy" alt="Motorcyle Transport">
-                    </div>
-                    <br>
-                    <div class="text-container text-left">
-                        <h3>The First Stop Platform of Car Shipping Services</h3>
-                        <p>Ship A1, your go-to partner in transportation services! We prioritize the needs of our customers
-                            and
-                            ensure their shipping services are as smooth as possible. With over 16 years of experience, we
-                            can
-                            proudly count ourselves as one of the leading transportation companies. <br>
-                            Ready to ship your car to a new destination? Say no more, Ship A1 offers the best car
-                            transportation
-                            services, as well as equipped with advanced trailers for your vehicle.
-                        </p>
-                    </div>
-                    <div class="row mt-4">
-                        <div class="col-6 text-center">
-                            <h4><i class="fas fa-ship" style="color: var(--tj-primary-color);"></i> Successful Shipment</h4>
-                            <div class="review-counter fs-2">
-                                <span id="counter-value" class="ms-3" data-target="318"
-                                    style="color: var(--tj-secondary-color);">0</span>k+
-                            </div>
+
+                <div class="col-lg-7 d-flex align-items-center">
+                    <div class="">
+                        <div class="">
+                            <h3 class="">We Are Acclaimed for Swift & Secure Car Transport Services in the USA </h3>
+                            <p class="">
+                                Do you need fast and affordable car transport services in the USA right away? Guess what? We
+                                have
+                                some amazing plans
+                                for you to prevent all seasonal struggles in all fifty states of the USA. Our team is open
+                                to a
+                                friendly negotiation;
+                                otherwise, our active customer support team is here to suggest the best open, enclosed,
+                                flatbed, and
+                                drop-dreck
+                                <a href="{{ route('services') }}" class="alllinks"> transportation options </a>. Just say
+                                the magical words “I need
+                                ShipA1’s expert carriers for car transport
+                                services near me” and witness the magic of speedy and reliable vehicle transportation
+                                support.
+                            </p>
                         </div>
-                        <div class="col-6 text-center">
-                            <h4><i class="fas fa-smile" style="color: var(--tj-primary-color);"></i> Satisfied Clients</h4>
-                            <div class="review-counter fs-2">
-                                <span id="counter-value-2" class="ms-3 " data-target="289"
-                                    style="color: var(--tj-secondary-color);">0</span>k+
-                            </div>
+                        {{-- <div class="image-container">
+                            <img class="img-fluid" src="{{ asset('/frontend/images/project/CAR-SERVICE-MAIN.webp') }}"
+                                loading="lazy" alt="Motorcyle Transport">
                         </div>
+                        <br> --}}
+                        <div class="text-container text-left">
+                            <h3>The First Stop Platform of Car Shipping Services</h3>
+                            <p>Ship A1, your go-to partner in transportation services! We prioritize the needs of our
+                                customers
+                                and
+                                ensure their shipping services are as smooth as possible. With over 16 years of experience,
+                                we
+                                can
+                                proudly count ourselves as one of the leading transportation companies. <br>
+                                Ready to ship your car to a new destination? Say no more, Ship A1 offers the best car
+                                transportation
+                                services, as well as equipped with advanced trailers for your vehicle.
+                            </p>
+                        </div>
+                        {{-- <div class="row mt-4">
+                            <div class="col-6 text-center">
+                                <h4><i class="fas fa-ship" style="color: var(--tj-primary-color);"></i> Successful Shipment
+                                </h4>
+                                <div class="review-counter fs-2">
+                                    <span id="counter-value" class="ms-3" data-target="318"
+                                        style="color: var(--tj-secondary-color);">0</span>k+
+                                </div>
+                            </div>
+                            <div class="col-6 text-center">
+                                <h4><i class="fas fa-smile" style="color: var(--tj-primary-color);"></i> Satisfied Clients
+                                </h4>
+                                <div class="review-counter fs-2">
+                                    <span id="counter-value-2" class="ms-3 " data-target="289"
+                                        style="color: var(--tj-secondary-color);">0</span>k+
+                                </div>
+                            </div>
+                        </div> --}}
+                        <br>
+                         <div class="image-container">
+                            <img class=" " style="border-radius: 25px ; height:300px; width:100%; object-fit:cover;" src="{{ asset('/frontend/images/project/new-car-services.png') }}"
+                                loading="lazy" alt="Car Transport">
+                            {{-- <img class="img-fluid" src="https://airforshare.com/files/Gncraq.png"
+                                loading="lazy" alt="Motorcyle Transport"> --}}
+                        </div>
+                        
                     </div>
                 </div>
-                <div class="col-lg-5">
+                <div class="col-lg-5 ">
                     @if (session('success'))
                         <div class="alert alert-success">
                             {{ session('success') }}
@@ -1091,7 +1139,7 @@ and transport your auto vehicles all over the USA.')
 
                     </div>
                 </div> --}}
-                
+
             </div>
         </div>
     </section>
@@ -1159,8 +1207,15 @@ and transport your auto vehicles all over the USA.')
                                         </div>
                                         <div class="col-sm-6 d-flex align-items-center justify-content-center">
                                             <div class="card-body tj-section-heading mb-0">
-                                                <h5 class="card-title sub-title active-shape">Enclosed Trailer Car Shipping Service</h5>
-                                                <p class="card-text  text-dark">Here comes the most protected trailer type offered by ShipA1. Enclosed transport is a universal-satisfactory choice for luxury and high-rated cars. The fully digitally integrated walls and roof make sure to keep your premium automobile protected from sunshine, roadside dust, and other vehicle damage. Enclosed transport is considerable for exotic cars, as prices are a bit higher than regular vehicle shipping trailers.</p>
+                                                <h5 class="card-title sub-title active-shape">Enclosed Trailer Car Shipping
+                                                    Service</h5>
+                                                <p class="card-text  text-dark">Here comes the most protected trailer type
+                                                    offered by ShipA1. Enclosed transport is a universal-satisfactory choice
+                                                    for luxury and high-rated cars. The fully digitally integrated walls and
+                                                    roof make sure to keep your premium automobile protected from sunshine,
+                                                    roadside dust, and other vehicle damage. Enclosed transport is
+                                                    considerable for exotic cars, as prices are a bit higher than regular
+                                                    vehicle shipping trailers.</p>
                                                 <div class="tj-theme-button mt-2">
                                                     <a class="tj-transparent-btn"
                                                         href="{{ route('frontend.forms.dryvan') }}">
@@ -1188,8 +1243,13 @@ and transport your auto vehicles all over the USA.')
                                         </div>
                                         <div class="col-sm-6 d-flex align-items-center justify-content-center">
                                             <div class="card-body tj-section-heading mb-0">
-                                                <h5 class="card-title sub-title active-shape">Open Trailer Car Shipping Service</h5>
-                                                <p class="card-text  text-dark">The open transportation option in our shipping services is an element of a cost-efficient model. For multiple-vehicle transportation and budget-friendly packages, select the open transport option. ShipA1 makes sure to offer proper security for your transporting vehicle all across the USA.</p>
+                                                <h5 class="card-title sub-title active-shape">Open Trailer Car Shipping
+                                                    Service</h5>
+                                                <p class="card-text  text-dark">The open transportation option in our
+                                                    shipping services is an element of a cost-efficient model. For
+                                                    multiple-vehicle transportation and budget-friendly packages, select the
+                                                    open transport option. ShipA1 makes sure to offer proper security for
+                                                    your transporting vehicle all across the USA.</p>
                                                 <div class="tj-theme-button mt-2">
                                                     <a class="tj-transparent-btn"
                                                         href="{{ route('frontend.forms.dryvan') }}">
@@ -1211,8 +1271,14 @@ and transport your auto vehicles all over the USA.')
                                     <div class="row g-0">
                                         <div class="col-sm-6 d-flex align-items-center justify-content-center">
                                             <div class="card-body tj-section-heading mb-0">
-                                                <h5 class="card-title sub-title active-shape">Drop Deck Trailer Car Shipping Service</h5>
-                                                <p class="card-text text-dark">Top choice for taller vehicles. For easy rides of your vehicles, choose the drop deck trailer option. ShipA1 never comes short on the hauler and trailer types. It’s not only about offering the best car shipping services under convincible transportation rates, but also about your custom demands; let us suggest the best vehicle transportation alternative.</p>
+                                                <h5 class="card-title sub-title active-shape">Drop Deck Trailer Car
+                                                    Shipping Service</h5>
+                                                <p class="card-text text-dark">Top choice for taller vehicles. For easy
+                                                    rides of your vehicles, choose the drop deck trailer option. ShipA1
+                                                    never comes short on the hauler and trailer types. It’s not only about
+                                                    offering the best car shipping services under convincible transportation
+                                                    rates, but also about your custom demands; let us suggest the best
+                                                    vehicle transportation alternative.</p>
                                                 <div class="tj-theme-button mt-2">
                                                     <a class="tj-transparent-btn"
                                                         href="{{ route('frontend.forms.dryvan') }}">
@@ -1240,8 +1306,14 @@ and transport your auto vehicles all over the USA.')
                                     <div class="row g-0">
                                         <div class="col-sm-6 d-flex align-items-center justify-content-center">
                                             <div class="card-body tj-section-heading mb-0">
-                                                <h5 class="card-title sub-title active-shape">Flatbed Trailer Car Shipping Service</h5>
-                                                <p class="card-text text-dark">This trailer type also remains standard, non-enclosed like drop decks and open transport options. But still, go for a Flatbed if you need a suitable auto transport truck for inoperable and oversized vehicles. Let us know how you want your car shipped. With custom security attachments, we serve with a hundred percent insurance covering support.</p>
+                                                <h5 class="card-title sub-title active-shape">Flatbed Trailer Car Shipping
+                                                    Service</h5>
+                                                <p class="card-text text-dark">This trailer type also remains standard,
+                                                    non-enclosed like drop decks and open transport options. But still, go
+                                                    for a Flatbed if you need a suitable auto transport truck for inoperable
+                                                    and oversized vehicles. Let us know how you want your car shipped. With
+                                                    custom security attachments, we serve with a hundred percent insurance
+                                                    covering support.</p>
                                                 <div class="tj-theme-button mt-2">
                                                     <a class="tj-transparent-btn"
                                                         href="{{ route('commercial.truck.transport') }}">
@@ -1270,49 +1342,58 @@ and transport your auto vehicles all over the USA.')
     <section>
         <div class="container py-5  ">
             <h2 class="text-center pb-3">Why Get a Car Shipping Quote from Us?</h2>
-            <p class="text-center">Find out how ShipA1 is your ideal pick for value-for-money car transport services in the USA.</p>
+            <p class="text-center">Find out how ShipA1 is your ideal pick for value-for-money car transport services in the
+                USA.</p>
             <div class=" top-notch-parent2">
                 <div class="top-notch-childs2  ">
                     <div>
                         <div><i class="fa-solid fa-clipboard-check"></i></div>
                     </div>
                     <h5>24/7 Active Tracking </h5>
-                    <p>We offer secure, dependable, and activity-monitored car transport services in the USA and beyond. Expert and trained carriers are one call away!</p>
+                    <p>We offer secure, dependable, and activity-monitored car transport services in the USA and beyond.
+                        Expert and trained carriers are one call away!</p>
                 </div>
                 <div class="top-notch-childs2  ">
                     <div>
                         <div><i class="fa-solid fa-file-shield"></i></div>
                     </div>
                     <h5>Budget Friendly Quotes</h5>
-                    <p>All car shipping costs and fares are designed as per your custom demands. <a href="{{ route('contactUs') }}" class="alllinks">Contact us</a>  and get your personalized quote today.</p>
+                    <p>All car shipping costs and fares are designed as per your custom demands. <a
+                            href="{{ route('contactUs') }}" class="alllinks">Contact us</a> and get your personalized
+                        quote today.</p>
                 </div>
                 <div class="top-notch-childs2  ">
                     <div>
                         <div><i class="fa-solid fa-people-arrows"></i></div>
                     </div>
                     <h5>All-in-One Services</h5>
-                    <p>There is a list of features and trailer types for your car, freight cargo, and <a href="{{ route('frontend.pages.services.heavy-service') }} "  class="alllinks">heavy transportation</a>  needs. shipA1 is an omni-shipping service offering platform.</p>
+                    <p>There is a list of features and trailer types for your car, freight cargo, and <a
+                            href="{{ route('frontend.pages.services.heavy-service') }} " class="alllinks">heavy
+                            transportation</a> needs. shipA1 is an omni-shipping service offering platform.</p>
                 </div>
                 <div class="top-notch-childs2  ">
                     <div>
                         <div><i class="fa-solid fa-clipboard-check"></i></div>
                     </div>
                     <h5>Door to Door Benefit</h5>
-                    <p>Our team is ready to serve you by delivering vehicles to your doorsteps. Follow the simple order booking process and share the pickup/drop-off location today!</p>
+                    <p>Our team is ready to serve you by delivering vehicles to your doorsteps. Follow the simple order
+                        booking process and share the pickup/drop-off location today!</p>
                 </div>
                 <div class="top-notch-childs2  ">
                     <div>
                         <div><i class="fa-solid fa-file-shield"></i></div>
                     </div>
                     <h5>Full Insurance Support </h5>
-                    <p>Don’t worry about your vehicle safety; let us handle everything for you. ShipA1 got you covered with careful transportation and strong insurance backup.</p>
+                    <p>Don’t worry about your vehicle safety; let us handle everything for you. ShipA1 got you covered with
+                        careful transportation and strong insurance backup.</p>
                 </div>
                 <div class="top-notch-childs2  ">
                     <div>
                         <div><i class="fa-solid fa-people-arrows"></i></div>
                     </div>
                     <h5>Remote Shipping Anytime</h5>
-                    <p>No physical visits for order booking and confirmation. Similarly, no more stress for the far-off location delivery. Everything happens digitally from your side.</p>
+                    <p>No physical visits for order booking and confirmation. Similarly, no more stress for the far-off
+                        location delivery. Everything happens digitally from your side.</p>
                 </div>
             </div>
         </div>
@@ -1357,8 +1438,8 @@ and transport your auto vehicles all over the USA.')
             </div>
         </div>
     </section>
-    
-    
+
+
     {{-- <section class="tj-choose-us-section-service-cars-2 mt-4">
         <div class="container why-box">
             <div class="row services">
@@ -1454,31 +1535,36 @@ and transport your auto vehicles all over the USA.')
         </div>
     </div> --}}
     @php
-    $faqs = [
-        [
-            'question' => 'Does ShipA1 provide fast car transport services in major U.S. cities? ',
-            'answer' => 'ShipA1’s team is operational across all states of the US. It allows us to be ready for each coming car shipping order. We believe in quick and customer-friendly transport assistance.',
-        ],
-        [
-            'question' => 'How does ShipA1 ensure secure car transport services?',
-            'answer' => 'All our shippers, carriers, brokers, and consignees are certified and experienced for this regular job of car shipping. They are qualified experts, taking care of each consignment with proper care and attention.',
-        ],
-        [
-            'question' => 'How can I get affordable car shipping services from ShipA1?',
-            'answer' => 'Simply, go for city-to-city, open car transportation service. Or just reach out to our professional customer support team, share the requirements/budget, and get a suitable quote.',
-        ],
-        [
-            'question' => 'How much time does it take for city-to-city car transport in the USA?',
-            'answer' => 'Every freight and logistics agency has its own delivery plans. At ShipA1, our carriers and drivers mostly take two days (on average) to drop off cars at the shared destinations.',
-        ],
-        [
-            'question' => 'What is the average cost of state-to-state car shipping in the USA?',
-            'answer' => 'The cost of car shipping in the USA depends on the load, distance, type of service, and your selected transport agency. However, if the days are concerned then at ShipA1, it takes five to seven days for a state-to-state car transport delivery.',
-        ],
-    ];
-@endphp
+        $faqs = [
+            [
+                'question' => 'Does ShipA1 provide fast car transport services in major U.S. cities? ',
+                'answer' =>
+                    'ShipA1’s team is operational across all states of the US. It allows us to be ready for each coming car shipping order. We believe in quick and customer-friendly transport assistance.',
+            ],
+            [
+                'question' => 'How does ShipA1 ensure secure car transport services?',
+                'answer' =>
+                    'All our shippers, carriers, brokers, and consignees are certified and experienced for this regular job of car shipping. They are qualified experts, taking care of each consignment with proper care and attention.',
+            ],
+            [
+                'question' => 'How can I get affordable car shipping services from ShipA1?',
+                'answer' =>
+                    'Simply, go for city-to-city, open car transportation service. Or just reach out to our professional customer support team, share the requirements/budget, and get a suitable quote.',
+            ],
+            [
+                'question' => 'How much time does it take for city-to-city car transport in the USA?',
+                'answer' =>
+                    'Every freight and logistics agency has its own delivery plans. At ShipA1, our carriers and drivers mostly take two days (on average) to drop off cars at the shared destinations.',
+            ],
+            [
+                'question' => 'What is the average cost of state-to-state car shipping in the USA?',
+                'answer' =>
+                    'The cost of car shipping in the USA depends on the load, distance, type of service, and your selected transport agency. However, if the days are concerned then at ShipA1, it takes five to seven days for a state-to-state car transport delivery.',
+            ],
+        ];
+    @endphp
 
-<x-faq :faqs="$faqs" />
+    <x-faq :faqs="$faqs" />
     {{-- <section class="why-choose-us-slider">
         <div class="container">
             <div class="tj-section-heading text-center">
@@ -1780,13 +1866,13 @@ and transport your auto vehicles all over the USA.')
             button.addEventListener("click", () => {
                 const faqContent = button.nextElementSibling;
                 const isOpen = button.classList.contains("open-faq");
-    
+
                 document.querySelectorAll(".faq-toggle").forEach(btn => {
                     btn.classList.remove("open-faq");
                     btn.nextElementSibling.style.display = "none";
                     btn.querySelector("span").textContent = "+";
                 });
-    
+
                 if (!isOpen) {
                     button.classList.add("open-faq");
                     faqContent.style.display = "block";
@@ -1795,5 +1881,5 @@ and transport your auto vehicles all over the USA.')
             });
         });
     </script>
-    
+
 @endsection

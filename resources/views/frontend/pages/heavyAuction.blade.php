@@ -1,5 +1,5 @@
 @extends('frontend.layouts.app')
-@section('title', 'Top Heavy Equipment Auction Transport Company in USA – On-Time Delivery')
+@section('title', 'On Time Heavy Equipment Auction Transport In USA')
 @section('meta_description', 'Searching for heavy equipment auction transport? We specialize in safe, damage-free shipping with fully insured services. Book your transport today!')
 @section('canonical')
 <link rel="canonical" href="{{ url()->current() }}">

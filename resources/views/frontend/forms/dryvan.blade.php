@@ -1,5 +1,5 @@
 @extends('frontend.layouts.app')
-@section('title', 'ShipA1 - Easy &amp; Instant Dry Van Transport Services in USA')
+@section('title', 'ShipA1 - Easy & Instant Dry Van Transport Services in USA')
 @section('meta_description',
 'Find out your dry van freight cost with our easy-to-use calculator. Get a free, no-obligation quote in seconds!')
 @section('canonical')
