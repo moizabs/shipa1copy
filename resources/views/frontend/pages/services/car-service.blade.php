@@ -633,7 +633,7 @@
                         </div> --}}
                         <br>
                          <div class="image-container">
-                            <img class=" " style="border-radius: 25px ; height:300px; width:100%; object-fit:cover;" src="{{ asset('/frontend/images/project/new-car-services.png') }}"
+                            <img class=" " style="border-radius: 25px ; height:365px; width:100%; object-fit:cover;" src="{{ asset('/frontend/images/project/new-car-services.png') }}"
                                 loading="lazy" alt="Car Transport">
                             {{-- <img class="img-fluid" src="https://airforshare.com/files/Gncraq.png"
                                 loading="lazy" alt="Motorcyle Transport"> --}}
