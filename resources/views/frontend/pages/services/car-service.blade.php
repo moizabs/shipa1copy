@@ -577,7 +577,7 @@
                     <div class="">
                         <div class="">
                             <h3 class="">We Are Acclaimed for Swift & Secure Car Transport Services in the USA </h3>
-                            <p class="">
+                            <p class="text-justify">
                                 Do you need fast and affordable car transport services in the USA right away? Guess what? We
                                 have
                                 some amazing plans
@@ -599,9 +599,9 @@
                                 loading="lazy" alt="Motorcyle Transport">
                         </div>
                         <br> --}}
-                        <div class="text-container text-left">
+                        <div class="text-container ">
                             <h3>The First Stop Platform of Car Shipping Services</h3>
-                            <p>Ship A1, your go-to partner in transportation services! We prioritize the needs of our
+                            <p class="text-justify">Ship A1, your go-to partner in transportation services! We prioritize the needs of our
                                 customers
                                 and
                                 ensure their shipping services are as smooth as possible. With over 16 years of experience,
