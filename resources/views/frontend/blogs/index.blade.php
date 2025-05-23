@@ -4,7 +4,7 @@
     'Discover insightful articles, expert tips on auto shipping and transportation at SHIPA1
     Blog. Stay informed and enhance your knowledge.')
 @section('canonical')
-    <link rel="canonical" href="{{ url()->current() }}">
+    <link rel="canonical" href="{{ request()->url() }}{{ request()->getQueryString() ? '?' . request()->getQueryString() : '' }}">
 @endsection
 @section('content')
     <style>
