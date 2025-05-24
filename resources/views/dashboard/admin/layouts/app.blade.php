@@ -322,6 +322,12 @@
                   ['insert', ['link', 'picture', 'video']],
                   ['view', ['fullscreen', 'codeview', 'help']],
                 ],
+                fontSizes: ['8', '9', '10', '11', '12', '14', '16', '18', '20', '24', '36'],
+                fontNames: [
+                    'Arial', 'Arial Black', 'Comic Sans MS', 'Courier New',
+                    'Helvetica Neue', 'Helvetica', 'Impact', 'Lucida Grande',
+                    'Tahoma', 'Times New Roman', 'Verdana', 'Georgia' , 'sans-serif'
+                ],
             });
 
             // Smooth scroll for sidebar links
