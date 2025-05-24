@@ -310,6 +310,18 @@
         $(document).ready(function() {
             $('.summernote').summernote({
                 height: 250,
+                toolbar: [
+                  ['style', ['style']],
+                  ['style', ['bold', 'italic', 'underline', 'clear']],
+                  ['font', ['strikethrough', 'superscript', 'subscript']],
+                  ['fontname', ['fontname']],
+                  ['fontsize', ['fontsize']],
+                  ['color', ['color']],
+                  ['para', ['ul', 'ol', 'paragraph']],
+                  ['height', ['height']],
+                  ['insert', ['link', 'picture', 'video']],
+                  ['view', ['fullscreen', 'codeview', 'help']],
+                ],
             });
 
             // Smooth scroll for sidebar links
