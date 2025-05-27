@@ -58,6 +58,8 @@ class RedirectMiddleware
             'roro-shipping' => 'instant-quote/roro/',
             // public urls
             'public' => '/',
+            'public/instant-quote/construction-equipment' => 'instant-quote/construction-equipment',
+            'public/transport-services/car' => 'transport-services/car',
             'public/benefits-and-considerations-for-hiring-a-car-transport-company' => 'blog/benefits-and-considerations-for-hiring-a-car-transport-company',
             'public/shipping-a-car-to-or-from-las-vegas' => 'blog/shipping-a-car-to-or-from-las-vegas',
             'public/benefits-of-mini-excavator-shipping-at-your-construction-site' => 'blog/benefits-of-mini-excavator-shipping-at-your-construction-site',

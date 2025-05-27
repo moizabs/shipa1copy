@@ -1,5 +1,5 @@
 <?php
-
+use Illuminate\Support\Str;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\HomeController;
@@ -22,6 +22,13 @@ use App\Http\Controllers\Admin\PortDetailController;
 use App\Http\Controllers\Admin\NationWideTransportController;
 use App\Http\Controllers\MarketingController;
 use App\Http\Controllers\ChatController;
+
+
+Route::get('public/{path}', function ($path) {
+    // Remove any duplicate 'blog/' if it exists
+    $cleanPath = Str::of($path)->replaceFirst('blog/', '');
+    return redirect("blog/{$cleanPath}", 301);
+})->where('path', '.*');
 
 Route::get('/robots.txt', function () {
     return response()->view('robots')->header('Content-Type', 'text/plain');

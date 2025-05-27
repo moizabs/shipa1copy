@@ -432,7 +432,7 @@ in the USA. Time to partner with an expert agency.') @section('content')
             @foreach ($slides as $index => $slide)
                 <div class="swiper-slide slide-bg" style="background-image: url('{{ asset($slide['image']) }}');">
                     <div class="container">
-                        <div class="slider-content p-z-idex">
+                        <div class="slider-content p-z-idex ml-5">
                             <h1 class="slider-title fs-2">{{ $slide['title'] }}</h1>
                             {{-- @if ($index == 0)
                                 <h1 class="slider-title fs-2">{{ $slide['title'] }}</h1>
@@ -441,7 +441,7 @@ in the USA. Time to partner with an expert agency.') @section('content')
                             @endif --}}
                             <h2 class="slider-desc  fs-6">{{ $slide['desc'] }}</h2>
                             <div class="tj-theme-button">
-                                <a class="tj-transparent-btn ms-4 mt-4" href="{{ route('quote.form.combine') }}">
+                                <a class="tj-transparent-btn  mt-4" href="{{ route('quote.form.combine') }}">
                                     Get Quote <i class="flaticon-right-1"></i>
                                 </a>
                             </div>
