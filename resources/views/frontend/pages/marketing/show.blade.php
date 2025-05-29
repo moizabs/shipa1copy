@@ -120,7 +120,7 @@
 </Style>
 <section class="tj-choose-us-section-service-construction-dynamic">
     <div class="container mt-4">
-        <div class="row mt-4">
+        <div class="row mt-4 pt-5">
             <div class="col-lg-6 sal-animate mt-4" data-sal="slide-left" data-sal-duration="800">
                 <div class="choose-us-content-1">
                     <div class="tj-section-heading">
@@ -152,7 +152,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 mt-0" data-sal="slide-down" data-sal-duration="800">
+            <div class="col-lg-6 mt-4 " data-sal="slide-down" data-sal-duration="800">
                 @if (session('success'))
                     <div class="alert alert-success">
                         {{ session('success') }}

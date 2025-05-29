@@ -433,13 +433,13 @@ in the USA. Time to partner with an expert agency.') @section('content')
                 <div class="swiper-slide slide-bg" style="background-image: url('{{ asset($slide['image']) }}');">
                     <div class="container">
                         <div class="slider-content p-z-idex ml-5">
-                            <h1 class="slider-title fs-2">{{ $slide['title'] }}</h1>
-                            {{-- @if ($index == 0)
+                            {{-- <h1 class="slider-title fs-2">{{ $slide['title'] }}</h1> --}}
+                            @if ($index == 0)
                                 <h1 class="slider-title fs-2">{{ $slide['title'] }}</h1>
                             @else
                                 <h2 class="slider-title fs-2">{{ $slide['title'] }}</h2>
-                            @endif --}}
-                            <h2 class="slider-desc  fs-6">{{ $slide['desc'] }}</h2>
+                            @endif
+                            <p class="slider-desc  fs-6">{{ $slide['desc'] }}</p>
                             <div class="tj-theme-button">
                                 <a class="tj-transparent-btn  mt-4" href="{{ route('quote.form.combine') }}">
                                     Get Quote <i class="flaticon-right-1"></i>

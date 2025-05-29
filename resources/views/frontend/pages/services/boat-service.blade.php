@@ -738,26 +738,6 @@ Yes, boat shipping is safe in the USA when you hire a partner who is trusted and
 
 @include('partials.blog-slider')
 
-<script>
-    document.querySelectorAll(".faq-toggle").forEach(button => {
-        button.addEventListener("click", () => {
-            const faqContent = button.nextElementSibling;
-            const isOpen = button.classList.contains("open-faq");
-
-            document.querySelectorAll(".faq-toggle").forEach(btn => {
-                btn.classList.remove("open-faq");
-                btn.nextElementSibling.style.display = "none";
-                btn.querySelector("span").textContent = "+";
-            });
-
-            if (!isOpen) {
-                button.classList.add("open-faq");
-                faqContent.style.display = "block";
-                button.querySelector("span").textContent = "-";
-            }
-        });
-    });
-</script>
 @endsection
 @section('extraScript')
 @endsection
