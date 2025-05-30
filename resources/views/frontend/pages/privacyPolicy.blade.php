@@ -41,7 +41,7 @@
                 <p>
                     The information that Ship A1 Transport ("we," "us," "our") gathers, uses, and discloses
                     about you when you use our services and website,<a class="pp-link" href="#">
-                        www.shipa1.com </a>(the "Site"), is outlined in
+                        www.update.shipa1.com </a>(the "Site"), is outlined in
                     this Privacy Policy. By accessing or using the Site or its services, you agree to the
                     Privacy Policy.
                 </p>
@@ -155,7 +155,7 @@
                     experience, it is vital to collect information about how our users and clients utilize our
                     website, such as:</p>
                 <p>All of the information collected is only to upgrade the operation of our website <a class="pp-link"
-                        href="#"> www.shipa1.com</a>
+                        href="#"> www.update.shipa1.com</a>
                 </p>
                 <h5 class="title">Cookies & Relevant Technologies:</h5>
                 <p>Ship A1 Transport utilizes cookies and similar technologies

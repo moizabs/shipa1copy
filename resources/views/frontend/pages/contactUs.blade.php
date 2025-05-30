@@ -162,7 +162,7 @@
                                    <div style="font-size: 14px; color:rgb(121, 120, 120); text-align:justify; ">
                                        By providing a telephone number and submitting this form you are consenting to be
                                        contacted by SMS text message. Message & data rates may apply. Message frequency may
-                                       vary. <a href="{{route('privacyPolicy')  }}" class="alllinks">(www.shipa1.com/privacy_policy)</a> . Reply Help for more information. You
+                                       vary. <a href="{{route('privacyPolicy')  }}" class="alllinks">(www.update.shipa1.com/privacy_policy)</a> . Reply Help for more information. You
                                        can
                                        reply STOP to opt-out of further messaging.
                                    </div>

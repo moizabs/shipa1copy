@@ -35,4 +35,4 @@ User-agent: archive.org_bot
 Crawl-delay: 10
 
 
-Sitemap: https://www.shipa1.com/sitemap.xml
+Sitemap: https://www.update.shipa1.com/sitemap.xml

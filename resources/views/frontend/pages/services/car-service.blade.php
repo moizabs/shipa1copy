@@ -16,8 +16,8 @@
   "provider": {
     "@type": "Organization",
     "name": "ShipA1",
-    "url": "https://www.shipa1.com/transport-services/car",
-    "logo": "https://www.shipa1.com/frontend/images/logo/LOGO%20NEW-2.webp",
+    "url": "https://www.update.shipa1.com/transport-services/car",
+    "logo": "https://www.update.shipa1.com/frontend/images/logo/LOGO%20NEW-2.webp",
     "contactPoint": {
       "@type": "ContactPoint",
       "telephone": "+1 (844) 474-4721",
@@ -34,7 +34,7 @@
   },
   "offers": {
     "@type": "AggregateOffer",
-    "url": "https://www.shipa1.com/transport-services/car",
+    "url": "https://www.update.shipa1.com/transport-services/car",
     "priceCurrency": "USD",
     "eligibleRegion": {
       "@type": "Place",

@@ -14,8 +14,8 @@
   "provider": {
     "@type": "Organization",
     "name": "ShipA1",
-    "url": "https://www.shipa1.com/transport-services/golf-cart",
-    "logo": "https://www.shipa1.com/frontend/images/logo/LOGO%20NEW-2.webp",
+    "url": "https://www.update.shipa1.com/transport-services/golf-cart",
+    "logo": "https://www.update.shipa1.com/frontend/images/logo/LOGO%20NEW-2.webp",
     "contactPoint": {
       "@type": "ContactPoint",
       "telephone": "+1 (844) 474-4721",
@@ -32,7 +32,7 @@
   },
   "offers": {
     "@type": "AggregateOffer",
-    "url": "https://www.shipa1.com/transport-services/golf-cart",
+    "url": "https://www.update.shipa1.com/transport-services/golf-cart",
     "priceCurrency": "USD",
     "eligibleRegion": {
       "@type": "Place",
@@ -1068,7 +1068,7 @@
         ],
         [
             'question' => 'Can I get golf cart shipping delivered in one day with ShipA1?',
-            'answer' => 'Every vehicle shipping company has its own on-road delivery submission dates. <a href="https://www.shipa1.com" target="_blank">Give a call to ShipA1</a>, share your urgent demands, and get the services as per your requirements.',
+            'answer' => 'Every vehicle shipping company has its own on-road delivery submission dates. <a href="https://www.update.shipa1.com" target="_blank">Give a call to ShipA1</a>, share your urgent demands, and get the services as per your requirements.',
         ],
         [
             'question' => 'How much does golf cart shipping typically cost in the USA?',

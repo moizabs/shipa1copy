@@ -17,9 +17,9 @@ in the USA. Time to partner with an expert agency.') @section('content')
 {
   "@context": "https://schema.org",  
   "@type": "Organization",
-  "@id": "https://www.shipa1.com/#organization",
+  "@id": "https://www.update.shipa1.com/#organization",
   "name": "ShipA1",
-  "url": "https://www.shipa1.com/",
+  "url": "https://www.update.shipa1.com/",
   "logo": "https://shipa1.com/frontend/images/logo/LOGO%20NEW-2.webp",
   "foundingDate": "2020",
   "sameAs": [
@@ -34,10 +34,10 @@ in the USA. Time to partner with an expert agency.') @section('content')
 {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  "@id": "https://www.shipa1.com/#localbusiness",
+  "@id": "https://www.update.shipa1.com/#localbusiness",
   "name": "ShipA1",
   "description": "ShipA1 is a trusted auto transport and logistics company offering nationwide vehicle shipping services with reliability, speed, and safety.",
-  "url": "https://www.shipa1.com/",
+  "url": "https://www.update.shipa1.com/",
   "telephone": "(844) 474-4721",
   "priceRange": "$$",
   "address": {
@@ -75,9 +75,9 @@ in the USA. Time to partner with an expert agency.') @section('content')
   },
   "parentOrganization": {
     "@type": "Organization",
-    "@id": "https://www.shipa1.com/#organization",
+    "@id": "https://www.update.shipa1.com/#organization",
     "name": "ShipA1",
-    "url": "https://www.shipa1.com/"
+    "url": "https://www.update.shipa1.com/"
   }
 }
 </script>

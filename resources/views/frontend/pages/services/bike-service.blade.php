@@ -15,8 +15,8 @@ the USA. Connect with ShipA1 today.')
   "provider": {
     "@type": "Organization",
     "name": "ShipA1",
-    "url": "https://www.shipa1.com/transport-services/motorcycle",
-    "logo": "https://www.shipa1.com/frontend/images/logo/LOGO%20NEW-2.webp",
+    "url": "https://www.update.shipa1.com/transport-services/motorcycle",
+    "logo": "https://www.update.shipa1.com/frontend/images/logo/LOGO%20NEW-2.webp",
     "contactPoint": {
       "@type": "ContactPoint",
       "telephone": "+1 (844) 474-4721",
@@ -33,7 +33,7 @@ the USA. Connect with ShipA1 today.')
   },
   "offers": {
     "@type": "AggregateOffer",
-    "url": "https://www.shipa1.com/transport-services/motorcycle",
+    "url": "https://www.update.shipa1.com/transport-services/motorcycle",
     "priceCurrency": "USD",
     "eligibleRegion": {
       "@type": "Place",

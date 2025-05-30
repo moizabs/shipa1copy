@@ -14,8 +14,8 @@ about average prices and get an instant quote today.')
   "provider": {
     "@type": "Organization",
     "name": "ShipA1",
-    "url": "https://www.shipa1.com/transport-services/heavy-equipment",
-    "logo": "https://www.shipa1.com/frontend/images/logo/LOGO%20NEW-2.webp",
+    "url": "https://www.update.shipa1.com/transport-services/heavy-equipment",
+    "logo": "https://www.update.shipa1.com/frontend/images/logo/LOGO%20NEW-2.webp",
     "contactPoint": {
       "@type": "ContactPoint",
       "telephone": "+1 (844) 474-4721",
@@ -32,13 +32,13 @@ about average prices and get an instant quote today.')
   },
   "offers": {
     "@type": "AggregateOffer",
-    "url": "https://www.shipa1.com/transport-services/heavy-equipment",
+    "url": "https://www.update.shipa1.com/transport-services/heavy-equipment",
     "priceCurrency": "USD",
     "lowPrice": 199
   },
   "sameAs": [
     "https://www.facebook.com/shipa1",
-    "https://www.shipa1.com"
+    "https://www.update.shipa1.com"
   ]
 }
 
