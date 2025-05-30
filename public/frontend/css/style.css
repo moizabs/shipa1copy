@@ -3393,7 +3393,7 @@ div .tj-service-icon-box2 ul li .service-item::before {
   padding-top: 110px;
 }
 .tj-choose-us-section {
-  background-image: url(https://blog.shipa1.daydispatch.com/public/frontend/images/slider/DSF.webp);
+  background-image: url(https://blog.shipa1.daydispatch.com/frontend/images/slider/DSF.webp);
   padding-top: 110px;
 }
 .tj-choose-us-section::before {
@@ -5649,7 +5649,7 @@ div .tj-service-icon-box2 ul li .service-item::before {
   padding-top: 225px;
 }
 .breadcrumb-wrapper {
-  background-image: url(https://blog.shipa1.daydispatch.com/public/frontend/images/slider/home-slider-1.webp);
+  background-image: url(https://blog.shipa1.daydispatch.com/frontend/images/slider/home-slider-1.webp);
 }
 .breadcrumb-wrapper .breadcrumb-content .breadcrumb-title {
   color: var(--tj-white-color);

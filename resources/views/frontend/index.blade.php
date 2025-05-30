@@ -373,7 +373,7 @@ in the USA. Time to partner with an expert agency.') @section('content')
     }
 
     .services-bg {
-        background-image: url({{ asset('public/img/1430_x_863_Nebraska%281%29.jpg') }} )
+        background-image: url({{ asset('img/1430_x_863_Nebraska%281%29.jpg') }} )
     }
 
     .firstorthird {
@@ -1074,7 +1074,7 @@ in the USA. Time to partner with an expert agency.') @section('content')
                 </div>
             </div>
             <div class="col-12 col-lg-5  d-flex justify-content-center align-items-center"><img class="shadow-lg"
-                    src="{{ asset('public/frontend/images/about/450x500Nevada.jpg') }}" alt="450x500"
+                    src="{{ asset('frontend/images/about/450x500Nevada.jpg') }}" alt="450x500"
                     loading="lazy" decoding="async"></div>
         </div>
     </div>
@@ -1083,7 +1083,7 @@ in the USA. Time to partner with an expert agency.') @section('content')
     <div class="container my-5">
         <div class="row">
             <div class="col-12 col-lg-5 d-flex justify-content-center align-items-center">
-                <img class="img-fluid" src="{{ asset('public/frontend/images/about/post-2.jpg') }}" alt="450x500"
+                <img class="img-fluid" src="{{ asset('frontend/images/about/post-2.jpg') }}" alt="450x500"
                     loading="lazy" decoding="async">
             </div>
 
@@ -1228,7 +1228,7 @@ in the USA. Time to partner with an expert agency.') @section('content')
         </iframe>
     </div>
     <div class="tj-map-tabs"
-        style="background-image: url('{{ asset('public/frontend/images/banner/form-shape2.webp') }}');">
+        style="background-image: url('{{ asset('frontend/images/banner/form-shape2.webp') }}');">
         <div class="accordion" id="contactAccordion">
             <div class="accordion-item">
                 <h2 class="accordion-header" id="headingContact">

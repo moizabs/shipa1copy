@@ -50,7 +50,7 @@
     </div>
 
     <script>
-        const svgPath = "{{ asset('/public/frontend/images/about/usa-labels-boxes.svg') }}";
+        const svgPath = "{{ asset('frontend/images/about/usa-labels-boxes.svg') }}";
 
         document.addEventListener("DOMContentLoaded", function () {
             fetch(svgPath)

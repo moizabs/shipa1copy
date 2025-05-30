@@ -56,28 +56,28 @@ class MarketingController extends Controller
             $image = $request->file('img_thumbnail');
             $imageName = uniqid() . '.' . $image->getClientOriginalExtension();
             $image->move(public_path('marketing'), name: $imageName);
-            $data['img_thumbnail'] = 'public/marketing/' . $imageName;
+            $data['img_thumbnail'] = 'marketing/' . $imageName;
         }
 
         if ($request->hasFile(key: 'img_one')) {
             $image = $request->file('img_one');
             $imageName = uniqid() . '.' . $image->getClientOriginalExtension();
             $image->move(public_path('marketing'), name: $imageName);
-            $data['img_one'] = 'public/marketing/' . $imageName;
+            $data['img_one'] = 'marketing/' . $imageName;
         }
 
         if ($request->hasFile(key: 'img_two')) {
             $image = $request->file('img_two');
             $imageName = uniqid() . '.' . $image->getClientOriginalExtension();
             $image->move(public_path('marketing'), $imageName);
-            $data['img_two'] = 'public/marketing/' . $imageName;
+            $data['img_two'] = 'marketing/' . $imageName;
         }
 
         if ($request->hasFile(key: 'img_three')) {
             $image = $request->file('img_three');
             $imageName = uniqid() . '.' . $image->getClientOriginalExtension();
             $image->move(public_path('marketing'), $imageName);
-            $data['img_three'] = 'public/marketing/' . $imageName;
+            $data['img_three'] = 'marketing/' . $imageName;
         }
 
         Marketing::create($data);
@@ -140,27 +140,27 @@ class MarketingController extends Controller
             $image = $request->file('img_thumbnail');
             $imageName = uniqid() . '.' . $image->getClientOriginalExtension();
             $image->move(public_path('marketing'), name: $imageName);
-            $data['img_thumbnail'] = 'public/marketing/' . $imageName;
+            $data['img_thumbnail'] = 'marketing/' . $imageName;
         }
         if ($request->hasFile(key: 'img_one')) {
             $image = $request->file('img_one');
             $imageName = uniqid() . '.' . $image->getClientOriginalExtension();
             $image->move(public_path('marketing'), name: $imageName);
-            $data['img_one'] = 'public/marketing/' . $imageName;
+            $data['img_one'] = 'marketing/' . $imageName;
         }
 
         if ($request->hasFile(key: 'img_two')) {
             $image = $request->file('img_two');
             $imageName = uniqid() . '.' . $image->getClientOriginalExtension();
             $image->move(public_path('marketing'), $imageName);
-            $data['img_two'] = 'public/marketing/' . $imageName;
+            $data['img_two'] = 'marketing/' . $imageName;
         }
 
         if ($request->hasFile(key: 'img_three')) {
             $image = $request->file('img_three');
             $imageName = uniqid() . '.' . $image->getClientOriginalExtension();
             $image->move(public_path('marketing'), $imageName);
-            $data['img_three'] = 'public/marketing/' . $imageName;
+            $data['img_three'] = 'marketing/' . $imageName;
         }
 
         $marketing->update($data);

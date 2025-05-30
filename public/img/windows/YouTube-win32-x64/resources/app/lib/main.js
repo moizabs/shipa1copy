@@ -7331,7 +7331,7 @@ const isFullwidthCodePoint = codePoint => {
 	}
 
 	// Code points are derived from:
-	// http://www.unix.org/Public/UNIDATA/EastAsianWidth.txt
+	// http://www.unix.org/UNIDATA/EastAsianWidth.txt
 	if (
 		codePoint >= 0x1100 && (
 			codePoint <= 0x115F || // Hangul Jamo

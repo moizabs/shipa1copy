@@ -128,7 +128,7 @@
                                     <div class="icon-container">
                                         <i class="fa fa-cc-visa"
                                             style="color:navy !important;    font-size: 40px;"></i>
-                                        <img src="/public/assets/images/photos/mastercard.png"
+                                        <img src="/assets/images/photos/mastercard.png"
                                             style=" width: auto; height: 40px; margin-top: -15px; ">
                                     </div>
                                     <div class="form-row">

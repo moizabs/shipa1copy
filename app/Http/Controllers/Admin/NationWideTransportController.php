@@ -55,7 +55,7 @@ class NationWideTransportController extends Controller
                 $imagePath = $image->move(public_path('nationWide'), $imageName);
 
                 // Generate the complete URL for the stored image
-                $imagePath = url('public/nationWide/' . $imageName);
+                $imagePath = url('nationWide/' . $imageName);
             }
 
             // Create a new detail with the image URL
@@ -122,7 +122,7 @@ class NationWideTransportController extends Controller
                 $imagePath = $image->move(public_path('nationWide'), $imageName);
 
                 // Generate the complete URL for the stored image
-                $imagePath = url('public/nationWide/' . $imageName);
+                $imagePath = url('nationWide/' . $imageName);
             }
 
             if ($existingDetail) {

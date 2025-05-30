@@ -13,7 +13,7 @@ header("Access-Control-Allow-Methods: GET, POST");
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="{{ asset('/public/frontend/style.css') }}?id=4">
+    <link rel="stylesheet" href="{{ asset('frontend/style.css') }}?id=4">
     <!-- End CSS -->
 
     <style>
@@ -139,8 +139,8 @@ header("Access-Control-Allow-Methods: GET, POST");
 
     </style>
     <audio id="audio_success" autostart="false">
-        <source src="{{asset('public/success_sound.mp3')}}" type="audio/ogg">
-        <source src="{{asset('public/success_sound.mp3')}}" type="audio/mpeg">
+        <source src="{{asset('success_sound.mp3')}}" type="audio/ogg">
+        <source src="{{asset('success_sound.mp3')}}" type="audio/mpeg">
         Your browser does not support the audio element.
     </audio>
     <div class="chat">
@@ -163,7 +163,7 @@ header("Access-Control-Allow-Methods: GET, POST");
 
                 <!-- Header -->
                 <div class="top">
-                    <img src="{{ asset('public/favicon.webp') }}"  alt="Avatar" style="width: 80px;height: 80px;">
+                    <img src="{{ asset('favicon.webp') }}"  alt="Avatar" style="width: 80px;height: 80px;">
                     <div>
                         <p>{{ strtoupper('Shipa1 Support') }}</p>
                         <small>Online</small>
@@ -200,7 +200,7 @@ header("Access-Control-Allow-Methods: GET, POST");
                 @else
                 <div class="messages">
                     <div class="left message">
-                        <img src="{{ asset('public/favicon.webp') }}" alt="Avatar" style="width: 40px;height: 40px">
+                        <img src="{{ asset('favicon.webp') }}" alt="Avatar" style="width: 40px;height: 40px">
                         <p>Thank you for considering Shipa1  Transport. We have agents standing by to assist you at 1 (844) 474-4721 or here on Livechat.
 
                             How can we help you today?</p>
@@ -215,7 +215,7 @@ header("Access-Control-Allow-Methods: GET, POST");
 
                 <!-- Typing Indicator -->
                 <div id="typingIndicator" class="typing-indicator" style="display: none;">
-{{--                    <img src="{{ asset('public/favicon.webp') }}" alt="Avatar" class="avatar">--}}
+{{--                    <img src="{{ asset('favicon.webp') }}" alt="Avatar" class="avatar">--}}
                     <p>Sending <span class="dots">...</span></p>
                 </div>
 
@@ -446,7 +446,7 @@ header("Access-Control-Allow-Methods: GET, POST");
                     $('.top').after(`
                         <div class="messages">
                             <div class="left message">
-                            <img src="{{ asset('public/favicon.webp') }}" alt="Avatar" style="width: 40px;height: 40px">
+                            <img src="{{ asset('favicon.webp') }}" alt="Avatar" style="width: 40px;height: 40px">
                             <p>Thank you for considering Shipa1  Transport. We have agents standing by to assist you at 1 (844) 474-4721 or here on Livechat.How can we help you today?</p>
                             </div>
                         </div>

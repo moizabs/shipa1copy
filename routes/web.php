@@ -22,13 +22,18 @@ use App\Http\Controllers\Admin\PortDetailController;
 use App\Http\Controllers\Admin\NationWideTransportController;
 use App\Http\Controllers\MarketingController;
 use App\Http\Controllers\ChatController;
+use Illuminate\Support\Facades\Request;
+
+// Route::get('{path}', function ($path) {
+//     // Remove any duplicate 'blog/' if it exists
+//     $cleanPath = Str::of($path)->replaceFirst('blog/', '');
+//     return redirect("blog/{$cleanPath}", 301);
+// })->where('path', '.*');
 
 
-Route::get('public/{path}', function ($path) {
-    // Remove any duplicate 'blog/' if it exists
-    $cleanPath = Str::of($path)->replaceFirst('blog/', '');
-    return redirect("blog/{$cleanPath}", 301);
-})->where('path', '.*');
+Route::get('/public/{any}', function ($any) {
+    return redirect('/' . $any, 301);
+})->where('any', '.*');
 
 Route::get('/robots.txt', function () {
     return response()->view('robots')->header('Content-Type', 'text/plain');
