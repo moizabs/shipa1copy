@@ -595,7 +595,7 @@
                             </p>
                         </div>
                         {{-- <div class="image-container">
-                            <img class="img-fluid" src="{{ asset('/frontend/images/project/CAR-SERVICE-MAIN.webp') }}"
+                            <img class="img-fluid" src="{{ asset('frontend/images/project/CAR-SERVICE-MAIN.webp') }}"
                                 loading="lazy" alt="Motorcyle Transport">
                         </div>
                         <br> --}}
@@ -633,7 +633,7 @@
                         </div> --}}
                         <br>
                          <div class="image-container">
-                            <img class=" " style="border-radius: 25px ; height:355px; width:100%; object-fit:cover;" src="{{ asset('/frontend/images/project/new-car-services.png') }}"
+                            <img class=" " style="border-radius: 25px ; height:355px; width:100%; object-fit:cover;" src="{{ asset('frontend/images/project/new-car-services.png') }}"
                                 loading="lazy" alt="Car Transport">
                             {{-- <img class="img-fluid" src="https://airforshare.com/files/Gncraq.png"
                                 loading="lazy" alt="Motorcyle Transport"> --}}
@@ -1200,7 +1200,7 @@
                                 <div class="card-2 mb-3">
                                     <div class="row g-0">
                                         <div class="col-sm-6 d-flex align-items-center justify-content-center">
-                                            <img src="{{ asset('/frontend/images/slider/Car-Transport-on-Enclosed-trailer.webp') }}"
+                                            <img src="{{ asset('frontend/images/slider/Car-Transport-on-Enclosed-trailer.webp') }}"
                                                 class="img-fluid rounded-start"
                                                 style="height: 100%; background-size: cover; background-position: center;"
                                                 alt="...">
@@ -1236,7 +1236,7 @@
                                 <div class="card-2 mb-3">
                                     <div class="row g-0">
                                         <div class="col-sm-6 d-flex align-items-center justify-content-center">
-                                            <img src="{{ asset('/frontend/images/slider/Car-Transportation-1212.webp') }}"
+                                            <img src="{{ asset('frontend/images/slider/Car-Transportation-1212.webp') }}"
                                                 class="img-fluid rounded-start"
                                                 style="height: 100%; background-size: cover; background-position: center;"
                                                 alt="...">
@@ -1289,7 +1289,7 @@
                                             </div>
                                         </div>
                                         <div class="col-sm-6 d-flex align-items-center justify-content-center">
-                                            <img src="{{ asset('/frontend/images/slider/Dropdeck Trailer.webp') }}"
+                                            <img src="{{ asset('frontend/images/slider/Dropdeck Trailer.webp') }}"
                                                 class="img-fluid rounded-start"
                                                 style="height: 100%; background-size: cover; background-position: center;"
                                                 alt="...">
@@ -1324,7 +1324,7 @@
                                             </div>
                                         </div>
                                         <div class="col-sm-6 d-flex align-items-center justify-content-center">
-                                            <img src="{{ asset('/frontend/images/slider/Semi-Truck-with-Flatbed-Trailer.webp') }}"
+                                            <img src="{{ asset('frontend/images/slider/Semi-Truck-with-Flatbed-Trailer.webp') }}"
                                                 class="img-fluid rounded-start"
                                                 style="height: 100%; background-size: cover; background-position: center;"
                                                 alt="...">

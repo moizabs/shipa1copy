@@ -7,11 +7,11 @@
     <meta name="description" content="ShipA1 Admin Dashboard">
     <meta name="author" content="ShipA1">
     <title>ShipA1 Admin - Dashboard</title>
-    <link rel="apple-touch-icon" href="{{ asset('/frontend/images/logo/favicon.webp') }}" />
-    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('/frontend/images/logo/favicon.webp') }}" />
+    <link rel="apple-touch-icon" href="{{ asset('frontend/images/logo/favicon.webp') }}" />
+    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('frontend/images/logo/favicon.webp') }}" />
     <link href="{{ asset('vendor/fontawesome-free/css/all.min.css') }}" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,600,700,800,900" rel="stylesheet">
-    <link href="{{ asset('/css/sb-admin-2.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/sb-admin-2.min.css') }}" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.css" rel="stylesheet">
     <style>

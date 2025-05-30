@@ -1,5 +1,5 @@
 
-    <link rel="preload" as="image" href="{{ asset('/frontend/images/logo/LOGO NEW-2.webp') }}" type="image/webp">
+    <link rel="preload" as="image" href="{{ asset('frontend/images/logo/LOGO NEW-2.webp') }}" type="image/webp">
 
 <style>
     .active {
@@ -22,7 +22,7 @@
                     <div class="logo-area">
                         <div class="logo-box">
                             <a href="{{ route('welcome') }}" aria-label="Home" title="Home"><img
-                                    src="{{ asset('/frontend/images/logo/LOGO NEW-2.webp') }}" width="200"
+                                    src="{{ asset('frontend/images/logo/LOGO NEW-2.webp') }}" width="200"
                                     height="70" alt="Logo" loading="lazy"></a>
                         </div>
                     </div>
@@ -87,7 +87,7 @@
                         <div class="header-content d-flex flex-wrap align-items-center justify-content-between">
                             <div class="mobile-logo-area d-lg-none">
                                 <a href="{{ route('welcome') }}" aria-label=Home title=Home>
-                                    <img src="{{ asset('/frontend/images/logo/LOGO NEW-2.webp') }}" width="200"
+                                    <img src="{{ asset('frontend/images/logo/LOGO NEW-2.webp') }}" width="200"
                                         height="70" loading=lazy alt=Logo>
                                 </a>
                             </div>

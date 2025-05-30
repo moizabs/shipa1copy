@@ -143,7 +143,7 @@
                 <div class="col-lg-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="300">
                     <div class="service-item-three">
                         <div class="service-image">
-                            <img loading="lazy" src="{{ asset('/frontend/images/slider/car-transports.webp') }}"
+                            <img loading="lazy" src="{{ asset('frontend/images/slider/car-transports.webp') }}"
                                 alt="Image" />
                         </div>
                         <div class="overlay">
@@ -173,7 +173,7 @@
                 <div class="col-lg-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="300">
                     <div class="service-item-three">
                         <div class="service-image">
-                            <img loading="lazy" src="{{ asset('/frontend/images/service/Bike.webp') }}" alt="Image" />
+                            <img loading="lazy" src="{{ asset('frontend/images/service/Bike.webp') }}" alt="Image" />
                         </div>
                         <div class="overlay">
                             <div class="row justify-content-center align-items-center">
@@ -202,7 +202,7 @@
                 <div class="col-lg-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="300">
                     <div class="service-item-three">
                         <div class="service-image">
-                            <img loading="lazy" src="{{ asset('/frontend/images/service/ATV.webp') }}" alt="Image" />
+                            <img loading="lazy" src="{{ asset('frontend/images/service/ATV.webp') }}" alt="Image" />
                         </div>
                         <div class="overlay">
                             <div class="row justify-content-center align-items-center">
@@ -243,7 +243,7 @@
                 <div class="col-lg-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="300">
                     <div class="service-item-three">
                         <div class="service-image">
-                            <img loading="lazy" src="{{ asset('/frontend/images/service/Golf.webp') }}"
+                            <img loading="lazy" src="{{ asset('frontend/images/service/Golf.webp') }}"
                                 alt="Image" />
                         </div>
                         <div class="overlay">
@@ -330,7 +330,7 @@
                 <div class="col-lg-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="300">
                     <div class="service-item-three">
                         <div class="service-image">
-                            <img loading="lazy" src="{{ asset('/frontend/images/service/Construction.webp') }}"
+                            <img loading="lazy" src="{{ asset('frontend/images/service/Construction.webp') }}"
                                 alt="Image" />
                         </div>
                         <div class="overlay">
@@ -407,7 +407,7 @@
                 <div class="col-lg-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="300">
                     <div class="service-item-three">
                         <div class="service-image">
-                            <img loading="lazy" src="{{ asset('/frontend/images/service/Commercial.webp') }}"
+                            <img loading="lazy" src="{{ asset('frontend/images/service/Commercial.webp') }}"
                                 alt="Image" />
                         </div>
                         <div class="overlay">
@@ -435,7 +435,7 @@
                 <div class="col-lg-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="300">
                     <div class="service-item-three">
                         <div class="service-image">
-                            <img loading="lazy" src="{{ asset('/frontend/images/service/Excavator.webp') }}"
+                            <img loading="lazy" src="{{ asset('frontend/images/service/Excavator.webp') }}"
                                 alt="Image" />
                         </div>
                         <div class="overlay">
@@ -477,7 +477,7 @@
                 <div class="col-lg-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="300">
                     <div class="service-item-three">
                         <div class="service-image">
-                            <img loading="lazy" src="{{ asset('/frontend/images/service/Farm.webp') }}"
+                            <img loading="lazy" src="{{ asset('frontend/images/service/Farm.webp') }}"
                                 alt="Image" />
                         </div>
                         <div class="overlay">
@@ -542,7 +542,7 @@
                 <div class="col-lg-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="300">
                     <div class="service-item-three">
                         <div class="service-image">
-                            <img loading="lazy" src="{{ asset('/frontend/images/service/Heavy.webp') }}"
+                            <img loading="lazy" src="{{ asset('frontend/images/service/Heavy.webp') }}"
                                 alt="Image" />
                         </div>
                         <div class="overlay">
@@ -579,7 +579,7 @@
                 <div class="col-lg-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="300">
                     <div class="service-item-three">
                         <div class="service-image">
-                            <img loading="lazy" src="{{ asset('/frontend/images/service/RV.webp') }}" alt="Image" />
+                            <img loading="lazy" src="{{ asset('frontend/images/service/RV.webp') }}" alt="Image" />
                         </div>
                         <div class="overlay">
                             <div class="row justify-content-center align-items-center">

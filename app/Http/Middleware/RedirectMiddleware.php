@@ -428,7 +428,7 @@ class RedirectMiddleware
             'frontend/images/icon/flags.webp' => '/',
             'services/shipping-an-excavator' => 'transport-services/excavator',
             'heavy/type=OXV4c01qTzl6UlBwdVRXR0JyMDdWZz09' => '/',
-            '/frontend/images/project/auto-auction.webp' => '/',
+            'frontend/images/project/auto-auction.webp' => '/',
             'trailers-and-trucks?page=3' => 'blog',
             'why-auto-shipping-advantages-of-having-a-car-shipping-company' => 'blog/top-10-advantages-of-car-transport',
             'shipping-a-car-from-los-angeles-to-new-york-city/1000' => 'blog/shipping-a-car-from-los-angeles-to-new-york-city',

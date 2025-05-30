@@ -527,7 +527,7 @@ the USA. Connect with ShipA1 today.')
                 <div class="col-lg-7">
                     <div class="image-container">
                         <img class="img-fluid"
-                            src="{{ asset('/frontend/images/project/1-banner-for-motorcycle-transport.webp') }}"
+                            src="{{ asset('frontend/images/project/1-banner-for-motorcycle-transport.webp') }}"
                             loading="lazy" alt="Motorcyle Transport">
                     </div>
                     <br>
@@ -791,7 +791,7 @@ the USA. Connect with ShipA1 today.')
                     <div class="mt-4 rounded">
                         <div class="image-box">
                             <img class="rounded"
-                                src="{{ asset('/frontend/images/project/2a-image-for-motorcycle-transport-_1_.webp') }}"
+                                src="{{ asset('frontend/images/project/2a-image-for-motorcycle-transport-_1_.webp') }}"
                                 alt="Image">
                         </div>
                     </div>
@@ -878,7 +878,7 @@ the USA. Connect with ShipA1 today.')
                     data-sal="slide-left" data-sal-duration="800">
                     <div class="mt-4 rounded">
                         <div class="image-box">
-                            <img class="rounded" src="{{ asset('/frontend/images/project/tuxpicom.webp') }}"
+                            <img class="rounded" src="{{ asset('frontend/images/project/tuxpicom.webp') }}"
                                 alt="Image">
                         </div>
                     </div>
@@ -892,7 +892,7 @@ the USA. Connect with ShipA1 today.')
                     <div class="mt-4 rounded">
                         <div class="image-box">
                             <img class="rounded"
-                                src="{{ asset('/frontend/images/project/2a-image-for-motorcycle-transport-_1_.webp') }}"
+                                src="{{ asset('frontend/images/project/2a-image-for-motorcycle-transport-_1_.webp') }}"
                                 alt="Image">
                         </div>
                     </div>
@@ -1067,7 +1067,7 @@ the USA. Connect with ShipA1 today.')
                                 <div class="card-2 mb-3">
                                     <div class="row g-0">
                                         <div class="col-sm-6 d-flex align-items-center justify-content-center">
-                                            <img src="{{ asset('/frontend/images/slider/Single-Motorcycle-on-Closed-Trailer.webp') }}"
+                                            <img src="{{ asset('frontend/images/slider/Single-Motorcycle-on-Closed-Trailer.webp') }}"
                                                 class="img-fluid rounded-start"
                                                 style="height: 100%; background-size: cover; background-position: center;"
                                                 alt="...">
@@ -1115,7 +1115,7 @@ the USA. Connect with ShipA1 today.')
                                             </div>
                                         </div>
                                         <div class="col-sm-6 d-flex align-items-center justify-content-center">
-                                            <img src="{{ asset('/frontend/images/slider/Multiple-Motorcycles-on-Trailer.webp') }}"
+                                            <img src="{{ asset('frontend/images/slider/Multiple-Motorcycles-on-Trailer.webp') }}"
                                                 class="img-fluid rounded-start"
                                                 style="height: 100%; background-size: cover; background-position: center;"
                                                 alt="...">

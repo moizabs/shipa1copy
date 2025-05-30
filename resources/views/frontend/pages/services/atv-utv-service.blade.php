@@ -343,7 +343,7 @@ instant, customized quotes today with extra charges.')
         <div class="row">
             <div class="col-lg-7">
                 <div class="image-container">
-                    <img class="img-fluid" src="{{ asset('/frontend/images/project/tuxpi.coo.webp') }}" loading="lazy" alt="Motorcyle Transport">
+                    <img class="img-fluid" src="{{ asset('frontend/images/project/tuxpi.coo.webp') }}" loading="lazy" alt="Motorcyle Transport">
                 </div>
                     <br>
                 <div class="text-container text-left">
@@ -629,7 +629,7 @@ instant, customized quotes today with extra charges.')
                 <div class="col-lg-4 col-md-12 order-sm-1 order-md-2 order-2 d-flex align-items-center justify-content-center sal-animate" data-sal="slide-left" data-sal-duration="800">
                     <div class="mt-4 rounded">
                         <div class="image-box">
-                            <img class="rounded" src="{{ asset('/frontend/images/project/2a-image-for-ATV-UTV-transport-_1_.webp') }}" alt="Image">
+                            <img class="rounded" src="{{ asset('frontend/images/project/2a-image-for-ATV-UTV-transport-_1_.webp') }}" alt="Image">
                         </div>
                     </div>
                </div>
@@ -640,7 +640,7 @@ instant, customized quotes today with extra charges.')
             <div class="col-lg-4 col-md-12 order-sm-1 order-md-1 order-2 d-flex align-items-center justify-content-center sal-animate" data-sal="slide-left" data-sal-duration="800">
                  <div class="mt-4 rounded">
                     <div class="image-box">
-                        <img class="rounded" src="{{ asset('/frontend/images/project/2b-image-for-ATV-UTV-transport-_1_.webp') }}" alt="Image">
+                        <img class="rounded" src="{{ asset('frontend/images/project/2b-image-for-ATV-UTV-transport-_1_.webp') }}" alt="Image">
                     </div>
                 </div>
             </div>
@@ -755,7 +755,7 @@ instant, customized quotes today with extra charges.')
                             <div class="card-2 mb-3">
                                 <div class="row g-0">
                                     <div class="col-sm-6 d-flex align-items-center justify-content-center">
-                                    <img src="{{ asset('/frontend/images/slider/ATV on Closed Trailer.webp') }}" class="img-fluid rounded-start" style="height: 100%; background-size: cover; background-position: center;" alt="...">
+                                    <img src="{{ asset('frontend/images/slider/ATV on Closed Trailer.webp') }}" class="img-fluid rounded-start" style="height: 100%; background-size: cover; background-position: center;" alt="...">
                                     </div>
                                     <div class="col-sm-6 d-flex align-items-center justify-content-center">
                                     <div class="card-body tj-section-heading mb-0">
@@ -795,7 +795,7 @@ instant, customized quotes today with extra charges.')
                                     </div>
                                     </div>
                                     <div class="col-sm-6 d-flex align-items-center justify-content-center">
-                                        <img src="{{ asset('/frontend/images/slider/ATV on Open Trailer.webp') }}" class="img-fluid rounded-start" style="height: 100%; background-size: cover; background-position: center;" alt="...">
+                                        <img src="{{ asset('frontend/images/slider/ATV on Open Trailer.webp') }}" class="img-fluid rounded-start" style="height: 100%; background-size: cover; background-position: center;" alt="...">
                                     </div>
                                 </div>
                             </div>
@@ -808,7 +808,7 @@ instant, customized quotes today with extra charges.')
                             <div class="card-2 mb-3">
                                 <div class="row g-0">
                                     <div class="col-sm-6 d-flex align-items-center justify-content-center">
-                                    <img src="{{ asset('/frontend/images/slider/ATV on Tilt Trailer.webp') }}" class="img-fluid rounded-start" style="height: 100%; background-size: cover; background-position: center;" alt="...">
+                                    <img src="{{ asset('frontend/images/slider/ATV on Tilt Trailer.webp') }}" class="img-fluid rounded-start" style="height: 100%; background-size: cover; background-position: center;" alt="...">
                                     </div>
                                     <div class="col-sm-6 d-flex align-items-center justify-content-center">
                                     <div class="card-body tj-section-heading mb-0">
@@ -847,7 +847,7 @@ instant, customized quotes today with extra charges.')
                                     </div>
                                     </div>
                                     <div class="col-sm-6 d-flex align-items-center justify-content-center">
-                                        <img src="{{ asset('/frontend/images/slider/Multiple ATVs on Trailer.webp') }}" class="img-fluid rounded-start" style="height: 100%; background-size: cover; background-position: center;" alt="...">
+                                        <img src="{{ asset('frontend/images/slider/Multiple ATVs on Trailer.webp') }}" class="img-fluid rounded-start" style="height: 100%; background-size: cover; background-position: center;" alt="...">
                                     </div>
                                 </div>
                             </div>

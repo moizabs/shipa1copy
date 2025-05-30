@@ -375,7 +375,7 @@
             <div class="row">
                 <div class="col-lg-7">
                     <div class="image-container">
-                        <img class="img-fluid" src="{{ asset('/frontend/images/project/tuxpi.com.1730289103.webp') }}"
+                        <img class="img-fluid" src="{{ asset('frontend/images/project/tuxpi.com.1730289103.webp') }}"
                             loading="lazy" alt="Motorcyle Transport">
                     </div>
                     <br>
@@ -736,7 +736,7 @@
                     <div class="mt-4 rounded">
                         <div class="image-box">
                             <img class="rounded"
-                                src="{{ asset('/frontend/images/project/2a-image-for-golf-cart-transport.webp') }}"
+                                src="{{ asset('frontend/images/project/2a-image-for-golf-cart-transport.webp') }}"
                                 alt="Image">
                         </div>
                     </div>
@@ -750,7 +750,7 @@
                     <div class="mt-4 rounded">
                         <div class="image-box">
                             <img class="rounded"
-                                src="{{ asset('/frontend/images/project/1-image-for-golf-cart-transport.webp') }}"
+                                src="{{ asset('frontend/images/project/1-image-for-golf-cart-transport.webp') }}"
                                 alt="Image">
                         </div>
                     </div>
@@ -791,7 +791,7 @@
                                 <div class="card-2 mb-3">
                                     <div class="row g-0">
                                         <div class="col-sm-6 d-flex align-items-center justify-content-center">
-                                            <img src="{{ asset('/frontend/images/slider/Golf cart on enclosed trailer.webp') }}"
+                                            <img src="{{ asset('frontend/images/slider/Golf cart on enclosed trailer.webp') }}"
                                                 class="img-fluid rounded-start"
                                                 style="height: 100%; background-size: cover; background-position: center;"
                                                 alt="...">
@@ -834,7 +834,7 @@
                                             </div>
                                         </div>
                                         <div class="col-sm-6 d-flex align-items-center justify-content-center">
-                                            <img src="{{ asset('/frontend/images/slider/Golf cart on open trailer.webp') }}"
+                                            <img src="{{ asset('frontend/images/slider/Golf cart on open trailer.webp') }}"
                                                 class="img-fluid rounded-start"
                                                 style="height: 100%; background-size: cover; background-position: center;"
                                                 alt="...">
@@ -850,7 +850,7 @@
                                 <div class="card-2 mb-3">
                                     <div class="row g-0">
                                         <div class="col-sm-6 d-flex align-items-center justify-content-center">
-                                            <img src="{{ asset('/frontend/images/slider/1 image for Commercial b00h.webp') }}"
+                                            <img src="{{ asset('frontend/images/slider/1 image for Commercial b00h.webp') }}"
                                                 class="img-fluid rounded-start"
                                                 style="height: 100%; background-size: cover; background-position: center;"
                                                 alt="...">
@@ -894,7 +894,7 @@
                                             </div>
                                         </div>
                                         <div class="col-sm-6 d-flex align-items-center justify-content-center">
-                                            <img src="{{ asset('/frontend/images/slider/Golf cart on hydraulic lift trailer.webp') }}"
+                                            <img src="{{ asset('frontend/images/slider/Golf cart on hydraulic lift trailer.webp') }}"
                                                 class="img-fluid rounded-start"
                                                 style="height: 100%; background-size: cover; background-position: center;"
                                                 alt="...">
