@@ -20,6 +20,12 @@ if (file_exists($maintenance = __DIR__.'/storage/framework/maintenance.php')) {
     require $maintenance;
 }
 
+// REDIRECT ANY PUBLIC/ REQUESTS IMMEDIATELY
+if (isset($_SERVER['REQUEST_URI']) && strpos($_SERVER['REQUEST_URI'], '/public/') === 0) {
+    header('Location: '.str_replace('/public', '', $_SERVER['REQUEST_URI']), true, 301);
+    exit();
+}
+
 /*
 |--------------------------------------------------------------------------
 | Register The Auto Loader
