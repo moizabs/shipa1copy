@@ -25,7 +25,7 @@ if (isset($_SERVER['REQUEST_URI']) && strpos($_SERVER['REQUEST_URI'], '/public/'
     header('Location: '.str_replace('/public', '', $_SERVER['REQUEST_URI']), true, 301);
     exit();
 }
-
+ 
 /*
 |--------------------------------------------------------------------------
 | Register The Auto Loader

@@ -21,6 +21,7 @@ class Blog extends Model
         'canonical_url',
         'meta_keyword',
         'meta_description',
+        'blog_schema',
         'status',
         'category',
     ];
