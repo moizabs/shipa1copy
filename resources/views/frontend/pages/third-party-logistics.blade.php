@@ -14,8 +14,8 @@
   "provider": {
     "@type": "Organization",
     "name": "ShipA1",
-    "url": "https://www.update.shipa1.com/auction-transport/freight",
-    "logo": "https://www.update.shipa1.com/frontend/images/logo/LOGO%20NEW-2.webp",
+    "url": "https://www.shipa1.com/auction-transport/freight",
+    "logo": "https://www.shipa1.com/frontend/images/logo/LOGO%20NEW-2.webp",
     "contactPoint": {
       "@type": "ContactPoint",
       "telephone": "+1 (844) 474-4721",
@@ -32,7 +32,7 @@
   },
   "offers": {
     "@type": "AggregateOffer",
-    "url": "https://www.update.shipa1.com/auction-transport/freight",
+    "url": "https://www.shipa1.com/auction-transport/freight",
     "priceCurrency": "USD",
     "lowPrice": 199
   },
