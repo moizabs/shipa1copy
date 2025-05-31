@@ -100,6 +100,14 @@
                                     @endif
                                 </div>
                                 <div class="form-group">
+                                    <label>Schema</label>
+                                    <input class="form-control" type="text" name="blog_schema"
+                                        placeholder="Schema" required />
+                                    @if ($errors->has('blog_schema'))
+                                        <span class="text-danger">{{ $errors->first('blog_schema') }}</span>
+                                    @endif
+                                </div>
+                                <div class="form-group">
                                     <label>Upload Blog Image</label>
                                     <input type="file" name="image" class="form-control-file form-control height-auto"
                                         required />
@@ -120,22 +128,7 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
 <!-- include summernote css/js -->
-    <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.css" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.js"></script>
 
-
-    {{-- <script>
-  $(document).ready(function() {
-    $('#summernote').summernote({
-  toolbar: [
-    ['style', ['bold', 'italic', 'underline', 'clear']],
-    ['font', ['strikethrough', 'superscript', 'subscript']],
-    ['fontsize', ['fontsize']],
-    ['color', ['color']],
-    ['para', ['ul', 'ol', 'paragraph']],
-    ['height', ['height']]
-  ]
-});
-  });
-</script> --}}
 @endsection

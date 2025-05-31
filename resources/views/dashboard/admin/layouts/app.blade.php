@@ -181,7 +181,7 @@
     <script src="{{ asset('vendor/jquery/jquery.min.js') }}"></script>
     <script src="{{ asset('vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
     <script src="{{ asset('vendor/jquery-easing/jquery.easing.min.js') }}"></script>
-    <script src="{{ asset('/js/sb-admin-2.min.js') }}"></script>
+    <script src="{{ asset('js/sb-admin-2.min.js') }}"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script>
         // Area Chart Example
@@ -305,32 +305,53 @@
             }
         });
     </script>
+
     <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+    body, .note-editor, .note-editable {
+        font-family: 'Poppins', sans-serif !important;
+    }  
+
+    .note-editable h1 { font-size: 32px; }
+    .note-editable h2 { font-size: 24px; }
+    .note-editable h3 { font-size: 18px; }
+    .note-editable h4 { font-size: 16px; }
+    .note-editable h5 { font-size: 12px; }
+    .note-editable h6 { font-size: 10px; }
+</style>
+
     <script>
         $(document).ready(function() {
+
             $('.summernote').summernote({
                 height: 250,
                 toolbar: [
-                  ['style', ['style']],
-                  ['style', ['bold', 'italic', 'underline', 'clear']],
-                  ['font', ['strikethrough', 'superscript', 'subscript']],
-                  ['fontname', ['fontname']],
-                  ['fontsize', ['fontsize']],
-                  ['color', ['color']],
-                  ['para', ['ul', 'ol', 'paragraph']],
-                  ['height', ['height']],
-                  ['insert', ['link', 'picture', 'video']],
-                  ['view', ['fullscreen', 'codeview', 'help']],
+                    ['style', ['style']],
+                    ['font', ['bold', 'italic', 'underline', 'clear', 'strikethrough']],
+                    ['fontname', ['fontname']],
+                    ['fontsize', ['fontsize']],
+                    ['color', ['color']],
+                    ['para', ['ul', 'ol', 'paragraph']],
+                    ['height', ['height']],
+                    ['insert', ['link', 'picture', 'video']],
+                    ['view', ['fullscreen', 'codeview', 'help']]
                 ],
-                fontSizes: ['8', '9', '10', '11', '12', '14', '16', '18', '20', '24', '36'],
-                fontNames: [
-                    'Arial', 'Arial Black', 'Comic Sans MS', 'Courier New',
-                    'Helvetica Neue', 'Helvetica', 'Impact', 'Lucida Grande',
-                    'Tahoma', 'Times New Roman', 'Verdana', 'Georgia' , 'sans-serif'
-                ],
+                fontSizes: ['8', '9', '10', '11', '12', '14', '16', '18', '20', '24', '26', '28', '30', '32', '34', '36'],
+                fontNames: ['Poppins', 'Arial', 'Arial Black', 'Comic Sans MS', 'Courier New'],
+                styleTags: [
+                    { title: 'Paragraph', tag: 'p', value: 'p' },
+                    { title: 'Pre', tag: 'pre', value: 'pre' },
+                    { title: 'Blockquote', tag: 'blockquote', value: 'blockquote' },
+                    { title: 'Heading 1', tag: 'h1', value: 'h1' },
+                    { title: 'Heading 2', tag: 'h2', value: 'h2' },
+                    { title: 'Heading 3', tag: 'h3', value: 'h3' },
+                    { title: 'Heading 4', tag: 'h4', value: 'h4' },
+                    { title: 'Heading 5', tag: 'h5', value: 'h5' },
+                    { title: 'Heading 6', tag: 'h6', value: 'h6' },
+                ]
             });
 
-            // Smooth scroll for sidebar links
             const sidebarLinks = document.querySelectorAll('.sidebar .nav-link');
             sidebarLinks.forEach(link => {
                 link.addEventListener('click', function(event) {
