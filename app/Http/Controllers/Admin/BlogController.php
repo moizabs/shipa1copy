@@ -112,6 +112,7 @@ class BlogController extends Controller
             'canonical_url' => 'nullable|string|max:255',
             'meta_keyword' => 'nullable|string|max:255',
             'meta_description' => 'nullable|string',
+            'blog_schema' => 'nullable',
             'image' => 'nullable|image|mimes:jpeg,png,jpg,webp|max:2048',
             'status' => 'required',
         ]);

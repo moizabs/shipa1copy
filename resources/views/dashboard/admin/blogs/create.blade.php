@@ -47,7 +47,7 @@
                                     <label>Blog Short Description</label>
                                     <!--<textarea class="ckeditorTn1 form-control" name="post_short_description" maxlength="10"></textarea>-->
                                     <input class="form-control" type="text" name="post_short_description"
-                                        placeholder="Short Description" required />
+                                        placeholder="Short Description" />
                                     @if ($errors->has('post_short_description'))
                                         <span class="text-danger">{{ $errors->first('post_short_description') }}</span>
                                     @endif
@@ -86,7 +86,7 @@
                                 <div class="form-group">
                                     <label>Meta Keyword</label>
                                     <input class="form-control" type="text" name="meta_keyword"
-                                        placeholder="Meta Keyword" required />
+                                        placeholder="Meta Keyword" />
                                     @if ($errors->has('meta_keyword'))
                                         <span class="text-danger">{{ $errors->first('meta_keyword') }}</span>
                                     @endif

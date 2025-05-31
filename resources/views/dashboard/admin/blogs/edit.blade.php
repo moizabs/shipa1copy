@@ -62,6 +62,11 @@
                 </div>
 
                 <div class="form-group">
+                    <label>Schema</label>
+                    <input class="form-control" type="text" name="blog_schema" placeholder="Schema" value="{{ $blog->blog_schema }}" />
+                </div>
+
+                <div class="form-group">
                     <label for="image">Image</label>
                     
                     <input type="file" class="form-control-file" id="image" name="image">
