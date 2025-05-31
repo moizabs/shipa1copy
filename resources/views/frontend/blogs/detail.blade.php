@@ -10,6 +10,9 @@
     <link rel="canonical" href="{{ url()->current() }}">
 @endsection
 @section('content')
+
+{{ $blog->blog_schema }}
+
     <style>
         font {
             display: contents;
