@@ -12,11 +12,11 @@ class CspHeaders
         $response = $next($request);
         
         $csp = [
-            "default-src 'self'",
-            "script-src 'self' 'unsafe-inline' https:",
-            "style-src 'self' 'unsafe-inline' https:",
-            "img-src 'self' data: https:",
-            "font-src 'self' https:",
+            // "default-src 'self'",
+            // "script-src 'self' 'unsafe-inline' https:",
+            // "style-src 'self' 'unsafe-inline' https:",
+            // "img-src 'self' data: https:",
+            // "font-src 'self' https:",
             "connect-src 'self'",
             "form-action 'self'",
             "frame-ancestors 'self'",
