@@ -15,8 +15,8 @@ trusted car auction transport services in the USA.')
   "provider": {
     "@type": "Organization",
     "name": "ShipA1",
-    "url": "https://www.update.shipa1.com/auction-transport/car",
-    "logo": "https://www.update.shipa1.com/frontend/images/logo/LOGO%20NEW-2.webp",
+    "url": "https://www.shipa1.com/auction-transport/car",
+    "logo": "https://www.shipa1.com/frontend/images/logo/LOGO%20NEW-2.webp",
     "contactPoint": {
       "@type": "ContactPoint",
       "telephone": "+1 (844) 474-4721",
@@ -33,7 +33,7 @@ trusted car auction transport services in the USA.')
   },
   "offers": {
     "@type": "AggregateOffer",
-    "url": "https://www.update.shipa1.com/auction-transport/car",
+    "url": "https://www.shipa1.com/auction-transport/car",
     "priceCurrency": "USD",
     "lowPrice": 199
   },

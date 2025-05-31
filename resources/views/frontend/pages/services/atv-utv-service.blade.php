@@ -14,8 +14,8 @@ instant, customized quotes today with extra charges.')
   "provider": {
     "@type": "Organization",
     "name": "ShipA1",
-    "url": "https://www.update.shipa1.com/transport-services/motorcycle",
-    "logo": "https://www.update.shipa1.com/frontend/images/logo/LOGO%20NEW-2.webp",
+    "url": "https://www.shipa1.com/transport-services/motorcycle",
+    "logo": "https://www.shipa1.com/frontend/images/logo/LOGO%20NEW-2.webp",
     "contactPoint": {
       "@type": "ContactPoint",
       "telephone": "+1 (844) 474-4721",
@@ -32,7 +32,7 @@ instant, customized quotes today with extra charges.')
   },
   "offers": {
     "@type": "AggregateOffer",
-    "url": "https://www.update.shipa1.com/transport-services/atv-utv",
+    "url": "https://www.shipa1.com/transport-services/atv-utv",
     "priceCurrency": "USD",
     "eligibleRegion": {
       "@type": "Place",
