@@ -51,9 +51,9 @@
     }
 </style>
 <footer class=tj-footer-area>
-    <div class=container>
+    <div class="mx-5">
         <div class=row>
-            <div class="col-xl-4 col-lg-3 col-md-6 col-sm-6 ">
+            <div class="col-lg-4 col-md-6 col-sm-6 ">
                 <div class="footer-widget footer1_col_1 footer-content-info " >
                     {{-- <a href="{{ route('welcome') }}"> <img src="{{ asset('frontend/images/logo/logo-white-2.webp') }}"
                             loading=lazy alt=Logo></a> --}}
@@ -90,7 +90,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xl-2 col-lg-3 col-md-6 col-sm-6">
+            <div class="col-lg-2 col-md-6 col-sm-6">
                 <div class="footer-widget footer1_col_2 widget_nav_menu">
                     <div class=footer-title>
                         <h5 class=title>Our Services</h5>
@@ -129,7 +129,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+            <div class="col-lg-3 col-md-6 col-sm-6">
                 <div class="footer-widget footer1_col_3 widget_nav_menu">
                     <div class=footer-title>
                         <h5 class=title>Useful Links</h5>
@@ -167,7 +167,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+            <div class="col-lg-3 col-md-6 col-sm-6">
                 <div class="footer-widget footer1_col_4 footer-contact-info">
                     <div class=footer-title>
                         <h5 class=title>Contact Info</h5>

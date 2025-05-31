@@ -468,7 +468,7 @@ in the USA. Time to partner with an expert agency.') @section('content')
                         <div class="tj-service-icon">
                             <div class="service-icon"><i class="fa-light {{ $service['icon'] }} fa-xs"></i></div>
                             <div class="sub-title"><span>
-                                    <h3>{!! nl2br(e($service['title'])) !!}</h3>
+                                    <h3 class="fs-4">{!! nl2br(e($service['title'])) !!}</h3>
                                 </span></div>
                         </div>
                         <div class="service-arrow">
