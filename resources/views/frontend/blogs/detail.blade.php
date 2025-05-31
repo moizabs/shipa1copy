@@ -11,7 +11,7 @@
 @endsection
 @section('content')
 
-{{ $blog->blog_schema }}
+{!! $blog->blog_schema !!}
 
     <style>
         font {
