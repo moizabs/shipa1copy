@@ -210,7 +210,7 @@ trusted car auction transport services in the USA.')
 </style>
 <section class="tj-choose-us-section-service-Auto-Transport">
     <div class="container mt-4">
-        <div class="row mt-4">
+        <div class="row mt-5">
             <div class="col-lg-6 sal-animate mt-4" data-sal="slide-left" data-sal-duration="800">
                 <div class="choose-us-content-1">
                     <div class="tj-section-heading">

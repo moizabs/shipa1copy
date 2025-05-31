@@ -326,7 +326,7 @@
 </style>
 <section class="tj-choose-us-section-get-quote pt-200">
     <div class="container w-75">
-        <h1 class="text-center text-white mb-5 text-overline  position-relative">Calculate an Instant Auto Transport Quote Free – Fast & Transparent!</h1>
+        <h1 class="text-center text-white mb-5   position-relative">Calculate an Instant Auto Transport Quote Free – Fast & Transparent!</h1>
         <div class="row ">
             <div class="col-lg-4 col-md-6 col-sm-12">
                 <div class="custom-card car-card">

@@ -27,6 +27,7 @@ class Kernel extends HttpKernel
         \RenatoMarinho\LaravelPageSpeed\Middleware\InsertDNSPrefetch::class,
         \RenatoMarinho\LaravelPageSpeed\Middleware\RemoveComments::class,
         \RenatoMarinho\LaravelPageSpeed\Middleware\TrimUrls::class,
+        \App\Http\Middleware\CspHeaders::class
         // \RenatoMarinho\LaravelPageSpeed\Middleware\CollapseWhitespace::class,
         // \App\Http\Middleware\RedirectMiddleware::class,
     ];
@@ -46,6 +47,7 @@ class Kernel extends HttpKernel
             \Illuminate\Routing\Middleware\SubstituteBindings::class,
             \ErlandMuchasaj\LaravelGzip\Middleware\GzipEncodeResponse::class,
             \App\Http\Middleware\ForceHttps::class,
+            
         ],
 
         'api' => [
@@ -74,6 +76,7 @@ class Kernel extends HttpKernel
         'throttle' => \Illuminate\Routing\Middleware\ThrottleRequests::class,
         'verified' => \Illuminate\Auth\Middleware\EnsureEmailIsVerified::class,
         'admin' => \App\Http\Middleware\AdminMiddleware::class,
+        
 
     ];
 }

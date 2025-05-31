@@ -1,5 +1,5 @@
 @extends('frontend.layouts.app')
-@section('title', 'Get Best Dry Van Shipping Services All Over USA– Get a Free Quote!')
+@section('title', ' Best Dry Van Shipping Services Across USA')
 @section('meta_description', 'Need dry van transportation services? We offer reliable freight shipping with safe handling and on-time delivery in USA. Contact Ship A1 now!')
 @section('canonical')
 <link rel="canonical" href="{{ url()->current() }}">

@@ -177,14 +177,14 @@
                     be refunded.
                 </p>
                 <h5 class="title">Disclaimer:</h5>
-                <p class="text-uppercase">
+                <p class="">
                     Shipa1 transport disclaims all responsibility for specific pickup or delivery dates, which
                     are only estimates and not guaranteed. shipa1 transport acts only as a broker and does not
                     guarantee the reliability or performance of the designated carrier/transporter. Any delays
                     or damages that arise during the transportation process are not the responsibility of shipa1
                     transport.
                 </p>
-                <p class="text-uppercase">
+                <p class="">
                     Shipa1 transport disclaims any liability for damages to vehicles or personal belongings,
                     including but not limited to damages caused by freezing, leaking fluids, mechanical
                     malfunctions, or wear and tear. The customer acknowledges and agrees that, as per their bill
@@ -196,11 +196,11 @@
                     customer agrees to pay a non-operable fee, shipa1 transport disclaims all liability for
                     damages not caused by carrier/transporter negligence.
                 </p>
-                <p class="text-uppercase">As stated in our cancellation policy, cancellation of orders may result in cancellation fees.
+                <p class="">As stated in our cancellation policy, cancellation of orders may result in cancellation fees.
                     Shipa1 Transport also reserves the right to refuse service to anyone who violates the terms
                     and conditions outlined herein or for any other reason deemed necessary.
                 </p>
-                <p class="text-uppercase">
+                <p class="">
                     In conclusion, Shipa1 Transport disclaims all responsibility for damages, delays, or other
                     issues related to vehicle transportation, & customers are advised to read and accept the
                     terms and conditions of services before working with Shipa1 Transport for transportation

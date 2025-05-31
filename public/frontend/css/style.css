@@ -5829,8 +5829,8 @@ div .tj-service-icon-box2 ul li .service-item::before {
 }
 .tj-footer-area .footer-contact-info ul li a {
   color: #fff;
-  font-size: 17px;
-  font-weight: 500;
+  font-size: 16px;
+  font-weight: 400;
   transition: 0.4s;
 }
 .tj-footer-area .footer-contact-info ul li i {
@@ -5840,9 +5840,9 @@ div .tj-service-icon-box2 ul li .service-item::before {
   color: var(--tj-white-color);
   text-align: center;
   border: 1px solid var(--tj-gray-color2);
-  display: inline-block;
+  /* display: inline-block; */
   border-radius: 50%;
-  font-size: 18px;
+  font-size: 16px;
   background: 0 0;
   transition: 0.4s;
   margin-right: 5px;
@@ -5850,6 +5850,9 @@ div .tj-service-icon-box2 ul li .service-item::before {
   top: 60%;
   transform: translateY(-50%);
   left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .tj-footer-area .footer-contact-info ul li i:hover {
   background-color: var(--tj-white-color);
