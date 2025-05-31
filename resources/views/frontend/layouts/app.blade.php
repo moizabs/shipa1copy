@@ -52,39 +52,39 @@
     <link rel=preload href=https://cdn.jsdelivr.net/npm/@coreui/coreui@5.0.2/dist/css/coreui.min.css integrity=sha384-39e9UaGkm/+yp6spIsVfzcs3j7ac7G2cg0hzmDvtG11pT1d7YMnOC26w4wMPhzsL crossorigin=anonymous onload='this.onload=null,this.rel="stylesheet"'>
     <link rel="icon" href="{{ asset('frontend/images/logo/favicon.webp') }}" type="image/webp">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="preload" href="{{ asset('public/frontend/css/bootstrap.min.css') }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <link rel="preload" href="{{ asset('public/frontend/css/style.css') }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript> <link rel="stylesheet" href="{{ asset('public/frontend/css/bootstrap.min.css') }}" defer> </noscript>
-    <noscript> <link rel="stylesheet" href="{{ asset('public/frontend/css/style.css') }}" defer> </noscript>
+    <link rel="preload" href="{{ asset('frontend/css/bootstrap.min.css') }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="{{ asset('frontend/css/style.css') }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript> <link rel="stylesheet" href="{{ asset('frontend/css/bootstrap.min.css') }}" defer> </noscript>
+    <noscript> <link rel="stylesheet" href="{{ asset('frontend/css/style.css') }}" defer> </noscript>
 
     <!-- Load Non-Critical CSS Asynchronously -->
-    <link rel="stylesheet" href="{{ asset('public/frontend/css/meanmenu.css') }}" media="print" onload="this.onload=null;this.removeAttribute('media');">
-    <link rel="stylesheet" href="{{ asset('public/frontend/css/sal.css') }}" media="print" onload="this.onload=null;this.removeAttribute('media');">
-    <link rel="stylesheet" href="{{ asset('public/frontend/css/magnific-popup.css') }}" media="print" onload="this.onload=null;this.removeAttribute('media');">
-    <link rel="stylesheet" href="{{ asset('public/frontend/css/swiper.min.css') }}" media="print" onload="this.onload=null;this.removeAttribute('media');">
-    <link rel="stylesheet" href="{{ asset('public/frontend/css/owl.carousel.css') }}" media="print" onload="this.onload=null;this.removeAttribute('media');">
-    <link rel="stylesheet" href="{{ asset('public/frontend/css/icons.css') }}" media="print" onload="this.onload=null;this.removeAttribute('media');">
-    <link rel="stylesheet" href="{{ asset('public/frontend/css/odometer.min.css') }}" media="print" onload="this.onload=null;this.removeAttribute('media');">
-    <link rel="stylesheet" href="{{ asset('public/frontend/css/nice-select.css') }}" media="print" onload="this.onload=null;this.removeAttribute('media');">
-    <link rel="stylesheet" href="{{ asset('public/frontend/css/animate.css') }}" media="print" onload="this.onload=null;this.removeAttribute('media');">
-    <link rel="stylesheet" href="{{ asset('public/frontend/css/responsive.css') }}" media="print" onload="this.onload=null;this.removeAttribute('media');">
+    <link rel="stylesheet" href="{{ asset('frontend/css/meanmenu.css') }}" media="print" onload="this.onload=null;this.removeAttribute('media');">
+    <link rel="stylesheet" href="{{ asset('frontend/css/sal.css') }}" media="print" onload="this.onload=null;this.removeAttribute('media');">
+    <link rel="stylesheet" href="{{ asset('frontend/css/magnific-popup.css') }}" media="print" onload="this.onload=null;this.removeAttribute('media');">
+    <link rel="stylesheet" href="{{ asset('frontend/css/swiper.min.css') }}" media="print" onload="this.onload=null;this.removeAttribute('media');">
+    <link rel="stylesheet" href="{{ asset('frontend/css/owl.carousel.css') }}" media="print" onload="this.onload=null;this.removeAttribute('media');">
+    <link rel="stylesheet" href="{{ asset('frontend/css/icons.css') }}" media="print" onload="this.onload=null;this.removeAttribute('media');">
+    <link rel="stylesheet" href="{{ asset('frontend/css/odometer.min.css') }}" media="print" onload="this.onload=null;this.removeAttribute('media');">
+    <link rel="stylesheet" href="{{ asset('frontend/css/nice-select.css') }}" media="print" onload="this.onload=null;this.removeAttribute('media');">
+    <link rel="stylesheet" href="{{ asset('frontend/css/animate.css') }}" media="print" onload="this.onload=null;this.removeAttribute('media');">
+    <link rel="stylesheet" href="{{ asset('frontend/css/responsive.css') }}" media="print" onload="this.onload=null;this.removeAttribute('media');">
 
     <!-- Minified & Combined CSS (Optional for performance) -->
-    {{-- <link rel="stylesheet" href="{{ asset('public/frontend/css/all.min.css') }}"> --}}
+    {{-- <link rel="stylesheet" href="{{ asset('frontend/css/all.min.css') }}"> --}}
 
-    {{-- <link rel="preload" href="{{ asset('public/frontend/css/bootstrap.min.css') }}" as="style">
-    <link rel="stylesheet" href="{{ asset('public/frontend/css/bootstrap.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('public/frontend/css/meanmenu.css') }}" media="print" onload="this.media='all'">
-    <link rel="stylesheet" href="{{ asset('public/frontend/css/sal.css') }}" media="print" onload="this.media='all'">
-    <link rel="stylesheet" href="{{ asset('public/frontend/css/magnific-popup.css') }}" media="print" onload="this.media='all'">
-    <link rel="stylesheet" href="{{ asset('public/frontend/css/swiper.min.css') }}" media="print" onload="this.media='all'">
-    <link rel="stylesheet" href="{{ asset('public/frontend/css/owl.carousel.css') }}" media="print" onload="this.media='all'">
-    <link rel="stylesheet" href="{{ asset('public/frontend/css/icons.css') }}" media="print" onload="this.media='all'">
-    <link rel="stylesheet" href="{{ asset('public/frontend/css/odometer.min.css') }}" media="print" onload="this.media='all'">
-    <link rel="stylesheet" href="{{ asset('public/frontend/css/nice-select.css') }}" media="print" onload="this.media='all'">
-    <link rel="stylesheet" href="{{ asset('public/frontend/css/animate.css') }}" media="print" onload="this.media='all'">
-    <link rel="stylesheet" href="{{ asset('public/frontend/css/style.css') }}" media="print" onload="this.media='all'">
-    <link rel="stylesheet" href="{{ asset('public/frontend/css/responsive.css') }}" media="print" onload="this.media='all'"> --}}
+    {{-- <link rel="preload" href="{{ asset('frontend/css/bootstrap.min.css') }}" as="style">
+    <link rel="stylesheet" href="{{ asset('frontend/css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('frontend/css/meanmenu.css') }}" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="{{ asset('frontend/css/sal.css') }}" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="{{ asset('frontend/css/magnific-popup.css') }}" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="{{ asset('frontend/css/swiper.min.css') }}" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="{{ asset('frontend/css/owl.carousel.css') }}" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="{{ asset('frontend/css/icons.css') }}" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="{{ asset('frontend/css/odometer.min.css') }}" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="{{ asset('frontend/css/nice-select.css') }}" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="{{ asset('frontend/css/animate.css') }}" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="{{ asset('frontend/css/style.css') }}" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="{{ asset('frontend/css/responsive.css') }}" media="print" onload="this.media='all'"> --}}
     <meta name=csrf-token content="{{ csrf_token() }}">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@coreui/coreui@5.0.2/dist/css/coreui.min.css">
     <link rel=preload href=https://code.jquery.com/jquery-3.6.0.min.js as=script>
@@ -1766,7 +1766,7 @@
             </svg>
         </div>
     </div>
-    <script src="{{ asset('public/frontend/js/jquery.min.js') }}"></script>
+    <script src="{{ asset('frontend/js/jquery.min.js') }}"></script>
     <script src=https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js></script>
     <script src=https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js></script>
     <script src=https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js></script>
@@ -1774,20 +1774,20 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src=https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js></script>
     <script src=https://cdn.jsdelivr.net/npm/sweetalert2@11></script>
-    <script src="{{ asset('public/frontend/js/modernizr-2.8.3.min.js') }}"></script>
+    <script src="{{ asset('frontend/js/modernizr-2.8.3.min.js') }}"></script>
     
-    <script src="{{ asset('public/frontend/js/bootstrap.min.js') }}"></script>
-    <script src="{{ asset('public/frontend/js/meanmenu.js') }}"></script>
-    <script src="{{ asset('public/frontend/js/imagesloaded.pkgd.min.js') }}"></script>
-    <script src="{{ asset('public/frontend/js/isotope.pkgd.min.js') }}"></script>
-    <script src="{{ asset('public/frontend/js/jquery.magnific-popup.min.js') }}"></script>
-    <script src="{{ asset('public/frontend/js/swiper.min.js') }}"></script>
-    <script src="{{ asset('public/frontend/js/owl.carousel.js') }}"></script>
-    <script src="{{ asset('public/frontend/js/jquery.appear.min.js') }}"></script>
-    <script src="{{ asset('public/frontend/js/odometer.min.js') }}"></script>
-    <script src="{{ asset('public/frontend/js/sal.js') }}"></script>
-    <script src="{{ asset('public/frontend/js/jquery.nice-select.min.js') }}"></script>
-    <script src="{{ asset('public/frontend/js/main.js') }}"></script>
+    <script src="{{ asset('frontend/js/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('frontend/js/meanmenu.js') }}"></script>
+    <script src="{{ asset('frontend/js/imagesloaded.pkgd.min.js') }}"></script>
+    <script src="{{ asset('frontend/js/isotope.pkgd.min.js') }}"></script>
+    <script src="{{ asset('frontend/js/jquery.magnific-popup.min.js') }}"></script>
+    <script src="{{ asset('frontend/js/swiper.min.js') }}"></script>
+    <script src="{{ asset('frontend/js/owl.carousel.js') }}"></script>
+    <script src="{{ asset('frontend/js/jquery.appear.min.js') }}"></script>
+    <script src="{{ asset('frontend/js/odometer.min.js') }}"></script>
+    <script src="{{ asset('frontend/js/sal.js') }}"></script>
+    <script src="{{ asset('frontend/js/jquery.nice-select.min.js') }}"></script>
+    <script src="{{ asset('frontend/js/main.js') }}"></script>
     <script src=https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js></script>
     <script src=https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js></script>
     
