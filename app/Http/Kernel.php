@@ -27,7 +27,7 @@ class Kernel extends HttpKernel
         \RenatoMarinho\LaravelPageSpeed\Middleware\InsertDNSPrefetch::class,
         \RenatoMarinho\LaravelPageSpeed\Middleware\RemoveComments::class,
         \RenatoMarinho\LaravelPageSpeed\Middleware\TrimUrls::class,
-        \App\Http\Middleware\CspHeaders::class
+        // \App\Http\Middleware\CspHeaders::class
         // \RenatoMarinho\LaravelPageSpeed\Middleware\CollapseWhitespace::class,
         // \App\Http\Middleware\RedirectMiddleware::class,
     ];
