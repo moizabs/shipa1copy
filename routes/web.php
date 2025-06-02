@@ -31,9 +31,9 @@ use Illuminate\Support\Facades\Request;
 // })->where('path', '.*');
 
 
-// Route::get('/public/{any}', function ($any) {
-//     return redirect('/' . $any, 301);
-// })->where('any', '.*');
+Route::get('/we/{any}', function ($any) {
+    return redirect('/' . $any, 301);
+})->where('any', '.*');
 
 Route::get('/robots.txt', function () {
     return response()->view('robots')->header('Content-Type', 'text/plain');
