@@ -24,6 +24,8 @@ use App\Http\Controllers\MarketingController;
 use App\Http\Controllers\ChatController;
 use Illuminate\Support\Facades\Request;
 
+Route::redirect('/services/motorcycle-shipping-service', '/transport-services/motorcycle', 301);
+
 // Route::get('{path}', function ($path) {
 //     // Remove any duplicate 'blog/' if it exists
 //     $cleanPath = Str::of($path)->replaceFirst('blog/', '');
