@@ -12,7 +12,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Str;
 use GuzzleHttp\Client;
-
+use Carbon\Carbon;
 class ChatController extends Controller
 {
     /**
@@ -23,15 +23,13 @@ class ChatController extends Controller
     public function index(Request $request)
     {
         $user_id = isset($request->user_id) ? $request->user_id : 0;
+        $user_name = isset($request->user_name) ? $request->user_name : null;
         $admin = !empty($user_id) ? true : false;
-        // Get the current domain or subdomain
-        $domain = $request->headers->get('referer');
-        if(empty($domain)){
-            $domain = $request->getHost();
+        $domain = $request->headers->get('referer') ?? $request->getHost();
+        if (empty($domain)) {
+            $domain = $admin ? 'https://washington.shawntransport.com' : 'https://www.shipa1.com';
         }
         $domain = parse_url($domain, PHP_URL_SCHEME) . "://" . parse_url($domain, PHP_URL_HOST);
-
-        // Create a domain-specific cookie name
         $cookieName = 'device_id_chat_' . str_replace('.', '_', $domain);
 
         if (!request()->hasCookie($cookieName)) {
@@ -41,7 +39,7 @@ class ChatController extends Controller
             $deviceId = request()->cookie($cookieName);
         }
 
-        return view('iframe.dashboard')->with(['user_id' => $user_id, 'admin' => $admin, 'deviceId' => $deviceId,'domain'=>$domain]);
+        return view('iframe.dashboard')->with(['user_id' => $user_id, 'admin' => $admin, 'deviceId' => $deviceId,'domain'=>$domain,'user_name'=>$user_name]);
     }
 
     public function iframe(Request $request){
@@ -115,9 +113,15 @@ class ChatController extends Controller
             $domain = $request->reference_domain;
 
             $deviceId = request()->cookie('device_id_chat_' . str_replace('.', '_', $domain));
+            if (!$deviceId) {
+                // Optional fallback
+                $deviceId = Str::uuid();
+                // Or: return response()->json(['error' => 'Device ID not found'], 400);
+            }
+            $user_name = isset($request->user_name) ? $request->user_name : null;
             $today = date('Y-m-d');
             if($request->admin == 1){
-                 $thread = ThreadTable::find($request->thread_id);
+                $thread = ThreadTable::find($request->thread_id);
             }else{
                 $thread = ThreadTable::where('ip_address', $deviceId)->whereDate('created_at', $today);
                 if($thread->exists()){
@@ -158,6 +162,7 @@ class ChatController extends Controller
             $chat->read_it = ($request->admin == 1) ? 1 : 0;
             $chat->read_it_c = ($request->admin == 0) ? 1 : 0;
             $chat->info_data = "{$country},{$city},{$region},{$ipAddress}";
+            $chat->admin_name = !empty($user_name) ? $user_name : null;
             $chat->save();
             return response()->json(['data' => $chat, 'status' => 0]);;
 
@@ -176,7 +181,7 @@ class ChatController extends Controller
                 $query->where('ip_address', $request->ip_address)->whereDate('created_at', $request->date_created);
             }
         })
-         ->latest()->first();
+            ->latest()->first();
         if(!empty($threads)) {
             $chats = Chat::where('thread_id', $threads->id)
                 ->where(function ($qeury) use($request){
@@ -199,22 +204,29 @@ class ChatController extends Controller
     }
 
     public function show_history(Request $request){
+
+        $date = Carbon::parse($request->date_created);
         $chats = Chat::select(
             'chats.date_created',
             'chats.thread_id',
             'chats.ip_address',
+            'chats.admin_name',
             'chats.id',
             'thread_tables.replied',
             'thread_tables.name',
-            DB::raw('(SELECT COUNT(chats_count.read_it) 
-                  FROM chats AS chats_count 
+            DB::raw('(SELECT COUNT(chats_count.read_it)
+                  FROM chats AS chats_count
                   WHERE chats_count.thread_id = chats.thread_id and chats_count.read_it = 0) AS tc') ,
-            DB::raw('(SELECT COUNT(chats_count.read_it_c) 
-                  FROM chats AS chats_count 
+            DB::raw('(SELECT COUNT(chats_count.read_it_c)
+                  FROM chats AS chats_count
                   WHERE chats_count.thread_id = chats.thread_id and chats_count.read_it_c = 0) AS tc_c')
         )
             ->leftJoin('thread_tables', 'thread_tables.id', '=', 'chats.thread_id')
-            ->where('chats.date_created', $request->date_created)
+            #->where('chats.date_created', $request->date_created)
+            ->whereBetween('chats.date_created', [
+                $date->copy()->subDay()->startOfDay(),  // Yesterday start
+                $date->copy()->endOfDay()               // Today end
+            ])
             ->groupBy('chats.thread_id') // Ensures distinct thread_id
             ->orderBy('chats.id', 'desc') // Ensures latest records are selected
             ->get();
