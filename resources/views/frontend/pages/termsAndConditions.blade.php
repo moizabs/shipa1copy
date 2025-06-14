@@ -47,7 +47,7 @@
                 <h5 class="title">Acceptance of Use</h5>
                 <p>
                     Keep in mind that by using or accessing any of our features, websites
-                    <a class="pp-link" href="#"> (www.update.shipa1.com),</a>
+                    <a class="pp-link" href="#"> (www.shipa1.com),</a>
                     and any of the services provided by us, you agree to adhere to the terms and conditions
                     outlined
                     below. However, if you deny any of these points you will not be given access to utilize any
@@ -80,7 +80,7 @@
             <div class="details-video-content">
                 <h5 class="title">Third-Party Links</h5>
                 <p>This section hereby states that our website <a class="pp-link" href="#">
-                        (www.update.shipa1.com)</a> includes third-party social
+                        (www.shipa1.com)</a> includes third-party social
                     links, however, it is vital to keep in mind that we cannot be held responsible or
                     accountable for the privacy policies or terms & conditions of any third-party links.</p>
                 <h5 class="title">Insurance Responsibility and Claims Process</h5>

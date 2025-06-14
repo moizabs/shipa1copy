@@ -39,7 +39,7 @@ team here. Get a quote today and hire the best men in.')
   },
   "sameAs": [
     "https://www.facebook.com/shipa1",
-    "https://www.update.shipa1.com"
+    "https://www.shipa1.com"
   ]
 }
 

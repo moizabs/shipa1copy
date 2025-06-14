@@ -1068,7 +1068,7 @@
         ],
         [
             'question' => 'Can I get golf cart shipping delivered in one day with ShipA1?',
-            'answer' => 'Every vehicle shipping company has its own on-road delivery submission dates. <a href="https://www.update.shipa1.com" target="_blank">Give a call to ShipA1</a>, share your urgent demands, and get the services as per your requirements.',
+            'answer' => 'Every vehicle shipping company has its own on-road delivery submission dates. <a href="https://www.shipa1.com" target="_blank">Give a call to ShipA1</a>, share your urgent demands, and get the services as per your requirements.',
         ],
         [
             'question' => 'How much does golf cart shipping typically cost in the USA?',

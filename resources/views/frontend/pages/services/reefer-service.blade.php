@@ -39,7 +39,7 @@ secure cold chain logistics is guaranteed.')
   },
   "sameAs": [
     "https://www.facebook.com/shipa1",
-    "https://www.update.shipa1.com"
+    "https://www.shipa1.com"
   ]
 }
 

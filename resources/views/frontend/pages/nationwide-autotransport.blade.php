@@ -483,7 +483,7 @@
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
                                     <strong>At Ship A1 we have the convenience of providing free online quotes to our
-                                        customers, you can check them out at www.update.shipa1.com</strong>
+                                        customers, you can check them out at www.shipa1.com</strong>
                                 </div>
                             </div>
                         </div>

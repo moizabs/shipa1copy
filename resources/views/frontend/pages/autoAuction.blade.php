@@ -38,7 +38,7 @@ trusted car auction transport services in the USA.')
     "lowPrice": 199
   },
   "sameAs": [
-    "https://www.update.shipa1.com"
+    "https://www.shipa1.com"
   ]
 }
 
