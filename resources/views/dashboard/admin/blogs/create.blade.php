@@ -102,7 +102,7 @@
                                 <div class="form-group">
                                     <label>Schema</label>
                                     <input class="form-control" type="text" name="blog_schema"
-                                        placeholder="Schema" required />
+                                        placeholder="Schema" />
                                     @if ($errors->has('blog_schema'))
                                         <span class="text-danger">{{ $errors->first('blog_schema') }}</span>
                                     @endif

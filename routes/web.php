@@ -25,6 +25,9 @@ use App\Http\Controllers\ChatController;
 use Illuminate\Support\Facades\Request;
 
 Route::redirect('/services/motorcycle-shipping-service', '/transport-services/motorcycle', 301);
+Route::redirect('/blog/trailers-and-trucks-used-in-transportation', '/blog/types-of-trucks-and-trailers-for-car-shipping', 301);
+
+
 
 // Route::get('{path}', function ($path) {
 //     // Remove any duplicate 'blog/' if it exists
