@@ -90,7 +90,7 @@
                                         <span><i class="fa-light fa-user"></i></span> <span
                                             style="margin-right: 10px;">{{ $blog->user->name }}</span>
                                         <span><i class="flaticon-calendar"></i></span>
-                                        <span>{{ \Carbon\Carbon::parse($blog->created_at)->format('M d, Y') }}</span>
+                                        <span>{{ \Carbon\Carbon::parse($blog->updated_at)->format('M d, Y') }}</span>
                                     </div>
 
                                 </div>

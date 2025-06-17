@@ -26,6 +26,7 @@ use Illuminate\Support\Facades\Request;
 
 Route::redirect('/services/motorcycle-shipping-service', '/transport-services/motorcycle', 301);
 Route::redirect('/blog/trailers-and-trucks-used-in-transportation', '/blog/types-of-trucks-and-trailers-for-car-shipping', 301);
+Route::redirect('/five-tips-before-shipping-your-sports-car-in-2020', '/five-tips-before-shipping-your-sports-car-in-2025', 301);
 
 
 
