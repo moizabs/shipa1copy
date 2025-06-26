@@ -27,16 +27,16 @@ use Illuminate\Support\Facades\Request;
 Route::redirect('/services/motorcycle-shipping-service', '/transport-services/motorcycle', 301);
 Route::redirect('/blog/trailers-and-trucks-used-in-transportation', '/blog/types-of-trucks-and-trailers-for-car-shipping', 301);
 Route::redirect('/five-tips-before-shipping-your-sports-car-in-2020', '/five-tips-before-shipping-your-sports-car-in-2025', 301);
-Route::permanentRedirect('/public/quote/car', '/instant-quote/car');
-Route::permanentRedirect('/public/services/car-transport-service-expedited-shipping-service', '/transport-services/car');
-Route::permanentRedirect('/public/heavy?type=OXV4c01qTzl6UlBwdVRXR0JyMDdWZz09', '/transport-services/heavy-equipments');
-Route::permanentRedirect('/public/quote', '/instant-quote/car');
-Route::permanentRedirect('/public/heavy?type=OXV4c01qTzl6UlBwdVRXR0JyMDdWZz09', '/transport-services/heavy-equipments');
-Route::permanentRedirect('/public/car', '/transport-services/car');
-Route::permanentRedirect('/public/services/car-shipping-service', '/transport-services/car');
-Route::permanentRedirect('/public/blog', '/blog');
-Route::permanentRedirect('/public/services/motorcycle-shipping-service', '/transport-services/motorcycle');
-Route::permanentRedirect('/public/motorcycle', '/transport-services/motorcycle');
+Route::permanentRedirect('/quote/car', '/instant-quote/car');
+Route::permanentRedirect('/services/car-transport-service-expedited-shipping-service', '/transport-services/car');
+Route::permanentRedirect('/heavy?type=OXV4c01qTzl6UlBwdVRXR0JyMDdWZz09', '/transport-services/heavy-equipments');
+Route::permanentRedirect('/quote', '/instant-quote/car');
+Route::permanentRedirect('/heavy?type=OXV4c01qTzl6UlBwdVRXR0JyMDdWZz09', '/transport-services/heavy-equipments');
+Route::permanentRedirect('/car', '/transport-services/car');
+Route::permanentRedirect('/services/car-shipping-service', '/transport-services/car');
+Route::permanentRedirect('/blog', '/blog');
+Route::permanentRedirect('/services/motorcycle-shipping-service', '/transport-services/motorcycle');
+Route::permanentRedirect('/motorcycle', '/transport-services/motorcycle');
 
 
 // Route::get('{path}', function ($path) {
