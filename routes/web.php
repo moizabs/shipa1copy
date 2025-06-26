@@ -29,9 +29,9 @@ Route::redirect('/blog/trailers-and-trucks-used-in-transportation', '/blog/types
 Route::redirect('/five-tips-before-shipping-your-sports-car-in-2020', '/five-tips-before-shipping-your-sports-car-in-2025', 301);
 Route::permanentRedirect('/quote/car', '/instant-quote/car');
 Route::permanentRedirect('/services/car-transport-service-expedited-shipping-service', '/transport-services/car');
-Route::permanentRedirect('/heavy?type=OXV4c01qTzl6UlBwdVRXR0JyMDdWZz09', '/transport-services/heavy-equipments');
+Route::permanentRedirect('/heavy', '/transport-services/heavy-equipment');
 Route::permanentRedirect('/quote', '/instant-quote/car');
-Route::permanentRedirect('/heavy?type=OXV4c01qTzl6UlBwdVRXR0JyMDdWZz09', '/transport-services/heavy-equipments');
+Route::permanentRedirect('/shipping-heavy-equipment-in-2019', '/transport-services/heavy-equipment');
 Route::permanentRedirect('/car', '/transport-services/car');
 Route::permanentRedirect('/services/car-shipping-service', '/transport-services/car');
 Route::permanentRedirect('/blog', '/blog');
