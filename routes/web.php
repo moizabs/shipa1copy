@@ -36,7 +36,7 @@ Route::permanentRedirect('/public/car', '/transport-services/car');
 Route::permanentRedirect('/public/services/car-shipping-service', '/transport-services/car');
 Route::permanentRedirect('/public/blog', '/blog');
 Route::permanentRedirect('/public/services/motorcycle-shipping-service', '/transport-services/motorcycle');
-Route::permanentRedirect('/public/motorcycle', '/transport-services/motorcycle');
+Route::permanentRedirect('/motorcycle', '/transport-services/motorcycle');
 
 
 // Route::get('{path}', function ($path) {
