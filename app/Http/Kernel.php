@@ -29,6 +29,9 @@ class Kernel extends HttpKernel
         \RenatoMarinho\LaravelPageSpeed\Middleware\TrimUrls::class,
         // \RenatoMarinho\LaravelPageSpeed\Middleware\CollapseWhitespace::class,
         // \App\Http\Middleware\RedirectMiddleware::class,
+
+        // HTTS MIDDLEWERE
+       \App\Http\Middleware\HSTSHeader::class,
     ];
 
     /**
@@ -78,4 +81,6 @@ class Kernel extends HttpKernel
         
 
     ];
+
+ 
 }
