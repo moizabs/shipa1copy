@@ -24,9 +24,17 @@ class SecurityHeaders
             // ✅ Referrer-Policy
             $response->headers->set('Referrer-Policy', 'no-referrer-when-downgrade');
 
-            // ✅ Content-Security-Policy (CSP)
-            // $response->headers->set('Content-Security-Policy', "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; object-src 'none'; frame-ancestors 'self';");
-
+             $response->headers->set('Content-Security-Policy', "
+                default-src 'self';
+                script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://cdnjs.cloudflare.com https://code.jquery.com https://unpkg.com https://stackpath.bootstrapcdn.com https://ajax.googleapis.com https://www.googletagmanager.com https://www.clarity.ms;
+                style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdn.jsdelivr.net https://cdnjs.cloudflare.com https://stackpath.bootstrapcdn.com https://maxcdn.bootstrapcdn.com;
+                font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com;
+                img-src 'self' data:;
+                connect-src 'self' https://www.clarity.ms https://www.googletagmanager.com;
+                object-src 'none';
+                frame-ancestors 'self';
+                base-uri 'self';
+            ");
             // You can customize CSP based on what your app actually needs (see note below).
         }
 
