@@ -25,7 +25,7 @@ class SecurityHeaders
             $response->headers->set('Referrer-Policy', 'no-referrer-when-downgrade');
 
             // ✅ Content-Security-Policy (CSP)
-            $response->headers->set('Content-Security-Policy', "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; object-src 'none'; frame-ancestors 'self';");
+            // $response->headers->set('Content-Security-Policy', "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; object-src 'none'; frame-ancestors 'self';");
 
             // You can customize CSP based on what your app actually needs (see note below).
         }
