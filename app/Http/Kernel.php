@@ -32,6 +32,7 @@ class Kernel extends HttpKernel
 
         // HTTS MIDDLEWERE
        \App\Http\Middleware\HSTSHeader::class,
+       \App\Http\Middleware\SecurityHeaders::class,
     ];
 
     /**
