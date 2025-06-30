@@ -251,3 +251,4 @@ Route::get('/{slug}', [FrontendController::class, 'blogDetailsNoSlug'])
     ->where('slug', '[^/]+');
 Route::post('/lead-generation', [FrontendController::class, 'leadGeneration'])->name('lead.generation');
 
+
