@@ -37,13 +37,13 @@ Route::permanentRedirect('/services/car-shipping-service', '/transport-services/
 Route::permanentRedirect('/blog', '/blog');
 Route::permanentRedirect('/services/motorcycle-shipping-service', '/transport-services/motorcycle');
 Route::permanentRedirect('/motorcycle', '/transport-services/motorcycle');
-Route::permanentRedirect('/services/farm-transport/ ', '/transport-services/farm-equipment');
+Route::permanentRedirect('/services/farm-transport ', '/transport-services/farm-equipment');
 Route::permanentRedirect('/services/motorcycle-shipping-service', '/transport-services/motorcycle');
-Route::permanentRedirect('/services/heavy-equipment-shipping', '/trasnport-services/heavy-equipment');
+Route::permanentRedirect('/services/heavy-equipment-shipping', '/transport-services/heavy-equipment');
 Route::permanentRedirect('/services/commercial-truck-transport', '/transport-services/commercial-truck');
 Route::permanentRedirect('/services/construction-equipment-shipping', '/transport-services/construction-equipment');
 Route::permanentRedirect('/services-overview', '/transport-services');
-Route::permanentRedirect('/services/atv-utv-transport', '/transport-services/atv-utv-transport');
+Route::permanentRedirect('/services/atv-utv-transport', '/transport-services/atv-utv');
 Route::permanentRedirect('/services/shipping-an-excavator', '/transport-services/excavator');
 Route::permanentRedirect('/farm-transport-in-2019', '/farm-tractor-transport');
 Route::permanentRedirect('/auctions-car-transport', '/auction-transport/car');
@@ -55,6 +55,7 @@ Route::permanentRedirect('/vehicle-shipping-scam', '/blog/avoid-vehicle-shipping
 Route::permanentRedirect('/contact', '/contact_us');
 Route::permanentRedirect('/expedited-shipping-service', '/blog/cheapest-car-shipping-service-cheap-car-transport');
 Route::permanentRedirect('/why-auto-shipping-advantages-of-having-your-car-shipped-in-2025', '/alaska-auto-transport-guide-2025');
+Route::permanentRedirect('/heavy-duty-truck-transport', '/transport-services/heavy-equipment');
 
 // Route::get('{path}', function ($path) {
 //     // Remove any duplicate 'blog/' if it exists
