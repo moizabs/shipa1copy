@@ -53,9 +53,7 @@ Route::permanentRedirect('/roro-shipping-in-united-states', '/blog/roro-shipping
 Route::permanentRedirect('/exotic-car-shipping', '/exotic-car-shipping-in-florida');
 Route::permanentRedirect('/vehicle-shipping-scam', '/blog/avoid-vehicle-shipping-scams');
 Route::permanentRedirect('/contact', '/contact_us');
-Route::permanentRedirect('/services/motorcycle-shipping-service', '/transport-services/motorcycle');
-Route::permanentRedirect('/services/motorcycle-shipping-service', '/transport-services/motorcycle');
-Route::permanentRedirect('/services/motorcycle-shipping-service', '/transport-services/motorcycle');
+Route::permanentRedirect('/expedited-shipping-service', '/blog/cheapest-car-shipping-service-cheap-car-transport');
 
 // Route::get('{path}', function ($path) {
 //     // Remove any duplicate 'blog/' if it exists
