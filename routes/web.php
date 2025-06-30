@@ -43,12 +43,14 @@ Route::permanentRedirect('/services/heavy-equipment-shipping', '/transport-servi
 Route::permanentRedirect('/services/commercial-truck-transport', '/transport-services/commercial-truck');
 Route::permanentRedirect('/services/construction-equipment-shipping', '/transport-services/construction-equipment');
 Route::permanentRedirect('/services-overview', '/transport-services');
+Route::permanentRedirect('/quote/motorcycle?type=aVIvSVNNcHhLUnVPN2xqL29JeXFpQT09', '/instant-quote/motorcycle');
 Route::permanentRedirect('/services/atv-utv-transport', '/transport-services/atv-utv');
 Route::permanentRedirect('/services/shipping-an-excavator', '/transport-services/excavator');
 Route::permanentRedirect('/farm-transport-in-2019', '/farm-tractor-transport');
 Route::permanentRedirect('/auctions-car-transport', '/auction-transport/car');
 Route::permanentRedirect('/blog/winter-vs--summer-auto-shipping', '/blog/winter-vs-summer-auto-shipping');
 Route::permanentRedirect('/why-auto-shipping-advantages-of-having-your-car-shipped-2019', '/blog/why-auto-shipping-advantages-of-having-your-car-shipped-in-2019');
+Route::permanentRedirect('/why-auto-shipping-advantages-of-having-a-car-shipping-company', '/blog/why-auto-shipping-advantages-of-having-your-car-shipped-in-2019');
 Route::permanentRedirect('/roro-shipping-in-united-states', '/blog/roro-shipping-service-in-the-united-states');
 Route::permanentRedirect('/exotic-car-shipping', '/exotic-car-shipping-in-florida');
 Route::permanentRedirect('/vehicle-shipping-scam', '/blog/avoid-vehicle-shipping-scams');
