@@ -24,9 +24,9 @@ use App\Http\Controllers\MarketingController;
 use App\Http\Controllers\ChatController;
 use Illuminate\Support\Facades\Request;
 
-Route::redirect('/services/motorcycle-shipping-service', '/transport-services/motorcycle', 301);
-Route::redirect('/blog/trailers-and-trucks-used-in-transportation', '/blog/types-of-trucks-and-trailers-for-car-shipping', 301);
-Route::redirect('/five-tips-before-shipping-your-sports-car-in-2020', '/five-tips-before-shipping-your-sports-car-in-2025', 301);
+Route::permanentRedirect('/services/motorcycle-shipping-service', '/transport-services/motorcycle');
+Route::permanentRedirect('/blog/trailers-and-trucks-used-in-transportation', '/blog/types-of-trucks-and-trailers-for-car-shipping');
+Route::permanentRedirect('/five-tips-before-shipping-your-sports-car-in-2020', '/five-tips-before-shipping-your-sports-car-in-2025');
 Route::permanentRedirect('/quote/car', '/instant-quote/car');
 Route::permanentRedirect('/services/car-transport-service-expedited-shipping-service', '/transport-services/car');
 Route::permanentRedirect('/heavy', '/transport-services/heavy-equipment');
@@ -37,7 +37,7 @@ Route::permanentRedirect('/services/car-shipping-service', '/transport-services/
 Route::permanentRedirect('/blog', '/blog');
 Route::permanentRedirect('/services/motorcycle-shipping-service', '/transport-services/motorcycle');
 Route::permanentRedirect('/motorcycle', '/transport-services/motorcycle');
-
+Route::permanentRedirect('/shipping-your-motorcycle-the-smart-way-2019 ', '/cross-country-motorcycle-shipping-2025-guide');
 
 // Route::get('{path}', function ($path) {
 //     // Remove any duplicate 'blog/' if it exists
