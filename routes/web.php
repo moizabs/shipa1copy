@@ -37,7 +37,23 @@ Route::permanentRedirect('/services/car-shipping-service', '/transport-services/
 Route::permanentRedirect('/blog', '/blog');
 Route::permanentRedirect('/services/motorcycle-shipping-service', '/transport-services/motorcycle');
 Route::permanentRedirect('/motorcycle', '/transport-services/motorcycle');
-Route::permanentRedirect('/shipping-your-motorcycle-the-smart-way-2019 ', '/cross-country-motorcycle-shipping-2025-guide');
+Route::permanentRedirect('/services/farm-transport/ ', '/transport-services/farm-transport');
+Route::permanentRedirect('/services/motorcycle-shipping-service', '/transport-services/motorcycle');
+Route::permanentRedirect('/services/heavy-equipment-shipping', '/trasnport-services/heavy-equipment-shipping');
+Route::permanentRedirect('/services/commercial-truck-transport', '/transport-services/commercial-truck-transport');
+Route::permanentRedirect('/services/construction-equipment-shipping', '/transport-services/construction-equipment-shipping');
+Route::permanentRedirect('/services-overview', '/transport-services');
+Route::permanentRedirect('/services/atv-utv-transport', '/transport-services/atv-utv-transport');
+Route::permanentRedirect('/services/shipping-an-excavator', '/transport-services/shipping-an-excavator');
+Route::permanentRedirect('/farm-transport-in-2019', '/transport-services/motorcycle');
+Route::permanentRedirect('/auctions-car-transport', '/auction-transport/car');
+Route::permanentRedirect('/blog/winter-vs--summer-auto-shipping', '/blog/winter-vs-summer-auto-shipping');
+Route::permanentRedirect('/why-auto-shipping-advantages-of-having-your-car-shipped-2019', '/blog/why-auto-shipping-advantages-of-having-your-car-shipped-in-2019');
+Route::permanentRedirect('/roro-shipping-in-united-states', '/blog/roro-shipping-service-in-the-united-states');
+Route::permanentRedirect('/exotic-car-shipping', '/exotic-car-shipping-in-florida');
+Route::permanentRedirect('/vehicle-shipping-scam', '/blog/avoid-vehicle-shipping-scams');
+Route::permanentRedirect('/contact', '/contact_us');
+Route::permanentRedirect('/expedited-shipping-service', '/blog/cheapest-car-shipping-service-cheap-car-transport');
 
 // Route::get('{path}', function ($path) {
 //     // Remove any duplicate 'blog/' if it exists
