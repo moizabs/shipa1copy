@@ -58,7 +58,7 @@ Route::permanentRedirect('/contact', '/contact_us');
 Route::permanentRedirect('/expedited-shipping-service', '/blog/cheapest-car-shipping-service-cheap-car-transport');
 Route::permanentRedirect('/why-auto-shipping-advantages-of-having-your-car-shipped-in-2025', '/alaska-auto-transport-guide-2025');
 Route::permanentRedirect('/heavy-duty-truck-transport', '/transport-services/heavy-equipment');
-
+Route::permanentRedirect('/trasnport-services/heavy-equipment', '/transport-services/heavy-equipment');
 // Route::get('{path}', function ($path) {
 //     // Remove any duplicate 'blog/' if it exists
 //     $cleanPath = Str::of($path)->replaceFirst('blog/', '');
