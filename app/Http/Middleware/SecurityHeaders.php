@@ -15,8 +15,8 @@ class SecurityHeaders
         // Set only in production (optional)
         if (App::environment('production')) {
 
-            // ✅ X-Frame-Options (Clickjacking protection)
-            $response->headers->set('X-Frame-Options', 'SAMEORIGIN');
+            // // ✅ X-Frame-Options (Clickjacking protection)
+            // $response->headers->set('X-Frame-Options', 'SAMEORIGIN');
 
             // ✅ X-Content-Type-Options (MIME sniffing)
             $response->headers->set('X-Content-Type-Options', 'nosniff');
