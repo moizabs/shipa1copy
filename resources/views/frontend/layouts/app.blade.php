@@ -1662,11 +1662,47 @@
                 opacity: 0;
             }
         }
+        .preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  animation: fadeInPage 0.5s ease-in-out;
+}
+.animation-preloader {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: slideUp 0.8s ease-out forwards;
+}
+
+@keyframes slideUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+* Responsive sizing */
+@media (max-width: 480px) {
+  .preloader-icon {
+    width: 60px;
+  }
+}
     </style>
 </head>
 
 <body>
-    
+    <div id="preloader" class="preloader">
+    <div class="animation-preloader">
+        <img src="/frontend/images/logo/LOGO NEW-2.webp" alt="Loading..." class="preloader-icon">
+  
+    </div>
+</div>
     <!-- End Google Tag Manager (noscript) -->
     
     @php $currentRouteName = Route::currentRouteName(); @endphp
@@ -2077,6 +2113,17 @@
             });
         };
     </script>
+    <script>
+  window.addEventListener("load", function () {
+    const preloader = document.getElementById("preloader");
+    if (preloader) {
+      preloader.style.opacity = "0";
+      setTimeout(() => {
+        preloader.style.display = "none";
+      });
+    }
+  });
+</script>
     <script>
         $(document).ready((function() {
             $(document).on("change", "#category", (function() {
