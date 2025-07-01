@@ -275,7 +275,7 @@
 
 <div id="preloader" class="preloader">
     <div class="animation-preloader">
-        <img src="frontend/images/logo/LOGO NEW-2.webp" alt="Loading..." class="preloader-icon">
+        <img src="/frontend/images/logo/LOGO NEW-2.webp" alt="Loading..." class="preloader-icon">
   
     </div>
 </div>
