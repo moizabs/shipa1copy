@@ -493,6 +493,13 @@ the USA. Connect with ShipA1 today.')
             background: #d22;
             color: white;
         }
+             @media only screen and (max-width: 560px) {
+.img-fluid{
+    height: 200px
+}
+    
+            }
+
     </style>
    
     <section class="breadcrumb-wrapper" data-bg-image="{{ asset('frontend/images/banner/all-cover-banner.webp') }}">
@@ -525,11 +532,7 @@ the USA. Connect with ShipA1 today.')
         <div class="container" data-sal="slide-left" data-sal-duration="800" data-sal-delay="100">
             <div class="row">
                 <div class="col-lg-7">
-                    <div class="image-container">
-                        <img class="img-fluid"
-                            src="{{ asset('frontend/images/project/1-banner-for-motorcycle-transport.webp') }}"
-                            loading="lazy" alt="Motorcyle Transport">
-                    </div>
+                  
                     <br>
                     <div class="text-container text-left">
                         <h3>A Reliable and Cost-Effective Way of Motorcycle Shipping</h3>
@@ -537,7 +540,7 @@ the USA. Connect with ShipA1 today.')
                             nation easily, however finding a reliable company that ships your motorcycle in the quoted
                             time can be a daunting task. When transporting with Ship A1 you don’t need to worry about
                             any upfront or hidden payments because we provide our customers with accurate <a
-                                class="pp-link-2" href="{{ route('form.vehicle.form.vehicle.car') }}"> shipping quotes.</a>
+                                class="pp-link-2" href="{{ route('form.vehicle.form.vehicle.car') }}"> shipping quotes.</a><br><br>
                             With 16 years of experience in this field,<a class="pp-link-2" href="{{ route('welcome') }}">
                                 Ship A1 </a> can confidently guarantee your smooth
                             transportation! Providing services nationwide we excel in motorcycle shipment with plenty
@@ -546,6 +549,11 @@ the USA. Connect with ShipA1 today.')
                             compromising the quality.
                         </p>
                         <br>
+                    </div>
+                      <div class="image-container" style="height: 500px">
+                        <img class="img-fluid" style="height: 450px"
+                            src="{{ asset('frontend/images/project/1-banner-for-motorcycle-transport.webp') }}"
+                            loading="lazy" alt="Motorcyle Transport">
                     </div>
                 </div>
                 <div class="col-lg-5">
