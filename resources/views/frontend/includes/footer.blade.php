@@ -74,6 +74,14 @@
     transform: translateY(0);
   }
 }
+* Responsive sizing */
+@media (max-width: 480px) {
+  .preloader-icon {
+    width: 60px;
+  }
+}
+
+
 
 </style>
 <footer class=tj-footer-area>
