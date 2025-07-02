@@ -374,10 +374,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-7">
-                    <div class="image-container">
-                        <img class="img-fluid" src="{{ asset('frontend/images/project/tuxpi.com.1730289103.webp') }}"
-                            loading="lazy" alt="Motorcyle Transport">
-                    </div>
+                   
                     <br>
                     <div class="text-container text-left">
                         <h3>Globally Indorsed Golf Cart Transportation</h3>
@@ -405,6 +402,10 @@
                                     style="color: var(--tj-secondary-color);">0</span>k+
                             </div>
                         </div>
+                    </div><br><br>
+                     <div class="image-container">
+                        <img class="img-fluid" src="{{ asset('frontend/images/service/ATV.jpeg') }}"
+                           style="height: 450px; border-radius: 30px" loading="lazy" alt="Motorcyle Transport">
                     </div>
                 </div>
                 <div class="col-lg-5 p-0">

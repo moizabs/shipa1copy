@@ -342,23 +342,25 @@ instant, customized quotes today with extra charges.')
    <div class="container">
         <div class="row">
             <div class="col-lg-7">
-                <div class="image-container">
-                    <img class="img-fluid" src="{{ asset('frontend/images/project/tuxpi.coo.webp') }}" loading="lazy" alt="Motorcyle Transport">
-                </div>
+                
                     <br>
                 <div class="text-container text-left">
                     <h2 class="fs-3">Convenient ATV/UTV Transport Service</h2>
                     <p>ShipA1 is not just the top or best ATV/UTV transport company; it’s the trusted and proven all-terrain vehicle and utility task vehicle shipping agency. Taking care of side-by-side hauling, convenience, packaging, and security, we offer the suitable ATV/UTV shipping options all over the USA.
                        <p>A simple quote changes your delayed all-terrain vehicle and utility task vehicle transport into just-arriving delivery. ShipA1 is ready for urgent quotes for your ATV or UTV orders. Connect with us today. </p>
-                        <br>
-                            <ul>
+                       <ul>
                             <li>Convenience</li>
-                            <li>Ratings</li>
-                            <li>Insurance Policy and Coverage</li>
-                            <li>Affordability</li>
-                            </ul> 
-                    </p> 
+                                 <li>Ratings</li>
+                                 <li>Insurance Policy and Coverage</li>
+                                 <li>Affordability</li>
+                                 </ul> 
+                    
+               
+                        
                     <br>
+                </div>
+                <div class="image-container">
+                    <img class="img-fluid" src="{{ asset('frontend/images/project/tuxpi.coo.webp') }}" loading="lazy" alt="Motorcyle Transport">
                 </div>
             </div>
             <div class="col-lg-5 p-0">
