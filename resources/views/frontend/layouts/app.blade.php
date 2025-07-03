@@ -121,15 +121,15 @@
 
   
   border: none !important;
-  width: 50px !important;
-  height: 50px !important;
+  width: 90px !important;
+  height: 80px !important;
   border-radius: 50% !important;
   padding: 0 !important;
-  background-color: #fff !important;
+  /* background-color: #6a9c2f !important; */
   box-shadow: none !important;
   position: fixed !important;
-  bottom: 80px !important;
-  right: 27px !important;
+  bottom: 70px !important;
+  right: 10px !important;
   display: flex !important;
   align-items: center !important;
   justify-content: center !important;
