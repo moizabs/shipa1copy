@@ -91,10 +91,10 @@
     <link rel=preload href=https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css
  as=style>
     <link rel=preload href=https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css as=style>
-  
+{{--   
     <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css
 >
-    <link rel=stylesheet href=https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css>
+    <link rel=stylesheet href=https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css> --}}
     {{-- <script>
         document.addEventListener("DOMContentLoaded", function() {
             if (typeof IMask !== 'undefined') {
@@ -118,12 +118,14 @@
 
 /* Adjust the chat container to be a small floating circular button */
 .css-138p0k2 {
+
+  
   border: none !important;
   width: 50px !important;
   height: 50px !important;
   border-radius: 50% !important;
   padding: 0 !important;
-  background-color: #6a9c2f !important; /* your blue */
+  background-color: #fff !important;
   box-shadow: none !important;
   position: fixed !important;
   bottom: 80px !important;
@@ -135,7 +137,12 @@
   cursor: pointer !important;
   z-index: 9999 !important;
 }
-
+.chat-icon-img {
+  width: 50px;
+  height: 50px;
+  display: block;
+  margin: auto;
+}
 /* Make the button fill the container */
 .css-1iovl8i {
   border: none !important;
@@ -1683,14 +1690,8 @@
                             <button type="button" aria-label="Open LiveChat chat widget"
                                 class="e1mwfyk10 css-1iovl8i ejbfa1m0">
                                 <div class="css-1potzn5 e1dmt1bi3">
-                                    <svg color="inherit" viewBox="0 0 32 32" class="css-1usdo54">
-                                        <path fill="#FFFFFF"
-                                            d="M12.63,26.46H8.83a6.61,6.61,0,0,1-6.65-6.07,89.05,89.05,0,0,1,0-11.2A6.5,6.5,0,0,1,8.23,3.25a121.62,121.62,0,0,1,15.51,0A6.51,6.51,0,0,1,29.8,9.19a77.53,77.53,0,0,1,0,11.2,6.61,6.61,0,0,1-6.66,6.07H19.48L12.63,31V26.46">
-                                        </path>
-                                        <path fill="#00A1EF"
-                                            d="M19.57,21.68h3.67a2.08,2.08,0,0,0,2.11-1.81,89.86,89.86,0,0,0,0-10.38,1.9,1.9,0,0,0-1.84-1.74,113.15,113.15,0,0,0-15,0A1.9,1.9,0,0,0,6.71,9.49a74.92,74.92,0,0,0-.06,10.38,2,2,0,0,0,2.1,1.81h3.81V26.5Z"
-                                            class="css-1adcsh3 eam5rsy0"></path>
-                                    </svg>
+                                   <img src="frontend/images/icon/chat.png" alt="Chat Icon" class="chat-icon-img" />
+
                                     <div class="css-anyrkw e1dmt1bi2"></div>
                                 </div>
                             </button>
