@@ -111,155 +111,62 @@
    
 
     <style>
-        .css-1h1ne2e {
-            cursor: pointer;
-            max-width: 100%;
-            position: absolute;
-            bottom: 0;
-            z-index: 2;
-            display: -webkit-box;
-            display: -webkit-flex;
-            display: -ms-flexbox;
-            display: flex;
-            -webkit-align-items: flex-end;
-            -webkit-box-align: flex-end;
-            -ms-flex-align: flex-end;
-            align-items: flex-end;
-            will-change: width, height, transform, opacity;
-            -webkit-backface-visibility: hidden;
-            backface-visibility: hidden;
-            padding: 0.8em 0.8em 0 0.8em;
-            /*right: 0; remove by mohsin*/
-            -webkit-box-pack: end;
-            -ms-flex-pack: end;
-            -webkit-justify-content: flex-end;
-            justify-content: flex-end;
-            --primary-color: #2000F0;
-            --secondary-color: #FFFFFF;
-            --tertiary-color: #E3E3E3;
-        }
+       /* Hide the "Chat Us Now" text on all screens */
+.css-e4pgre {
+  display: none !important;
+}
 
-        .css-1aasxu6 {
-            display: -webkit-box;
-            display: -webkit-flex;
-            display: -ms-flexbox;
-            display: flex;
-            -webkit-flex-direction: column;
-            -ms-flex-direction: column;
-            flex-direction: column;
-            min-width: 0;
-            --primary-color: #2000F0;
-            --secondary-color: #FFFFFF;
-            --tertiary-color: #E3E3E3;
-        }
+/* Adjust the chat container to be a small floating circular button */
+.css-138p0k2 {
+  border: none !important;
+  width: 50px !important;
+  height: 50px !important;
+  border-radius: 50% !important;
+  padding: 0 !important;
+  background-color: #6a9c2f !important; /* your blue */
+  box-shadow: none !important;
+  position: fixed !important;
+  bottom: 80px !important;
+  right: 27px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  color: #fff !important;
+  cursor: pointer !important;
+  z-index: 9999 !important;
+}
 
-        .css-1g9ek8d {
-            display: -webkit-box;
-            display: -webkit-flex;
-            display: -ms-flexbox;
-            display: flex;
-            min-width: 0;
-            --primary-color: #2000F0;
-            --secondary-color: #FFFFFF;
-            --tertiary-color: #E3E3E3;
-        }
+/* Make the button fill the container */
+.css-1iovl8i {
+  border: none !important;
+  width: 100% !important;
+  height: 100% !important;
+  padding: 0 !important;
+  border-radius: 50% !important;
+  background: transparent !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
 
-        .css-bubhx7 {
-            display: -webkit-box;
-            display: -webkit-flex;
-            display: -ms-flexbox;
-            display: flex;
-            min-width: 0;
-            --primary-color: #2000F0;
-            --secondary-color: #FFFFFF;
-            --tertiary-color: #E3E3E3;
-            -webkit-flex-direction: row-reverse;
-            -ms-flex-direction: row-reverse;
-            flex-direction: row-reverse;
-        }
+/* SVG icon sizing and centering */
+.css-1usdo54 {
+  stroke: none !important;
+  width: 23px !important;
+  height: 23px !important;
+  margin: auto !important;
+  display: block !important;
+}
+.css-1usdo54 path {
+  fill: #ffffff !important;
+}
 
-        .css-138p0k2 {
-            position: relative;
-            width: 255px;
-            height: 50px;
-            box-shadow: rgba(0, 0, 0, 0.125) 0px 0.362176px 0.941657px -1px, rgba(0, 0, 0, 0.18) 0px 3px 7.8px -2px;
-            background: #FFFFFF;
-            border-radius: 8px 8px 0px 0px;
-            display: -webkit-box;
-            display: -webkit-flex;
-            display: -ms-flexbox;
-            display: flex;
-            padding: 0 0.9em;
-            -webkit-align-items: center;
-            -webkit-box-align: center;
-            -ms-flex-align: center;
-            align-items: center;
-            --primary-color: #2000F0;
-            --secondary-color: #FFFFFF;
-            --tertiary-color: #E3E3E3;
-            position: relative;
-            color: #FFFFFF;
-            background-color: #00A1EF;
-        }
 
-        .css-e4pgre {
-            margin: 1em 0;
-            --primary-color: #2000F0;
-            --secondary-color: #FFFFFF;
-            --tertiary-color: #E3E3E3;
-            white-space: nowrap;
-            overflow: hidden;
-            text-overflow: ellipsis;
-            -webkit-box-flex: 1;
-            -webkit-flex-grow: 1;
-            -ms-flex-positive: 1;
-            flex-grow: 1;
-            font-weight: 700;
-            font-size: 0.9em;
-            margin-right: 4px;
-            --primary-color: #2000F0;
-            --secondary-color: #FFFFFF;
-            --tertiary-color: #E3E3E3;
-            white-space: nowrap;
-            overflow: hidden;
-            text-overflow: ellipsis;
-        }
+/* Optional: hide any extra div inside the button */
+.css-anyrkw {
+  display: none !important;
+}
 
-        .css-1iovl8i {
-            -webkit-appearance: none;
-            -moz-appearance: none;
-            -ms-appearance: none;
-            appearance: none;
-            background: transparent;
-            border: 0;
-            display: inline-block;
-            margin: 0;
-            padding: 0.5em;
-            color: inherit;
-            cursor: pointer;
-            --primary-color: #2000F0;
-            --secondary-color: #FFFFFF;
-            --tertiary-color: #E3E3E3;
-            padding: 0 .5em;
-            padding: 0;
-            display: -webkit-box;
-            display: -webkit-flex;
-            display: -ms-flexbox;
-            display: flex;
-            -webkit-box-pack: center;
-            -ms-flex-pack: center;
-            -webkit-justify-content: center;
-            justify-content: center;
-            -webkit-align-items: center;
-            -webkit-box-align: center;
-            -ms-flex-align: center;
-            align-items: center;
-            border: 0;
-            border-radius: 6px;
-            --primary-color: #2000F0;
-            --secondary-color: #FFFFFF;
-            --tertiary-color: #E3E3E3;
-        }
     </style>
     <style>
         #chat-widget {
@@ -354,11 +261,13 @@
             -webkit-font-feature-settings: "kern" 1, "dlig" 1, "opbd" 1, "ss01" 1;
             font-feature-settings: "kern" 1, "dlig" 1, "opbd" 1, "ss01" 1;
             text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
+            
         }
 
         #_71A63tRBiHHb3tRBnQfK_1._71A6x4GfiHHbx4GfnQfK_1 {
             bottom: auto;
             top: 0;
+            width: 250px
         }
 
         #_71A63tRBiHHb3tRBnQfK_1 ._71A63x22iHHb3x22nQfK_1 {
@@ -366,12 +275,14 @@
             padding-top: 5px;
         }
 
-        @media screen and (min-width:480px) {
+
+        /* @media screen and (min-width:480px) {
             #_71A63tRBiHHb3tRBnQfK_1._71A62TNmiHHb2TNmnQfK_1 {
                 left: auto;
                 right: 10px;
+                 width: 250px;
             }
-        }
+        } */
 
         #_71A63tRBiHHb3tRBnQfK_1 button,
         #_71A63tRBiHHb3tRBnQfK_1 input,
@@ -602,6 +513,7 @@
             height: 22px;
             background: #0095f7;
             box-shadow: 0 0 0 rgba(0, 149, 247, .4);
+            font-size: 10px;
         }
 
         @media screen and (min-width:480px) {
@@ -611,6 +523,7 @@
             ._71A61j23iHHb1j23nQfK_0 ._71A63g5uiHHb3g5unQfK_0,
             ._71A61j23iHHb1j23nQfK_0 ._71A63SB2iHHb3SB2nQfK_0 {
                 border-radius: 50%;
+                font-size: 10px;
             }
         }
 
@@ -666,6 +579,7 @@
                 width: 352px;
                 margin: 0 0 10px 10px;
                 border-radius: 50px;
+                font-size: 10px
             }
 
             ._71A62qKhiHHb2qKhnQfK_0._71A6OW-4iHHbOW-4nQfK_0 {
@@ -1675,6 +1589,7 @@
   z-index: 9999;
   animation: fadeInPage 0.5s ease-in-out;
 }
+
 .animation-preloader {
   opacity: 0;
   transform: translateY(20px);
