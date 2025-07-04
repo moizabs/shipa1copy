@@ -91,10 +91,9 @@
     <link rel=preload href=https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css
  as=style>
     <link rel=preload href=https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css as=style>
-{{--   
-    <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css
->
-    <link rel=stylesheet href=https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css> --}}
+  
+    <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css>
+    <link rel=stylesheet href=https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css> 
     {{-- <script>
         document.addEventListener("DOMContentLoaded", function() {
             if (typeof IMask !== 'undefined') {
@@ -128,7 +127,7 @@
   /* background-color: #6a9c2f !important; */
   box-shadow: none !important;
   position: fixed !important;
-  bottom: 70px !important;
+  bottom: 80px !important;
   right: 10px !important;
   display: flex !important;
   align-items: center !important;
@@ -552,7 +551,7 @@
             }
         }
 
-        ._71A62qKhiHHb2qKhnQfK_0 {
+ ._71A62qKhiHHb2qKhnQfK_0 {
             -ms-flex-align: normal;
             align-items: normal;
             display: grid;
@@ -586,7 +585,6 @@
                 width: 352px;
                 margin: 0 0 10px 10px;
                 border-radius: 50px;
-                font-size: 10px
             }
 
             ._71A62qKhiHHb2qKhnQfK_0._71A6OW-4iHHbOW-4nQfK_0 {
@@ -1374,6 +1372,7 @@
             bottom: 0;
         }
 
+
         .fadeIn-leave-active {
             opacity: 0;
         }
@@ -1690,7 +1689,7 @@
                             <button type="button" aria-label="Open LiveChat chat widget"
                                 class="e1mwfyk10 css-1iovl8i ejbfa1m0">
                                 <div class="css-1potzn5 e1dmt1bi3">
-                                   <img src="frontend/images/icon/chat.png" alt="Chat Icon" class="chat-icon-img" />
+                                   <img src="/frontend/images/icon/chat.png" alt="Chat Icon" class="chat-icon-img" />
 
                                     <div class="css-anyrkw e1dmt1bi2"></div>
                                 </div>
