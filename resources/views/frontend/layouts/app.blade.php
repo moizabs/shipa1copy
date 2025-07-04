@@ -1705,8 +1705,8 @@
     @if (Route::currentRouteName() !== 'order.tracking')
         @include('frontend.includes.sidebtn-track')
     @endif @include('frontend.includes.footer') @yield('extraScript')
-    <div class="logiland-scroll-top progress-done">
-        <svg class="progress-circle svg-content" width=100% height=100% viewBox="-1 -1 102 102">
+    <div class="logiland-scroll-top scroll-up-btn progress-done">
+     <svg class="progress-circle svg-content" width=100% height=100% viewBox="-1 -1 102 102">
             <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"
                 style="transition:stroke-dashoffset 10ms linear 0s;stroke-dasharray:307.919px,307.919px;stroke-dashoffset:71.1186px">
             </path>
@@ -2428,6 +2428,40 @@
             }))
         }))
     </script>
+    <script>
+document.addEventListener("DOMContentLoaded", function () {
+    const button = document.querySelector(".logiland-scroll-top");
+    const path = button?.querySelector("path");
+    const circumference = 307.919;
+
+    function updateScrollProgress() {
+        const scrollTop = window.scrollY;
+        const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+        const scrolled = (scrollTop / docHeight) * 100;
+        const offset = circumference - (scrolled / 100) * circumference;
+
+        if (path) {
+            path.style.strokeDashoffset = offset;
+        }
+
+        // Toggle visibility
+        if (scrollTop > 100) {
+            button?.classList.add("progress-done");
+        } else {
+            button?.classList.remove("progress-done");
+        }
+    }
+
+    window.addEventListener("scroll", updateScrollProgress);
+    updateScrollProgress();
+
+    // Scroll to top on click
+    button?.addEventListener("click", function () {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+});
+</script>
+
     <script>
         document.addEventListener("DOMContentLoaded", (function() {
             const e = ".swiper-new-1",
