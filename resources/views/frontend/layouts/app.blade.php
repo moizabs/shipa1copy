@@ -127,7 +127,7 @@
   /* background-color: #6a9c2f !important; */
   box-shadow: none !important;
   position: fixed !important;
-  bottom: 70px !important;
+  bottom: 80px !important;
   right: 10px !important;
   display: flex !important;
   align-items: center !important;
@@ -551,7 +551,7 @@
             }
         }
 
-        ._71A62qKhiHHb2qKhnQfK_0 {
+ ._71A62qKhiHHb2qKhnQfK_0 {
             -ms-flex-align: normal;
             align-items: normal;
             display: grid;
@@ -585,7 +585,6 @@
                 width: 352px;
                 margin: 0 0 10px 10px;
                 border-radius: 50px;
-                font-size: 10px
             }
 
             ._71A62qKhiHHb2qKhnQfK_0._71A6OW-4iHHbOW-4nQfK_0 {
@@ -1372,6 +1371,7 @@
             width: 100%;
             bottom: 0;
         }
+
 
         .fadeIn-leave-active {
             opacity: 0;
