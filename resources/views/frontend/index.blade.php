@@ -5,21 +5,15 @@ in the USA. Time to partner with an expert agency.') @section('content')
 @section('canonical')
     <link rel="canonical" href="{{ url()->current() }}">
 @endsection
-<link rel="preload" href="{{ asset('frontend/images/slider/DSF.webp') }}" as="image" type="image/webp">
-<link rel="preload" href="{{ asset('frontend/images/banner/home-underline.webp') }}" as="image" type="image/webp">
-<link rel="preload" href="{{ asset('frontend/images/slider/freight-banner-home.webp') }}" as="image" type="image/webp">
 
+
+<link rel="preload" as="image" href="{{ asset('frontend/images/banner/home-underline.webp') }}" type="image/webp">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-
+<link rel="preload" as="image" href="/frontend/images/slider/fright-banner-home.webp" />
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-
-<!-- Add Swiper JS -->
-<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-
-
 <script type="application/ld+json">
-    
 {
   "@context": "https://schema.org",  
   "@type": "Organization",
@@ -409,15 +403,9 @@ in the USA. Time to partner with an expert agency.') @section('content')
 
 </div>
 <section class="tj-slider-section">
-    <div class="slider_shape"><img 
-  src="{{ asset('frontend/images/banner/home-underline.webp') }}"
-  class="home-underline"
-  alt="Decorative underline"
-  width="1200"
-  height="150"
-  decoding="async"
-  loading="lazy">
-</div>
+    <div class="slider_shape"><img src="{{ asset('frontend/images/banner/home-underline.webp') }}"
+            class="home-underline" fetchpriority="high" alt="Image" width="1200" height="150" loading="lazy"
+            decoding="async"></div>
     <div class="swiper sc-slider-1" data-autoplay="5000">
         <div class="swiper-wrapper">
             @php

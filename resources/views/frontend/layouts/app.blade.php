@@ -91,10 +91,9 @@
     <link rel=preload href=https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css
  as=style>
     <link rel=preload href=https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css as=style>
-{{--   
-    <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css
->
-    <link rel=stylesheet href=https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css> --}}
+  
+    <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css>
+    <link rel=stylesheet href=https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css> 
     {{-- <script>
         document.addEventListener("DOMContentLoaded", function() {
             if (typeof IMask !== 'undefined') {
@@ -1690,7 +1689,7 @@
                             <button type="button" aria-label="Open LiveChat chat widget"
                                 class="e1mwfyk10 css-1iovl8i ejbfa1m0">
                                 <div class="css-1potzn5 e1dmt1bi3">
-                                   <img src="frontend/images/icon/chat.png" alt="Chat Icon" class="chat-icon-img" />
+                                   <img src="/frontend/images/icon/chat.png" alt="Chat Icon" class="chat-icon-img" />
 
                                     <div class="css-anyrkw e1dmt1bi2"></div>
                                 </div>
