@@ -65,6 +65,10 @@ Route::permanentRedirect('/trasnport-services/heavy-equipment', '/transport-serv
 //     return redirect("blog/{$cleanPath}", 301);
 // })->where('path', '.*');
 
+Route::get('/videos/promo-video-shipA1', function () {
+    return view('videos.promo-video-shipA1');
+});
+
 
 // Route::get('/we/{any}', function ($any) {
 //     return redirect('/' . $any, 301);
