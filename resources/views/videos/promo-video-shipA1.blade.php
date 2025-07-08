@@ -1,6 +1,6 @@
 @extends('frontend.layouts.app')
 
-@section('title', 'Blog')
+@section('title', 'Promo Video ShipA1 | BEST TRANSPORT COMPANY| OPEN TRANSPORT | ENCLOSED TRANSPORT')
 
 @section('meta_description',
     'ShipA1 helps you transport your vehicle in 3 easy steps: book, pickup, and delivery. Fast, safe, and simple car shipping. Talk to our advisor today!')
