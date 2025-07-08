@@ -9,6 +9,34 @@
 @endsection
 
 @section('content')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Promo Video ShipA1 | BEST TRANSPORT COMPANY| OPEN TRANSPORT | ENCLOSED TRANSPORT",
+  "description": "Looking to transport your vehicle? ShipA1 makes it fast, safe, and easy!
+Book your vehicle shipment in just 3 simple steps:
+
+Book your order
+
+Vehicle pickup
+
+Vehicle delivery
+
+Talk to our shipping advisor today for booking and inquiries.
+ShipA1 — Your trusted vehicle transport partner.",
+  "thumbnailUrl": "https://img.youtube.com/vi/cr4Nya5jVn0/maxresdefault.jpg",
+  "uploadDate": "2025-07-09",
+  "duration": "PT0M42S",
+  "contentUrl": "https://www.youtube.com/watch?v=cr4Nya5jVn0",
+  "embedUrl": "https://www.youtube.com/embed/cr4Nya5jVn0?si=RLh4uuppLT63xVBT",
+  "potentialAction": {
+    "@type": "SeekToAction",
+    "target": "https://www.shipa1.com/instant-quote={seek_to_second_number}",
+    "startOffset-input": "required name=seek_to_second_number"
+  }
+}
+</script>
     <section class="breadcrumb-wrapper" data-bg-image="{{ asset('frontend/images/banner/all-cover-banner.webp') }}">
         <div class="container">
             <div class="row">
