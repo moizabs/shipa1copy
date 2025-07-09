@@ -113,13 +113,13 @@
        /* Hide the "Chat Us Now" text on all screens */
 .css-e4pgre {
   display: none !important;
+  
+  z-index: 10000;
 }
 
 /* Adjust the chat container to be a small floating circular button */
 .css-138p0k2 {
-
-  
-  border: none !important;
+ border: none !important;
   width: 90px !important;
   height: 80px !important;
   border-radius: 50% !important;
@@ -127,21 +127,22 @@
   /* background-color: #6a9c2f !important; */
   box-shadow: none !important;
   position: fixed !important;
-  bottom: 80px !important;
-  right: 10px !important;
+  bottom: 8px !important;
+  right: 66px !important;
   display: flex !important;
   align-items: center !important;
   justify-content: center !important;
   color: #fff !important;
   cursor: pointer !important;
   z-index: 9999 !important;
+ 
 }
-.chat-icon-img {
+/* .chat-icon-img {
   width: 50px;
   height: 50px;
   display: block;
   margin: auto;
-}
+} */
 /* Make the button fill the container */
 .css-1iovl8i {
   border: none !important;
@@ -153,6 +154,51 @@
   display: flex !important;
   align-items: center !important;
   justify-content: center !important;
+  z-index: 100000;
+ 
+}
+.chat-icon-img {
+  width: 50px;
+  height: 50px;
+  display: block;
+  margin: auto;
+  z-index: 10000;
+  position: relative;
+  background-color: #ffffff; /* Fills inside with white */
+  border-radius: 50%; /* Optional: makes it circular if image is square */
+  
+}
+/* Make the button fill the container
+.css-1iovl8i {
+  border: none !important;
+  width: 100% !important;
+  height: 100% !important;
+  padding: 0 !important;
+  border-radius: 50% !important;
+  background: transparent !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  margin-left: -116px;
+  margin-bottom: -141px;
+  z-index: 100000;
+} */
+@media screen and (min-width:480px) {
+    .css-1iovl8i {
+  border: none !important;
+  width: 100% !important;
+  height: 100% !important;
+  padding: 0 !important;
+  border-radius: 50% !important;
+  background: transparent !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+ 
+  position: relative; /* or absolute/fixed depending on context */
+z-index: 10000; /* Higher number = more in front */
+
+}
 }
 
 /* SVG icon sizing and centering */
@@ -170,7 +216,8 @@
 
 /* Optional: hide any extra div inside the button */
 .css-anyrkw {
-  display: none !important;
+
+  z-index: 10000;
 }
 
     </style>
@@ -249,46 +296,51 @@
         }
 
         #_71A63tRBiHHb3tRBnQfK_1 {
-            position: fixed;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            pointer-events: none;
-            z-index: 1000000;
-            font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
-            font-style: normal;
-            font-weight: 400;
-            line-height: 1.5;
-            letter-spacing: normal;
-            font-smoothing: antialiased;
-            text-rendering: optimizeLegibility;
-            -moz-osx-font-smoothing: grayscale;
-            -webkit-font-smoothing: antialiased;
-            -webkit-font-feature-settings: "kern" 1, "dlig" 1, "opbd" 1, "ss01" 1;
-            font-feature-settings: "kern" 1, "dlig" 1, "opbd" 1, "ss01" 1;
-            text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
-            
-        }
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+  z-index: 990; /* Ensure it's behind everything */
+
+  /* Typography styles */
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -webkit-font-feature-settings: "kern" 1, "dlig" 1, "opbd" 1, "ss01" 1;
+  font-feature-settings: "kern" 1, "dlig" 1, "opbd" 1, "ss01" 1;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
 
         #_71A63tRBiHHb3tRBnQfK_1._71A6x4GfiHHbx4GfnQfK_1 {
             bottom: auto;
             top: 0;
             width: 250px
+            z-index: 9990;
         }
 
         #_71A63tRBiHHb3tRBnQfK_1 ._71A63x22iHHb3x22nQfK_1 {
             overflow: hidden;
             padding-top: 5px;
+            z-index: 9990;
         }
 
 
-        /* @media screen and (min-width:480px) {
+        @media screen and (min-width:480px) {
             #_71A63tRBiHHb3tRBnQfK_1._71A62TNmiHHb2TNmnQfK_1 {
                 left: auto;
                 right: 10px;
                  width: 250px;
+                 z-index: 9990;
             }
-        } */
+        }
 
         #_71A63tRBiHHb3tRBnQfK_1 button,
         #_71A63tRBiHHb3tRBnQfK_1 input,
@@ -299,6 +351,7 @@
             font-family: inherit;
             font-size: inherit;
             line-height: inherit;
+            z-index: 9990;
         }
 
         #_71A63tRBiHHb3tRBnQfK_1 ._71A6egA4iHHbegA4nQfK_1,
@@ -314,6 +367,7 @@
         #_71A63tRBiHHb3tRBnQfK_1 h5,
         #_71A63tRBiHHb3tRBnQfK_1 h6 {
             font-family: inherit;
+            z-index: 9990;
         }
 
         .bounceBottom-enter-active {
@@ -587,6 +641,11 @@
                 border-radius: 50px;
             }
 
+
+         ._71A63tRBiHHb3tRBnQfK_1 {
+               width: 271px;
+            height: 80px;
+        }
             ._71A62qKhiHHb2qKhnQfK_0._71A6OW-4iHHbOW-4nQfK_0 {
                 cursor: pointer;
                 transition: all .1s ease-in-out;
